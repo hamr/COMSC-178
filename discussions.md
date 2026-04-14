@@ -1,5 +1,56 @@
 # Discussions
 
+## Discussion 2: data features
+
+### Prompt
+
+This week we learned about the characteristics of ML problems and features in the data.
+Data formatted for ML is usually structured as a series of observations,
+with each row representing one observation (a customer, a purchase, etc.).
+
+Suppose you are working on a model for a music streaming service (e.g. Apple Music or Spotify).
+The model should be able to scan a list of songs and
+recommend whether each song should be added to a personalized playlist.
+
+As input into the model, you have a series of observations about the customer's behavior
+(such as what type of music they listen to the most, how long they listen, etc.).
+
+What are three features that would be useful in the data?
+Give a short description of each and how it might inform a recommendation.
+
+
+### Response
+
+I expect any song recommendation application needs to be able to accomplish the basic task of assessing how “close” each song is to other songs that the customer enjoys.
+
+To help identify tracks that the customer enjoys, I would include a count of how many times the customer has listened to a given song in the data.
+
+To compare songs, official track metadata like musical genre or subgenre would be indispensable.  I expect that genres would be divided into “dummy” features like `genre_jazz` or `genre_pop`.
+
+Features that describe songs’ acoustic properties would be important.   For example, a customer might have preferences for specific instruments, so boolean features for instruments like `has_guitar` or `has_drum_machine` could be useful.
+
+
+### Notes
+
+model input:  a series of observations about the customer's behavior
+ - what type of music they listen to the most
+ - how long they listen, etc.
+
+model output:  scan a list of songs and recommend whether each song should be added to a personalized playlist
+
+What are three features that would be useful in the data?
+Give a short description of each and how it might inform a recommendation.
+
+type of song
+ - lots of ways to classify songs: instruments, singing style, tempo
+
+or people with overlapping interests, what songs do they listen to frequently that customer hasn't listened to
+ - score correlation with 
+
+sometimes, you don't want more of the same.
+you want some that contrasts: fast vs slow, silly vs serious
+
+
 ## Discussion 1: introductions
 
 ### Prompt

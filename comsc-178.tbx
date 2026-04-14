@@ -1032,43 +1032,43 @@
 <linkType name="update" visible="1" showLabel="1" required="0" colorString="#000000" style="0" arrowType="0" >
 </linkType>
 </linkTypes>
-<item ID="1774992697" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:22:56-04:00</attribute>
+<item ID="1776113026" Creator="Robert Hamrick" >
+<attribute name="Created" >2026-03-31T06:22:56-07:00</attribute>
 <attribute name="MapScrollX" >0</attribute>
 <attribute name="MapScrollY" >0</attribute>
-<attribute name="Modified" >2026-03-31T09:22:56-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:22:56-07:00</attribute>
 <attribute name="Name" >comsc-178</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <item ID="1774963742" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:25:24-04:00</attribute>
-<attribute name="Modified" >2026-03-31T09:25:24-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:25:24-07:00</attribute>
+<attribute name="Modified" >2026-03-31T06:25:24-07:00</attribute>
 <attribute name="Name" >COMSC-178 Introduction to Cloud Computing</attribute>
 <attribute name="OnAdd" >$Prototype=&quot;Module&quot;;</attribute>
 <attribute name="Xpos" >31.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <item ID="1774963891" Creator="Robert Hamrick" proto="Module" >
-<attribute name="Created" >2026-03-31T09:31:30-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:31:30-07:00</attribute>
 <attribute name="Height" >2.48</attribute>
-<attribute name="Modified" >2026-03-31T09:31:30-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:31:30-07:00</attribute>
 <attribute name="Name" >1. Welcome to AWS Academy Machine Learning Foundations</attribute>
 <attribute name="Width" >4</attribute>
 <attribute name="Xpos" >36</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
 <item ID="1774963907" Creator="Robert Hamrick" proto="Module" >
-<attribute name="Created" >2026-03-31T09:31:46-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:31:46-07:00</attribute>
 <attribute name="Height" >2.48</attribute>
-<attribute name="Modified" >2026-03-31T09:31:46-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:31:46-07:00</attribute>
 <attribute name="Name" >2. Introducing Machine Learning</attribute>
 <attribute name="Width" >4</attribute>
 <attribute name="Xpos" >40.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <item ID="1774965071" Creator="Robert Hamrick" proto="Markdown" >
-<attribute name="Created" >2026-03-31T09:51:10-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:51:10-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-04-05T08:24:43-04:00</attribute>
+<attribute name="Modified" >2026-04-05T05:24:43-07:00</attribute>
 <attribute name="NLOrganizations" >ANN</attribute>
 <attribute name="Name" >2.1 What is machine learning?</attribute>
 <attribute name="Sentiment" >-0.6521739273</attribute>
@@ -1105,10 +1105,10 @@ Generative AI:
 <rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7QBwAAKwAAAAEAAADIBwAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7XGYxXGZuaWxcZmNoYXJzZXQwIEFwcGxlU3ltYm9sczt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQwXGdyZWVuMFxibHVlMDt9CntcKlxleHBhbmRlZGNvbG9ydGJsOztcY3NwdGhyZWVcYzBcYzBcYzA7fQpccGFyZFx0eDU0MFx0eDEwODBcdHgxNjIwXHR4MjE2MFx0eDI3MDBcdHgzMjQwXHR4Mzc4MFx0eDQzMjBcc2wyODhcc2xtdWx0MVxzYjQwXHNhNDBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiAqIEFydGlmaWNpYWwgaW50ZWxsaWdlbmNlOiBtYWNoaW5lcyBwZXJmb3JtaW5nIGh1bWFuIHRhc2tzXAoqIE1hY2hpbmUgbGVhcm5pbmc6ICAgdHJhaW5pbmcgbW9kZWxzIHRvIG1ha2UgcHJlZGljdGlvbnNcCiogRGVlcCBsZWFybmluZzogdHJhbnNmb3JtZXItYmFzZWQgbmV1cmFsIG5ldHdvcmtzXAoqIEdlbmVyYXRpdmUgQUk6IGNhbiBjcmVhdGUgbmV3IGNvbnRlbnRcClwKQUkgClxmMSBcdWMwXHU4ODM0IApcZjAgIE1MIApcZjEgXHVjMFx1ODgzNCAKXGYwICBEZWVwIExlYXJuaW5nIApcZjEgXHVjMFx1ODgzNCAKXGYwICBHZW5lcmF0aXZlIEFJXApcCk1hY2hpbmUgbGVhcm5pbmcgaXMgdGhlIHN0dWR5IG9mIGFsZ29yaXRobXMgYW5kIHN0YXRpc3RpY2FsIG1vZGVscyB0byBwZXJmb3JtIGEgdGFzayB1c2luZyBpbmZlcmVuY2UgaW5zdGVhZCBvZiBpbnN0cnVjdGlvbnMuXAoqIHNwZW5kIGEgbG90IG9mIHRpbWUgb24gdHJhaW5pbmcgbW9kZWxzXApcCkRlZXAgbGVhcm5pbmc6XAoqIHVzZSBhcnRpZmljaWFsIG5ldXJhbCBuZXR3b3JrcyAoQU5OKVwKICAgICogbmV1cm9ucyBoYXZlIG1vcmUgdGhhbiBvbmUgaW5wdXQgYW5kIGEgc2luZ2xlIG91dHB1dFwKICAgICAqIGFjdGl2YXRlIG91dHB1dCBiYXNlZCBvbiB0cmFuc2Zvcm1hdGlvbiBvZiB0aGUgaW5wdXRzXAoqIG5ldHdvcmsgaXMgY29tcG9zZWQgb2YgbGF5ZXJzIG9mIGFydGlmaWNpYWwgbmV1cm9ucyB3aXRoIGNvbm5lY3Rpb25zIGJldHdlZW4gdGhlIGxheWVyc1wKICAgICogb3V0cHV0IG9mIG9uZSBuZXVyb24gY29ubmVjdHMgdG8gaW5wdXRzIGluIHRoZSBuZXh0IGxheWVyLlwKICAgICogaW5wdXQgbGF5ZXIgcG9wdWxhdGVkIGZyb20gdHJhaW5pbmcgZGF0YVwKICAgICogbmV1cm9ucyBhY3RpdmF0ZSBpbiBhbGwgbGF5ZXJzIHVudGlsIG91dHB1dCBpcyBwcm9kdWNlZCBpbiB0aGUgb3V0cHV0IGxheWVyXAoqIGFjY3VyYWN5IG9mIG91dHB1dCBpcyBtZWFzdXJlZC4gIHRyYWluaW5nIGlzIHJlcGVhdGVkIGlmIGRvZXNuXCc5MnQgbWVldCB0aHJlc2hvbGQuICBidXQgd2l0aCBzbGlnaHQgY2hhbmdlcyBpbiBjb25uZWN0aW9ucyBiZXR3ZWVuIG5ldXJvbnMuXAoqIHJlcGVhdGVkOiBzdHJlbmd0aGVuIGNvbm5lY3Rpb25zIHRoYXQgbGVhZCB0byBzdWNjZXNzLCBkaW1pbmlzaCBjb25uZWN0aW9ucyB0aGF0IGxlYWQgdG8gZmFpbHVyZS5cCiogbm90IG11Y2ggdGltZSBvbiB0cmFpbmluZyBtb2RlbHMuICBpbnN0ZWFkLCBtb2RlbCBkYXRhIHdpdGggZGlmZmVyZW50IEFOTiBhcmNoaXRlY3R1cmVzXApcCkdlbmVyYXRpdmUgQUk6XAoqIHBvd2VyZWQgYnkgdmVyeSBsYXJnZSBNTCBtb2RlbHMgY2FsbGVkIEZvdW5kYXRpb24gTW9kZWxzIChGTSkgdGhhdCBhcmUgcHJldHJhaW5lZCBvbiB2YXN0IGFtb3VudHMgb2YgZGF0YS5cCiogdHJhZGl0aW9uYWwgTUwgbW9kZWxzIGFyZSBzaW5nbGUtdGFzay1vcmllbnRlZCwgRk0gY2FuIGJlIHVzZWQgZm9yIGRpZmZlcmVudCB0YXNrcyB3aXRob3V0IGZ1cnRoZXIgdHJhaW5pbmdcCiogdHJhbnNmb3JtZXIgYXJjaGl0ZWN0dXJlIGZyb20gZGVlcCBsZWFybmluZyBtYWRlIGdlbmVyYXRpdmUgYWkgcG9zc2libGV9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAi1TSabYBAAAAAAAAAAAAAA==</rtfd>
 </item>
 <item ID="1774965090" Creator="Robert Hamrick" proto="Markdown" >
-<attribute name="Created" >2026-03-31T09:51:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:51:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-04-05T09:04:39-04:00</attribute>
+<attribute name="Modified" >2026-04-05T06:04:39-07:00</attribute>
 <attribute name="Name" >2.2 Business problems solved with machine learning</attribute>
 <attribute name="Sentiment" >-0.5136363747</attribute>
 <attribute name="Sentiments" >-0.8;-0.4;-0.4;0.2;-0.6;-0.4;-0.4;-0.8;-1;-0.8;-0.6;-0.2;-0.6;0;-0.8;-0.6;-0.6;-0.2;-0.8;-0.6;-0.8;0;-0.6;-0.4;-0.8;0;-0.6;-0.6;-0.6;-0.4;-0.4;-0.8;0.2;-0.8;0;-0.6;-0.2;-0.6;-0.8;-0.8;0;-1;-0.8;-0.8</attribute>
@@ -1169,10 +1169,10 @@ Machine learning is appropriate with:
 <rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5sCwAAKwAAAAEAAABkCwAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgRXhhbXBsZXM6XAoqIHNwYW0gZmlsdGVyXAoqIHByb2R1Y3QgcmVjb21tZW5kYXRpb25zXAoqIGRldGVjdGluZyBmcmF1ZFwKKiBmYWNpYWwgZGV0ZWN0aW9uXAoqIGFuYWxvZ2llcyBpbiB4IHJheXNcClwKVHlwZXMgb2YgbWFjaGluZSBsZWFybmluZzpcCiogc3VwZXJ2aXNlZCBsZWFybmluZzogbW9kZWwgdXNlcyBrbm93biBpbnB1dHMgYW5kIG91dHB1dHMgdG8gZ2VuZXJhdGUgZnV0dXJlIG91dHB1dHMgKG1vc3QgcHJvYmxlbXMpXAoqIHVuc3VwZXJ2aXNlZCBsZWFybmluZzogbW9kZWwgZmluZHMgcGF0dGVybnMgaW4gZGF0YSB3aXRob3V0IGhlbHBcCiogcmVpbmZvcmNlbWVudCBsZWFybmluZzogaW50ZXJhY3RzIHdpdGggZW52aXJvbm1lbnQgYW5kIGxlYXJucyB0byB0YWtlIGFjdGlvbnMgdGhhdCB3aWxsIG1heGltaXplIHJld2FyZHNcClwKVHlwZSBvZiBNTCB3aWxsIGd1aWRlIHlvdSB0b3dhcmQgYXBwcm9wcmlhdGUgYWxnb3JpdGhtcy5cClwKU3VwZXJ2aXNlZCBsZWFybmluZzpcCiogd2lkZWx5IGFwcGxpY2FibGVcCiogdHlwZXMgb2YgcHJvYmxlbXM6IGNsYXNzaWZpY2F0aW9uOyByZWdyZXNzaW9uXAoqIGNsYXNzaWZpY2F0aW9uXAogICAgKiBiaW5hcnkgY2xhc3NpZmljYXRpb246IGZyYXVkdWxlbnQgdnMgbm90IGZyYXVkdWxlbnRcCiAgICAqIG11bHRpIGNsYXNzIGNsYXNzaWZpY2F0aW9uOiAzIG9yIG1vcmUgY2F0ZWdvcmllcywgZS5nLiBkaWZmZXJlbnQgY3VzdG9tZXIgc3VwcG9ydCBkZXBhcnRtZW50cy5cCiogcmVncmVzc2lvbjogbWFwIGlucHV0IHRvIGEgY29udGludW91cyB2YWx1ZSBsaWtlIGFuIGludGVnZXIsIGUuZy4gcHJlZGljdGluZyBzdG9jayBwcmljZVwKXApjb21wdXRlciB2aXNpb24gdXNlcyBjbGFzc2lmaWNhdGlvblwKXApVbnN1cGVydmlzZWQgbGVhcm5pbmc6IG1hY2hpbmUgY3JlYXRlcyBsYWJlbHMsIHByZWRpY3RzIGVtZXJnaW5nIHByb3BlcnRpZXMgb2YgZGF0YXNldCwgY29uc3RydWN0cyBwYXR0ZXJucyBmcm9tIHByb3BlcnRpZXMgXAoqIGNsdXN0ZXJpbmc6IGdyb3VwIGRhdGEgaW50byBjbHVzdGVycyBvZiBzaW1pbGFyIGZlYXR1cmVzLCBlLmcuIGlkZW50aWZ5IGdyb3VwcyBvZiBjdXN0b21lcnNcCiAgICAqIGV4YW1wbGVzOiBwcm9kdWN0IHJlY29tbWVuZGF0aW9ucywgY3VzdG9tZXIgc2VnbWVudGF0aW9uLCB0YXJnZXRlZCBtYXJrZXRpbmcsIG1lZGljYWwgZGlhZ25vc3RpY3NcCiogZGltZW5zaW9uYWxpdHkgcmVkdWN0aW9uXAogICAgKiBleGFtcGxlczogdmlzdWFsaXphdGlvbiwgTkxQLCBkYXRhIHN0cnVjdHVyZSBkaXNjb3ZlcnksIGdlbmUgc2VxdWVuY2luZ1wKXApSZWluZm9yY2VtZW50IGxlYXJuaW5nOiBjb250aW51b3VzbHkgaW1wcm92ZSBtb2RlbCBieSBtaW5pbmcgZmVlZGJhY2sgZnJvbSBwcmV2aW91cyBpdGVyYXRpb25zLCB0aHJvdWdoIHRyaWFsIGFuZCBlcnJvclwKKiBiZXN0IHdoZW4gZGVzaXJlZCBvdXRjb21lIGlzIGtub3duLCBidXQgcGF0aCB0byBhY2hpZXZpbmcgaXQgaXMgbm90IGtub3duLlwKKiBhZ2VudCBhY3Rpb25zIGluIGVudmlyb25tZW50IHJlY2VpdmUgbW9yZSByZXdhcmRzIGFuZCBmZXdlciBwZW5hbHRpZXNcCiogZXhhbXBsZTogQVdTIERlZXBSYWNlclwKICAgICogYWdlbnQ6IHZpcnR1YWwgY2FyXAogICAgKiBlbnZpcm9ubWVudDogdmlydHVhbCByYWNlIHRyYWNrXAogICAgKiBhY3Rpb25zOiB0aHJvdHRsZSwgc3RlZXJpbmcgaW5wdXRzXAogICAgKiBnb2FsOiBjb21wbGV0aW5nIHJhY2UgYXMgcXVpY2tseSBhcyBwb3NzaWJsZSB3aXRob3V0IGRldmlhdGluZyBmcm9tIHRoZSB0cmFja1wKICAgICogY2FyIGxlYXJucyBkZXNpcmVkIGd1aWRpbmcgYmVoYXZpb3IgdG8gY29tcGxldGUgdGhlIHRyYWNrXAogICAgICAgICogYWN0aW9ucyByZWNlaXZlIG1vcmUgcmV3YXJkcyBhbmQgZmV3ZXIgcGVuYWx0aWVzXAoqIGV4YW1wbGU6IHNlbGYtZHJpdmluZyB2ZWhpY2xlc1wKICAgICogdGFza3M6IGNvbnRpbnVvdXMgZGV0ZWN0aW9uIG9mIHRoZSBlbnZpcm9ubWVudDsgZm9yZWNhc3RpbmcgY2hhbmdlc1wKICAgICAgICAqIGRldGVjdGluZyBvYmplY3RzLCBsb2NhbGl6aW5nIGFuZCBwcmVkaWN0aW5nIG1vdmVtZW50IG9mIGRldGVjdGVkIG9iamVjdHNcCiAgICAgICAgKiBvdXRwdXRzIG9mIGZpbmRpbmdzIGFjdCBhcyBpbnB1dHMgdG8gc3lzdGVtcyB0aGF0IG1ha2UgZGVjaXNpb25zIG9uIHdoYXQgdGhleSBzaG91bGQgZG8gd2l0aCBkZWNpc2lvbnMgb24gd2hhdCB0byBkbyB3aXRoIHZlaGljbGVcJzkycyBjb250cm9sc1wKXApNYWNoaW5lIGxlYXJuaW5nIGlzIGFwcHJvcHJpYXRlIHdpdGg6XAoqIGxhcmdlIGRhdGFzZXRzLCBsYXJnZSBudW1iZXIgb2YgdmFyaWFibGVzXAoqIHVuY2VydGFpbiBvZiBidXNpbmVzcyBsb2dpYyBvciBwcm9jZWR1cmVzIHRvIGFjY29tcGxpc2ggYSB0YXNrXAoqIGNhbiBiZSBjb21wbGV4OiBpbmZyYXN0cnVjdHVyZSwgbWFuYWdlbWVudCwgdGVjaG5pY2FsIGV4cGVydGlzZVwKKiBtb3N0IHByb2JsZW1zIGFyZSBzdXBlcnZpc2VkIGxlYXJuaW5nIHByb2JsZW1zXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAA513SabYBAAAAAAAAAAAAAA==</rtfd>
 </item>
 <item ID="1774965130" Creator="Robert Hamrick" proto="Markdown" >
-<attribute name="Created" >2026-03-31T09:52:09-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:52:09-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-04-06T07:36:11-04:00</attribute>
+<attribute name="Modified" >2026-04-06T04:36:11-07:00</attribute>
 <attribute name="NLOrganizations" >XGBoost</attribute>
 <attribute name="Name" >2.3 Machine learning process</attribute>
 <attribute name="Sentiment" >-0.2461538552</attribute>
@@ -1227,10 +1227,10 @@ training data:
 <rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7XBwAAKwAAAAEAAADPBwAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgVGhyZWUgYnJvYWQgc3RlcHM6XAoqIGRhdGEgcHJvY2Vzc2luZ1wKKiBtb2RlbCB0cmFpbmluZ1wKKiBtb2RlbCBldmFsdWF0aW9uXApcClByb2JsZW06XAoxLiBidXNpbmVzcyBwcm9ibGVtXAoyLiBmb3JtdWxhdGUgYXMgTUwgcHJvYmxlbVwKXApEYXRhIHByZXBhcmF0aW9uIGFuZCBwcmVwcm9jZXNzaW5nOlwKMy4gY29sbGVjdCBhbmQgbGFiZWwgZGF0YVwKNC4gZXZhbHVhdGUgZGF0YVwKICAgICogZGF0YSBmcm9tIG9uZSBvciBtb3JlIGRhdGEgc291cmNlc1wKICAgICogZm9ybSBzaW5nbGUsIGNvaGVzaXZlIHZpZXcgb2YgZGF0YVwKICAgICogdmlzdWFsaXplLCB1c2Ugc3RhdGlzdGljcyB0byBkZXRlcm1pbmUgaWYgY2FuIGJlIHVzZWQgZm9yIE1MXAogICAgKiByZXZpZXcgZGF0YSBmb3IgY29uc2lzdGVuY3kgYW5kIGNvcnJlY3RuZXNzIChuZWVkIFNNRTogbGFyZ2VzdCBpbXBhY3QpXApcCk1vZGVsIHRyYWluaW5nOiBpdGVyYXRpdmUgYW5kIGZsdWlkXAo1LiBGZWF0dXJlIGVuZ2luZWVyaW5nOiAgcHJvY2VzcyBvZiBzZWxlY3RpbmcgZmVhdHVyZXMgdG8gdHJhaW4gbW9kZWxzXAogICAgKiBmZWF0dXJlczogY29sdW1ucyBvZiBkYXRhXAogICAgKiBNTCBhbGdvcml0aG0gdXNlIGZlYXR1cmVzIHRvIHByZWRpY3QgdGFyZ2V0LCBlLmcuIGF2ZXJhZ2UgbnVtYmVyIG9mIHN0ZXBzIHRha2VuIGluIGEgd2VlayBmcm9tIGNvdW50cnksIHNleCwgYWdlXAogICAgKiBjYXRlZ29yaWNhbCBlbmNvZGluZzogTUwgYWxnb3JpdGhtcyBuZWVkIG51bWVyaWNhbCBkYXRhLCBzbyBjb25zaWRlclwKICAgICAgICAqIHR1cm4gY291bnRyeSBpbnRvIG11bHRpcGxlIGJvb2xlYW4gY29sdW1uc1wKICAgICAgICAqIHR1cm4gbWFsZSwgZmVtYWxlIGludG8gMCwgMVwKICAgICAgICAqIGJpcnRoIGRhdGUgLT4gZGF5IG9mIHdlZWssIG1vbnRoLCBhZ2VcCjYuIHNlbGVjdCBhbmQgdHJhaW4gbW9kZWxcCiAgICAqIHVzZSA4MCUgb2YgZGF0YSB0byB0cmFpbiwgMjAlIGZvciB0ZXN0aW5nXAogICAgKiBjaG9vc2UgYWxnb3JpdGhtcywgZS5nLiBYR0Jvb3N0XAogICAgKiBoeXBlcnBhcmFtZXRlcnM6ICBtb2RlbCBwYXJhbWV0ZXJzXAogICAgKiBvdXRwdXQ6IHRyYWluZWQgbW9kZWxcClwKTW9kZWwgZXZhbHVhdGlvbjpcCjcuIGV2YWx1YXRlIG1vZGVsXAogICAgKiB1c2UgdGVzdCBkYXRhLCBjb21wYXJlIHRhcmdldCBpbiB0ZXN0IGRhdGEsIHVzZSBtZXRyaWNzIG9uIGhvdyB3ZWxsIG1vZGVsIGlzIHBlcmZvcm1pbmdcCjguIHR1bmUgbW9kZWxcCiAgICAqIGNoYW5nZSBtb2RlbFwnOTJzIGRhdGEsIGZlYXR1cmVzLCBoeXBlciBwYXJhbWV0ZXJzIHVudGlsIGZpbmQgbW9kZWwgd2l0aCBiZXN0IHJlc3VsdHNcClwKdHJhaW5pbmcgZGF0YTpcCiogb3ZlcmZpdHRpbmc6IHBlcmZvcm1zIHdlbGwgb24gdHJhaW5pbmcgZGF0YSwgbm90IG9uIGV2YWx1YXRpb24gZGF0YVwKKiB1bmRlcmZpdHRpbmc6IHBlcmZvcm1zIHBvb3JseSBvbiB0cmFpbmluZyBkYXRhLCBjYW5cJzkydCBjYXB0dXJlIHJlbGF0aW9uc2hpcCBiZXR3ZWVuIGlucHV0IGFuZCB0YXJnZXQgZGF0YVwKKiBiYWxhbmNlZFwKKiBndWlkZXMgY29ycmVjdGl2ZSBzdGVwc1wKXAo5LiBkZXBsb3kgbW9kZWw6IGFmdGVyIHRyYWluaW5nIG1vZGVsfQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAKua02m2AQAAAAAAAAAAAAA=</rtfd>
 </item>
 <item ID="1774965136" Creator="Robert Hamrick" proto="Markdown" >
-<attribute name="Created" >2026-03-31T09:52:15-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:52:15-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-04-06T07:53:15-04:00</attribute>
+<attribute name="Modified" >2026-04-06T04:53:15-07:00</attribute>
 <attribute name="NLNames" >AMIs;Lex;Personalize;Polly;Seaborn</attribute>
 <attribute name="NLOrganizations" >Amazon;Apache</attribute>
 <attribute name="Name" >2.4 Machine learning tools overview</attribute>
@@ -1290,10 +1290,10 @@ Managed ML services
 <rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7rBQAAKwAAAAEAAADjBQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7XHJlZDBcZ3JlZW4wXGJsdWUwO30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc3B0aHJlZVxjMFxjMFxjMDtcY3NwdGhyZWVcYzBcYzBcYzA7fQpccGFyZFx0eDU0MFx0eDEwODBcdHgxNjIwXHR4MjE2MFx0eDI3MDBcdHgzMjQwXHR4Mzc4MFx0eDQzMjBcc2wyODhcc2xtdWx0MVxzYjQwXHNhNDBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiBQeXRob24gdG9vbHNcCiogSnVweXRlciBOb3RlYm9va1wKKiBKdXB5dGVyTGFiXApcClB5dGhvbiBMaWJyYXJpZXNcClxwYXJkXHR4NTQwXHR4MTA4MFx0eDE2MjBcdHgyMTYwXHR4MjcwMFx0eDMyNDBcdHgzNzgwXHR4NDMyMFxzbDI4OFxzbG11bHQxXHNiNDBcc2E0MFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwClxjZjMgKiBwYW5kYXNcCiogTWF0cGxvdGxpYlwKKiBTZWFib3JuXAoqIE51bVB5XAoqIHNjaWtpdC1sZWFyblwKXApGcmFtZXdvcmtzXAoqIFB5VG9yY2hcCiogVGVuc29yRmxvd1wKKiBLZXJhc1wKKiBDYWZmZTJcCiogR2x1b25cCiogQ05US1wKKiBUb3JjaFwKKiBDaGFpbmVyXAoqIEFwYWNoZSBNWE5ldFwKXApDb21wdXRlIEluc3RhbmNlc1wKKiBFQzIgUDMgaW5zdGFuY2VzXAoqIEVDMiBDNSBhbmQgQzVuIGluc3RhbmNlc1wKKiBBV1MgSW9UIEdyZWVuZ3Jhc3NcCiogQW1hem9uIEVsYXN0aWMgSW5mZXJlbmNlXApcClByZS1wYWNrYWdlZCBBTUlzIHdpdGggcG9wdWxhciBmcmFtZXdvcmtzXApcCkFtYXpvbiBTYWdlTWFrZXJcCiogbWFuYWdlcyBkZXBsb3ltZW50IG9mIHJlc291cmNlc1wKICAgICogZGVwbG95IEVDMiBpbnN0YW5jZXMgdXNpbmcgSnVweXRlciBOb3RlYm9va3MgYW5kIEp1cHl0ZXJMYWJzXAogICAgKiBtYW5hZ2VzIGRlcGxveW1lbnQgb2YgY29tcHV0ZSByZXNvdXJjZXNcCiAgICAqIG9ubHkgbmVlZCB0byBjb25uZWN0IHRvIEp1cHl0ZXIgZW52aXJvbm1lbnRcCiogcHJvdmlkZXMgcmVzb3VyY2VzIGZvciBsYWJlbGxpbmcgZGF0YSwgdHJhaW5pbmcgbW9kZWxzLCBhbmQgaG9zdGluZyB0cmFpbmVkIG1vZGVsc1wKKiBBV1MgbWFya2V0IHBsYWNlIHByb3ZpZGVzIHJlYWR5LXRvLXVzZSBtb2RlbCBwYWNrYWdlcyBhbmQgYWxnb3JpdGhtc1wKXApNYW5hZ2VkIE1MIHNlcnZpY2VzXAoqIGNvbXB1dGVyIHZpc2lvbjogUmVrb2duaXRpb24sIFRleHRyYWN0XAoqIHNwZWVjaDogUG9sbHksIFRyYW5zY3JpYmVcCiogbGFuZ3VhZ2U6IENvbXByZWhlbmQsIFRyYW5zbGF0ZVwKKiBjaGF0Ym90czogTGV4XAoqIGZvcmVjYXN0aW5nOiBGb3JlY2FzdFwKKiByZWNvbW1lbmRhdGlvbnM6IFBlcnNvbmFsaXplXApcClwKfQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAKue02m2AQAAAAAAAAAAAAA=</rtfd>
 </item>
 <item ID="1774965145" Creator="Robert Hamrick" proto="Markdown" >
-<attribute name="Created" >2026-03-31T09:52:24-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:52:24-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-04-06T08:02:20-04:00</attribute>
+<attribute name="Modified" >2026-04-06T05:02:20-07:00</attribute>
 <attribute name="Name" >2.5 Machine learning challenges</attribute>
 <attribute name="Sentiment" >-0.6380952512</attribute>
 <attribute name="Sentiments" >-1;-1;-1;0.2;-0.6;-0.6;-0.6;-0.8;-0.6;-1;-0.6;-0.2;-1;-0.6;-0.6;-0.6;-0.4;-0.6;-0.8;-0.6;-0.4</attribute>
@@ -1328,10 +1328,10 @@ Managed services simplify ML
 <rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7EAwAAKwAAAAEAAAC8AwAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgRGF0YVwKKiBwb29yIHF1YWxpdHksIGluY29uc2lzdGVudFwKKiBub24tcmVwcmVzZW50YXRpdmVcCiogaW5zdWZmaWNpZW50XAoqIG92ZXJmaXR0aW5nIGFuZCB1bmRlcmZpdHRpbmdcClwKUGVvcGxlXAoqIGxhY2sgb2YgZGF0YSBzY2llbmNlIGV4cGVydGlzZVwKKiBjb3N0IG9mIHN0YWZmaW5nIGRhdGEgc2NpZW50aXN0c1wKKiBsYWNrIG9mIG1hbmFnZW1lbnQgc3VwcG9ydFwKXApCdXNpbmVzc1wKKiBjb21wbGV4aXR5IGluIGZvcm11bGF0aW5nIHF1ZXN0aW9uc1wKKiBleHBsYWluaW5nIG1vZGVscyB0byBidXNpbmVzc1wKKiBjb3N0IG9mIGJ1aWxkaW5nIHN5c3RlbXNcClwKVGVjaG5vbG9neVwKKiBkYXRhIHByaXZhY3kgaXNzdWVzXAoqIHRvb2wgc2VsZWN0aW9uIGNhbiBiZSBjb21wbGljYXRlZFwKKiBpbnRlZ3JhdGlvbiB3aXRoIG90aGVyIHN5c3RlbXNcClwKTWFuYWdlZCBzZXJ2aWNlcyBzaW1wbGlmeSBNTFwKKiBtYW55IHByb2JsZW1zIGNhbiBiZSBhbmFseXplZCB1c2luZyBleGlzdGluZyBzZXJ2aWNlcyBhbmQgd2l0aG91dCBzdWJzdGFudGlhbCBNTCBrbm93bGVkZ2VcCiogY2FuIHVzZSBwb3B1bGFyIG1vZGVscyBsaWtlIFlPTE9cCn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAADMoNNptgEAAAAAAAAAAAAA</rtfd>
 </item>
 <item ID="1774965159" Creator="Robert Hamrick" proto="Markdown" >
-<attribute name="Created" >2026-03-31T09:52:38-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:52:38-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-04-06T08:09:48-04:00</attribute>
+<attribute name="Modified" >2026-04-06T05:09:48-07:00</attribute>
 <attribute name="NLOrganizations" >Amazon</attribute>
 <attribute name="Name" >Demo - Amazon SageMaker</attribute>
 <attribute name="Sentiment" >-0.2823529489</attribute>
@@ -1367,80 +1367,355 @@ Create a new Jupyter Notebook instance
 </item>
 </item>
 <item ID="1774965188" Creator="Robert Hamrick" proto="Module" >
-<attribute name="Created" >2026-03-31T09:53:07-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:53:07-07:00</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-03-31T09:53:07-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:53:07-07:00</attribute>
 <attribute name="Name" >3. Implementing a Machine Learning pipeline with Amazon SageMaker</attribute>
 <attribute name="Width" >5</attribute>
 <attribute name="Xpos" >45</attribute>
 <attribute name="Ypos" >0</attribute>
 <item ID="1774965219" Creator="Robert Hamrick" proto="Markdown" >
-<attribute name="Created" >2026-03-31T09:53:38-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:53:38-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-03-31T09:53:38-04:00</attribute>
+<attribute name="Modified" >2026-04-09T09:35:04-07:00</attribute>
 <attribute name="Name" >3.1 Formulating machine learning problems</attribute>
+<attribute name="Sentiment" >-0.5103448398</attribute>
+<attribute name="Sentiments" >-0.8;-0.8;-0.6;-0.6;-0.4;-0.8;-0.8;-1;-0.6;-0.6;-0.2;-0.8;-0.6;-0.4;-0.8;-0.8;-0.2;-0.6;-0.8;0;-0.4;0.2;-0.2;-0.6;-0.6;-0.6;-0.6;0.2;0</attribute>
 <attribute name="Width" >5</attribute>
 <attribute name="Xpos" >50.5</attribute>
 <attribute name="Ypos" >0</attribute>
+<text >Machine learning pipeline
+
+Problem formulation:
+* Convert business problem to ML problem: why (what defines success)? can it be measured?
+* What kind of ML problem: classification (does the target belong to a class?) or regression (can you predict a numerical value?)
+
+How should you frame the problem?
+* Is the problem a machine learning problem?
+* Is the problem supervised or unsupervised?  labeled data to train a supervised model?
+* What is the target to predict?
+* Do you have access to the data?
+* What is the minimum performance?
+* How would you solve this problem manually?
+* What’s the simplest solution?
+
+Example: 
+* problem: identify fraudulent credit card transactions so you can stop the transaction before it processes.
+* intended outcome: reduce the number of customers who end their membership because of fraud
+* define success: move from qualitative statements to quantitative statements that can be measured
+
+What output do you want to see from your model?
+* output: transaction is fraudulent or not fraudulent
+
+Use historical data with binary classification.
+
+Example: based on the composition of wine, can you predict the quality and therefore the price?
+* view statistics, deal with outliers, scale numerical data
+
+Example: can you use a car’s attributes to predict whether the car will be purchased?
+* view statistics
+* because data is text-based: encode categorical data by converting text values into numbers
+
+Example: based on the biomechanical features, can you predict whether a patient has an abnormality (disk hernia or spindylolisthesis)
+* view statistics
+* encode categorical data
+* train and tune a model
+
+
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4CCAAAKwAAAAEAAAD6BwAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgTWFjaGluZSBsZWFybmluZyBwaXBlbGluZVwKXApQcm9ibGVtIGZvcm11bGF0aW9uOlwKKiBDb252ZXJ0IGJ1c2luZXNzIHByb2JsZW0gdG8gTUwgcHJvYmxlbTogd2h5ICh3aGF0IGRlZmluZXMgc3VjY2Vzcyk/IGNhbiBpdCBiZSBtZWFzdXJlZD9cCiogV2hhdCBraW5kIG9mIE1MIHByb2JsZW06IGNsYXNzaWZpY2F0aW9uIChkb2VzIHRoZSB0YXJnZXQgYmVsb25nIHRvIGEgY2xhc3M/KSBvciByZWdyZXNzaW9uIChjYW4geW91IHByZWRpY3QgYSBudW1lcmljYWwgdmFsdWU/KVwKXApIb3cgc2hvdWxkIHlvdSBmcmFtZSB0aGUgcHJvYmxlbT9cCiogSXMgdGhlIHByb2JsZW0gYSBtYWNoaW5lIGxlYXJuaW5nIHByb2JsZW0/XAoqIElzIHRoZSBwcm9ibGVtIHN1cGVydmlzZWQgb3IgdW5zdXBlcnZpc2VkPyAgbGFiZWxlZCBkYXRhIHRvIHRyYWluIGEgc3VwZXJ2aXNlZCBtb2RlbD9cCiogV2hhdCBpcyB0aGUgdGFyZ2V0IHRvIHByZWRpY3Q/XAoqIERvIHlvdSBoYXZlIGFjY2VzcyB0byB0aGUgZGF0YT9cCiogV2hhdCBpcyB0aGUgbWluaW11bSBwZXJmb3JtYW5jZT9cCiogSG93IHdvdWxkIHlvdSBzb2x2ZSB0aGlzIHByb2JsZW0gbWFudWFsbHk/XAoqIFdoYXRcJzkycyB0aGUgc2ltcGxlc3Qgc29sdXRpb24/XApcCkV4YW1wbGU6IFwKKiBwcm9ibGVtOiBpZGVudGlmeSBmcmF1ZHVsZW50IGNyZWRpdCBjYXJkIHRyYW5zYWN0aW9ucyBzbyB5b3UgY2FuIHN0b3AgdGhlIHRyYW5zYWN0aW9uIGJlZm9yZSBpdCBwcm9jZXNzZXMuXAoqIGludGVuZGVkIG91dGNvbWU6IHJlZHVjZSB0aGUgbnVtYmVyIG9mIGN1c3RvbWVycyB3aG8gZW5kIHRoZWlyIG1lbWJlcnNoaXAgYmVjYXVzZSBvZiBmcmF1ZFwKKiBkZWZpbmUgc3VjY2VzczogbW92ZSBmcm9tIHF1YWxpdGF0aXZlIHN0YXRlbWVudHMgdG8gcXVhbnRpdGF0aXZlIHN0YXRlbWVudHMgdGhhdCBjYW4gYmUgbWVhc3VyZWRcClwKV2hhdCBvdXRwdXQgZG8geW91IHdhbnQgdG8gc2VlIGZyb20geW91ciBtb2RlbD9cCiogb3V0cHV0OiB0cmFuc2FjdGlvbiBpcyBmcmF1ZHVsZW50IG9yIG5vdCBmcmF1ZHVsZW50XApcClVzZSBoaXN0b3JpY2FsIGRhdGEgd2l0aCBiaW5hcnkgY2xhc3NpZmljYXRpb24uXApcCkV4YW1wbGU6IGJhc2VkIG9uIHRoZSBjb21wb3NpdGlvbiBvZiB3aW5lLCBjYW4geW91IHByZWRpY3QgdGhlIHF1YWxpdHkgYW5kIHRoZXJlZm9yZSB0aGUgcHJpY2U/XAoqIHZpZXcgc3RhdGlzdGljcywgZGVhbCB3aXRoIG91dGxpZXJzLCBzY2FsZSBudW1lcmljYWwgZGF0YVwKXApFeGFtcGxlOiBjYW4geW91IHVzZSBhIGNhclwnOTJzIGF0dHJpYnV0ZXMgdG8gcHJlZGljdCB3aGV0aGVyIHRoZSBjYXIgd2lsbCBiZSBwdXJjaGFzZWQ/XAoqIHZpZXcgc3RhdGlzdGljc1wKKiBiZWNhdXNlIGRhdGEgaXMgdGV4dC1iYXNlZDogZW5jb2RlIGNhdGVnb3JpY2FsIGRhdGEgYnkgY29udmVydGluZyB0ZXh0IHZhbHVlcyBpbnRvIG51bWJlcnNcClwKRXhhbXBsZTogYmFzZWQgb24gdGhlIGJpb21lY2hhbmljYWwgZmVhdHVyZXMsIGNhbiB5b3UgcHJlZGljdCB3aGV0aGVyIGEgcGF0aWVudCBoYXMgYW4gYWJub3JtYWxpdHkgKGRpc2sgaGVybmlhIG9yIHNwaW5keWxvbGlzdGhlc2lzKVwKKiB2aWV3IHN0YXRpc3RpY3NcCiogZW5jb2RlIGNhdGVnb3JpY2FsIGRhdGFcCiogdHJhaW4gYW5kIHR1bmUgYSBtb2RlbFwKXApcCn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAAA41ddptgEAAAAAAAAAAAAA</rtfd>
 </item>
 <item ID="1774965228" Creator="Robert Hamrick" proto="Markdown" >
-<attribute name="Created" >2026-03-31T09:53:47-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:53:47-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-03-31T09:53:47-04:00</attribute>
-<attribute name="Name" >3.2 Collecting and securing data</attribute>
+<attribute name="Modified" >2026-04-13T10:29:42-07:00</attribute>
+<attribute name="NLNames" >API</attribute>
+<attribute name="NLOrganizations" >AWS;Apache;Atmospheric Administration;ETL;FSx;Kaggle;National Oceanic;UC Irvine Machine;World Health Organization</attribute>
+<attribute name="NLPlaces" >US;US Census Bureau</attribute>
+<attribute name="Name" >3.2 Collecting and securing data: extracting, loading, transforming data; securing data</attribute>
+<attribute name="Sentiment" >-0.3000000077</attribute>
+<attribute name="Sentiments" >-0.8;-0.2;-0.4;0.2;-0.6;-0.8;-0.8;0.2;-0.2;-0.4;0.2;-0.6;0;-0.4;0.4;-0.4;-0.4;0.4;-0.6;-0.6;-0.4;-0.2;-0.6;-0.4;0;-0.2;0.2;-0.8;-0.6;-0.6;-0.6;0.8;-0.2;-0.6;0.2;-0.4;-0.2;-0.4;-0.4;-0.8;-0.2;-0.2;-0.8;-0.6;0.4;-0.4</attribute>
 <attribute name="Width" >5</attribute>
 <attribute name="Xpos" >56</attribute>
 <attribute name="Ypos" >0</attribute>
+<text >### Obtain data
+
+What data do you need to train your model and get the intended output?
+* How much data do you have and where is it?
+* Do you have access to that data?
+* What solution can you use to bring all of this data into one centralized repository?
+* Is your data representative?
+
+Data sources:
+* private data: data that customers create
+* commercial data
+    * companies maintain data like curated news stories, anonymized health care transactions, global business records, location data
+    * AWS Data Exchange, AWS marketplace
+* open-source data (check for limits on usage):  Kaggle, World Health Organization, US Census Bureau, National Oceanic and Atmospheric Administration (US), UC Irvine Machine Learning Repository, AWS
+
+Data terms:
+* **observations**: data, made up of (1) target and (2) features
+* **labelled data**: data where target answer or prediction is already known
+* **target**: observation’s answer to predict
+* **feature**: data attribute
+
+Storing data in AWS:
+* S3
+* FSx for Lustre (move from S3 to FSx to prevent downloading multiple times)
+* EFS: less data movement
+* RDS
+* Redshift, EFS, Timestream
+
+
+### Extract, transform, load (ETL)
+
+* **extract**: pull data from sources into a single location.
+* **transform**: maybe modify data, combine records, or transform data
+* **load**: load into repository such as S3
+
+Typical ETL framework has:
+1. crawler connects to data store (can be source or target)
+2. progresses through a ranked list of classifiers to determine data schema
+3. creates metadata tables in AWS Glue data catalog
+4. a job defines business logic needed to perform ETL work.  Use schedule or event to run the job.
+
+### AWS Glue
+* runs ETL process: categorize, clean, enrich, move between data stores
+* crawls data sources to create catalogs that other systems can query
+* ML functionality
+* provides scheduler that handles dependency resolution, job monitoring, retries
+* serverless
+* use Glue console or API
+* Python or Apache Spark ETL code
+
+
+### Secure your data
+
+* Use IAM to allow read-only access to specific S3 bucket.
+* Encryption for data at rest, e.g. S3, RDS.
+* Secure transports for data in transit, e.g. SSL/TLS
+* AWS CloudTrail for auditing access to data: log and continuously monitor access
+
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC55CgAAKwAAAAEAAABxCgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgIyMjIE9idGFpbiBkYXRhXApcCldoYXQgZGF0YSBkbyB5b3UgbmVlZCB0byB0cmFpbiB5b3VyIG1vZGVsIGFuZCBnZXQgdGhlIGludGVuZGVkIG91dHB1dD9cCiogSG93IG11Y2ggZGF0YSBkbyB5b3UgaGF2ZSBhbmQgd2hlcmUgaXMgaXQ/XAoqIERvIHlvdSBoYXZlIGFjY2VzcyB0byB0aGF0IGRhdGE/XAoqIFdoYXQgc29sdXRpb24gY2FuIHlvdSB1c2UgdG8gYnJpbmcgYWxsIG9mIHRoaXMgZGF0YSBpbnRvIG9uZSBjZW50cmFsaXplZCByZXBvc2l0b3J5P1wKKiBJcyB5b3VyIGRhdGEgcmVwcmVzZW50YXRpdmU/XApcCkRhdGEgc291cmNlczpcCiogcHJpdmF0ZSBkYXRhOiBkYXRhIHRoYXQgY3VzdG9tZXJzIGNyZWF0ZVwKKiBjb21tZXJjaWFsIGRhdGFcCiAgICAqIGNvbXBhbmllcyBtYWludGFpbiBkYXRhIGxpa2UgY3VyYXRlZCBuZXdzIHN0b3JpZXMsIGFub255bWl6ZWQgaGVhbHRoIGNhcmUgdHJhbnNhY3Rpb25zLCBnbG9iYWwgYnVzaW5lc3MgcmVjb3JkcywgbG9jYXRpb24gZGF0YVwKICAgICogQVdTIERhdGEgRXhjaGFuZ2UsIEFXUyBtYXJrZXRwbGFjZVwKKiBvcGVuLXNvdXJjZSBkYXRhIChjaGVjayBmb3IgbGltaXRzIG9uIHVzYWdlKTogIEthZ2dsZSwgV29ybGQgSGVhbHRoIE9yZ2FuaXphdGlvbiwgVVMgQ2Vuc3VzIEJ1cmVhdSwgTmF0aW9uYWwgT2NlYW5pYyBhbmQgQXRtb3NwaGVyaWMgQWRtaW5pc3RyYXRpb24gKFVTKSwgVUMgSXJ2aW5lIE1hY2hpbmUgTGVhcm5pbmcgUmVwb3NpdG9yeSwgQVdTXApcCkRhdGEgdGVybXM6XAoqICoqb2JzZXJ2YXRpb25zKio6IGRhdGEsIG1hZGUgdXAgb2YgKDEpIHRhcmdldCBhbmQgKDIpIGZlYXR1cmVzXAoqICoqbGFiZWxsZWQgZGF0YSoqOiBkYXRhIHdoZXJlIHRhcmdldCBhbnN3ZXIgb3IgcHJlZGljdGlvbiBpcyBhbHJlYWR5IGtub3duXAoqICoqdGFyZ2V0Kio6IG9ic2VydmF0aW9uXCc5MnMgYW5zd2VyIHRvIHByZWRpY3RcCiogKipmZWF0dXJlKio6IGRhdGEgYXR0cmlidXRlXApcClN0b3JpbmcgZGF0YSBpbiBBV1M6XAoqIFMzXAoqIEZTeCBmb3IgTHVzdHJlIChtb3ZlIGZyb20gUzMgdG8gRlN4IHRvIHByZXZlbnQgZG93bmxvYWRpbmcgbXVsdGlwbGUgdGltZXMpXAoqIEVGUzogbGVzcyBkYXRhIG1vdmVtZW50XAoqIFJEU1wKKiBSZWRzaGlmdCwgRUZTLCBUaW1lc3RyZWFtXApcClwKIyMjIEV4dHJhY3QsIHRyYW5zZm9ybSwgbG9hZCAoRVRMKVwKXAoqICoqZXh0cmFjdCoqOiBwdWxsIGRhdGEgZnJvbSBzb3VyY2VzIGludG8gYSBzaW5nbGUgbG9jYXRpb24uXAoqICoqdHJhbnNmb3JtKio6IG1heWJlIG1vZGlmeSBkYXRhLCBjb21iaW5lIHJlY29yZHMsIG9yIHRyYW5zZm9ybSBkYXRhXAoqICoqbG9hZCoqOiBsb2FkIGludG8gcmVwb3NpdG9yeSBzdWNoIGFzIFMzXApcClR5cGljYWwgRVRMIGZyYW1ld29yayBoYXM6XAoxLiBjcmF3bGVyIGNvbm5lY3RzIHRvIGRhdGEgc3RvcmUgKGNhbiBiZSBzb3VyY2Ugb3IgdGFyZ2V0KVwKMi4gcHJvZ3Jlc3NlcyB0aHJvdWdoIGEgcmFua2VkIGxpc3Qgb2YgY2xhc3NpZmllcnMgdG8gZGV0ZXJtaW5lIGRhdGEgc2NoZW1hXAozLiBjcmVhdGVzIG1ldGFkYXRhIHRhYmxlcyBpbiBBV1MgR2x1ZSBkYXRhIGNhdGFsb2dcCjQuIGEgam9iIGRlZmluZXMgYnVzaW5lc3MgbG9naWMgbmVlZGVkIHRvIHBlcmZvcm0gRVRMIHdvcmsuICBVc2Ugc2NoZWR1bGUgb3IgZXZlbnQgdG8gcnVuIHRoZSBqb2IuXApcCiMjIyBBV1MgR2x1ZVwKKiBydW5zIEVUTCBwcm9jZXNzOiBjYXRlZ29yaXplLCBjbGVhbiwgZW5yaWNoLCBtb3ZlIGJldHdlZW4gZGF0YSBzdG9yZXNcCiogY3Jhd2xzIGRhdGEgc291cmNlcyB0byBjcmVhdGUgY2F0YWxvZ3MgdGhhdCBvdGhlciBzeXN0ZW1zIGNhbiBxdWVyeVwKKiBNTCBmdW5jdGlvbmFsaXR5XAoqIHByb3ZpZGVzIHNjaGVkdWxlciB0aGF0IGhhbmRsZXMgZGVwZW5kZW5jeSByZXNvbHV0aW9uLCBqb2IgbW9uaXRvcmluZywgcmV0cmllc1wKKiBzZXJ2ZXJsZXNzXAoqIHVzZSBHbHVlIGNvbnNvbGUgb3IgQVBJXAoqIFB5dGhvbiBvciBBcGFjaGUgU3BhcmsgRVRMIGNvZGVcClwKXAojIyMgU2VjdXJlIHlvdXIgZGF0YVwKXAoqIFVzZSBJQU0gdG8gYWxsb3cgcmVhZC1vbmx5IGFjY2VzcyB0byBzcGVjaWZpYyBTMyBidWNrZXQuXAoqIEVuY3J5cHRpb24gZm9yIGRhdGEgYXQgcmVzdCwgZS5nLiBTMywgUkRTLlwKKiBTZWN1cmUgdHJhbnNwb3J0cyBmb3IgZGF0YSBpbiB0cmFuc2l0LCBlLmcuIFNTTC9UTFNcCiogQVdTIENsb3VkVHJhaWwgZm9yIGF1ZGl0aW5nIGFjY2VzcyB0byBkYXRhOiBsb2cgYW5kIGNvbnRpbnVvdXNseSBtb25pdG9yIGFjY2Vzc1wKXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAABijdabYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+<item ID="1776101493" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-13T10:31:32-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-04-13T11:16:42-07:00</attribute>
+<attribute name="NLNames" >Markdown</attribute>
+<attribute name="NLOrganizations" >Amazon SageMaker</attribute>
+<attribute name="Name" >Lab 3.1</attribute>
+<attribute name="Sentiment" >-0.4363636483</attribute>
+<attribute name="Sentiments" >-0.6;-0.6;-0.4;-0.4;0.8;-0.4;-0.4;-0.8;-0.6;-0.8;-0.6</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >94.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >In this lab, you will 
+* launch an Amazon SageMaker notebook instance
+* create a Jupyter notebook
+* create code and Markdown cells within the notebook
+* download data from an external source
+* save your notebook locally so you can continue working on labs across sessions
+
+Task 1: Creating a Jupyter notebook with Amazon SageMaker
+
+Task 2: Introducing JupyterLab
+
+Task 3: Opening a sample notebook
+
+Task 4: Importing data</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4gAwAAKwAAAAEAAAAYAwAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgSW4gdGhpcyBsYWIsIHlvdSB3aWxsIFwKKiBsYXVuY2ggYW4gQW1hem9uIFNhZ2VNYWtlciBub3RlYm9vayBpbnN0YW5jZVwKKiBjcmVhdGUgYSBKdXB5dGVyIG5vdGVib29rXAoqIGNyZWF0ZSBjb2RlIGFuZCBNYXJrZG93biBjZWxscyB3aXRoaW4gdGhlIG5vdGVib29rXAoqIGRvd25sb2FkIGRhdGEgZnJvbSBhbiBleHRlcm5hbCBzb3VyY2VcCiogc2F2ZSB5b3VyIG5vdGVib29rIGxvY2FsbHkgc28geW91IGNhbiBjb250aW51ZSB3b3JraW5nIG9uIGxhYnMgYWNyb3NzIHNlc3Npb25zXApcClRhc2sgMTogQ3JlYXRpbmcgYSBKdXB5dGVyIG5vdGVib29rIHdpdGggQW1hem9uIFNhZ2VNYWtlclwKXApUYXNrIDI6IEludHJvZHVjaW5nIEp1cHl0ZXJMYWJcClwKVGFzayAzOiBPcGVuaW5nIGEgc2FtcGxlIG5vdGVib29rXApcClRhc2sgNDogSW1wb3J0aW5nIGRhdGF9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAACjPdabYBAAAAAAAAAAAAAA==</rtfd>
 </item>
 <item ID="1774965249" Creator="Robert Hamrick" proto="Markdown" >
-<attribute name="Created" >2026-03-31T09:54:08-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:54:08-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-03-31T09:54:08-04:00</attribute>
-<attribute name="Name" >3.3 Evaluating your data</attribute>
+<attribute name="Modified" >2026-04-13T13:10:05-07:00</attribute>
+<attribute name="Name" >3.3 Evaluating your data: describing your data; finding correlations</attribute>
+<attribute name="Sentiment" >-0.3117647114</attribute>
+<attribute name="Sentiments" >-0.8;-0.8;-0.8;-0.8;-0.8;0.2;-0.6;-0.8;-0.4;-0.6;0.2;0.2;-0.8;-1;0.4;-1;0;0.2;0;-0.6;-0.4;-0.4;0;0.2;-0.2;-0.2;-0.6;-0.2;-0.4;-0.6;0.8;0.6;-0.8;0.2</attribute>
 <attribute name="Width" >5</attribute>
 <attribute name="Xpos" >61.5</attribute>
 <attribute name="Ypos" >0</attribute>
+<text >* format data
+* examine data types
+* perform descriptive statistics
+* visualize data
+
+### Intro to Pandas dataframes
+
+### Describe your data
+
+Descriptive statistics
+* overall statistics
+    * number of rows, columns:  too many features?
+* attribute statistics
+    * sense of shape of attributes:  mean, std deviations, minimum, maximum valuables
+    * mean: useful if data is symmetrical, but outliers skew
+    * median:  not affected by outliers in the same way
+* multivariate statistics
+    * correlations between attributes:  closely correlated attributes lead to poor model performance
+
+Categorical data:
+* frequency of values and class imbalances?
+
+Use histograms and box plots to answer questions about:
+* range of the data
+* peak
+* outliers
+* special features
+
+Plotting multivariate statistics, to show relationship between variables:
+* scatter plot 
+* scatter plot matrix
+
+### Finding correlations
+
+How can you quantify the linear relationship among the variables you see in a scatter plot?
+
+Try a correlation matrix to convey the strong and weak relationship between numerical variables.
+
+Correlation is between -1 and 1.
+* 1 =&gt; perfectly correlated:  y is proportional to x
+* -1 =&gt; inverse:  y is proportional to -x
+* 0 =&gt; no linear relationship (although it doesn’t mean that there is no relationship)
+
+Heat map:  correlation=1 in green, correlation=-1 in brown
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6TCAAAKwAAAAEAAACLCAAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7XHJlZDBcZ3JlZW4wXGJsdWUwO30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc3B0aHJlZVxjMFxjMFxjMDtcY3NwdGhyZWVcYzBcYzBcYzA7fQpccGFyZFx0eDU0MFx0eDEwODBcdHgxNjIwXHR4MjE2MFx0eDI3MDBcdHgzMjQwXHR4Mzc4MFx0eDQzMjBcc2wyODhcc2xtdWx0MVxzYjQwXHNhNDBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiAqIGZvcm1hdCBkYXRhXAoqIGV4YW1pbmUgZGF0YSB0eXBlc1wKKiBwZXJmb3JtIGRlc2NyaXB0aXZlIHN0YXRpc3RpY3NcCiogdmlzdWFsaXplIGRhdGFcClwKIyMjIEludHJvIHRvIFBhbmRhcyBkYXRhZnJhbWVzXApcCiMjIyBEZXNjcmliZSB5b3VyIGRhdGFcClwKRGVzY3JpcHRpdmUgc3RhdGlzdGljc1wKKiBvdmVyYWxsIHN0YXRpc3RpY3NcCiAgICAqIG51bWJlciBvZiByb3dzLCBjb2x1bW5zOiAgdG9vIG1hbnkgZmVhdHVyZXM/XAoqIGF0dHJpYnV0ZSBzdGF0aXN0aWNzXAogICAgKiBzZW5zZSBvZiBzaGFwZSBvZiBhdHRyaWJ1dGVzOiAgbWVhbiwgc3RkIGRldmlhdGlvbnMsIG1pbmltdW0sIG1heGltdW0gdmFsdWFibGVzXApccGFyZFx0eDU0MFx0eDEwODBcdHgxNjIwXHR4MjE2MFx0eDI3MDBcdHgzMjQwXHR4Mzc4MFx0eDQzMjBcc2wyODhcc2xtdWx0MVxzYjQwXHNhNDBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMApcY2YzICAgICAqIG1lYW46IHVzZWZ1bCBpZiBkYXRhIGlzIHN5bW1ldHJpY2FsLCBidXQgb3V0bGllcnMgc2tld1wKICAgICogbWVkaWFuOiAgbm90IGFmZmVjdGVkIGJ5IG91dGxpZXJzIGluIHRoZSBzYW1lIHdheVxjZjIgXApccGFyZFx0eDU0MFx0eDEwODBcdHgxNjIwXHR4MjE2MFx0eDI3MDBcdHgzMjQwXHR4Mzc4MFx0eDQzMjBcc2wyODhcc2xtdWx0MVxzYjQwXHNhNDBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMApcY2YyICogbXVsdGl2YXJpYXRlIHN0YXRpc3RpY3NcCiAgICAqIGNvcnJlbGF0aW9ucyBiZXR3ZWVuIGF0dHJpYnV0ZXM6ICBjbG9zZWx5IGNvcnJlbGF0ZWQgYXR0cmlidXRlcyBsZWFkIHRvIHBvb3IgbW9kZWwgcGVyZm9ybWFuY2VcClwKQ2F0ZWdvcmljYWwgZGF0YTpcCiogZnJlcXVlbmN5IG9mIHZhbHVlcyBhbmQgY2xhc3MgaW1iYWxhbmNlcz9cClwKVXNlIGhpc3RvZ3JhbXMgYW5kIGJveCBwbG90cyB0byBhbnN3ZXIgcXVlc3Rpb25zIGFib3V0OlwKKiByYW5nZSBvZiB0aGUgZGF0YVwKKiBwZWFrXAoqIG91dGxpZXJzXAoqIHNwZWNpYWwgZmVhdHVyZXNcClwKUGxvdHRpbmcgbXVsdGl2YXJpYXRlIHN0YXRpc3RpY3MsIHRvIHNob3cgcmVsYXRpb25zaGlwIGJldHdlZW4gdmFyaWFibGVzOlwKKiBzY2F0dGVyIHBsb3QgXApccGFyZFx0eDU0MFx0eDEwODBcdHgxNjIwXHR4MjE2MFx0eDI3MDBcdHgzMjQwXHR4Mzc4MFx0eDQzMjBcc2wyODhcc2xtdWx0MVxzYjQwXHNhNDBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMApcY2YzICogc2NhdHRlciBwbG90IG1hdHJpeFwKXAojIyMgRmluZGluZyBjb3JyZWxhdGlvbnNcClwKSG93IGNhbiB5b3UgcXVhbnRpZnkgdGhlIGxpbmVhciByZWxhdGlvbnNoaXAgYW1vbmcgdGhlIHZhcmlhYmxlcyB5b3Ugc2VlIGluIGEgc2NhdHRlciBwbG90P1wKXApUcnkgYSBjb3JyZWxhdGlvbiBtYXRyaXggdG8gY29udmV5IHRoZSBzdHJvbmcgYW5kIHdlYWsgcmVsYXRpb25zaGlwIGJldHdlZW4gbnVtZXJpY2FsIHZhcmlhYmxlcy5cClwKQ29ycmVsYXRpb24gaXMgYmV0d2VlbiAtMSBhbmQgMS5cCiogMSA9PiBwZXJmZWN0bHkgY29ycmVsYXRlZDogIHkgaXMgcHJvcG9ydGlvbmFsIHRvIHhcCiogLTEgPT4gaW52ZXJzZTogIHkgaXMgcHJvcG9ydGlvbmFsIHRvIC14XAoqIDAgPT4gbm8gbGluZWFyIHJlbGF0aW9uc2hpcCAoYWx0aG91Z2ggaXQgZG9lc25cJzkydCBtZWFuIHRoYXQgdGhlcmUgaXMgbm8gcmVsYXRpb25zaGlwKVwKXApIZWF0IG1hcDogIGNvcnJlbGF0aW9uPTEgaW4gZ3JlZW4sIGNvcnJlbGF0aW9uPS0xIGluIGJyb3duXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAnU3dabYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+<item ID="1776114121" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-13T14:02:00-07:00</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-04-13T14:02:00-07:00</attribute>
+<attribute name="Name" >Lab 3.2</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >100</attribute>
+<attribute name="Ypos" >0</attribute>
 </item>
 <item ID="1774965255" Creator="Robert Hamrick" proto="Markdown" >
-<attribute name="Created" >2026-03-31T09:54:14-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:54:14-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-03-31T09:54:14-04:00</attribute>
-<attribute name="Name" >3.4 Feature engineering</attribute>
+<attribute name="Modified" >2026-04-13T14:47:54-07:00</attribute>
+<attribute name="NLNames" >Pearson</attribute>
+<attribute name="Name" >3.4 Feature engineering: cleaning your data; dealing with outliers and selecting features</attribute>
+<attribute name="Sentiment" >-0.2548387159</attribute>
+<attribute name="Sentiments" >0.8;0;0.4;-0.6;-0.4;0.4;0.2;0.6;0.2;0.2;-0.8;-1;-0.6;-0.6;-0.8;0.2;-0.8;-0.4;-0.8;-0.8;-0.4;-0.4;-0.2;-0.6;-0.4;-0.6;-1;-0.8;-0.4;-0.8;-0.6;-0.2;0;-0.4;-0.4;-0.6;0.8;0.4;0.2;-0.6;-0.2;-0.8;0.8;0.8;-0.6;-0.6;-0.2;-0.8;0.2;-0.6;-0.2;-1;-0.6;-0.6;-0.6;0.4;0.4;0.8;-0.2;0;-0.2;-0.4</attribute>
 <attribute name="Width" >5</attribute>
 <attribute name="Xpos" >67</attribute>
 <attribute name="Ypos" >0</attribute>
+<text >What is feature engineering?
+* feature selection
+    * select relevant features, discard rest
+    * limit number of features to help prevent overfitting
+* feature extraction
+    * reformatting, combining, transforming primary features into new ones
+    * new dataset that can be use by model to achieve goals
+    * range of activities:  invalid values, wrong formats, misspelling, duplicates, consistency, rescale, encode categories, remove outliers, reassign outliers, bucketing, decomposition, aggregation, combination, transformation, normalization, dimensionality reduction
+
+Convert categorical data to numerical values.
+* if categorical data has order (low, medium, high), use numeric values that capture ordinal relationship (1, 2, 3)
+* if categorical data has no order, break into multiple columns with 0 and 1 values in order to avoid introducing an ordinal relationship to the data
+
+### Cleaning data
+
+* variations in strings (“medium” vs “med”):  convert to standard text
+* variations in scale (car doors vs cars purchased):  normalize to common scale
+* columns with multiple data types (combine safety and maintenance):  parse into multiple columns
+* missing data:  delete rows or impute (replace) data
+* outliers
+
+Imputing missing data:
+1. determine why data is missing
+2. impute
+    * univariate:  add data for single row
+    * multivariate:  add data for multiple rows
+    * usually replaced with mean or median, but there are other methods
+
+### Outliers
+
+Outliers are points in data set that lie at an abnormal distance from other values.
+* Don’t always want to clean up because add richness to data set.  * But can make harder to make accurate predictions because they skew values away from other, more normal values related to feature.
+* Might indicate that data belongs to another column.
+
+Types of outliers:
+* univariate: abnormal values for a single variable
+* multivariate: abnormal values for two or more variables
+
+Finding outliers:
+* box plot: variation and distance from the mean.  box has values within two quartiles of the mean.
+* scatter plot
+
+Common approaches to outliers:
+* delete the outlier:  if based on artificial error
+* transform the outlier:  take natural log of value to reduce variation caused by extreme outlier value and thereby reduce the outlier’s influence on the overall data set
+* impute a new value for the outlier:  use the mean of the feature if caused by artificial error
+
+Feature selection:
+* filter method: use statistical method to measure the relevance of features by their correlation with the target variable
+    * faster, cheaper because no training involved
+* wrapper method:  how useful is a subset of a feature?
+    * train model on feature and measure how successful the model is
+    * risk of overfitting
+* embedded method
+    * algorithm-specific
+    * might use a combination of filters and wrappers
+
+Filter methods use a proxy method to capture measure instead of actual model’s performance.
+* Pearson’s correlation coefficient: measures statistical relationship  (association) between two continuous variables
+* Linear discriminant analysis (LDA): find a linear combination of features that separates two or more classes
+* Analysis of variance (ANOVA): analyze differences among group means in a sample
+* Chi-square:  single number that tells you the difference between observed counts and counts you expect if there were absolutely no relationships in the population
+* These are general methods, not tuned to model or problem.
+
+Wrapper methods use a predictive model to score feature subsets.  * Each new subset is used to train a model, which is tested on a holdout set.
+* The score for the subset is counted by counting the number of mistakes made on the holdout set or the error rate of the model.
+* Provide best-performing feature set for the particular model or problem.
+* Forward selection starts with no features and adds them until the best model is found.
+* Backward selection starts with all features, drops them one at a time, and then selects the best model.
+
+Embedded methods combine filter and wrapper methods.
+* implemented by algorithms that have their own feature selection methods
+* decision trees
+* LASSO and RIDGE regression (have built-in penalization algorithms to reduce overfitting)</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6BEgAAKwAAAAEAAAB5EgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgV2hhdCBpcyBmZWF0dXJlIGVuZ2luZWVyaW5nP1wKKiBmZWF0dXJlIHNlbGVjdGlvblwKICAgICogc2VsZWN0IHJlbGV2YW50IGZlYXR1cmVzLCBkaXNjYXJkIHJlc3RcCiAgICAqIGxpbWl0IG51bWJlciBvZiBmZWF0dXJlcyB0byBoZWxwIHByZXZlbnQgb3ZlcmZpdHRpbmdcCiogZmVhdHVyZSBleHRyYWN0aW9uXAogICAgKiByZWZvcm1hdHRpbmcsIGNvbWJpbmluZywgdHJhbnNmb3JtaW5nIHByaW1hcnkgZmVhdHVyZXMgaW50byBuZXcgb25lc1wKICAgICogbmV3IGRhdGFzZXQgdGhhdCBjYW4gYmUgdXNlIGJ5IG1vZGVsIHRvIGFjaGlldmUgZ29hbHNcCiAgICAqIHJhbmdlIG9mIGFjdGl2aXRpZXM6ICBpbnZhbGlkIHZhbHVlcywgd3JvbmcgZm9ybWF0cywgbWlzc3BlbGxpbmcsIGR1cGxpY2F0ZXMsIGNvbnNpc3RlbmN5LCByZXNjYWxlLCBlbmNvZGUgY2F0ZWdvcmllcywgcmVtb3ZlIG91dGxpZXJzLCByZWFzc2lnbiBvdXRsaWVycywgYnVja2V0aW5nLCBkZWNvbXBvc2l0aW9uLCBhZ2dyZWdhdGlvbiwgY29tYmluYXRpb24sIHRyYW5zZm9ybWF0aW9uLCBub3JtYWxpemF0aW9uLCBkaW1lbnNpb25hbGl0eSByZWR1Y3Rpb25cClwKQ29udmVydCBjYXRlZ29yaWNhbCBkYXRhIHRvIG51bWVyaWNhbCB2YWx1ZXMuXAoqIGlmIGNhdGVnb3JpY2FsIGRhdGEgaGFzIG9yZGVyIChsb3csIG1lZGl1bSwgaGlnaCksIHVzZSBudW1lcmljIHZhbHVlcyB0aGF0IGNhcHR1cmUgb3JkaW5hbCByZWxhdGlvbnNoaXAgKDEsIDIsIDMpXAoqIGlmIGNhdGVnb3JpY2FsIGRhdGEgaGFzIG5vIG9yZGVyLCBicmVhayBpbnRvIG11bHRpcGxlIGNvbHVtbnMgd2l0aCAwIGFuZCAxIHZhbHVlcyBpbiBvcmRlciB0byBhdm9pZCBpbnRyb2R1Y2luZyBhbiBvcmRpbmFsIHJlbGF0aW9uc2hpcCB0byB0aGUgZGF0YVwKXAojIyMgQ2xlYW5pbmcgZGF0YVwKXAoqIHZhcmlhdGlvbnMgaW4gc3RyaW5ncyAoXCc5M21lZGl1bVwnOTQgdnMgXCc5M21lZFwnOTQpOiAgY29udmVydCB0byBzdGFuZGFyZCB0ZXh0XAoqIHZhcmlhdGlvbnMgaW4gc2NhbGUgKGNhciBkb29ycyB2cyBjYXJzIHB1cmNoYXNlZCk6ICBub3JtYWxpemUgdG8gY29tbW9uIHNjYWxlXAoqIGNvbHVtbnMgd2l0aCBtdWx0aXBsZSBkYXRhIHR5cGVzIChjb21iaW5lIHNhZmV0eSBhbmQgbWFpbnRlbmFuY2UpOiAgcGFyc2UgaW50byBtdWx0aXBsZSBjb2x1bW5zXAoqIG1pc3NpbmcgZGF0YTogIGRlbGV0ZSByb3dzIG9yIGltcHV0ZSAocmVwbGFjZSkgZGF0YVwKKiBvdXRsaWVyc1wKXApJbXB1dGluZyBtaXNzaW5nIGRhdGE6XAoxLiBkZXRlcm1pbmUgd2h5IGRhdGEgaXMgbWlzc2luZ1wKMi4gaW1wdXRlXAogICAgKiB1bml2YXJpYXRlOiAgYWRkIGRhdGEgZm9yIHNpbmdsZSByb3dcCiAgICAqIG11bHRpdmFyaWF0ZTogIGFkZCBkYXRhIGZvciBtdWx0aXBsZSByb3dzXAogICAgKiB1c3VhbGx5IHJlcGxhY2VkIHdpdGggbWVhbiBvciBtZWRpYW4sIGJ1dCB0aGVyZSBhcmUgb3RoZXIgbWV0aG9kc1wKXAojIyMgT3V0bGllcnNcClwKT3V0bGllcnMgYXJlIHBvaW50cyBpbiBkYXRhIHNldCB0aGF0IGxpZSBhdCBhbiBhYm5vcm1hbCBkaXN0YW5jZSBmcm9tIG90aGVyIHZhbHVlcy5cCiogRG9uXCc5MnQgYWx3YXlzIHdhbnQgdG8gY2xlYW4gdXAgYmVjYXVzZSBhZGQgcmljaG5lc3MgdG8gZGF0YSBzZXQuICAqIEJ1dCBjYW4gbWFrZSBoYXJkZXIgdG8gbWFrZSBhY2N1cmF0ZSBwcmVkaWN0aW9ucyBiZWNhdXNlIHRoZXkgc2tldyB2YWx1ZXMgYXdheSBmcm9tIG90aGVyLCBtb3JlIG5vcm1hbCB2YWx1ZXMgcmVsYXRlZCB0byBmZWF0dXJlLlwKKiBNaWdodCBpbmRpY2F0ZSB0aGF0IGRhdGEgYmVsb25ncyB0byBhbm90aGVyIGNvbHVtbi5cClwKVHlwZXMgb2Ygb3V0bGllcnM6XAoqIHVuaXZhcmlhdGU6IGFibm9ybWFsIHZhbHVlcyBmb3IgYSBzaW5nbGUgdmFyaWFibGVcCiogbXVsdGl2YXJpYXRlOiBhYm5vcm1hbCB2YWx1ZXMgZm9yIHR3byBvciBtb3JlIHZhcmlhYmxlc1wKXApGaW5kaW5nIG91dGxpZXJzOlwKKiBib3ggcGxvdDogdmFyaWF0aW9uIGFuZCBkaXN0YW5jZSBmcm9tIHRoZSBtZWFuLiAgYm94IGhhcyB2YWx1ZXMgd2l0aGluIHR3byBxdWFydGlsZXMgb2YgdGhlIG1lYW4uXAoqIHNjYXR0ZXIgcGxvdFwKXApDb21tb24gYXBwcm9hY2hlcyB0byBvdXRsaWVyczpcCiogZGVsZXRlIHRoZSBvdXRsaWVyOiAgaWYgYmFzZWQgb24gYXJ0aWZpY2lhbCBlcnJvclwKKiB0cmFuc2Zvcm0gdGhlIG91dGxpZXI6ICB0YWtlIG5hdHVyYWwgbG9nIG9mIHZhbHVlIHRvIHJlZHVjZSB2YXJpYXRpb24gY2F1c2VkIGJ5IGV4dHJlbWUgb3V0bGllciB2YWx1ZSBhbmQgdGhlcmVieSByZWR1Y2UgdGhlIG91dGxpZXJcJzkycyBpbmZsdWVuY2Ugb24gdGhlIG92ZXJhbGwgZGF0YSBzZXRcCiogaW1wdXRlIGEgbmV3IHZhbHVlIGZvciB0aGUgb3V0bGllcjogIHVzZSB0aGUgbWVhbiBvZiB0aGUgZmVhdHVyZSBpZiBjYXVzZWQgYnkgYXJ0aWZpY2lhbCBlcnJvclwKXApGZWF0dXJlIHNlbGVjdGlvbjpcCiogZmlsdGVyIG1ldGhvZDogdXNlIHN0YXRpc3RpY2FsIG1ldGhvZCB0byBtZWFzdXJlIHRoZSByZWxldmFuY2Ugb2YgZmVhdHVyZXMgYnkgdGhlaXIgY29ycmVsYXRpb24gd2l0aCB0aGUgdGFyZ2V0IHZhcmlhYmxlXAogICAgKiBmYXN0ZXIsIGNoZWFwZXIgYmVjYXVzZSBubyB0cmFpbmluZyBpbnZvbHZlZFwKKiB3cmFwcGVyIG1ldGhvZDogIGhvdyB1c2VmdWwgaXMgYSBzdWJzZXQgb2YgYSBmZWF0dXJlP1wKICAgICogdHJhaW4gbW9kZWwgb24gZmVhdHVyZSBhbmQgbWVhc3VyZSBob3cgc3VjY2Vzc2Z1bCB0aGUgbW9kZWwgaXNcCiAgICAqIHJpc2sgb2Ygb3ZlcmZpdHRpbmdcCiogZW1iZWRkZWQgbWV0aG9kXAogICAgKiBhbGdvcml0aG0tc3BlY2lmaWNcCiAgICAqIG1pZ2h0IHVzZSBhIGNvbWJpbmF0aW9uIG9mIGZpbHRlcnMgYW5kIHdyYXBwZXJzXApcCkZpbHRlciBtZXRob2RzIHVzZSBhIHByb3h5IG1ldGhvZCB0byBjYXB0dXJlIG1lYXN1cmUgaW5zdGVhZCBvZiBhY3R1YWwgbW9kZWxcJzkycyBwZXJmb3JtYW5jZS5cCiogUGVhcnNvblwnOTJzIGNvcnJlbGF0aW9uIGNvZWZmaWNpZW50OiBtZWFzdXJlcyBzdGF0aXN0aWNhbCByZWxhdGlvbnNoaXAgIChhc3NvY2lhdGlvbikgYmV0d2VlbiB0d28gY29udGludW91cyB2YXJpYWJsZXNcCiogTGluZWFyIGRpc2NyaW1pbmFudCBhbmFseXNpcyAoTERBKTogZmluZCBhIGxpbmVhciBjb21iaW5hdGlvbiBvZiBmZWF0dXJlcyB0aGF0IHNlcGFyYXRlcyB0d28gb3IgbW9yZSBjbGFzc2VzXAoqIEFuYWx5c2lzIG9mIHZhcmlhbmNlIChBTk9WQSk6IGFuYWx5emUgZGlmZmVyZW5jZXMgYW1vbmcgZ3JvdXAgbWVhbnMgaW4gYSBzYW1wbGVcCiogQ2hpLXNxdWFyZTogIHNpbmdsZSBudW1iZXIgdGhhdCB0ZWxscyB5b3UgdGhlIGRpZmZlcmVuY2UgYmV0d2VlbiBvYnNlcnZlZCBjb3VudHMgYW5kIGNvdW50cyB5b3UgZXhwZWN0IGlmIHRoZXJlIHdlcmUgYWJzb2x1dGVseSBubyByZWxhdGlvbnNoaXBzIGluIHRoZSBwb3B1bGF0aW9uXAoqIFRoZXNlIGFyZSBnZW5lcmFsIG1ldGhvZHMsIG5vdCB0dW5lZCB0byBtb2RlbCBvciBwcm9ibGVtLlwKXApXcmFwcGVyIG1ldGhvZHMgdXNlIGEgcHJlZGljdGl2ZSBtb2RlbCB0byBzY29yZSBmZWF0dXJlIHN1YnNldHMuICAqIEVhY2ggbmV3IHN1YnNldCBpcyB1c2VkIHRvIHRyYWluIGEgbW9kZWwsIHdoaWNoIGlzIHRlc3RlZCBvbiBhIGhvbGRvdXQgc2V0LlwKKiBUaGUgc2NvcmUgZm9yIHRoZSBzdWJzZXQgaXMgY291bnRlZCBieSBjb3VudGluZyB0aGUgbnVtYmVyIG9mIG1pc3Rha2VzIG1hZGUgb24gdGhlIGhvbGRvdXQgc2V0IG9yIHRoZSBlcnJvciByYXRlIG9mIHRoZSBtb2RlbC5cCiogUHJvdmlkZSBiZXN0LXBlcmZvcm1pbmcgZmVhdHVyZSBzZXQgZm9yIHRoZSBwYXJ0aWN1bGFyIG1vZGVsIG9yIHByb2JsZW0uXAoqIEZvcndhcmQgc2VsZWN0aW9uIHN0YXJ0cyB3aXRoIG5vIGZlYXR1cmVzIGFuZCBhZGRzIHRoZW0gdW50aWwgdGhlIGJlc3QgbW9kZWwgaXMgZm91bmQuXAoqIEJhY2t3YXJkIHNlbGVjdGlvbiBzdGFydHMgd2l0aCBhbGwgZmVhdHVyZXMsIGRyb3BzIHRoZW0gb25lIGF0IGEgdGltZSwgYW5kIHRoZW4gc2VsZWN0cyB0aGUgYmVzdCBtb2RlbC5cClwKRW1iZWRkZWQgbWV0aG9kcyBjb21iaW5lIGZpbHRlciBhbmQgd3JhcHBlciBtZXRob2RzLlwKKiBpbXBsZW1lbnRlZCBieSBhbGdvcml0aG1zIHRoYXQgaGF2ZSB0aGVpciBvd24gZmVhdHVyZSBzZWxlY3Rpb24gbWV0aG9kc1wKKiBkZWNpc2lvbiB0cmVlc1wKKiBMQVNTTyBhbmQgUklER0UgcmVncmVzc2lvbiAoaGF2ZSBidWlsdC1pbiBwZW5hbGl6YXRpb24gYWxnb3JpdGhtcyB0byByZWR1Y2Ugb3ZlcmZpdHRpbmcpfQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAIpk3Wm2AQAAAAAAAAAAAAA=</rtfd>
 </item>
 <item ID="1774965257" Creator="Robert Hamrick" proto="Markdown" >
-<attribute name="Created" >2026-03-31T09:54:16-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:54:16-07:00</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-03-31T09:54:16-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:54:16-07:00</attribute>
 <attribute name="Name" >3.5 Training</attribute>
 <attribute name="Width" >5</attribute>
 <attribute name="Xpos" >72.5</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
 <item ID="1774965272" Creator="Robert Hamrick" proto="Markdown" >
-<attribute name="Created" >2026-03-31T09:54:31-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:54:31-07:00</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-03-31T09:54:31-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:54:31-07:00</attribute>
 <attribute name="Name" >3.6 Hosting and using the model</attribute>
 <attribute name="Width" >5</attribute>
 <attribute name="Xpos" >78</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
 <item ID="1774965282" Creator="Robert Hamrick" proto="Markdown" >
-<attribute name="Created" >2026-03-31T09:54:41-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:54:41-07:00</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-03-31T09:54:41-04:00</attribute>
-<attribute name="Name" >3.7 Evaluating the accuracy of the model</attribute>
+<attribute name="Modified" >2026-03-31T06:54:41-07:00</attribute>
+<attribute name="Name" >3.7 Evaluating the accuracy of the model: calculating classification metrics; selecting classification thresholds</attribute>
 <attribute name="Width" >5</attribute>
 <attribute name="Xpos" >83.5</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
 <item ID="1774965289" Creator="Robert Hamrick" proto="Markdown" >
-<attribute name="Created" >2026-03-31T09:54:48-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:54:48-07:00</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-03-31T09:54:48-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:54:48-07:00</attribute>
 <attribute name="Name" >3.8 Hyperparameter and model tuning</attribute>
 <attribute name="Width" >5</attribute>
 <attribute name="Xpos" >89</attribute>
@@ -1449,16 +1724,16 @@ Create a new Jupyter Notebook instance
 </item>
 </item>
 <item ID="1775391409" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-04-05T08:16:48-04:00</attribute>
-<attribute name="Modified" >2026-04-05T08:16:48-04:00</attribute>
+<attribute name="Created" >2026-04-05T05:16:48-07:00</attribute>
+<attribute name="Modified" >2026-04-05T05:16:48-07:00</attribute>
 <attribute name="Name" >Terms</attribute>
 <attribute name="Sort" >Name</attribute>
 <attribute name="Xpos" >36</attribute>
 <attribute name="Ypos" >0</attribute>
 <item ID="1775391550" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-04-05T08:19:09-04:00</attribute>
+<attribute name="Created" >2026-04-05T05:19:09-07:00</attribute>
 <attribute name="DominantLanguage" >fr</attribute>
-<attribute name="Modified" >2026-04-05T08:19:31-04:00</attribute>
+<attribute name="Modified" >2026-04-05T05:19:31-07:00</attribute>
 <attribute name="Name" >Artificial Intelligence</attribute>
 <attribute name="Sentiment" >0.200000003</attribute>
 <attribute name="Sentiments" >0.2;0.2</attribute>
@@ -1469,9 +1744,9 @@ Create a new Jupyter Notebook instance
 <rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5DAQAAKwAAAAEAAAA7AQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHgzNjBcdHg3MjBcdHgxMDgwXHR4MTQ0MFxzYjYwXHNhNjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiBnZW5lcmFsXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAU1PSabYBAAAAAAAAAAAAAA==</rtfd>
 </item>
 <item ID="1775391887" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-04-05T08:24:46-04:00</attribute>
+<attribute name="Created" >2026-04-05T05:24:46-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-04-05T08:25:31-04:00</attribute>
+<attribute name="Modified" >2026-04-05T05:25:31-07:00</attribute>
 <attribute name="NLOrganizations" >ANN</attribute>
 <attribute name="Name" >Artificial neural networks (ANN)</attribute>
 <attribute name="Sentiment" >-0.6000000238</attribute>
@@ -1480,37 +1755,46 @@ Create a new Jupyter Notebook instance
 <attribute name="Ypos" >0</attribute>
 </item>
 <item ID="1775391418" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-04-05T08:16:57-04:00</attribute>
-<attribute name="Modified" >2026-04-05T08:16:57-04:00</attribute>
+<attribute name="Created" >2026-04-05T05:16:57-07:00</attribute>
+<attribute name="Height" >2.48</attribute>
+<attribute name="Modified" >2026-04-05T05:16:57-07:00</attribute>
 <attribute name="Name" >Deep learning</attribute>
+<attribute name="Width" >4</attribute>
 <attribute name="Xpos" >40.5</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
+<item ID="1776099427" Creator="Robert Hamrick" >
+<attribute name="Created" >2026-04-13T09:57:06-07:00</attribute>
+<attribute name="Modified" >2026-04-13T09:57:06-07:00</attribute>
+<attribute name="Name" >Extract, Transform, Load (ETL)</attribute>
+<attribute name="Xpos" >72</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
 <item ID="1775391433" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-04-05T08:17:12-04:00</attribute>
-<attribute name="Modified" >2026-04-05T08:17:12-04:00</attribute>
+<attribute name="Created" >2026-04-05T05:17:12-07:00</attribute>
+<attribute name="Modified" >2026-04-05T05:17:12-07:00</attribute>
 <attribute name="Name" >Generative Artificial Intelligence</attribute>
 <attribute name="Xpos" >45</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
 <item ID="1775391467" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-04-05T08:17:46-04:00</attribute>
-<attribute name="Modified" >2026-04-05T08:17:46-04:00</attribute>
+<attribute name="Created" >2026-04-05T05:17:46-07:00</attribute>
+<attribute name="Modified" >2026-04-05T05:17:46-07:00</attribute>
 <attribute name="Name" >Machine learning</attribute>
 <attribute name="Xpos" >49.5</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
 <item ID="1775392951" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-04-05T08:42:30-04:00</attribute>
-<attribute name="Modified" >2026-04-05T08:42:30-04:00</attribute>
+<attribute name="Created" >2026-04-05T05:42:30-07:00</attribute>
+<attribute name="Modified" >2026-04-05T05:42:30-07:00</attribute>
 <attribute name="Name" >Natural language processing (NLP)</attribute>
 <attribute name="Xpos" >63</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
 <item ID="1775476849" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-04-06T08:00:48-04:00</attribute>
+<attribute name="Created" >2026-04-06T05:00:48-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-04-06T08:01:02-04:00</attribute>
+<attribute name="Modified" >2026-04-06T05:01:02-07:00</attribute>
 <attribute name="Name" >You Only Look Once (YOLO)</attribute>
 <attribute name="Sentiment" >-0.5000000149</attribute>
 <attribute name="Sentiments" >-0.6;-0.4</attribute>
@@ -1521,30 +1805,51 @@ Create a new Jupyter Notebook instance
 </item>
 </item>
 <item ID="1775476400" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-04-06T07:53:19-04:00</attribute>
-<attribute name="Modified" >2026-04-06T07:53:19-04:00</attribute>
+<attribute name="Created" >2026-04-06T04:53:19-07:00</attribute>
+<attribute name="Modified" >2026-04-06T04:53:19-07:00</attribute>
 <attribute name="Name" >AWS Services</attribute>
 <attribute name="Sort" >Name</attribute>
 <attribute name="Xpos" >40.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <item ID="1775476483" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-04-06T07:54:42-04:00</attribute>
-<attribute name="Modified" >2026-04-06T07:54:42-04:00</attribute>
+<attribute name="Created" >2026-04-06T04:54:42-07:00</attribute>
+<attribute name="Modified" >2026-04-06T04:54:42-07:00</attribute>
 <attribute name="Name" >Comprehend</attribute>
 <attribute name="Xpos" >67.5</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
+<item ID="1776098152" Creator="Robert Hamrick" >
+<attribute name="Created" >2026-04-13T09:35:51-07:00</attribute>
+<attribute name="Modified" >2026-04-13T09:35:51-07:00</attribute>
+<attribute name="Name" >Data Exchange</attribute>
+<attribute name="Xpos" >90</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
 <item ID="1775476543" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-04-06T07:55:42-04:00</attribute>
-<attribute name="Modified" >2026-04-06T07:55:42-04:00</attribute>
+<attribute name="Created" >2026-04-06T04:55:42-07:00</attribute>
+<attribute name="Modified" >2026-04-06T04:55:42-07:00</attribute>
 <attribute name="Name" >Forecast</attribute>
 <attribute name="Xpos" >81</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
-<item ID="1775476527" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-04-06T07:55:26-04:00</attribute>
+<item ID="1776099756" Creator="Robert Hamrick" >
+<attribute name="Created" >2026-04-13T10:02:35-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-04-06T07:55:31-04:00</attribute>
+<attribute name="Modified" >2026-04-13T10:06:50-07:00</attribute>
+<attribute name="NLOrganizations" >ETL</attribute>
+<attribute name="Name" >Glue</attribute>
+<attribute name="Sentiment" >-0.4666666836</attribute>
+<attribute name="Sentiments" >-0.6;-0.2;-0.6</attribute>
+<attribute name="Xpos" >94.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Fully managed ETL service.
+“Glues” together different datasets and emit a single endpoint that can be queried.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6vAQAAKwAAAAEAAACnAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHgzNjBcdHg3MjBcdHgxMDgwXHR4MTQ0MFxzYjYwXHNhNjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiBGdWxseSBtYW5hZ2VkIEVUTCBzZXJ2aWNlLlwKXCc5M0dsdWVzXCc5NCB0b2dldGhlciBkaWZmZXJlbnQgZGF0YXNldHMgYW5kIGVtaXQgYSBzaW5nbGUgZW5kcG9pbnQgdGhhdCBjYW4gYmUgcXVlcmllZC59AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAqiLdabYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+<item ID="1775476527" Creator="Robert Hamrick" >
+<attribute name="Created" >2026-04-06T04:55:26-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Modified" >2026-04-06T04:55:31-07:00</attribute>
 <attribute name="Name" >Lex</attribute>
 <attribute name="Sentiment" >-0.6000000238</attribute>
 <attribute name="Sentiments" >-0.6</attribute>
@@ -1554,89 +1859,398 @@ Create a new Jupyter Notebook instance
 <rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5BAQAAKwAAAAEAAAA5AQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHgzNjBcdHg3MjBcdHgxMDgwXHR4MTQ0MFxzYjYwXHNhNjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiBjaGF0Ym90fQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAADOf02m2AQAAAAAAAAAAAAA=</rtfd>
 </item>
 <item ID="1775476562" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-04-06T07:56:01-04:00</attribute>
-<attribute name="Modified" >2026-04-06T07:56:01-04:00</attribute>
+<attribute name="Created" >2026-04-06T04:56:01-07:00</attribute>
+<attribute name="Modified" >2026-04-06T04:56:01-07:00</attribute>
 <attribute name="Name" >Personalize</attribute>
 <attribute name="Xpos" >85.5</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
 <item ID="1775476461" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-04-06T07:54:20-04:00</attribute>
-<attribute name="Modified" >2026-04-06T07:54:20-04:00</attribute>
+<attribute name="Created" >2026-04-06T04:54:20-07:00</attribute>
+<attribute name="Modified" >2026-04-06T04:54:20-07:00</attribute>
 <attribute name="Name" >Polly</attribute>
 <attribute name="Xpos" >58.5</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
 <item ID="1775476449" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-04-06T07:54:08-04:00</attribute>
-<attribute name="Modified" >2026-04-06T07:54:08-04:00</attribute>
+<attribute name="Created" >2026-04-06T04:54:08-07:00</attribute>
+<attribute name="Modified" >2026-04-06T04:54:08-07:00</attribute>
 <attribute name="Name" >Rekognition</attribute>
 <attribute name="Xpos" >49.5</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
 <item ID="1775476410" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-04-06T07:53:29-04:00</attribute>
-<attribute name="Modified" >2026-04-06T07:53:29-04:00</attribute>
+<attribute name="Created" >2026-04-06T04:53:29-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Modified" >2026-04-13T10:31:00-07:00</attribute>
 <attribute name="Name" >SageMaker</attribute>
+<attribute name="Sentiment" >0.8000000119</attribute>
+<attribute name="Sentiments" >0.8;0.8</attribute>
 <attribute name="Xpos" >45</attribute>
 <attribute name="Ypos" >0</attribute>
+<text >a fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning (ML) models quickly.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7VAQAAKwAAAAEAAADNAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHgzNjBcdHg3MjBcdHgxMDgwXHR4MTQ0MFxzYjYwXHNhNjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiBhIGZ1bGx5IG1hbmFnZWQgc2VydmljZSB0aGF0IHByb3ZpZGVzIGV2ZXJ5IGRldmVsb3BlciBhbmQgZGF0YSBzY2llbnRpc3Qgd2l0aCB0aGUgYWJpbGl0eSB0byBidWlsZCwgdHJhaW4sIGFuZCBkZXBsb3kgbWFjaGluZSBsZWFybmluZyAoTUwpIG1vZGVscyBxdWlja2x5Ln0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAABUKN1ptgEAAAAAAAAAAAAA</rtfd>
 </item>
 <item ID="1775476456" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-04-06T07:54:15-04:00</attribute>
-<attribute name="Modified" >2026-04-06T07:54:15-04:00</attribute>
+<attribute name="Created" >2026-04-06T04:54:15-07:00</attribute>
+<attribute name="Modified" >2026-04-06T04:54:15-07:00</attribute>
 <attribute name="Name" >Textract</attribute>
 <attribute name="Xpos" >54</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
 <item ID="1775476478" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-04-06T07:54:37-04:00</attribute>
-<attribute name="Modified" >2026-04-06T07:54:37-04:00</attribute>
+<attribute name="Created" >2026-04-06T04:54:37-07:00</attribute>
+<attribute name="Modified" >2026-04-06T04:54:37-07:00</attribute>
 <attribute name="Name" >Transcribe</attribute>
 <attribute name="Xpos" >63</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
 <item ID="1775476505" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-04-06T07:55:04-04:00</attribute>
-<attribute name="Modified" >2026-04-06T07:55:04-04:00</attribute>
+<attribute name="Created" >2026-04-06T04:55:04-07:00</attribute>
+<attribute name="Modified" >2026-04-06T04:55:04-07:00</attribute>
 <attribute name="Name" >Translate</attribute>
 <attribute name="Xpos" >72</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
 </item>
+<item ID="1776112738" Creator="Robert Hamrick" >
+<attribute name="Created" >2026-04-13T13:38:57-07:00</attribute>
+<attribute name="Modified" >2026-04-13T13:38:57-07:00</attribute>
+<attribute name="Name" >Plots</attribute>
+<attribute name="OnAdd" >$Prototype=&quot;Markdown&quot;;</attribute>
+<attribute name="Sort" >Name</attribute>
+<attribute name="Xpos" >54</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="1776113149" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-13T13:45:48-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-04-13T14:31:19-07:00</attribute>
+<attribute name="Name" >box</attribute>
+<attribute name="Sentiment" >-0.3000000045</attribute>
+<attribute name="Sentiments" >-0.4;-0.2;-0.4;-0.2</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >69.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Shows variation and distance from the mean.  Useful for finding outliers.
+```
+df[&apos;degree_spondylolisthesis&apos;].plot.box()
+```
+Or to compare class 0 to class 1 for all columns:
+```
+df.groupby(&apos;class&apos;).boxplot(fontsize=20,rot=90,figsize=(20,10),patch_artist=True)
+```</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC58AgAAKwAAAAEAAAB0AgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgU2hvd3MgdmFyaWF0aW9uIGFuZCBkaXN0YW5jZSBmcm9tIHRoZSBtZWFuLiAgVXNlZnVsIGZvciBmaW5kaW5nIG91dGxpZXJzLlwKYGBgXApkZlsnZGVncmVlX3Nwb25keWxvbGlzdGhlc2lzJ10ucGxvdC5ib3goKVwKYGBgXApPciB0byBjb21wYXJlIGNsYXNzIDAgdG8gY2xhc3MgMSBmb3IgYWxsIGNvbHVtbnM6XApgYGBcCmRmLmdyb3VwYnkoJ2NsYXNzJykuYm94cGxvdChmb250c2l6ZT0yMCxyb3Q9OTAsZmlnc2l6ZT0oMjAsMTApLHBhdGNoX2FydGlzdD1UcnVlKVwKYGBgfQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAKdg3Wm2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+<item ID="1776112742" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-13T13:39:01-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-04-13T13:42:25-07:00</attribute>
+<attribute name="NLOrganizations" >KDE</attribute>
+<attribute name="Name" >density or kernel density estimate (KDE)</attribute>
+<attribute name="Sentiment" >-0.6400000155</attribute>
+<attribute name="Sentiments" >-0.6;-0.6;-0.8;-0.8;-0.4</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >58.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >A density plot shows the distribution of values.
+```
+df.plot(kind=&apos;density&apos;,subplots=True,layout=(4,2),figsize=(12,12),sharex=False)
+plt.show()
+```
+or
+```
+df[&apos;degree_spondylolisthesis&apos;].plot.density()
+```
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6+AgAAKwAAAAEAAAC2AgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgQSBkZW5zaXR5IHBsb3Qgc2hvd3MgdGhlIGRpc3RyaWJ1dGlvbiBvZiB2YWx1ZXMuXApgYGBcCmRmLnBsb3Qoa2luZD0nZGVuc2l0eScsc3VicGxvdHM9VHJ1ZSxsYXlvdXQ9KDQsMiksZmlnc2l6ZT0oMTIsMTIpLHNoYXJleD1GYWxzZSlcCnBsdC5zaG93KClcCmBgYFwKb3JcCmBgYFwKZGZbJ2RlZ3JlZV9zcG9uZHlsb2xpc3RoZXNpcyddLnBsb3QuZGVuc2l0eSgpXApccGFyZFx0eDU0MFx0eDEwODBcdHgxNjIwXHR4MjE2MFx0eDI3MDBcdHgzMjQwXHR4Mzc4MFx0eDQzMjBcc2wyODhcc2xtdWx0MVxzYjQwXHNhNDBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMApcY2YyIGBgYFwKfQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAADFV3Wm2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+<item ID="1776113575" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-13T13:52:54-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-04-13T13:57:00-07:00</attribute>
+<attribute name="Name" >heatmap</attribute>
+<attribute name="Sentiment" >-0.3000000057</attribute>
+<attribute name="Sentiments" >-0.4;-0.8;-0.4;-0.4;-0.4;-0.4;-0.8;0.8;-0.2;-0.6;0;0</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >80.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >To look at scatter matrix data where correlation=1 is blue and correlation=-1 is brown:
+```
+import seaborn as sns
+# Plot figsize
+fig, ax = plt.subplots(figsize=(10, 10))
+# Generate Color Map
+# colormap = sns.diverging_palette(220, 10, as_cmap=True)
+colormap = sns.color_palette(&quot;BrBG&quot;, 10)
+# Generate Heat Map, allow annotations and place floats in map
+sns.heatmap(corr_matrix, cmap=colormap, annot=True, fmt=&quot;.2f&quot;)
+#ax.set_yticklabels(column_names);
+plt.show()
+```</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7FAwAAKwAAAAEAAAC9AwAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgVG8gbG9vayBhdCBzY2F0dGVyIG1hdHJpeCBkYXRhIHdoZXJlIGNvcnJlbGF0aW9uPTEgaXMgYmx1ZSBhbmQgY29ycmVsYXRpb249LTEgaXMgYnJvd246XApgYGBcCmltcG9ydCBzZWFib3JuIGFzIHNuc1wKIyBQbG90IGZpZ3NpemVcCmZpZywgYXggPSBwbHQuc3VicGxvdHMoZmlnc2l6ZT0oMTAsIDEwKSlcCiMgR2VuZXJhdGUgQ29sb3IgTWFwXAojIGNvbG9ybWFwID0gc25zLmRpdmVyZ2luZ19wYWxldHRlKDIyMCwgMTAsIGFzX2NtYXA9VHJ1ZSlcCmNvbG9ybWFwID0gc25zLmNvbG9yX3BhbGV0dGUoIkJyQkciLCAxMClcCiMgR2VuZXJhdGUgSGVhdCBNYXAsIGFsbG93IGFubm90YXRpb25zIGFuZCBwbGFjZSBmbG9hdHMgaW4gbWFwXApzbnMuaGVhdG1hcChjb3JyX21hdHJpeCwgY21hcD1jb2xvcm1hcCwgYW5ub3Q9VHJ1ZSwgZm10PSIuMmYiKVwKI2F4LnNldF95dGlja2xhYmVscyhjb2x1bW5fbmFtZXMpO1wKcGx0LnNob3coKVwKXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKXGNmMiBgYGB9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAnFjdabYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+<item ID="1776112967" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-13T13:42:46-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-04-13T13:45:28-07:00</attribute>
+<attribute name="Name" >histogram</attribute>
+<attribute name="Sentiment" >-0.4666666786</attribute>
+<attribute name="Sentiments" >-0.4;-0.6;-0.4</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >64</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Show series in bins.
+```
+df[&apos;degree_spondylolisthesis&apos;].plot.hist()
+```
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC40AgAAKwAAAAEAAAAsAgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgU2hvdyBzZXJpZXMgaW4gYmlucy5cCmBgYFwKZGZbJ2RlZ3JlZV9zcG9uZHlsb2xpc3RoZXNpcyddLnBsb3QuaGlzdCgpXApccGFyZFx0eDU0MFx0eDEwODBcdHgxNjIwXHR4MjE2MFx0eDI3MDBcdHgzMjQwXHR4Mzc4MFx0eDQzMjBcc2wyODhcc2xtdWx0MVxzYjQwXHNhNDBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMApcY2YyIGBgYFwKfQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAOhV3Wm2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+<item ID="1776113328" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-13T13:48:47-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-04-13T13:52:44-07:00</attribute>
+<attribute name="Name" >scatter</attribute>
+<attribute name="Sentiment" >-0.2800000101</attribute>
+<attribute name="Sentiments" >-0.2;-0.6;-0.6;-0.8;0.8</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >75</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Look for correlations
+```
+df.plot.scatter(y=&apos;degree_spondylolisthesis&apos;,x=&apos;class&apos;)
+```
+
+Or generate a scatter matrix to look for correlations:
+```
+pd.plotting.scatter_matrix(df,figsize=(12,12))
+```
+
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4+AgAAKwAAAAEAAAA2AgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgTG9vayBmb3IgY29ycmVsYXRpb25zXApgYGBcCmRmLnBsb3Quc2NhdHRlcih5PSdkZWdyZWVfc3BvbmR5bG9saXN0aGVzaXMnLHg9J2NsYXNzJylcCmBgYFwKXApPciBnZW5lcmF0ZSBhIHNjYXR0ZXIgbWF0cml4IHRvIGxvb2sgZm9yIGNvcnJlbGF0aW9uczpcCmBgYFwKcGQucGxvdHRpbmcuc2NhdHRlcl9tYXRyaXgoZGYsZmlnc2l6ZT0oMTIsMTIpKVwKYGBgXApcCn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAACcV91ptgEAAAAAAAAAAAAA</rtfd>
+</item>
+</item>
+<item ID="1776090315" Creator="Robert Hamrick" >
+<attribute name="Created" >2026-04-13T07:25:14-07:00</attribute>
+<attribute name="Modified" >2026-04-13T07:25:14-07:00</attribute>
+<attribute name="Name" >Tasks</attribute>
+<attribute name="Xpos" >45</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="1776090320" Creator="Robert Hamrick" proto="Task" >
+<attribute name="Badge" >check</attribute>
+<attribute name="Checked" >true</attribute>
+<attribute name="Created" >2026-04-13T07:25:19-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="DueDate" >2026-04-14T23:59:00-07:00</attribute>
+<attribute name="Height" >2.48</attribute>
+<attribute name="Modified" >2026-04-13T12:00:30-07:00</attribute>
+<attribute name="Name" >Lab 3.1</attribute>
+<attribute name="Sentiment" >-0.4666666786</attribute>
+<attribute name="Sentiments" >-0.4;-0.6;-0.4</attribute>
+<attribute name="Width" >4</attribute>
+<attribute name="Xpos" >49.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Lab 3.1 is from section 3.2
+Lab 3.1 needs a screenshot turned in.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC58AQAAKwAAAAEAAAB0AQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHgzNjBcdHg3MjBcdHgxMDgwXHR4MTQ0MFxzYjYwXHNhNjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiBMYWIgMy4xIGlzIGZyb20gc2VjdGlvbiAzLjJcCkxhYiAzLjEgbmVlZHMgYSBzY3JlZW5zaG90IHR1cm5lZCBpbi59AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAATj3dabYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+<item ID="1776090500" Creator="Robert Hamrick" proto="Task" >
+<attribute name="Badge" >check</attribute>
+<attribute name="Checked" >true</attribute>
+<attribute name="Created" >2026-04-13T07:28:19-07:00</attribute>
+<attribute name="DueDate" >2026-04-14T23:59:00-07:00</attribute>
+<attribute name="Height" >2.48</attribute>
+<attribute name="Modified" >2026-04-13T14:01:51-07:00</attribute>
+<attribute name="Name" >Lab 3.2</attribute>
+<attribute name="Width" >4</attribute>
+<attribute name="Xpos" >54</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="1776090503" Creator="Robert Hamrick" proto="Task" >
+<attribute name="Created" >2026-04-13T07:28:22-07:00</attribute>
+<attribute name="DueDate" >2026-04-14T23:59:00-07:00</attribute>
+<attribute name="Height" >2.48</attribute>
+<attribute name="Modified" >2026-04-13T07:28:22-07:00</attribute>
+<attribute name="Name" >Lab 3.3</attribute>
+<attribute name="Width" >4</attribute>
+<attribute name="Xpos" >58.5</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+</item>
+<item ID="1776090384" Creator="Robert Hamrick" >
+<attribute name="Created" >2026-04-13T07:26:23-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Modified" >2026-04-13T07:26:44-07:00</attribute>
+<attribute name="Name" >Announcements</attribute>
+<attribute name="Sentiment" >-0.6000000238</attribute>
+<attribute name="Sentiments" >-0.6</attribute>
+<attribute name="Xpos" >49.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="1776090649" Creator="Robert Hamrick" >
+<attribute name="Created" >2026-04-13T07:30:48-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Modified" >2026-04-13T07:31:18-07:00</attribute>
+<attribute name="NLOrganizations" >Amazon;Apr</attribute>
+<attribute name="NLPlaces" >Amato;Canvas</attribute>
+<attribute name="Name" >AWS Labs: Submission Change (Ignore &quot;Submit&quot; Button)</attribute>
+<attribute name="Sentiment" >-0.483333343</attribute>
+<attribute name="Sentiments" >-1;-0.6;-0.8;-0.4;-0.6;-0.4;-0.2;-0.8;-0.8;-0.6;0;0.4</attribute>
+<attribute name="Xpos" >63</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Posted Apr 10 6:30pm
+AWS Labs: Submission Change (Ignore “Submit” Button)
+Hi everyone,
+A change of plan for how to submit your work for the labs in this class.  The &apos;Submit&apos; button there will not do anything, so here is the new process.
+From here on:
+	•	For some labs, upload a screenshot of key steps or outputs in Canvas.  I&apos;ll say exactly what to include.
+	•	Other labs will not need any screenshots, and I can verify your work on the backend.  I&apos;ll be clear about which ones.
+	•	This week, only Lab 3.1 needs a screenshot turned in.  I can verify 3.2 and 3.3 based on what is captured by the system.
+	•	If you already finished Lab 3.1 and didn&apos;t take a screenshot, don&apos;t redo it.  I will grade it based on what I can see.
+Reach out if you have questions.  Amazon sometimes will make changes like this mid-stream, so we’re adjusting as we go.
+Prof. Amato
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4QCgAAKwAAAAEAAAAICgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO1xmMVxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlLUJvbGQ7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMzBcZ3JlZW40MFxibHVlNDk7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc3NyZ2JcYzE1Mjk0XGMyMDc4NFxjMjUwOTg7XGNzc3JnYlxjMTAwMDAwXGMxMDAwMDBcYzEwMDAwMDt9CntcKlxsaXN0dGFibGV7XGxpc3RcbGlzdHRlbXBsYXRlaWQxXGxpc3RoeWJyaWR7XGxpc3RsZXZlbFxsZXZlbG5mYzIzXGxldmVsbmZjbjIzXGxldmVsamMwXGxldmVsamNuMFxsZXZlbGZvbGxvdzBcbGV2ZWxzdGFydGF0MFxsZXZlbHNwYWNlMzYwXGxldmVsaW5kZW50MHtcKlxsZXZlbG1hcmtlciBce2Rpc2NcfX17XGxldmVsdGV4dFxsZXZlbHRlbXBsYXRlaWQxXCcwMVx1YzBcdTgyMjYgO317XGxldmVsbnVtYmVyczt9XGZpLTM2MFxsaTcyMFxsaW43MjAgfXtcbGlzdG5hbWUgO31cbGlzdGlkMX19CntcKlxsaXN0b3ZlcnJpZGV0YWJsZXtcbGlzdG92ZXJyaWRlXGxpc3RpZDFcbGlzdG92ZXJyaWRlY291bnQwXGxzMX19ClxkZWZ0YWI3MjAKXHBhcmRccGFyZGVmdGFiNzIwXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyOCBcY2YyIFxjYjMgXGV4cG5kMFxleHBuZHR3MFxrZXJuaW5nMApcb3V0bDBcc3Ryb2tld2lkdGgwIFxzdHJva2VjMiBQb3N0ZWQgQXByIDEwIDY6MzBwbQpcZjFcYlxmczU3IFxjZjIgXGNiMyBcc3Ryb2tlYzIgXApBV1MgTGFiczogU3VibWlzc2lvbiBDaGFuZ2UgKElnbm9yZSBcJzkzU3VibWl0XCc5NCBCdXR0b24pXGNiMSBcClxwYXJkXHBhcmRlZnRhYjcyMFxzYTI0MFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGIwXGZzMzIgXGNmMiBcY2IzIEhpIGV2ZXJ5b25lLFxjYjEgXApcY2IzIEEgY2hhbmdlIG9mIHBsYW4gZm9yIGhvdyB0byBzdWJtaXQgeW91ciB3b3JrIGZvciB0aGUgbGFicyBpbiB0aGlzIGNsYXNzLiBcJ2EwVGhlICdTdWJtaXQnIGJ1dHRvbiB0aGVyZSB3aWxsIG5vdCBkbyBhbnl0aGluZywgc28gaGVyZSBpcyB0aGUgbmV3IHByb2Nlc3MuXGNiMSBcClxjYjMgRnJvbSBoZXJlIG9uOlxjYjEgXApccGFyZFx0eDIyMFx0eDcyMFxwYXJkZWZ0YWI3MjBcbGk3MjBcZmktNzIwXHBhcnRpZ2h0ZW5mYWN0b3IwClxsczFcaWx2bDBcY2YyIFxjYjMgXGtlcm5pbmcxXGV4cG5kMFxleHBuZHR3MCBcb3V0bDBcc3Ryb2tld2lkdGgwIHtcbGlzdHRleHQJXHVjMFx1ODIyNiAJfVxleHBuZDBcZXhwbmR0dzBca2VybmluZzAKXG91dGwwXHN0cm9rZXdpZHRoMCBcc3Ryb2tlYzIgRm9yIHNvbWUgbGFicywgdXBsb2FkIGEgc2NyZWVuc2hvdCBvZiBrZXkgc3RlcHMgb3Igb3V0cHV0cyBpbiBDYW52YXMuIFwnYTBJJ2xsIHNheSBleGFjdGx5IHdoYXQgdG8gaW5jbHVkZS5cY2IxIFwKXGxzMVxpbHZsMFxjYjMgXGtlcm5pbmcxXGV4cG5kMFxleHBuZHR3MCBcb3V0bDBcc3Ryb2tld2lkdGgwIHtcbGlzdHRleHQJXHVjMFx1ODIyNiAJfVxleHBuZDBcZXhwbmR0dzBca2VybmluZzAKXG91dGwwXHN0cm9rZXdpZHRoMCBcc3Ryb2tlYzIgT3RoZXIgbGFicyB3aWxsIG5vdCBuZWVkIGFueSBzY3JlZW5zaG90cywgYW5kIEkgY2FuIHZlcmlmeSB5b3VyIHdvcmsgb24gdGhlIGJhY2tlbmQuIFwnYTBJJ2xsIGJlIGNsZWFyIGFib3V0IHdoaWNoIG9uZXMuXGNiMSBcClxsczFcaWx2bDAKXGYxXGIgXGNiMyBca2VybmluZzFcZXhwbmQwXGV4cG5kdHcwIFxvdXRsMFxzdHJva2V3aWR0aDAge1xsaXN0dGV4dAlcdWMwXHU4MjI2IAl9XGV4cG5kMFxleHBuZHR3MFxrZXJuaW5nMApcb3V0bDBcc3Ryb2tld2lkdGgwIFxzdHJva2VjMiBUaGlzIHdlZWssIG9ubHkgTGFiIDMuMVwnYTAKXGYwXGIwIG5lZWRzIGEgc2NyZWVuc2hvdCB0dXJuZWQgaW4uIFwnYTBJIGNhbiB2ZXJpZnkgMy4yIGFuZCAzLjMgYmFzZWQgb24gd2hhdCBpcyBjYXB0dXJlZCBieSB0aGUgc3lzdGVtLlxjYjEgXApcbHMxXGlsdmwwClxmMVxiIFxjYjMgXGtlcm5pbmcxXGV4cG5kMFxleHBuZHR3MCBcb3V0bDBcc3Ryb2tld2lkdGgwIHtcbGlzdHRleHQJXHVjMFx1ODIyNiAJfVxleHBuZDBcZXhwbmR0dzBca2VybmluZzAKXG91dGwwXHN0cm9rZXdpZHRoMCBcc3Ryb2tlYzIgSWYgeW91IGFscmVhZHkgZmluaXNoZWQgTGFiIDMuMQpcZjBcYjAgXCdhMGFuZCBkaWRuJ3QgdGFrZSBhIHNjcmVlbnNob3QsIGRvbid0IHJlZG8gaXQuIFwnYTBJIHdpbGwgZ3JhZGUgaXQgYmFzZWQgb24gd2hhdCBJIGNhbiBzZWUuXGNiMSBcClxwYXJkXHBhcmRlZnRhYjcyMFxzYTI0MFxwYXJ0aWdodGVuZmFjdG9yMApcY2YyIFxjYjMgUmVhY2ggb3V0IGlmIHlvdSBoYXZlIHF1ZXN0aW9ucy4gXCdhMEFtYXpvbiBzb21ldGltZXMgd2lsbCBtYWtlIGNoYW5nZXMgbGlrZSB0aGlzIG1pZC1zdHJlYW0sIHNvIHdlXCc5MnJlIGFkanVzdGluZyBhcyB3ZSBnby5cY2IxIFwKXGNiMyBQcm9mLiBBbWF0b1xjYjEgXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAANv7cabYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+<item ID="1776090437" Creator="Robert Hamrick" >
+<attribute name="Created" >2026-04-13T07:27:16-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Modified" >2026-04-13T08:59:13-07:00</attribute>
+<attribute name="NLOrganizations" >AWS Canvas;AWS Module;Apr</attribute>
+<attribute name="NLPlaces" >Amato</attribute>
+<attribute name="Name" >Week 2 Updates</attribute>
+<attribute name="Sentiment" >-0.1714285761</attribute>
+<attribute name="Sentiments" >0.4;-0.8;0;-0.4;-0.6;-0.2;0.4</attribute>
+<attribute name="Xpos" >58.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Posted Apr 7 4:30pm
+Hi everyone!  We are heading into the second week of the class.  In this module we will look at formatting data for ML problems, how to load it into AWS and analyze it, and get introduced to how to use Jupyter notebooks for exploring.
+Be sure to accept your invitation to the AWS Canvas system and login this week.  If you do not accept and enter the class by Friday, you may be dropped from the roster.  Earlier today I resent invites for those that have not yet accepted (it goes to your inSite email address).  If you would like me to use a different email, please let me know as soon as possible.
+A quick note:  you may notice that AWS Module 3 has several parts.  We will be covering only the first half of the lecture and labs this week (Sections 1-4, Labs 3.1 - 3.3).  We will look at the second half next week.  For the labs, the &apos;Submit&apos; button is only needed for the first one (3.1).  There is nothing else to do after completing 3.2 and 3.3, your work is already captured by the end system.  You can take/retake these as many times as needed.  
+See you online,
+Prof. Amato
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC73BgAAKwAAAAEAAADvBgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDMwXGdyZWVuNDBcYmx1ZTQ5O1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMzBcZ3JlZW40MFxibHVlNDk7ClxyZWQxMFxncmVlbjgyXGJsdWUxMzU7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzc3JnYlxjMTUyOTRcYzIwNzg0XGMyNTA5ODtcY3NzcmdiXGMxMDAwMDBcYzEwMDAwMFxjMTAwMDAwO1xjc3NyZ2JcYzE1Mjk0XGMyMDc4NFxjMjUwOTg7Clxjc3NyZ2JcYzBcYzQwMDAwXGM2MDAwMDt9ClxkZWZ0YWI3MjAKXHBhcmRccGFyZGVmdGFiNzIwXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyOCBcY2YyIFxjYjMgXGV4cG5kMFxleHBuZHR3MFxrZXJuaW5nMApcb3V0bDBcc3Ryb2tld2lkdGgwIFxzdHJva2VjMiBQb3N0ZWQgQXByIDcgNDozMHBtClxmczMyIFxjZjQgXGNiMyBcb3V0bDBcc3Ryb2tld2lkdGgwIFwKSGkgZXZlcnlvbmUhIFwnYTBXZSBhcmUgaGVhZGluZyBpbnRvIHRoZSBzZWNvbmQgd2VlayBvZiB0aGUgY2xhc3MuIFwnYTBJbiB0aGlzIG1vZHVsZSB3ZSB3aWxsIGxvb2sgYXQgZm9ybWF0dGluZyBkYXRhIGZvciBNTCBwcm9ibGVtcywgaG93IHRvIGxvYWQgaXQgaW50byBBV1MgYW5kIGFuYWx5emUgaXQsIGFuZCBnZXQgaW50cm9kdWNlZCB0byBob3cgdG8gdXNlIEp1cHl0ZXIgbm90ZWJvb2tzIGZvciBleHBsb3JpbmcuXApccGFyZFxwYXJkZWZ0YWI3MjBcc2EyNDBccGFydGlnaHRlbmZhY3RvcjAKXGNmNCBCZSBzdXJlIHRvIGFjY2VwdCB5b3VyIGludml0YXRpb24gdG8gdGhlIEFXUyBDYW52YXMgc3lzdGVtIGFuZCBsb2dpbiB0aGlzIHdlZWsuIFwnYTBJZiB5b3UgZG8gbm90IGFjY2VwdCBhbmQgZW50ZXIgdGhlIGNsYXNzIGJ5IEZyaWRheSwgeW91IG1heSBiZSBkcm9wcGVkIGZyb20gdGhlIHJvc3Rlci5cJ2EwIEVhcmxpZXIgdG9kYXkgSSByZXNlbnQgaW52aXRlcyBmb3IgdGhvc2UgdGhhdCBoYXZlIG5vdCB5ZXQgYWNjZXB0ZWQgKGl0IGdvZXMgdG8geW91ciBpblNpdGUgZW1haWwgYWRkcmVzcykuIFwnYTBJZiB5b3Ugd291bGQgbGlrZSBtZSB0byB1c2UgYSBkaWZmZXJlbnQgZW1haWwsIHBsZWFzZSBsZXQgbWUga25vdyBhcyBzb29uIGFzIHBvc3NpYmxlLlwKQSBxdWljayBub3RlOiBcJ2EweW91IG1heSBub3RpY2UgdGhhdFwnYTBcY2Y1IFx1bCBcdWxjNSBBV1MgTW9kdWxlIDNcY2Y0IFx1bG5vbmUgXCdhMGhhcyBzZXZlcmFsIHBhcnRzLiBcJ2EwV2Ugd2lsbCBiZSBjb3ZlcmluZyBvbmx5IHRoZSBmaXJzdCBoYWxmIG9mIHRoZSBsZWN0dXJlIGFuZCBsYWJzIHRoaXMgd2VlayAoU2VjdGlvbnMgMS00LCBMYWJzIDMuMSAtIDMuMykuIFwnYTBXZSB3aWxsIGxvb2sgYXQgdGhlIHNlY29uZCBoYWxmIG5leHQgd2Vlay4gXCdhMEZvciB0aGUgbGFicywgdGhlICdTdWJtaXQnIGJ1dHRvbiBpcyBvbmx5IG5lZWRlZCBmb3IgdGhlIGZpcnN0IG9uZSAoMy4xKS4gXCdhMFRoZXJlIGlzIG5vdGhpbmcgZWxzZSB0byBkbyBhZnRlciBjb21wbGV0aW5nIDMuMiBhbmQgMy4zLCB5b3VyIHdvcmsgaXMgYWxyZWFkeSBjYXB0dXJlZCBieSB0aGUgZW5kIHN5c3RlbS4gXCdhMFlvdSBjYW4gdGFrZS9yZXRha2UgdGhlc2UgYXMgbWFueSB0aW1lcyBhcyBuZWVkZWQuIFwnYTBcClNlZSB5b3Ugb25saW5lLFwKUHJvZi4gQW1hdG9cCn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAADREt1ptgEAAAAAAAAAAAAA</rtfd>
+</item>
+<item ID="1776090407" Creator="Robert Hamrick" >
+<attribute name="Created" >2026-04-13T07:26:46-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Modified" >2026-04-13T07:27:14-07:00</attribute>
+<attribute name="NLOrganizations" >AWS Academy;AWS Academy Canvas;AWS SageMaker;Amazon AWS;Canvas</attribute>
+<attribute name="NLPlaces" >Amato</attribute>
+<attribute name="Name" >Welcome</attribute>
+<attribute name="Sentiment" >-0.2100000046</attribute>
+<attribute name="Sentiments" >0.2;0.2;-0.2;0.4;-0.2;0.6;0.8;-0.4;-0.6;-0.6;-0.6;-1;-0.8;-0.6;0;-1;-0.6;-0.4;0.2;0.4</attribute>
+<attribute name="Xpos" >54</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Welcome
+Hello everyone, welcome back from spring break.  You should see this class (COMSC-178-5632) on your Canvas dashboard starting today.   To start, go to the Introduction module here and view the course overview video.
+The course is divided into weekly modules that start on Tuesdays (except this week we will have an extra day, since we&apos;re starting on a Monday). 
+The weekly routine is:
+	•	Login to Canvas and check the new module posted.  It will have links to everything you need for the week.
+	•	Complete the video, readings and hands-on lab with support from your professor and classmates.  The labs will start next week.
+	•	We will have other activities from time to time such as group discussions.
+Before you begin, please review the following information on background knowledge expectations:
+	•	This class has advisory prerequisites for Python (COMSC-140) and the AWS Cloud platform (COMSC-175).
+	•	You should have basic familiarity with the Python syntax.  You do not need expert-level skills in Python, but we will be using the language for our machine learning labs which will involve working with snippets of code.  If you have no programming experience or Python is unfamiliar to you, this class may be difficult to complete and I recommend starting with COMSC-140 instead.  We will not be writing Python programs but we will be using provided code snippets to accomplish tasks with data.
+	•	The class uses several parts of the AWS platform such as AWS SageMaker.  If you are unfamiliar with AWS, this class will be extra challenging and you may not be able to complete all of the labs.  In this case I suggest starting with a different class such as COMSC-175.
+If this is your first time taking an online course or would just like a refresher, I strongly recommend reviewing this page
+Links to an external site.
+ for online class procedures and help.
+You should have received an email invite to join the AWS Academy Canvas platform.  This will go to the email address you have registered in InSite -- check your &apos;spam&apos; folder if you don&apos;t see it in your inbox.  
+We will be using the official AWS Academy curriculum in this course.  This is also a Canvas system that you will use to access video and hands-on labs in the Amazon AWS cloud.  It is important to setup your account there during the first week.  If you did not receive an invite or something goes wrong please email me as soon as possible.  You can also post to the discussion forum topic here if you run into any problems.  Our class follows an 8-week schedule, so the pace will be a bit quicker and may feel faster than you&apos;re used to in a full-semester course.
+Lastly, please take minute to update your profile (a picture helps us get to know you!) and review your general settings (notification preferences, etc.) under the &apos;Account&apos; section on the upper left.
+Welcome to the class!
+Prof. Amato
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC63FwAAKwAAAAEAAACvFwAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlLUJvbGQ7XGYxXGZuaWxcZmNoYXJzZXQwIEhlbHZldGljYU5ldWU7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMzBcZ3JlZW40MFxibHVlNDk7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQxMFxncmVlbjgyXGJsdWUxMzU7Cn0Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc3NyZ2JcYzE1Mjk0XGMyMDc4NFxjMjUwOTg7XGNzc3JnYlxjMTAwMDAwXGMxMDAwMDBcYzEwMDAwMDtcY3NzcmdiXGMwXGM0MDAwMFxjNjAwMDA7Cn0Ke1wqXGxpc3R0YWJsZXtcbGlzdFxsaXN0dGVtcGxhdGVpZDFcbGlzdGh5YnJpZHtcbGlzdGxldmVsXGxldmVsbmZjMjNcbGV2ZWxuZmNuMjNcbGV2ZWxqYzBcbGV2ZWxqY24wXGxldmVsZm9sbG93MFxsZXZlbHN0YXJ0YXQwXGxldmVsc3BhY2UzNjBcbGV2ZWxpbmRlbnQwe1wqXGxldmVsbWFya2VyIFx7ZGlzY1x9fXtcbGV2ZWx0ZXh0XGxldmVsdGVtcGxhdGVpZDFcJzAxXHVjMFx1ODIyNiA7fXtcbGV2ZWxudW1iZXJzO31cZmktMzYwXGxpNzIwXGxpbjcyMCB9e1xsaXN0bmFtZSA7fVxsaXN0aWQxfQp7XGxpc3RcbGlzdHRlbXBsYXRlaWQyXGxpc3RoeWJyaWR7XGxpc3RsZXZlbFxsZXZlbG5mYzIzXGxldmVsbmZjbjIzXGxldmVsamMwXGxldmVsamNuMFxsZXZlbGZvbGxvdzBcbGV2ZWxzdGFydGF0MFxsZXZlbHNwYWNlMzYwXGxldmVsaW5kZW50MHtcKlxsZXZlbG1hcmtlciBce2Rpc2NcfX17XGxldmVsdGV4dFxsZXZlbHRlbXBsYXRlaWQxMDFcJzAxXHVjMFx1ODIyNiA7fXtcbGV2ZWxudW1iZXJzO31cZmktMzYwXGxpNzIwXGxpbjcyMCB9e1xsaXN0bmFtZSA7fVxsaXN0aWQyfX0Ke1wqXGxpc3RvdmVycmlkZXRhYmxle1xsaXN0b3ZlcnJpZGVcbGlzdGlkMVxsaXN0b3ZlcnJpZGVjb3VudDBcbHMxfXtcbGlzdG92ZXJyaWRlXGxpc3RpZDJcbGlzdG92ZXJyaWRlY291bnQwXGxzMn19ClxkZWZ0YWI3MjAKXHBhcmRccGFyZGVmdGFiNzIwXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcYlxmczU3IFxjZjIgXGNiMyBcZXhwbmQwXGV4cG5kdHcwXGtlcm5pbmcwClxvdXRsMFxzdHJva2V3aWR0aDAgXHN0cm9rZWMyIFdlbGNvbWVcY2IxIFwKXHBhcmRccGFyZGVmdGFiNzIwXHNhMjQwXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjFcYjBcZnMzMiBcY2YyIFxjYjMgSGVsbG8gZXZlcnlvbmUsIHdlbGNvbWUgYmFjayBmcm9tIHNwcmluZyBicmVhay4gXCdhMFlvdSBzaG91bGQgc2VlIHRoaXMgY2xhc3MgKENPTVNDLTE3OC01NjMyKSBvbiB5b3VyIENhbnZhcyBkYXNoYm9hcmQgc3RhcnRpbmcgdG9kYXkuIFwnYTAgVG8gc3RhcnQsXCdhMHtcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHBzOi8vZHZjLmluc3RydWN0dXJlLmNvbS9jb3Vyc2VzLzExNzkyNS9tb2R1bGVzLzk1NTQ5NSJ9fXtcZmxkcnNsdCBcY2Y0IFx1bCBcdWxjNCBcc3Ryb2tlYzQgZ28gdG8gdGhlIEludHJvZHVjdGlvbiBtb2R1bGUgaGVyZX19XCdhMGFuZCB2aWV3IHRoZSBjb3Vyc2Ugb3ZlcnZpZXcgdmlkZW8uXGNiMSBcClxjYjMgVGhlIGNvdXJzZSBpcyBkaXZpZGVkIGludG8gd2Vla2x5IG1vZHVsZXMgdGhhdCBzdGFydCBvbiBUdWVzZGF5cyAoZXhjZXB0IHRoaXMgd2VlayB3ZSB3aWxsIGhhdmUgYW4gZXh0cmEgZGF5LCBzaW5jZSB3ZSdyZSBzdGFydGluZyBvbiBhIE1vbmRheSkuXCdhMFxjYjEgXApcY2IzIFRoZSB3ZWVrbHkgcm91dGluZSBpczpcY2IxIFwKXHBhcmRcdHgyMjBcdHg3MjBccGFyZGVmdGFiNzIwXGxpNzIwXGZpLTcyMFxwYXJ0aWdodGVuZmFjdG9yMApcbHMxXGlsdmwwXGNmMiBcY2IzIFxrZXJuaW5nMVxleHBuZDBcZXhwbmR0dzAgXG91dGwwXHN0cm9rZXdpZHRoMCB7XGxpc3R0ZXh0CVx1YzBcdTgyMjYgCX1cZXhwbmQwXGV4cG5kdHcwXGtlcm5pbmcwClxvdXRsMFxzdHJva2V3aWR0aDAgXHN0cm9rZWMyIExvZ2luIHRvIENhbnZhcyBhbmQgY2hlY2sgdGhlIG5ldyBtb2R1bGUgcG9zdGVkLiBcJ2EwSXQgd2lsbCBoYXZlIGxpbmtzIHRvIGV2ZXJ5dGhpbmcgeW91IG5lZWQgZm9yIHRoZSB3ZWVrLlxjYjEgXApcbHMxXGlsdmwwXGNiMyBca2VybmluZzFcZXhwbmQwXGV4cG5kdHcwIFxvdXRsMFxzdHJva2V3aWR0aDAge1xsaXN0dGV4dAlcdWMwXHU4MjI2IAl9XGV4cG5kMFxleHBuZHR3MFxrZXJuaW5nMApcb3V0bDBcc3Ryb2tld2lkdGgwIFxzdHJva2VjMiBDb21wbGV0ZSB0aGUgdmlkZW8sIHJlYWRpbmdzIGFuZCBoYW5kcy1vbiBsYWIgd2l0aCBzdXBwb3J0IGZyb20geW91ciBwcm9mZXNzb3IgYW5kIGNsYXNzbWF0ZXMuIFwnYTBUaGUgbGFicyB3aWxsIHN0YXJ0IG5leHQgd2Vlay5cY2IxIFwKXGxzMVxpbHZsMFxjYjMgXGtlcm5pbmcxXGV4cG5kMFxleHBuZHR3MCBcb3V0bDBcc3Ryb2tld2lkdGgwIHtcbGlzdHRleHQJXHVjMFx1ODIyNiAJfVxleHBuZDBcZXhwbmR0dzBca2VybmluZzAKXG91dGwwXHN0cm9rZXdpZHRoMCBcc3Ryb2tlYzIgV2Ugd2lsbCBoYXZlIG90aGVyIGFjdGl2aXRpZXMgZnJvbSB0aW1lIHRvIHRpbWUgc3VjaCBhcyBncm91cCBkaXNjdXNzaW9ucy5cY2IxIFwKXHBhcmRccGFyZGVmdGFiNzIwXHNhMjQwXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcYiBcY2YyIFxjYjMgQmVmb3JlIHlvdSBiZWdpbiwgcGxlYXNlIHJldmlldyB0aGUgZm9sbG93aW5nIGluZm9ybWF0aW9uIG9uIGJhY2tncm91bmQga25vd2xlZGdlIGV4cGVjdGF0aW9uczoKXGYxXGIwIFxjYjEgXApccGFyZFx0eDIyMFx0eDcyMFxwYXJkZWZ0YWI3MjBcbGk3MjBcZmktNzIwXHBhcnRpZ2h0ZW5mYWN0b3IwClxsczJcaWx2bDBcY2YyIFxjYjMgXGtlcm5pbmcxXGV4cG5kMFxleHBuZHR3MCBcb3V0bDBcc3Ryb2tld2lkdGgwIHtcbGlzdHRleHQJXHVjMFx1ODIyNiAJfVxleHBuZDBcZXhwbmR0dzBca2VybmluZzAKXG91dGwwXHN0cm9rZXdpZHRoMCBcc3Ryb2tlYzIgVGhpcyBjbGFzcyBoYXMgYWR2aXNvcnkgcHJlcmVxdWlzaXRlcyBmb3IgUHl0aG9uIChDT01TQy0xNDApIGFuZCB0aGUgQVdTIENsb3VkIHBsYXRmb3JtIChDT01TQy0xNzUpLlxjYjEgXApcbHMyXGlsdmwwXGNiMyBca2VybmluZzFcZXhwbmQwXGV4cG5kdHcwIFxvdXRsMFxzdHJva2V3aWR0aDAge1xsaXN0dGV4dAlcdWMwXHU4MjI2IAl9XGV4cG5kMFxleHBuZHR3MFxrZXJuaW5nMApcb3V0bDBcc3Ryb2tld2lkdGgwIFxzdHJva2VjMiBZb3Ugc2hvdWxkIGhhdmUgYmFzaWMgZmFtaWxpYXJpdHkgd2l0aCB0aGUgUHl0aG9uIHN5bnRheC4gXCdhMFlvdSBkbyBub3QgbmVlZCBleHBlcnQtbGV2ZWwgc2tpbGxzIGluIFB5dGhvbiwgYnV0IHdlIHdpbGwgYmUgdXNpbmcgdGhlIGxhbmd1YWdlIGZvciBvdXIgbWFjaGluZSBsZWFybmluZyBsYWJzIHdoaWNoIHdpbGwgaW52b2x2ZSB3b3JraW5nIHdpdGggc25pcHBldHMgb2YgY29kZS4gXCdhMElmIHlvdSBoYXZlIG5vIHByb2dyYW1taW5nIGV4cGVyaWVuY2Ugb3IgUHl0aG9uIGlzIHVuZmFtaWxpYXIgdG8geW91LCB0aGlzIGNsYXNzIG1heSBiZSBkaWZmaWN1bHQgdG8gY29tcGxldGUgYW5kIEkgcmVjb21tZW5kIHN0YXJ0aW5nIHdpdGggQ09NU0MtMTQwIGluc3RlYWQuIFwnYTBXZSB3aWxsIG5vdCBiZSB3cml0aW5nIFB5dGhvbiBwcm9ncmFtcyBidXQgd2Ugd2lsbCBiZSB1c2luZyBwcm92aWRlZCBjb2RlIHNuaXBwZXRzIHRvIGFjY29tcGxpc2ggdGFza3Mgd2l0aCBkYXRhLlxjYjEgXApcbHMyXGlsdmwwXGNiMyBca2VybmluZzFcZXhwbmQwXGV4cG5kdHcwIFxvdXRsMFxzdHJva2V3aWR0aDAge1xsaXN0dGV4dAlcdWMwXHU4MjI2IAl9XGV4cG5kMFxleHBuZHR3MFxrZXJuaW5nMApcb3V0bDBcc3Ryb2tld2lkdGgwIFxzdHJva2VjMiBUaGUgY2xhc3MgdXNlcyBzZXZlcmFsIHBhcnRzIG9mIHRoZSBBV1MgcGxhdGZvcm0gc3VjaCBhcyBBV1MgU2FnZU1ha2VyLiBcJ2EwSWYgeW91IGFyZSB1bmZhbWlsaWFyIHdpdGggQVdTLCB0aGlzIGNsYXNzIHdpbGwgYmUgZXh0cmEgY2hhbGxlbmdpbmcgYW5kIHlvdSBtYXkgbm90IGJlIGFibGUgdG8gY29tcGxldGUgYWxsIG9mIHRoZSBsYWJzLiBcJ2EwSW4gdGhpcyBjYXNlIEkgc3VnZ2VzdCBzdGFydGluZyB3aXRoIGEgZGlmZmVyZW50IGNsYXNzIHN1Y2ggYXMgQ09NU0MtMTc1LlxjYjEgXApccGFyZFxwYXJkZWZ0YWI3MjBcc2EyNDBccGFydGlnaHRlbmZhY3RvcjAKXGNmMiBcY2IzIElmIHRoaXMgaXMgeW91ciBmaXJzdCB0aW1lIHRha2luZyBhbiBvbmxpbmUgY291cnNlIG9yIHdvdWxkIGp1c3QgbGlrZSBhIHJlZnJlc2hlcixcJ2Ewe1xmaWVsZHtcKlxmbGRpbnN0e0hZUEVSTElOSyAiaHR0cHM6Ly93d3cuZHZjLmVkdS9hY2FkZW1pY3Mvb25saW5lLWVkdWNhdGlvbi9vbmxpbmUtdGlwcy1hbmQtdG9vbHMuaHRtbCJ9fXtcZmxkcnNsdCBcY2Y0IFx1bCBcdWxjNCBcc3Ryb2tlYzQgSSBzdHJvbmdseSByZWNvbW1lbmQgcmV2aWV3aW5nIHRoaXMgcGFnZVxjYjEgXHVsbm9uZSBcClxwYXJkXHBhcmRlZnRhYjcyMFxwYXJ0aWdodGVuZmFjdG9yMApcY2Y0IFxjYjMgXHVsIFx1bGM0IExpbmtzIHRvIGFuIGV4dGVybmFsIHNpdGUuXGNiMSBcdWxub25lIFwKfX1ccGFyZFxwYXJkZWZ0YWI3MjBcc2EyNDBccGFydGlnaHRlbmZhY3RvcjAKXGNmMiBcJ2EwZm9yIG9ubGluZSBjbGFzcyBwcm9jZWR1cmVzIGFuZCBoZWxwLlxjYjEgXApccGFyZFxwYXJkZWZ0YWI3MjBcc2EyNDBccGFydGlnaHRlbmZhY3RvcjAKClxmMFxiIFxjZjIgXGNiMyBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYW4gZW1haWwgaW52aXRlIHRvIGpvaW4gdGhlIEFXUyBBY2FkZW15IENhbnZhcyBwbGF0Zm9ybS4KXGYxXGIwIFwnYTBcJ2EwVGhpcyB3aWxsIGdvIHRvIHRoZSBlbWFpbCBhZGRyZXNzIHlvdSBoYXZlIHJlZ2lzdGVyZWQgaW4gSW5TaXRlIC0tIGNoZWNrIHlvdXIgJ3NwYW0nIGZvbGRlciBpZiB5b3UgZG9uJ3Qgc2VlIGl0IGluIHlvdXIgaW5ib3guIFwnYTBcY2IxIFwKXHBhcmRccGFyZGVmdGFiNzIwXHNhMjQwXHBhcnRpZ2h0ZW5mYWN0b3IwClxjZjIgXGNiMyBXZSB3aWxsIGJlIHVzaW5nIHRoZSBvZmZpY2lhbCBBV1MgQWNhZGVteSBjdXJyaWN1bHVtIGluIHRoaXMgY291cnNlLiBcJ2EwVGhpcyBpcyBhbHNvIGEgQ2FudmFzIHN5c3RlbSB0aGF0IHlvdSB3aWxsIHVzZSB0byBhY2Nlc3MgdmlkZW8gYW5kIGhhbmRzLW9uIGxhYnMgaW4gdGhlIEFtYXpvbiBBV1MgY2xvdWQuIFwnYTBJdCBpcyBpbXBvcnRhbnQgdG8gc2V0dXAgeW91ciBhY2NvdW50IHRoZXJlIGR1cmluZyB0aGUgZmlyc3Qgd2Vlay4gXCdhMElmIHlvdSBkaWQgbm90IHJlY2VpdmUgYW4gaW52aXRlIG9yIHNvbWV0aGluZyBnb2VzIHdyb25nIHBsZWFzZSBlbWFpbCBtZSBhcyBzb29uIGFzIHBvc3NpYmxlLiBcJ2EwWW91IGNhbiBhbHNvIHBvc3QgdG8gdGhlXCdhMHtcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHBzOi8vZHZjLmluc3RydWN0dXJlLmNvbS9jb3Vyc2VzLzExNzkyNS9kaXNjdXNzaW9uX3RvcGljcy8yMjMzNzg2In19e1xmbGRyc2x0IFxjZjQgXHVsIFx1bGM0IFxzdHJva2VjNCBkaXNjdXNzaW9uIGZvcnVtIHRvcGljIGhlcmV9fVwnYTBpZiB5b3UgcnVuIGludG8gYW55IHByb2JsZW1zLiBcJ2EwT3VyIGNsYXNzIGZvbGxvd3MgYW4gOC13ZWVrIHNjaGVkdWxlLCBzbyB0aGUgcGFjZSB3aWxsIGJlIGEgYml0IHF1aWNrZXIgYW5kIG1heSBmZWVsIGZhc3RlciB0aGFuIHlvdSdyZSB1c2VkIHRvIGluIGEgZnVsbC1zZW1lc3RlciBjb3Vyc2UuXGNiMSBcClxjYjMgTGFzdGx5LCBwbGVhc2UgdGFrZSBtaW51dGUgdG8gdXBkYXRlIHlvdXIgcHJvZmlsZSAoYSBwaWN0dXJlIGhlbHBzIHVzIGdldCB0byBrbm93IHlvdSEpIGFuZCByZXZpZXcgeW91ciBnZW5lcmFsIHNldHRpbmdzIChub3RpZmljYXRpb24gcHJlZmVyZW5jZXMsIGV0Yy4pIHVuZGVyIHRoZSAnQWNjb3VudCcgc2VjdGlvbiBvbiB0aGUgdXBwZXIgbGVmdC5cY2IxIFwKXGNiMyBXZWxjb21lIHRvIHRoZSBjbGFzcyFcY2IxIFwKXGNiMyBQcm9mLiBBbWF0b1xjYjEgXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAQv3cabYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+</item>
 <item ID="1774963406" Creator="Robert Hamrick" >
 <attribute name="Associates" ></attribute>
-<attribute name="Created" >2026-03-31T09:23:25-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:25-07:00</attribute>
 <attribute name="HTMLDontExport" >true</attribute>
 <attribute name="HTMLExportChildren" >false</attribute>
 <attribute name="Height" >4</attribute>
 <attribute name="IsComposite" >false</attribute>
 <attribute name="MapScrollX" >6</attribute>
-<attribute name="Modified" >2026-03-31T09:23:25-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:25-07:00</attribute>
 <attribute name="Name" >Prototypes</attribute>
 <attribute name="OnAdd" >$IsPrototype=true;$NeverComposite=true;</attribute>
 <attribute name="ScreenHeight" >128</attribute>
 <attribute name="ScreenWidth" >320</attribute>
+<attribute name="Sort" >Name</attribute>
 <attribute name="Width" >10</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
-<item ID="1774963743" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-02-07T10:40:38-04:00</attribute>
-<attribute name="DisplayedAttributes" >HTMLExportTemplate</attribute>
-<attribute name="DominantLanguage" >ro</attribute>
-<attribute name="HTMLExportTemplate" >/Templates/HTML page</attribute>
+<item ID="1774963425" Creator="Robert Hamrick" >
+<attribute name="Badge" >design</attribute>
+<attribute name="Color" >lightest black</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
+<attribute name="HTMLDontExport" >true</attribute>
+<attribute name="HTMLFirstParagraphEnd" ></attribute>
+<attribute name="HTMLFirstParagraphStart" ></attribute>
+<attribute name="HTMLIndentedParagraphEnd" ></attribute>
+<attribute name="HTMLIndentedParagraphStart" ></attribute>
+<attribute name="HTMLParagraphEnd" ></attribute>
+<attribute name="HTMLParagraphStart" ></attribute>
+<attribute name="IsAction" >true</attribute>
 <attribute name="IsPrototype" >true</attribute>
-<attribute name="Modified" >2026-02-07T10:53:54-04:00</attribute>
-<attribute name="Name" >Module</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
+<attribute name="Name" >Action</attribute>
 <attribute name="NeverComposite" >true</attribute>
-<attribute name="OnAdd" >$Prototype=&quot;Markdown&quot;;</attribute>
-<attribute name="Sentiment" >-0.8000000119</attribute>
-<attribute name="Sentiments" >-0.8</attribute>
-<attribute name="Xpos" >16</attribute>
+<attribute name="NoSpelling" >true</attribute>
+<attribute name="OnAdd" >$NeverComposite=true</attribute>
+<attribute name="ParagraphSpacing" >0</attribute>
+<attribute name="SmartLinks" >false</attribute>
+<attribute name="SmartQuotes" >false</attribute>
+<attribute name="Tabs" >0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375</attribute>
+<attribute name="TextFont" >Andale Mono</attribute>
+<attribute name="Xpos" >10.5</attribute>
 <attribute name="Ypos" >2</attribute>
+<attribute name="Ziplinks" >false</attribute>
+</item>
+<item ID="1774963450" Creator="Robert Hamrick" >
+<attribute name="Badge" >tools</attribute>
+<attribute name="Color" >lighter black</attribute>
+<attribute name="Created" >2026-03-31T06:23:39-07:00</attribute>
+<attribute name="DominantLanguage" >da</attribute>
+<attribute name="HTMLDontExport" >true</attribute>
+<attribute name="HTMLFirstParagraphEnd" ></attribute>
+<attribute name="HTMLFirstParagraphStart" ></attribute>
+<attribute name="HTMLIndentedParagraphEnd" ></attribute>
+<attribute name="HTMLIndentedParagraphStart" ></attribute>
+<attribute name="HTMLParagraphEnd" ></attribute>
+<attribute name="HTMLParagraphStart" ></attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="IsTemplate" >true</attribute>
+<attribute name="Modified" >2026-03-31T06:23:39-07:00</attribute>
+<attribute name="Name" >HTML</attribute>
+<attribute name="NeverComposite" >true</attribute>
+<attribute name="NoSpelling" >true</attribute>
+<attribute name="OnAdd" >$Prototype=&quot;HTML&quot;;</attribute>
+<attribute name="ParagraphSpacing" >0</attribute>
+<attribute name="Sentiment" >-0.6000000238</attribute>
+<attribute name="Sentiments" >-0.6;-0.6</attribute>
+<attribute name="SmartQuotes" >false</attribute>
+<attribute name="Tabs" >0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375</attribute>
+<attribute name="TextFont" >Andale Mono</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >15</attribute>
+<attribute name="Ypos" >2</attribute>
+<attribute name="Ziplinks" >false</attribute>
+<text >&lt;!--  Tinderbox: ^title --&gt;
+
+</text>
 </item>
 <item ID="1774963407" Creator="Robert Hamrick" >
 <attribute name="Color" >lighter black</attribute>
-<attribute name="Created" >2026-03-31T09:23:25-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:25-07:00</attribute>
 <attribute name="DisplayedAttributes" >TextFont;HTMLPreviewCommand</attribute>
 <attribute name="HTMLBoldEnd" ></attribute>
 <attribute name="HTMLBoldStart" ></attribute>
@@ -1650,7 +2264,7 @@ Create a new Jupyter Notebook instance
 <attribute name="Height" >3</attribute>
 <attribute name="IsPrototype" >true</attribute>
 <attribute name="LineSpacing" >120</attribute>
-<attribute name="Modified" >2026-03-31T09:29:38-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:29:38-07:00</attribute>
 <attribute name="Name" >Markdown</attribute>
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="ParagraphSpacing" >4</attribute>
@@ -1659,81 +2273,53 @@ Create a new Jupyter Notebook instance
 <attribute name="Tabs" >0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375;</attribute>
 <attribute name="TextFont" >iAWriterQuattroS-Regular</attribute>
 <attribute name="Width" >5</attribute>
+<attribute name="Xpos" >5</attribute>
+<attribute name="Ypos" >2</attribute>
+<attribute name="Ziplinks" >false</attribute>
+</item>
+<item ID="1774963743" Creator="Robert Hamrick" >
+<attribute name="Created" >2026-02-07T07:40:38-07:00</attribute>
+<attribute name="DisplayedAttributes" >HTMLExportTemplate</attribute>
+<attribute name="DominantLanguage" >ro</attribute>
+<attribute name="HTMLExportTemplate" >/Templates/HTML page</attribute>
+<attribute name="IsPrototype" >true</attribute>
+<attribute name="Modified" >2026-02-07T07:53:54-07:00</attribute>
+<attribute name="Name" >Module</attribute>
+<attribute name="NeverComposite" >true</attribute>
+<attribute name="OnAdd" >$Prototype=&quot;Markdown&quot;;</attribute>
+<attribute name="Sentiment" >-0.8000000119</attribute>
+<attribute name="Sentiments" >-0.8</attribute>
 <attribute name="Xpos" >0.5</attribute>
 <attribute name="Ypos" >2</attribute>
-<attribute name="Ziplinks" >false</attribute>
 </item>
-<item ID="1774963425" Creator="Robert Hamrick" >
-<attribute name="Badge" >design</attribute>
-<attribute name="Color" >lightest black</attribute>
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
-<attribute name="HTMLDontExport" >true</attribute>
-<attribute name="HTMLFirstParagraphEnd" ></attribute>
-<attribute name="HTMLFirstParagraphStart" ></attribute>
-<attribute name="HTMLIndentedParagraphEnd" ></attribute>
-<attribute name="HTMLIndentedParagraphStart" ></attribute>
-<attribute name="HTMLParagraphEnd" ></attribute>
-<attribute name="HTMLParagraphStart" ></attribute>
-<attribute name="IsAction" >true</attribute>
+<item ID="1776090557" Creator="Robert Hamrick" >
+<attribute name="AccentColor" >dark cool gray</attribute>
+<attribute name="Badge" >calendar</attribute>
+<attribute name="BorderColor" >dark cool gray</attribute>
+<attribute name="Color" >cool gray</attribute>
+<attribute name="Created" >2026-04-13T07:29:16-07:00</attribute>
+<attribute name="DisplayExpression" >if($ChildCount){$Name+&quot; (&quot;+$ChildCount+&quot;)&quot;}else{$Name}</attribute>
+<attribute name="DisplayedAttributes" >DueDate;Checked;Modified</attribute>
+<attribute name="Edict" >task_state();</attribute>
 <attribute name="IsPrototype" >true</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
-<attribute name="Name" >Action</attribute>
+<attribute name="Modified" >2026-04-13T07:29:16-07:00</attribute>
+<attribute name="Name" >Task</attribute>
 <attribute name="NeverComposite" >true</attribute>
-<attribute name="NoSpelling" >true</attribute>
-<attribute name="OnAdd" >$NeverComposite=true</attribute>
-<attribute name="ParagraphSpacing" >0</attribute>
-<attribute name="SmartLinks" >false</attribute>
-<attribute name="SmartQuotes" >false</attribute>
-<attribute name="Tabs" >0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375</attribute>
-<attribute name="TextFont" >Andale Mono</attribute>
-<attribute name="Xpos" >6</attribute>
-<attribute name="Ypos" >2</attribute>
-<attribute name="Ziplinks" >false</attribute>
-</item>
-<item ID="1774963450" Creator="Robert Hamrick" >
-<attribute name="Badge" >tools</attribute>
-<attribute name="Color" >lighter black</attribute>
-<attribute name="Created" >2026-03-31T09:23:39-04:00</attribute>
-<attribute name="DominantLanguage" >da</attribute>
-<attribute name="HTMLDontExport" >true</attribute>
-<attribute name="HTMLFirstParagraphEnd" ></attribute>
-<attribute name="HTMLFirstParagraphStart" ></attribute>
-<attribute name="HTMLIndentedParagraphEnd" ></attribute>
-<attribute name="HTMLIndentedParagraphStart" ></attribute>
-<attribute name="HTMLParagraphEnd" ></attribute>
-<attribute name="HTMLParagraphStart" ></attribute>
-<attribute name="Height" >3</attribute>
-<attribute name="IsPrototype" >true</attribute>
-<attribute name="IsTemplate" >true</attribute>
-<attribute name="Modified" >2026-03-31T09:23:39-04:00</attribute>
-<attribute name="Name" >HTML</attribute>
-<attribute name="NeverComposite" >true</attribute>
-<attribute name="NoSpelling" >true</attribute>
-<attribute name="OnAdd" >$Prototype=&quot;HTML&quot;;</attribute>
-<attribute name="ParagraphSpacing" >0</attribute>
-<attribute name="Sentiment" >-0.6000000238</attribute>
-<attribute name="Sentiments" >-0.6;-0.6</attribute>
-<attribute name="SmartQuotes" >false</attribute>
-<attribute name="Tabs" >0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375;0.375</attribute>
-<attribute name="TextFont" >Andale Mono</attribute>
-<attribute name="Width" >5</attribute>
-<attribute name="Xpos" >10.5</attribute>
-<attribute name="Ypos" >2</attribute>
-<attribute name="Ziplinks" >false</attribute>
-<text >&lt;!--  Tinderbox: ^title --&gt;
-
-</text>
+<attribute name="OnAdd" >Prototype|=&quot;Task&quot;</attribute>
+<attribute name="Shape" >tag</attribute>
+<attribute name="Xpos" >0.5</attribute>
+<attribute name="Ypos" >5.5</attribute>
 </item>
 </item>
 <item ID="1774963410" Creator="Robert Hamrick" >
 <attribute name="Associates" ></attribute>
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="HTMLDontExport" >true</attribute>
 <attribute name="HTMLExportChildren" >false</attribute>
 <attribute name="Height" >4</attribute>
 <attribute name="IsComposite" >false</attribute>
 <attribute name="MapScrollX" >6</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Name" >Hints</attribute>
 <attribute name="OnAdd" >$NeverComposite=true;</attribute>
 <attribute name="ScreenHeight" >128</attribute>
@@ -1742,9 +2328,9 @@ Create a new Jupyter Notebook instance
 <attribute name="Xpos" >10.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <item ID="1774963411" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Name" >What’s This?</attribute>
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="Sentiment" >-0.7000000179</attribute>
@@ -1754,9 +2340,9 @@ Create a new Jupyter Notebook instance
 <text >The hints container holds a variety of notes that can help Tinderbox adapt to your specific problem domain. These are advanced features, and you may not need them, or you might not need them yet. If that is the case, feel free to delete the hints container.</text>
 </item>
 <item ID="1774963412" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:36:12-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:36:12-07:00</attribute>
 <attribute name="Name" >stoplist</attribute>
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="Sentiment" >-0.5165467811</attribute>
@@ -2044,9 +2630,9 @@ however
 <rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7GCAAAKwAAAAEAAAC+CAAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyMCBcY2YyIC8vIGEgbGlzdCBvZiB2ZXJ5IGNvbW1vbiBFbmdsaXNoIHdvcmRzIHRoYXQgVGluZGVyYm94IG1heSBpZ25vcmUsIGZvciBleGFtcGxlLCBpbiB3b3JkIGNsb3Vkcy4KXGZzMzIgXAphYm91dFwKYWZ0ZXJcCmFsc29cCmJlY2F1c2VcCmJlZW5cCmNvcnBcCmNvdWxkXApkb2VzXApkb2VzblwKZG9lc24ndFwKZG9lc25cJzkydFwKZWFjaFwKZXZlblwKZnJvbVwKaGF2ZVwKaGVyZVwKaW5kZW50XAppbnRvXAppdCdzXAppdFwnOTJzXApqdXN0XApsYXN0XApsaWtlXAptYW55XAptaWdodFwKbW9yZVwKbW9zdFwKbXVjaFwKb25seVwKb3RoZXJcCm92ZXJcCnBlcmhhcHNcCnNheXNcCnNlZW1cCnNlZW1zXApzaG91bGRcCnNvbWVcCnN0aWxsXApzdWNoXAp0aGFuXAp0aGF0XAp0aGVpclwKdGhlbVwKdGhlblwKdGhlcmVcCnRoZXNlXAp0aGV5XAp0aG9zZVwKdGhpc1wKdGhvdWdoXAp0aHJvdWdoXAp2ZXJ5XAp3ZWxsXAp3ZXJlXAp3aGF0XAp3aGVuXAp3aGVyZVwKd2hpY2hcCndoaWxlXAp3aWxsXAp3aXRoXAp3b3VsZFwKeWVhclwKeWVhcnNcCnlvdXJcCm9mXAp0b1wKaW5cCml0XAppc1wKYmVcCmFzXAphdFwKc29cCndlXApoZVwKYnlcCm9yXApvblwKZG9cCmlmXAptZVwKbXlcCnVwXAphblwKZ29cCm5vXAp1c1wKYW1cCnRoZVwKYW5kXApmb3JcCmFyZVwKYnV0XApub3RcCnlvdVwKYWxsXAphbnlcCmNhblwKaGFkXApoZXJcCndhc1wKb25lXApvdXJcCm91dFwKZGF5XApnZXRcCmhhc1wKaGltXApoaXNcCmhvd1wKbWFuXApuZXdcCm5vd1wKb2xkXApzZWVcCnR3b1wKd2F5XAp3aG9cCmJveVwKZGlkXAppdHNcCmxldFwKcHV0XApzYXlcCnNoZVwKdG9vXAp1c2VcCmRvblwKanBnXApnaWZcCmh0bVwKaHRtbFwKaG93ZXZlclwKXAoKXGZzMjAgLy8gYWRkIGFkZGl0aW9uYWwgd29yZHMgdG8gdGhlIHN0b3BsaXN0IGJlbG93IHRoaXMgbGluZSAKXGZzMzIgXApcCgpcZnMyMCAvLyBhIGxpc3Qgb2YgdmVyeSBjb21tb24gRW5nbGlzaCB3b3JkcyB0aGF0IFRpbmRlcmJveCBtYXkgaWdub3JlLCBmb3IgZXhhbXBsZSwgaW4gd29yZCBjbG91ZHMuClxmczMyIFwKYWJvdXRcCmFmdGVyXAphbHNvXApiZWNhdXNlXApiZWVuXApjb3JwXApjb3VsZFwKZG9lc1wKZG9lc25cCmRvZXNuJ3RcCmRvZXNuXCc5MnRcCmVhY2hcCmV2ZW5cCmZyb21cCmhhdmVcCmhlcmVcCmluZGVudFwKaW50b1wKaXQnc1wKaXRcJzkyc1wKanVzdFwKbGFzdFwKbGlrZVwKbWFueVwKbWlnaHRcCm1vcmVcCm1vc3RcCm11Y2hcCm9ubHlcCm90aGVyXApvdmVyXApwZXJoYXBzXApzYXlzXApzZWVtXApzZWVtc1wKc2hvdWxkXApzb21lXApzdGlsbFwKc3VjaFwKdGhhblwKdGhhdFwKdGhlaXJcCnRoZW1cCnRoZW5cCnRoZXJlXAp0aGVzZVwKdGhleVwKdGhvc2VcCnRoaXNcCnRob3VnaFwKdGhyb3VnaFwKdmVyeVwKd2VsbFwKd2VyZVwKd2hhdFwKd2hlblwKd2hlcmVcCndoaWNoXAp3aGlsZVwKd2lsbFwKd2l0aFwKd291bGRcCnllYXJcCnllYXJzXAp5b3VyXApvZlwKdG9cCmluXAppdFwKaXNcCmJlXAphc1wKYXRcCnNvXAp3ZVwKaGVcCmJ5XApvclwKb25cCmRvXAppZlwKbWVcCm15XAp1cFwKYW5cCmdvXApub1wKdXNcCmFtXAp0aGVcCmFuZFwKZm9yXAphcmVcCmJ1dFwKbm90XAp5b3VcCmFsbFwKYW55XApjYW5cCmhhZFwKaGVyXAp3YXNcCm9uZVwKb3VyXApvdXRcCmRheVwKZ2V0XApoYXNcCmhpbVwKaGlzXApob3dcCm1hblwKbmV3XApub3dcCm9sZFwKc2VlXAp0d29cCndheVwKd2hvXApib3lcCmRpZFwKaXRzXApsZXRcCnB1dFwKc2F5XApzaGVcCnRvb1wKdXNlXApkb25cCmpwZ1wKZ2lmXApodG1cCmh0bWxcCmhvd2V2ZXJcClwKClxmczIwIC8vIGFkZCBhZGRpdGlvbmFsIHdvcmRzIHRvIHRoZSBzdG9wbGlzdCBiZWxvdyB0aGlzIGxpbmUgClxmczMyIFwKXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAzM3LabYBAAAAAAAAAAAAAA==</rtfd>
 </item>
 <item ID="1774963413" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Name" >library sorting</attribute>
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="Sentiment" >-0.6000000238</attribute>
@@ -2059,10 +2645,10 @@ the
 </text>
 </item>
 <item ID="1774963414" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
 <attribute name="Height" >5</attribute>
-<attribute name="Modified" >2026-03-31T09:36:12-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:36:12-07:00</attribute>
 <attribute name="Name" >Preview</attribute>
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="Sentiment" >-0.7000000179</attribute>
@@ -2072,7 +2658,7 @@ the
 <attribute name="Ypos" >2</attribute>
 <text >The appearance of formatted previews may be customized through a note in the built-in hints, /Hints/Preview/style.  This note contains styles that are applied by the built-in Markdown template. This template can itself be modified by editing /Templates/preview template.</text>
 <item ID="1774963415" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
 <attribute name="HTMLDontExport" >true</attribute>
 <attribute name="HTMLFirstParagraphEnd" ></attribute>
@@ -2081,7 +2667,7 @@ the
 <attribute name="HTMLIndentedParagraphStart" ></attribute>
 <attribute name="HTMLParagraphEnd" ></attribute>
 <attribute name="HTMLParagraphStart" ></attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="NLPlaces" >Arial;Helvetica</attribute>
 <attribute name="Name" >style</attribute>
 <attribute name="NoSpelling" >true</attribute>
@@ -2121,18 +2707,18 @@ img{
 </item>
 </item>
 <item ID="1774963416" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Height" >5</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Name" >Highlighters</attribute>
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="Width" >5</attribute>
 <attribute name="Xpos" >0.5</attribute>
 <attribute name="Ypos" >7.5</attribute>
 <item ID="1774963417" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Name" >Markdown</attribute>
 <attribute name="Sentiment" >-0.4000000099</attribute>
 <attribute name="Sentiments" >-0.6;-0.4;0.2;-0.4;-0.4;-0.4;-0.4;-0.4;-0.4;-0.6;-0.6;-0.4;-0.2;-0.6;-0.4</attribute>
@@ -2164,9 +2750,9 @@ pattern: (\*|_)(.*?)\1
 </text>
 </item>
 <item ID="1774963418" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Name" >Syntax</attribute>
 <attribute name="Sentiment" >-0.3000000089</attribute>
 <attribute name="Sentiments" >-0.6;0.2;-0.2;-0.4;-0.4;-0.6;-0.6;0;0;-0.4</attribute>
@@ -2191,18 +2777,18 @@ pattern: yes|no
 </item>
 </item>
 <item ID="1774963419" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Height" >5</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Name" >Taggers</attribute>
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="Width" >5</attribute>
 <attribute name="Xpos" >6</attribute>
 <attribute name="Ypos" >7.5</attribute>
 <item ID="1774963420" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="NLNames" >Amy;Molly;Woolman</attribute>
 <attribute name="NLOrganizations" >Swarthmore College</attribute>
 <attribute name="NLPlaces" >Parrish;Sharples</attribute>
@@ -2223,31 +2809,31 @@ pattern: yes|no
 </text>
 </item>
 <item ID="1774963421" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Name" >NLNames</attribute>
 <attribute name="Xpos" >4.5</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
 <item ID="1774963422" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Name" >NLOrganizations</attribute>
 <attribute name="Xpos" >9</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
 <item ID="1774963423" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Name" >NLTags</attribute>
 <attribute name="Xpos" >13.5</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
 </item>
 <item ID="1774963424" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Height" >5</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Name" >Stamps</attribute>
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="OnAdd" >$Prototype=&quot;Action&quot;;</attribute>
@@ -2255,9 +2841,9 @@ pattern: yes|no
 <attribute name="Xpos" >11.5</attribute>
 <attribute name="Ypos" >7.5</attribute>
 <item ID="1774963426" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Name" >(What’s This?)</attribute>
 <attribute name="Sentiment" >-0.8000000119</attribute>
 <attribute name="Sentiments" >-0.6;-1;-0.8;-1;-0.6</attribute>
@@ -2270,9 +2856,9 @@ Stamps with names beginning with a period are not listed in menus, but may be us
 </item>
 </item>
 <item ID="1774963427" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Height" >5</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Name" >Library</attribute>
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="OnAdd" >$Prototype=&quot;Action&quot;;</attribute>
@@ -2280,9 +2866,9 @@ Stamps with names beginning with a period are not listed in menus, but may be us
 <attribute name="Xpos" >0.5</attribute>
 <attribute name="Ypos" >13</attribute>
 <item ID="1774963428" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Name" >(What’s This?)</attribute>
 <attribute name="Sentiment" >-0.4285714435</attribute>
 <attribute name="Sentiments" >-0.6;0.2;-0.4;-0.6;-0.6;-0.4;-0.6</attribute>
@@ -2296,26 +2882,49 @@ to allow you to write expressions such as &apos;triple(5)&apos;.
 Library note names that begin with a parentheses, like this note, are treated as commentary or documentation. Other names may reflect the intent of the functions the note contains.</text>
 <rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7uAwAAKwAAAAEAAADmAwAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7XGYxXGZtb2Rlcm5cZmNoYXJzZXQwIENvdXJpZXJOZXdQU01UO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDBcZ3JlZW4wXGJsdWUwO1xyZWQ2N1xncmVlbjY3XGJsdWU2Nzt9CntcKlxleHBhbmRlZGNvbG9ydGJsOztcY3NwdGhyZWVcYzBcYzBcYzA7XGNzZ3JheVxjMzMzMzM7fQpccGFyZFx0eDU2MFx0eDExMjBcdHgxNjgwXHR4MjI0MFx0eDI4MDBcdHgzMzYwXHR4MzkyMFx0eDQ0ODBcdHg1MDQwXHR4NTYwMFx0eDYxNjBcdHg2NzIwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgVGhlIGxpYnJhcnkgY29udGFpbmVyIGhvbGRzIG5vdGVzIHRoYXQgZGVmaW5lIGZ1bmN0aW9ucyBcJzk3IGFjdGlvbnMgdGhhdCBhcHBlYXIgY2FuIGJlIHVzZWQgaW4gb3RoZXIgVGluZGVyYm94IGFjdGlvbnMuIEZvciBleGFtcGxlLCB5b3UgbWlnaHQgd3JpdGVcCgkKXGYxIFxjZjMgZnVuY3Rpb24gdHJpcGxlKHgpXAoJCSBce3JldHVybigzKngpO1x9ClxmMCBcY2YyIFwKdG8gYWxsb3cgeW91IHRvIHdyaXRlIGV4cHJlc3Npb25zIHN1Y2ggYXMgJ3RyaXBsZSg1KScuXAoJWW91IGNhbiBkZWZpbmUgbWFueSBmdW5jdGlvbnMgaW4gdGhlIHNhbWUgbGlicmFyeSBub3RlLCBhbmQgeW91IGNhbiBjcmVhdGUgZGlmZmVyZW50IGxpYnJhcnkgbm90ZXMgZm9yIGRpZmZlcmVudCB0YXNrcy5cCkxpYnJhcnkgbm90ZSBuYW1lcyB0aGF0IGJlZ2luIHdpdGggYSBwYXJlbnRoZXNlcywgbGlrZSB0aGlzIG5vdGUsIGFyZSB0cmVhdGVkIGFzIGNvbW1lbnRhcnkgb3IgZG9jdW1lbnRhdGlvbi4gT3RoZXIgbmFtZXMgbWF5IHJlZmxlY3QgdGhlIGludGVudCBvZiB0aGUgZnVuY3Rpb25zIHRoZSBub3RlIGNvbnRhaW5zLn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAADRystptgEAAAAAAAAAAAAA</rtfd>
 </item>
+<item ID="1776091065" Creator="Robert Hamrick" proto="Action" >
+<attribute name="Created" >2026-04-13T07:37:44-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >2.48</attribute>
+<attribute name="Modified" >2026-04-13T07:40:05-07:00</attribute>
+<attribute name="Name" >task_state</attribute>
+<attribute name="Sentiment" >-0.3500000071</attribute>
+<attribute name="Sentiments" >-0.6;-0.4;-0.4;0;-0.2;-0.8;0;-0.4</attribute>
+<attribute name="Width" >4</attribute>
+<attribute name="Xpos" >4.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >function task_state {
+    if ($IsPrototype==true) {
+        return;
+    }
+    if ($Checked==true) {
+        $Badge=&quot;check&quot;;
+        return;
+    }
+    $Badge=;
+}</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4gBAAAKwAAAAEAAAAYBAAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBBbmRhbGVNb25vO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDBcZ3JlZW4wXGJsdWUwO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMTBcZ3JlZW45NlxibHVlMjU1OwpccmVkMTU3XGdyZWVuNTFcYmx1ZTIxNDtccmVkNDFcZ3JlZW4xOTlcYmx1ZTUwO1xyZWQyNTJcZ3JlZW4zM1xibHVlMzc7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzc3JnYlxjMFxjMFxjMFxjODQ3MDZcY25hbWUgY29udHJvbFRleHRDb2xvcjtcY3NzcmdiXGMxMDAwMDBcYzEwMDAwMFxjMTAwMDAwXGNuYW1lIHRleHRCYWNrZ3JvdW5kQ29sb3I7XGNzc3JnYlxjMFxjNDc4NDNcYzEwMDAwMFxjbmFtZSBzeXN0ZW1CbHVlQ29sb3I7Clxjc3NyZ2JcYzY4NjI3XGMzMjE1N1xjODcwNTlcY25hbWUgc3lzdGVtUHVycGxlQ29sb3I7XGNzc3JnYlxjMTU2ODZcYzgwMzkyXGMyNTQ5MFxjbmFtZSBzeXN0ZW1HcmVlbkNvbG9yO1xjc3NyZ2JcYzEwMDAwMFxjMjMxMzdcYzE4ODI0XGNuYW1lIHN5c3RlbVJlZENvbG9yO30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMzMiBcY2YyIFxjYjMgZnVuY3Rpb24gdGFza19zdGF0ZSBce1wKICAgIFxjZjQgaWZcY2YyICAoXGNmNSAkSXNQcm90b3R5cGVcY2YyID09XGNmNiB0cnVlXGNmMiApIFx7XAogICAgICAgIFxjZjQgcmV0dXJuXGNmMiA7XAogICAgXH1cCiAgICBcY2Y0IGlmXGNmMiAgKFxjZjUgJENoZWNrZWRcY2YyID09XGNmNiB0cnVlXGNmMiApIFx7XAogICAgICAgIFxjZjUgJEJhZGdlXGNmMiA9XGNmNyAiY2hlY2siXGNmMiA7XAogICAgICAgIFxjZjQgcmV0dXJuXGNmMiA7XAogICAgXH1cCiAgICBcY2Y1ICRCYWRnZVxjZjIgPTtcClx9fQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAEUA3Wm2AQAAAAAAAAAAAAA=</rtfd>
+</item>
 </item>
 <item ID="1774963429" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Name" >AI</attribute>
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="Xpos" >6</attribute>
 <attribute name="Ypos" >13</attribute>
 <item ID="1774963430" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Height" >5</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Name" >Claude</attribute>
 <attribute name="Width" >5</attribute>
 <attribute name="Xpos" >0</attribute>
 <attribute name="Ypos" >0</attribute>
 <item ID="1774963431" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="NLNames" >Claude</attribute>
 <attribute name="Name" >(What’s This?)</attribute>
 <attribute name="Sentiment" >-0.7000000179</attribute>
@@ -2326,9 +2935,9 @@ Library note names that begin with a parentheses, like this note, are treated as
 </text>
 </item>
 <item ID="1774963432" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="NLNames" >Claude</attribute>
 <attribute name="Name" >Readings</attribute>
 <attribute name="Sentiment" >-0.6000000139</attribute>
@@ -2341,9 +2950,9 @@ All notes descended from this note are prompts about using Tinderbox and about t
 You may also create make and edit your own notes in /Hints/AI/Claude/Notes and in note created inside this container.  Please note down anything that might be helpful to future sessions. Keep your own notes concise. Feel free to consult these notes at any time, and always review them when starting or resuming a session.
 </text>
 <item ID="1774963433" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="NLNames" >Dr;Java;Javascript;Numeric Attributes;User Attributes;Vienna</attribute>
 <attribute name="NLOrganizations" >Logical Operators</attribute>
 <attribute name="NLPlaces" >Vienna</attribute>
@@ -2444,9 +3053,9 @@ prototypes.
 </text>
 </item>
 <item ID="1774963434" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="NLOrganizations" >HTML</attribute>
 <attribute name="Name" >Poster Notes</attribute>
 <attribute name="Sentiment" >-0.4571428682</attribute>
@@ -2468,9 +3077,9 @@ Visualizations from plotly, mermaid, chart.js and other sources have worked well
 </item>
 </item>
 <item ID="1774963435" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="NLNames" >Claude Code</attribute>
 <attribute name="Name" >Notes</attribute>
 <attribute name="Sentiment" >-0.3500000052</attribute>
@@ -2486,17 +3095,17 @@ When adding notes, place them in an appropriate existing catalog. If no catalog 
 </item>
 </item>
 <item ID="1774963436" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Height" >5</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Name" >Claude Code</attribute>
 <attribute name="Width" >5</attribute>
 <attribute name="Xpos" >5.5</attribute>
 <attribute name="Ypos" >0</attribute>
 <item ID="1774963437" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="NLNames" >Claude Code</attribute>
 <attribute name="Name" >(What’s This?)</attribute>
 <attribute name="Sentiment" >-0.8000000119</attribute>
@@ -2507,9 +3116,9 @@ When adding notes, place them in an appropriate existing catalog. If no catalog 
 </text>
 </item>
 <item ID="1774963438" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="NLNames" >Claude</attribute>
 <attribute name="Name" >Readings</attribute>
 <attribute name="Sentiment" >-0.6000000139</attribute>
@@ -2522,9 +3131,9 @@ All notes descended from this note are prompts about using Tinderbox and about t
 You may also create make and edit your own notes in /Hints/AI/Claude/Notes and in note created inside this container.  Please note down anything that might be helpful to future sessions. Keep your own notes concise. Feel free to consult these notes at any time, and always review them when starting or resuming a session.
 </text>
 <item ID="1774963439" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="NLNames" >Dr;Java;Javascript;Numeric Attributes;User Attributes;Vienna</attribute>
 <attribute name="NLOrganizations" >Logical Operators</attribute>
 <attribute name="NLPlaces" >Vienna</attribute>
@@ -2625,9 +3234,9 @@ prototypes.
 </text>
 </item>
 <item ID="1774963440" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="NLOrganizations" >HTML</attribute>
 <attribute name="Name" >Poster Notes</attribute>
 <attribute name="Sentiment" >-0.4571428682</attribute>
@@ -2649,9 +3258,9 @@ Visualizations from plotly, mermaid, chart.js and other sources have worked well
 </item>
 </item>
 <item ID="1774963441" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="NLNames" >Claude Code</attribute>
 <attribute name="Name" >Notes</attribute>
 <attribute name="Sentiment" >-0.3500000052</attribute>
@@ -2667,17 +3276,17 @@ When adding notes, place them in an appropriate existing catalog. If no catalog 
 </item>
 </item>
 <item ID="1774963442" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Height" >5</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="Name" >Gemini</attribute>
 <attribute name="Width" >5</attribute>
 <attribute name="Xpos" >11</attribute>
 <attribute name="Ypos" >0</attribute>
 <item ID="1774963443" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="NLNames" >Gemini</attribute>
 <attribute name="NLOrganizations" >Gemini</attribute>
 <attribute name="Name" >(What’s This?)</attribute>
@@ -2689,9 +3298,9 @@ When adding notes, place them in an appropriate existing catalog. If no catalog 
 </text>
 </item>
 <item ID="1774963444" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="NLOrganizations" >Gemini</attribute>
 <attribute name="Name" >Readings</attribute>
 <attribute name="Sentiment" >-0.5333333462</attribute>
@@ -2704,9 +3313,9 @@ All notes descended from this note are prompts about using Tinderbox and about t
 You may also create make and edit your own notes in /Hints/AI/Gemini/Notes and in note created inside this container.  Please note down anything that might be helpful to future sessions. Keep your own notes concise. Feel free to consult these notes at any time, and always review them when starting or resuming a session.
 </text>
 <item ID="1774963445" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="NLNames" >Dr;Java;Javascript;Numeric Attributes;User Attributes;Vienna</attribute>
 <attribute name="NLOrganizations" >Logical Operators</attribute>
 <attribute name="NLPlaces" >Vienna</attribute>
@@ -2807,9 +3416,9 @@ prototypes.
 </text>
 </item>
 <item ID="1774963446" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="NLOrganizations" >HTML</attribute>
 <attribute name="Name" >Poster Notes</attribute>
 <attribute name="Sentiment" >-0.4571428682</attribute>
@@ -2831,9 +3440,9 @@ Visualizations from plotly, mermaid, chart.js and other sources have worked well
 </item>
 </item>
 <item ID="1774963447" Creator="Robert Hamrick" >
-<attribute name="Created" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
-<attribute name="Modified" >2026-03-31T09:23:29-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:29-07:00</attribute>
 <attribute name="NLNames" >Claude Code</attribute>
 <attribute name="Name" >Notes</attribute>
 <attribute name="Sentiment" >-0.3500000052</attribute>
@@ -2852,13 +3461,13 @@ When adding notes, place them in an appropriate existing catalog. If no catalog 
 </item>
 <item ID="1774963448" Creator="Robert Hamrick" >
 <attribute name="Associates" ></attribute>
-<attribute name="Created" >2026-03-31T09:23:39-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:39-07:00</attribute>
 <attribute name="HTMLDontExport" >true</attribute>
 <attribute name="HTMLExportChildren" >false</attribute>
 <attribute name="Height" >4</attribute>
 <attribute name="IsComposite" >false</attribute>
 <attribute name="MapScrollX" >6</attribute>
-<attribute name="Modified" >2026-03-31T09:23:39-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:39-07:00</attribute>
 <attribute name="Name" >Templates</attribute>
 <attribute name="OnAdd" >$Prototype=&quot;HTML&quot;;$IsTemplate=true;$NeverComposite=true;</attribute>
 <attribute name="ScreenHeight" >128</attribute>
@@ -2867,10 +3476,10 @@ When adding notes, place them in an appropriate existing catalog. If no catalog 
 <attribute name="Xpos" >21</attribute>
 <attribute name="Ypos" >0</attribute>
 <item ID="1774963449" Creator="Robert Hamrick" proto="HTML" >
-<attribute name="Created" >2026-03-31T09:23:39-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:39-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-03-31T09:23:39-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:39-07:00</attribute>
 <attribute name="NLOrganizations" >HTML</attribute>
 <attribute name="Name" >HTML page</attribute>
 <attribute name="NeverComposite" >true</attribute>
@@ -2895,10 +3504,10 @@ When adding notes, place them in an appropriate existing catalog. If no catalog 
 &lt;/html&gt;
 </text>
 <item ID="1774963451" Creator="Robert Hamrick" proto="HTML" >
-<attribute name="Created" >2026-03-31T09:23:39-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:39-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-03-31T09:23:39-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:39-07:00</attribute>
 <attribute name="NLOrganizations" >HTML</attribute>
 <attribute name="Name" >HTML item</attribute>
 <attribute name="Sentiment" >-0.6500000134</attribute>
@@ -2913,10 +3522,10 @@ When adding notes, place them in an appropriate existing catalog. If no catalog 
 </item>
 </item>
 <item ID="1774963452" Creator="Robert Hamrick" proto="HTML" >
-<attribute name="Created" >2026-03-31T09:23:49-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:23:49-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-03-31T09:23:49-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:23:49-07:00</attribute>
 <attribute name="Name" >HTML Single Note</attribute>
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="Sentiment" >-0.3000000098</attribute>
@@ -2940,10 +3549,10 @@ When adding notes, place them in an appropriate existing catalog. If no catalog 
 </text>
 </item>
 <item ID="1774964173" Creator="Robert Hamrick" proto="HTML" >
-<attribute name="Created" >2026-03-31T09:36:12-04:00</attribute>
+<attribute name="Created" >2026-03-31T06:36:12-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-03-31T09:36:12-04:00</attribute>
+<attribute name="Modified" >2026-03-31T06:36:12-07:00</attribute>
 <attribute name="Name" >Preview</attribute>
 <attribute name="NeverComposite" >true</attribute>
 <attribute name="Sentiment" >-0.3076923192</attribute>
@@ -2972,23 +3581,38 @@ When adding notes, place them in an appropriate existing catalog. If no catalog 
 <link name="prototype" sourceid="1774963450" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774963451" destcreator="Robert Hamrick" color="normal"  />
 <link name="prototype" sourceid="1774963450" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774963452" destcreator="Robert Hamrick" color="normal"  />
 <link name="prototype" sourceid="1774963743" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774963891" destcreator="Robert Hamrick" color="normal"  />
-<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774965130" destcreator="Robert Hamrick" color="normal"  />
-<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774965136" destcreator="Robert Hamrick" color="normal"  />
 <link name="prototype" sourceid="1774963743" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774963907" destcreator="Robert Hamrick" color="normal"  />
 <link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774965071" destcreator="Robert Hamrick" color="normal"  />
 <link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774965145" destcreator="Robert Hamrick" color="normal"  />
 <link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774965159" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774965136" destcreator="Robert Hamrick" color="normal"  />
 <link name="prototype" sourceid="1774963743" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774965188" destcreator="Robert Hamrick" color="normal"  />
 <link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774965219" destcreator="Robert Hamrick" color="normal"  />
-<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774965228" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774965130" destcreator="Robert Hamrick" color="normal"  />
 <link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774965249" destcreator="Robert Hamrick" color="normal"  />
 <link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774965255" destcreator="Robert Hamrick" color="normal"  />
 <link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774965257" destcreator="Robert Hamrick" color="normal"  />
 <link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774965272" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774965228" destcreator="Robert Hamrick" color="normal"  />
 <link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774965282" destcreator="Robert Hamrick" color="normal"  />
 <link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774965289" destcreator="Robert Hamrick" color="normal"  />
 <link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774965090" destcreator="Robert Hamrick" color="normal"  />
 <link name="prototype" sourceid="1774963450" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1774964173" destcreator="Robert Hamrick" color="normal"  />
+<link name="*untitled" sourceid="1776090437" sourcecreator="Robert Hamrick" sstart="656" slen="12" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776113026" destcreator="rph" color="normal" URL="https://awsacademy.instructure.com/courses/153748/modules#module_1995205"  />
+<link name="prototype" sourceid="1776090557" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776090320" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1776090557" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776090500" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1776090557" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776090503" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963425" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776091065" destcreator="Robert Hamrick" color="normal"  />
+<link name="*untitled" sourceid="1776090407" sourcecreator="Robert Hamrick" sstart="153" slen="34" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776113026" destcreator="rph" color="normal" URL="https://dvc.instructure.com/courses/117925/modules/955495"  />
+<link name="*untitled" sourceid="1776090407" sourcecreator="Robert Hamrick" sstart="1764" slen="68" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776113026" destcreator="rph" color="normal" URL="https://www.dvc.edu/academics/online-education/online-tips-and-tools.html"  />
+<link name="*untitled" sourceid="1776090407" sourcecreator="Robert Hamrick" sstart="2448" slen="27" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776113026" destcreator="rph" color="normal" URL="https://dvc.instructure.com/courses/117925/discussion_topics/2233786"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776101493" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776112742" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776112967" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776113149" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776113328" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776113575" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776114121" destcreator="Robert Hamrick" color="normal"  />
 </links>
 <macros >
 </macros>
@@ -3110,8 +3734,8 @@ When adding notes, place them in an appropriate existing catalog. If no catalog 
 <FindWindowY > 100</FindWindowY>
 <RenameWindowX > -1</RenameWindowX>
 <RenameWindowY > -1</RenameWindowY>
-<InspectorX > 0</InspectorX>
-<InspectorY > 0</InspectorY>
+<InspectorX > 804</InspectorX>
+<InspectorY > 120</InspectorY>
 <EnterKeyAction > 0</EnterKeyAction>
 <UpdateViewShown > </UpdateViewShown>
 <TimelineScale > 1000</TimelineScale>
@@ -3160,14 +3784,15 @@ When adding notes, place them in an appropriate existing catalog. If no catalog 
 <windows >
 <window bounds="Rect[ 0 89 1117 949]" ruler="0" toolbar="0" >
 <tabs >
-<tab selected="0" name="" subtitle="" viewType="0" usingRoadmap="0" hideBreadcrumbs="0" hideLinkWidgets="0" linkStubs="1" animateLinks="1" scale="32" ID="1774992697" scrollX="199" scrollY="223" mapscrollX="199" mapscrollY="223" selection="" expanded="" textTab="0" splitRatio="0.5" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1774879777" crosslinks="1" spread="0.5" treepaths="" crosslinkpaths="" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" oldColumnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName="" tableParent="1774879777" tableFontSize="12" force="" gaudiSize="0" gaudiFontSize="16" roundness="10" grout="10" cameraPosition="5 2.5 -5" cameraDirection="0 0 0" focalLength="0"  />
-<tab selected="1" name="" subtitle="" viewType="1" usingRoadmap="0" hideBreadcrumbs="0" hideLinkWidgets="0" linkStubs="1" animateLinks="1" scale="32" ID="1774992697" scrollX="231.5" scrollY="433.302" mapscrollX="221.5" mapscrollY="478.502" selection="1774965159 " expanded="1774963742 1774963907 1775391409 1774963406 " textTab="0" splitRatio="0.583706" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1774879777" crosslinks="1" spread="0.5" treepaths="" crosslinkpaths="" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" oldColumnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName="" tableParent="1774879777" tableFontSize="12" force="" gaudiSize="0" gaudiFontSize="16" roundness="10" grout="10" cameraPosition="5 2.5 -5" cameraDirection="0 0 0" focalLength="0"  />
+<tab selected="0" name="" subtitle="" viewType="0" usingRoadmap="0" hideBreadcrumbs="0" hideLinkWidgets="0" linkStubs="1" animateLinks="1" scale="32" ID="1776113026" scrollX="199" scrollY="223" mapscrollX="199" mapscrollY="223" selection="" expanded="" textTab="0" splitRatio="0.5" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1776113025" crosslinks="1" spread="0.5" treepaths="" crosslinkpaths="" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" oldColumnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName="" tableParent="1776113025" tableFontSize="12" force="" gaudiSize="0" gaudiFontSize="16" roundness="10" grout="10" cameraPosition="5 2.5 -5" cameraDirection="0 0 0" focalLength="0"  />
+<tab selected="1" name="" subtitle="" viewType="1" usingRoadmap="0" hideBreadcrumbs="0" hideLinkWidgets="0" linkStubs="1" animateLinks="1" scale="32" ID="1776113026" scrollX="231.5" scrollY="107.5" mapscrollX="231.5" mapscrollY="1013.91" selection="1774965071 " expanded="1774963742 1774963907 1774965188 1775391409 1776090315 1776090384 1774963406 1774963410 1774963427 " textTab="0" splitRatio="0.583706" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1776113025" crosslinks="1" spread="0.5" treepaths="" crosslinkpaths="" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" oldColumnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName="" tableParent="1776113025" tableFontSize="12" force="" gaudiSize="0" gaudiFontSize="16" roundness="10" grout="10" cameraPosition="5 2.5 -5" cameraDirection="0 0 0" focalLength="0"  />
 </tabs>
 </window>
 </windows>
 <utilityWindows >
 </utilityWindows>
 <searches >
+<search>ann</search>
 </searches>
 <filters >
 </filters>
