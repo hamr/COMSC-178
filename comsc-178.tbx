@@ -1500,7 +1500,6 @@ Typical ETL framework has:
 
 </text>
 <rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC55CgAAKwAAAAEAAABxCgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgIyMjIE9idGFpbiBkYXRhXApcCldoYXQgZGF0YSBkbyB5b3UgbmVlZCB0byB0cmFpbiB5b3VyIG1vZGVsIGFuZCBnZXQgdGhlIGludGVuZGVkIG91dHB1dD9cCiogSG93IG11Y2ggZGF0YSBkbyB5b3UgaGF2ZSBhbmQgd2hlcmUgaXMgaXQ/XAoqIERvIHlvdSBoYXZlIGFjY2VzcyB0byB0aGF0IGRhdGE/XAoqIFdoYXQgc29sdXRpb24gY2FuIHlvdSB1c2UgdG8gYnJpbmcgYWxsIG9mIHRoaXMgZGF0YSBpbnRvIG9uZSBjZW50cmFsaXplZCByZXBvc2l0b3J5P1wKKiBJcyB5b3VyIGRhdGEgcmVwcmVzZW50YXRpdmU/XApcCkRhdGEgc291cmNlczpcCiogcHJpdmF0ZSBkYXRhOiBkYXRhIHRoYXQgY3VzdG9tZXJzIGNyZWF0ZVwKKiBjb21tZXJjaWFsIGRhdGFcCiAgICAqIGNvbXBhbmllcyBtYWludGFpbiBkYXRhIGxpa2UgY3VyYXRlZCBuZXdzIHN0b3JpZXMsIGFub255bWl6ZWQgaGVhbHRoIGNhcmUgdHJhbnNhY3Rpb25zLCBnbG9iYWwgYnVzaW5lc3MgcmVjb3JkcywgbG9jYXRpb24gZGF0YVwKICAgICogQVdTIERhdGEgRXhjaGFuZ2UsIEFXUyBtYXJrZXRwbGFjZVwKKiBvcGVuLXNvdXJjZSBkYXRhIChjaGVjayBmb3IgbGltaXRzIG9uIHVzYWdlKTogIEthZ2dsZSwgV29ybGQgSGVhbHRoIE9yZ2FuaXphdGlvbiwgVVMgQ2Vuc3VzIEJ1cmVhdSwgTmF0aW9uYWwgT2NlYW5pYyBhbmQgQXRtb3NwaGVyaWMgQWRtaW5pc3RyYXRpb24gKFVTKSwgVUMgSXJ2aW5lIE1hY2hpbmUgTGVhcm5pbmcgUmVwb3NpdG9yeSwgQVdTXApcCkRhdGEgdGVybXM6XAoqICoqb2JzZXJ2YXRpb25zKio6IGRhdGEsIG1hZGUgdXAgb2YgKDEpIHRhcmdldCBhbmQgKDIpIGZlYXR1cmVzXAoqICoqbGFiZWxsZWQgZGF0YSoqOiBkYXRhIHdoZXJlIHRhcmdldCBhbnN3ZXIgb3IgcHJlZGljdGlvbiBpcyBhbHJlYWR5IGtub3duXAoqICoqdGFyZ2V0Kio6IG9ic2VydmF0aW9uXCc5MnMgYW5zd2VyIHRvIHByZWRpY3RcCiogKipmZWF0dXJlKio6IGRhdGEgYXR0cmlidXRlXApcClN0b3JpbmcgZGF0YSBpbiBBV1M6XAoqIFMzXAoqIEZTeCBmb3IgTHVzdHJlIChtb3ZlIGZyb20gUzMgdG8gRlN4IHRvIHByZXZlbnQgZG93bmxvYWRpbmcgbXVsdGlwbGUgdGltZXMpXAoqIEVGUzogbGVzcyBkYXRhIG1vdmVtZW50XAoqIFJEU1wKKiBSZWRzaGlmdCwgRUZTLCBUaW1lc3RyZWFtXApcClwKIyMjIEV4dHJhY3QsIHRyYW5zZm9ybSwgbG9hZCAoRVRMKVwKXAoqICoqZXh0cmFjdCoqOiBwdWxsIGRhdGEgZnJvbSBzb3VyY2VzIGludG8gYSBzaW5nbGUgbG9jYXRpb24uXAoqICoqdHJhbnNmb3JtKio6IG1heWJlIG1vZGlmeSBkYXRhLCBjb21iaW5lIHJlY29yZHMsIG9yIHRyYW5zZm9ybSBkYXRhXAoqICoqbG9hZCoqOiBsb2FkIGludG8gcmVwb3NpdG9yeSBzdWNoIGFzIFMzXApcClR5cGljYWwgRVRMIGZyYW1ld29yayBoYXM6XAoxLiBjcmF3bGVyIGNvbm5lY3RzIHRvIGRhdGEgc3RvcmUgKGNhbiBiZSBzb3VyY2Ugb3IgdGFyZ2V0KVwKMi4gcHJvZ3Jlc3NlcyB0aHJvdWdoIGEgcmFua2VkIGxpc3Qgb2YgY2xhc3NpZmllcnMgdG8gZGV0ZXJtaW5lIGRhdGEgc2NoZW1hXAozLiBjcmVhdGVzIG1ldGFkYXRhIHRhYmxlcyBpbiBBV1MgR2x1ZSBkYXRhIGNhdGFsb2dcCjQuIGEgam9iIGRlZmluZXMgYnVzaW5lc3MgbG9naWMgbmVlZGVkIHRvIHBlcmZvcm0gRVRMIHdvcmsuICBVc2Ugc2NoZWR1bGUgb3IgZXZlbnQgdG8gcnVuIHRoZSBqb2IuXApcCiMjIyBBV1MgR2x1ZVwKKiBydW5zIEVUTCBwcm9jZXNzOiBjYXRlZ29yaXplLCBjbGVhbiwgZW5yaWNoLCBtb3ZlIGJldHdlZW4gZGF0YSBzdG9yZXNcCiogY3Jhd2xzIGRhdGEgc291cmNlcyB0byBjcmVhdGUgY2F0YWxvZ3MgdGhhdCBvdGhlciBzeXN0ZW1zIGNhbiBxdWVyeVwKKiBNTCBmdW5jdGlvbmFsaXR5XAoqIHByb3ZpZGVzIHNjaGVkdWxlciB0aGF0IGhhbmRsZXMgZGVwZW5kZW5jeSByZXNvbHV0aW9uLCBqb2IgbW9uaXRvcmluZywgcmV0cmllc1wKKiBzZXJ2ZXJsZXNzXAoqIHVzZSBHbHVlIGNvbnNvbGUgb3IgQVBJXAoqIFB5dGhvbiBvciBBcGFjaGUgU3BhcmsgRVRMIGNvZGVcClwKXAojIyMgU2VjdXJlIHlvdXIgZGF0YVwKXAoqIFVzZSBJQU0gdG8gYWxsb3cgcmVhZC1vbmx5IGFjY2VzcyB0byBzcGVjaWZpYyBTMyBidWNrZXQuXAoqIEVuY3J5cHRpb24gZm9yIGRhdGEgYXQgcmVzdCwgZS5nLiBTMywgUkRTLlwKKiBTZWN1cmUgdHJhbnNwb3J0cyBmb3IgZGF0YSBpbiB0cmFuc2l0LCBlLmcuIFNTTC9UTFNcCiogQVdTIENsb3VkVHJhaWwgZm9yIGF1ZGl0aW5nIGFjY2VzcyB0byBkYXRhOiBsb2cgYW5kIGNvbnRpbnVvdXNseSBtb25pdG9yIGFjY2Vzc1wKXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAABijdabYBAAAAAAAAAAAAAA==</rtfd>
-</item>
 <item ID="1776101493" Creator="Robert Hamrick" proto="Markdown" >
 <attribute name="Created" >2026-04-13T10:31:32-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
@@ -1529,6 +1528,7 @@ Task 3: Opening a sample notebook
 
 Task 4: Importing data</text>
 <rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4gAwAAKwAAAAEAAAAYAwAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgSW4gdGhpcyBsYWIsIHlvdSB3aWxsIFwKKiBsYXVuY2ggYW4gQW1hem9uIFNhZ2VNYWtlciBub3RlYm9vayBpbnN0YW5jZVwKKiBjcmVhdGUgYSBKdXB5dGVyIG5vdGVib29rXAoqIGNyZWF0ZSBjb2RlIGFuZCBNYXJrZG93biBjZWxscyB3aXRoaW4gdGhlIG5vdGVib29rXAoqIGRvd25sb2FkIGRhdGEgZnJvbSBhbiBleHRlcm5hbCBzb3VyY2VcCiogc2F2ZSB5b3VyIG5vdGVib29rIGxvY2FsbHkgc28geW91IGNhbiBjb250aW51ZSB3b3JraW5nIG9uIGxhYnMgYWNyb3NzIHNlc3Npb25zXApcClRhc2sgMTogQ3JlYXRpbmcgYSBKdXB5dGVyIG5vdGVib29rIHdpdGggQW1hem9uIFNhZ2VNYWtlclwKXApUYXNrIDI6IEludHJvZHVjaW5nIEp1cHl0ZXJMYWJcClwKVGFzayAzOiBPcGVuaW5nIGEgc2FtcGxlIG5vdGVib29rXApcClRhc2sgNDogSW1wb3J0aW5nIGRhdGF9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAACjPdabYBAAAAAAAAAAAAAA==</rtfd>
+</item>
 </item>
 <item ID="1774965249" Creator="Robert Hamrick" proto="Markdown" >
 <attribute name="Created" >2026-03-31T06:54:08-07:00</attribute>
@@ -1587,7 +1587,6 @@ Correlation is between -1 and 1.
 Heat map:  correlation=1 in green, correlation=-1 in brown
 </text>
 <rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6TCAAAKwAAAAEAAACLCAAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7XHJlZDBcZ3JlZW4wXGJsdWUwO30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc3B0aHJlZVxjMFxjMFxjMDtcY3NwdGhyZWVcYzBcYzBcYzA7fQpccGFyZFx0eDU0MFx0eDEwODBcdHgxNjIwXHR4MjE2MFx0eDI3MDBcdHgzMjQwXHR4Mzc4MFx0eDQzMjBcc2wyODhcc2xtdWx0MVxzYjQwXHNhNDBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiAqIGZvcm1hdCBkYXRhXAoqIGV4YW1pbmUgZGF0YSB0eXBlc1wKKiBwZXJmb3JtIGRlc2NyaXB0aXZlIHN0YXRpc3RpY3NcCiogdmlzdWFsaXplIGRhdGFcClwKIyMjIEludHJvIHRvIFBhbmRhcyBkYXRhZnJhbWVzXApcCiMjIyBEZXNjcmliZSB5b3VyIGRhdGFcClwKRGVzY3JpcHRpdmUgc3RhdGlzdGljc1wKKiBvdmVyYWxsIHN0YXRpc3RpY3NcCiAgICAqIG51bWJlciBvZiByb3dzLCBjb2x1bW5zOiAgdG9vIG1hbnkgZmVhdHVyZXM/XAoqIGF0dHJpYnV0ZSBzdGF0aXN0aWNzXAogICAgKiBzZW5zZSBvZiBzaGFwZSBvZiBhdHRyaWJ1dGVzOiAgbWVhbiwgc3RkIGRldmlhdGlvbnMsIG1pbmltdW0sIG1heGltdW0gdmFsdWFibGVzXApccGFyZFx0eDU0MFx0eDEwODBcdHgxNjIwXHR4MjE2MFx0eDI3MDBcdHgzMjQwXHR4Mzc4MFx0eDQzMjBcc2wyODhcc2xtdWx0MVxzYjQwXHNhNDBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMApcY2YzICAgICAqIG1lYW46IHVzZWZ1bCBpZiBkYXRhIGlzIHN5bW1ldHJpY2FsLCBidXQgb3V0bGllcnMgc2tld1wKICAgICogbWVkaWFuOiAgbm90IGFmZmVjdGVkIGJ5IG91dGxpZXJzIGluIHRoZSBzYW1lIHdheVxjZjIgXApccGFyZFx0eDU0MFx0eDEwODBcdHgxNjIwXHR4MjE2MFx0eDI3MDBcdHgzMjQwXHR4Mzc4MFx0eDQzMjBcc2wyODhcc2xtdWx0MVxzYjQwXHNhNDBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMApcY2YyICogbXVsdGl2YXJpYXRlIHN0YXRpc3RpY3NcCiAgICAqIGNvcnJlbGF0aW9ucyBiZXR3ZWVuIGF0dHJpYnV0ZXM6ICBjbG9zZWx5IGNvcnJlbGF0ZWQgYXR0cmlidXRlcyBsZWFkIHRvIHBvb3IgbW9kZWwgcGVyZm9ybWFuY2VcClwKQ2F0ZWdvcmljYWwgZGF0YTpcCiogZnJlcXVlbmN5IG9mIHZhbHVlcyBhbmQgY2xhc3MgaW1iYWxhbmNlcz9cClwKVXNlIGhpc3RvZ3JhbXMgYW5kIGJveCBwbG90cyB0byBhbnN3ZXIgcXVlc3Rpb25zIGFib3V0OlwKKiByYW5nZSBvZiB0aGUgZGF0YVwKKiBwZWFrXAoqIG91dGxpZXJzXAoqIHNwZWNpYWwgZmVhdHVyZXNcClwKUGxvdHRpbmcgbXVsdGl2YXJpYXRlIHN0YXRpc3RpY3MsIHRvIHNob3cgcmVsYXRpb25zaGlwIGJldHdlZW4gdmFyaWFibGVzOlwKKiBzY2F0dGVyIHBsb3QgXApccGFyZFx0eDU0MFx0eDEwODBcdHgxNjIwXHR4MjE2MFx0eDI3MDBcdHgzMjQwXHR4Mzc4MFx0eDQzMjBcc2wyODhcc2xtdWx0MVxzYjQwXHNhNDBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMApcY2YzICogc2NhdHRlciBwbG90IG1hdHJpeFwKXAojIyMgRmluZGluZyBjb3JyZWxhdGlvbnNcClwKSG93IGNhbiB5b3UgcXVhbnRpZnkgdGhlIGxpbmVhciByZWxhdGlvbnNoaXAgYW1vbmcgdGhlIHZhcmlhYmxlcyB5b3Ugc2VlIGluIGEgc2NhdHRlciBwbG90P1wKXApUcnkgYSBjb3JyZWxhdGlvbiBtYXRyaXggdG8gY29udmV5IHRoZSBzdHJvbmcgYW5kIHdlYWsgcmVsYXRpb25zaGlwIGJldHdlZW4gbnVtZXJpY2FsIHZhcmlhYmxlcy5cClwKQ29ycmVsYXRpb24gaXMgYmV0d2VlbiAtMSBhbmQgMS5cCiogMSA9PiBwZXJmZWN0bHkgY29ycmVsYXRlZDogIHkgaXMgcHJvcG9ydGlvbmFsIHRvIHhcCiogLTEgPT4gaW52ZXJzZTogIHkgaXMgcHJvcG9ydGlvbmFsIHRvIC14XAoqIDAgPT4gbm8gbGluZWFyIHJlbGF0aW9uc2hpcCAoYWx0aG91Z2ggaXQgZG9lc25cJzkydCBtZWFuIHRoYXQgdGhlcmUgaXMgbm8gcmVsYXRpb25zaGlwKVwKXApIZWF0IG1hcDogIGNvcnJlbGF0aW9uPTEgaW4gZ3JlZW4sIGNvcnJlbGF0aW9uPS0xIGluIGJyb3duXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAnU3dabYBAAAAAAAAAAAAAA==</rtfd>
-</item>
 <item ID="1776114121" Creator="Robert Hamrick" proto="Markdown" >
 <attribute name="Created" >2026-04-13T14:02:00-07:00</attribute>
 <attribute name="Height" >3</attribute>
@@ -1596,6 +1595,7 @@ Heat map:  correlation=1 in green, correlation=-1 in brown
 <attribute name="Width" >5</attribute>
 <attribute name="Xpos" >100</attribute>
 <attribute name="Ypos" >0</attribute>
+</item>
 </item>
 <item ID="1774965255" Creator="Robert Hamrick" proto="Markdown" >
 <attribute name="Created" >2026-03-31T06:54:14-07:00</attribute>
@@ -1687,39 +1687,581 @@ Embedded methods combine filter and wrapper methods.
 </item>
 <item ID="1774965257" Creator="Robert Hamrick" proto="Markdown" >
 <attribute name="Created" >2026-03-31T06:54:16-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-03-31T06:54:16-07:00</attribute>
+<attribute name="Modified" >2026-04-14T11:25:12-07:00</attribute>
+<attribute name="NLOrganizations" >Amazon;Apache MXNet</attribute>
 <attribute name="Name" >3.5 Training</attribute>
+<attribute name="Sentiment" >-0.2780487854</attribute>
+<attribute name="Sentiments" >0;-0.4;-0.8;-0.2;0;-0.4;-0.4;-0.8;0.2;-0.6;-0.2;-0.4;-0.6;0.2;-0.6;0;0.6;-0.4;-0.4;-0.6;0;0.4;0.2;0.4;-1;-0.8;0.4;-1;-0.4;-0.4;-0.6;1;0.6;-0.8;-1;0;-0.4;-0.4;-0.4;-0.8;-0.6</attribute>
 <attribute name="Width" >5</attribute>
 <attribute name="Xpos" >72.5</attribute>
 <attribute name="Ypos" >0</attribute>
+<text >Many SageMaker algorithms support training data in csv.
+* no header record
+* target variable in first column
+
+Most algorithms work best when using Protobuff recordIO format.
+* take advantage of “pipe mode” to stream data directly from S3
+
+Holdout method: split data into multiple sets
+* 10% testing (features, no labels)
+* 10% validation (features, labels)
+* 80% training (features, labels)
+
+K-fold cross validation:  randomly partition data into K segments
+* use data outside of segment for training
+* validate with segment
+* test with K different models
+
+Data in specific order can lead to biases.
+* randomize data before training
+* with smaller sets, can be useful to use stratified sampling to ensure that training and test data have approximately the same percentage of samples of each target class as the complete set
+* use train-test-split function from sklearn
+
+Training models with Amazon SageMaker: use containers behind the scenes
+* prebuilt containers include Apache MXNet, TensorFlow, PyTorch, Chainer
+* support for ML libraries: scikit-learn, SparkML
+
+Built-in algorithms:
+* for supervised learning: XGBoost, Linear Learner for lassification and Quantitative (or regression) problems
+* factorization machines to address recommendation and time series prediction problems
+* for unsupervised learning: K-means clustering, Principal Component Analysis (PCA) to solve problems like identifying customer groupings based on customer behavior
+* specialized libraries for processing images or other deep learning tasks
+
+**XGBoost** (Extreme Gradient Boosting): implementation of gradient boosted trees algorithm
+* supervised learning algorithm that attempts to predict target variable by combining estimates from a set of simpler, weaker models
+* handles various data types, relationships, distributions.  Large number of hyperparameters can be tweaked and tuned.
+* good for problems in regressions, classification, and ranking
+
+**SageMaker Linear Learner**: provides solution for classification and regression problems
+* simultaneously explore different training objectives and choose the best solution from your validation set
+* large number of models, select the best for your needs
+* provides increase in speed over naive hyperparameter optimization techniques
+
+**K-means**: unsupervised learning algorithm that attempts to find groupings in data where members are as similar as possible to one another and as different as possible from members of other groups
+* you define the algorithm for determining similarity
+
+Creating a training job in SageMaker
+* url of S3 bucket for training data
+* url of S3 bucket for job output
+* ECR path where training code is stored
+* compute resources to use for model training (ml compute instance types)
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6YDAAAKwAAAAEAAACQDAAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7XHJlZDBcZ3JlZW4wXGJsdWUwO30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc3B0aHJlZVxjMFxjMFxjMDtcY3NwdGhyZWVcYzBcYzBcYzA7fQpccGFyZFx0eDU0MFx0eDEwODBcdHgxNjIwXHR4MjE2MFx0eDI3MDBcdHgzMjQwXHR4Mzc4MFx0eDQzMjBcc2wyODhcc2xtdWx0MVxzYjQwXHNhNDBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiBNYW55IFNhZ2VNYWtlciBhbGdvcml0aG1zIHN1cHBvcnQgdHJhaW5pbmcgZGF0YSBpbiBjc3YuXAoqIG5vIGhlYWRlciByZWNvcmRcCiogdGFyZ2V0IHZhcmlhYmxlIGluIGZpcnN0IGNvbHVtblwKXApNb3N0IGFsZ29yaXRobXMgd29yayBiZXN0IHdoZW4gdXNpbmcgUHJvdG9idWZmIHJlY29yZElPIGZvcm1hdC5cCiogdGFrZSBhZHZhbnRhZ2Ugb2YgXCc5M3BpcGUgbW9kZVwnOTQgdG8gc3RyZWFtIGRhdGEgZGlyZWN0bHkgZnJvbSBTM1wKXApIb2xkb3V0IG1ldGhvZDogc3BsaXQgZGF0YSBpbnRvIG11bHRpcGxlIHNldHNcCiogMTAlIHRlc3RpbmcgKGZlYXR1cmVzLCBubyBsYWJlbHMpXAoqIDEwJSB2YWxpZGF0aW9uIFxjZjMgKGZlYXR1cmVzLCBsYWJlbHMpXGNmMiBcCiogODAlIHRyYWluaW5nIFxjZjMgKGZlYXR1cmVzLCBsYWJlbHMpXApcCkstZm9sZCBjcm9zcyB2YWxpZGF0aW9uOiAgcmFuZG9tbHkgcGFydGl0aW9uIGRhdGEgaW50byBLIHNlZ21lbnRzXAoqIHVzZSBkYXRhIG91dHNpZGUgb2Ygc2VnbWVudCBmb3IgdHJhaW5pbmdcCiogdmFsaWRhdGUgd2l0aCBzZWdtZW50XAoqIHRlc3Qgd2l0aCBLIGRpZmZlcmVudCBtb2RlbHNcClwKRGF0YSBpbiBzcGVjaWZpYyBvcmRlciBjYW4gbGVhZCB0byBiaWFzZXMuXAoqIHJhbmRvbWl6ZSBkYXRhIGJlZm9yZSB0cmFpbmluZ1wKKiB3aXRoIHNtYWxsZXIgc2V0cywgY2FuIGJlIHVzZWZ1bCB0byB1c2Ugc3RyYXRpZmllZCBzYW1wbGluZyB0byBlbnN1cmUgdGhhdCB0cmFpbmluZyBhbmQgdGVzdCBkYXRhIGhhdmUgYXBwcm94aW1hdGVseSB0aGUgc2FtZSBwZXJjZW50YWdlIG9mIHNhbXBsZXMgb2YgZWFjaCB0YXJnZXQgY2xhc3MgYXMgdGhlIGNvbXBsZXRlIHNldFwKKiB1c2UgdHJhaW4tdGVzdC1zcGxpdCBmdW5jdGlvbiBmcm9tIHNrbGVhcm5cClwKVHJhaW5pbmcgbW9kZWxzIHdpdGggQW1hem9uIFNhZ2VNYWtlcjogdXNlIGNvbnRhaW5lcnMgYmVoaW5kIHRoZSBzY2VuZXNcCiogcHJlYnVpbHQgY29udGFpbmVycyBpbmNsdWRlIEFwYWNoZSBNWE5ldCwgVGVuc29yRmxvdywgUHlUb3JjaCwgQ2hhaW5lclwKKiBzdXBwb3J0IGZvciBNTCBsaWJyYXJpZXM6IHNjaWtpdC1sZWFybiwgU3BhcmtNTFwKXApCdWlsdC1pbiBhbGdvcml0aG1zOlwKKiBmb3Igc3VwZXJ2aXNlZCBsZWFybmluZzogWEdCb29zdCwgTGluZWFyIExlYXJuZXIgZm9yIGxhc3NpZmljYXRpb24gYW5kIFF1YW50aXRhdGl2ZSAob3IgcmVncmVzc2lvbikgcHJvYmxlbXNcCiogZmFjdG9yaXphdGlvbiBtYWNoaW5lcyB0byBhZGRyZXNzIHJlY29tbWVuZGF0aW9uIGFuZCB0aW1lIHNlcmllcyBwcmVkaWN0aW9uIHByb2JsZW1zXAoqIGZvciB1bnN1cGVydmlzZWQgbGVhcm5pbmc6IEstbWVhbnMgY2x1c3RlcmluZywgUHJpbmNpcGFsIENvbXBvbmVudCBBbmFseXNpcyAoUENBKSB0byBzb2x2ZSBwcm9ibGVtcyBsaWtlIGlkZW50aWZ5aW5nIGN1c3RvbWVyIGdyb3VwaW5ncyBiYXNlZCBvbiBjdXN0b21lciBiZWhhdmlvclwKKiBzcGVjaWFsaXplZCBsaWJyYXJpZXMgZm9yIHByb2Nlc3NpbmcgaW1hZ2VzIG9yIG90aGVyIGRlZXAgbGVhcm5pbmcgdGFza3NcClwKKipYR0Jvb3N0KiogKEV4dHJlbWUgR3JhZGllbnQgQm9vc3RpbmcpOiBpbXBsZW1lbnRhdGlvbiBvZiBncmFkaWVudCBib29zdGVkIHRyZWVzIGFsZ29yaXRobVwKKiBzdXBlcnZpc2VkIGxlYXJuaW5nIGFsZ29yaXRobSB0aGF0IGF0dGVtcHRzIHRvIHByZWRpY3QgdGFyZ2V0IHZhcmlhYmxlIGJ5IGNvbWJpbmluZyBlc3RpbWF0ZXMgZnJvbSBhIHNldCBvZiBzaW1wbGVyLCB3ZWFrZXIgbW9kZWxzXAoqIGhhbmRsZXMgdmFyaW91cyBkYXRhIHR5cGVzLCByZWxhdGlvbnNoaXBzLCBkaXN0cmlidXRpb25zLiAgTGFyZ2UgbnVtYmVyIG9mIGh5cGVycGFyYW1ldGVycyBjYW4gYmUgdHdlYWtlZCBhbmQgdHVuZWQuXAoqIGdvb2QgZm9yIHByb2JsZW1zIGluIHJlZ3Jlc3Npb25zLCBjbGFzc2lmaWNhdGlvbiwgYW5kIHJhbmtpbmdcClwKKipTYWdlTWFrZXIgTGluZWFyIExlYXJuZXIqKjogcHJvdmlkZXMgc29sdXRpb24gZm9yIGNsYXNzaWZpY2F0aW9uIGFuZCByZWdyZXNzaW9uIHByb2JsZW1zXAoqIHNpbXVsdGFuZW91c2x5IGV4cGxvcmUgZGlmZmVyZW50IHRyYWluaW5nIG9iamVjdGl2ZXMgYW5kIGNob29zZSB0aGUgYmVzdCBzb2x1dGlvbiBmcm9tIHlvdXIgdmFsaWRhdGlvbiBzZXRcCiogbGFyZ2UgbnVtYmVyIG9mIG1vZGVscywgc2VsZWN0IHRoZSBiZXN0IGZvciB5b3VyIG5lZWRzXAoqIHByb3ZpZGVzIGluY3JlYXNlIGluIHNwZWVkIG92ZXIgbmFpdmUgaHlwZXJwYXJhbWV0ZXIgb3B0aW1pemF0aW9uIHRlY2huaXF1ZXNcClwKKipLLW1lYW5zKio6IHVuc3VwZXJ2aXNlZCBsZWFybmluZyBhbGdvcml0aG0gdGhhdCBhdHRlbXB0cyB0byBmaW5kIGdyb3VwaW5ncyBpbiBkYXRhIHdoZXJlIG1lbWJlcnMgYXJlIGFzIHNpbWlsYXIgYXMgcG9zc2libGUgdG8gb25lIGFub3RoZXIgYW5kIGFzIGRpZmZlcmVudCBhcyBwb3NzaWJsZSBmcm9tIG1lbWJlcnMgb2Ygb3RoZXIgZ3JvdXBzXAoqIHlvdSBkZWZpbmUgdGhlIGFsZ29yaXRobSBmb3IgZGV0ZXJtaW5pbmcgc2ltaWxhcml0eVwKXApDcmVhdGluZyBhIHRyYWluaW5nIGpvYiBpbiBTYWdlTWFrZXJcCiogdXJsIG9mIFMzIGJ1Y2tldCBmb3IgdHJhaW5pbmcgZGF0YVwKKiB1cmwgb2YgUzMgYnVja2V0IGZvciBqb2Igb3V0cHV0XAoqIEVDUiBwYXRoIHdoZXJlIHRyYWluaW5nIGNvZGUgaXMgc3RvcmVkXAoqIGNvbXB1dGUgcmVzb3VyY2VzIHRvIHVzZSBmb3IgbW9kZWwgdHJhaW5pbmcgKG1sIGNvbXB1dGUgaW5zdGFuY2UgdHlwZXMpXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAiIbeabYBAAAAAAAAAAAAAA==</rtfd>
+<item ID="1776191114" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-14T11:25:13-07:00</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-04-14T11:25:13-07:00</attribute>
+<attribute name="Name" >Demo - Training a model using Amazon SageMaker</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >105.5</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="1776191130" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-14T11:25:29-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-04-14T11:41:54-07:00</attribute>
+<attribute name="NLNames" >Lab</attribute>
+<attribute name="Name" >Lab 3.4 - Amazon SageMaker - Training a model</attribute>
+<attribute name="Sentiment" >0.8000000119</attribute>
+<attribute name="Sentiments" >0.8;0.8</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >111</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >In this lab, you will continue exploring the biomechanical vertebral column dataset. You will first split the dataset into three separate datasets for training, validation, and testing. You will then use this data to train a machine learning (MML) model by using the XGBoost algorithm.
+
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6PAgAAKwAAAAEAAACHAgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgSW4gdGhpcyBsYWIsIHlvdSB3aWxsIGNvbnRpbnVlIGV4cGxvcmluZyB0aGUgYmlvbWVjaGFuaWNhbCB2ZXJ0ZWJyYWwgY29sdW1uIGRhdGFzZXQuIFlvdSB3aWxsIGZpcnN0IHNwbGl0IHRoZSBkYXRhc2V0IGludG8gdGhyZWUgc2VwYXJhdGUgZGF0YXNldHMgZm9yIHRyYWluaW5nLCB2YWxpZGF0aW9uLCBhbmQgdGVzdGluZy4gWW91IHdpbGwgdGhlbiB1c2UgdGhpcyBkYXRhIHRvIHRyYWluIGEgbWFjaGluZSBsZWFybmluZyAoTU1MKSBtb2RlbCBieSB1c2luZyB0aGUgWEdCb29zdCBhbGdvcml0aG0uXApcCn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAAByit5ptgEAAAAAAAAAAAAA</rtfd>
+</item>
 </item>
 <item ID="1774965272" Creator="Robert Hamrick" proto="Markdown" >
 <attribute name="Created" >2026-03-31T06:54:31-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-03-31T06:54:31-07:00</attribute>
+<attribute name="Modified" >2026-04-14T14:53:44-07:00</attribute>
+<attribute name="NLOrganizations" >SageMaker SDK</attribute>
 <attribute name="Name" >3.6 Hosting and using the model</attribute>
+<attribute name="Sentiment" >-0.4956521845</attribute>
+<attribute name="Sentiments" >-0.6;-0.8;-0.8;-0.4;-0.8;-0.8;-0.2;-0.6;0.2;-0.6;-0.8;-0.2;0.2;-0.4;-0.8;-0.8;-0.4;0.6;-0.6;-0.8;-0.6;-0.8;-0.6</attribute>
 <attribute name="Width" >5</attribute>
 <attribute name="Xpos" >78</attribute>
 <attribute name="Ypos" >0</attribute>
+<text >Deploy trained model using SageMaker.
+The goal is to generate predictions for client applications.
+
+Two deployment options:
+* for single predictions, deploy with SageMaker hosting services
+    * multiple instances behind a load-balanced endpoint
+    * applications call api endpoint to make predictions
+* for predictions for an entire dataset, use SageMaker batch transform
+    * perform predictions for entire dataset
+    * store results in S3
+    * shuts down, terminates compute instances
+    * useful for performing batch predictions when you test the model:  run entire validation set against the model without writing any code to process and collate the individual results
+
+Goal of deployment:  provide a managed environment to host models, provide inference securely and with low latency
+
+Deployment is continuous
+
+After deployment, monitor production data and retrain model if necessary.
+Newly deployed models need to reflect current production data.
+
+To deploy, specify instance type, minimum and maximum number of instances.
+
+Create endpoint: use console or SageMaker SDK.  Or create multi-model endpoint support to save resources when you have multiple models to deploy.
+
+Obtaining predictions:  
+* when deploying ML models to make predictions on new data, apply the same data processing steps that were used in training to each inference request.  otherwise, can get incorrect prediction results.
+* by using inference pipelines, can reuse the data processing steps from model training during inference without maintaining two separate copies of the same code.
+* inference pipelines are managed.  when deploy pipeline model, the service installs and runs the same containers on each EC2 instance in the endpoint or each batch transform job
+* the sequence of feature processing and inference runs with low latency because the containers are located on the same EC2 instances
+
+
+
+
+
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4RCgAAKwAAAAEAAAAJCgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7XHJlZDBcZ3JlZW4wXGJsdWUwO30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc3B0aHJlZVxjMFxjMFxjMDtcY3NwdGhyZWVcYzBcYzBcYzA7fQpccGFyZFx0eDU0MFx0eDEwODBcdHgxNjIwXHR4MjE2MFx0eDI3MDBcdHgzMjQwXHR4Mzc4MFx0eDQzMjBcc2wyODhcc2xtdWx0MVxzYjQwXHNhNDBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiBEZXBsb3kgdHJhaW5lZCBtb2RlbCB1c2luZyBTYWdlTWFrZXIuXApUaGUgZ29hbCBpcyB0byBnZW5lcmF0ZSBwcmVkaWN0aW9ucyBmb3IgY2xpZW50IGFwcGxpY2F0aW9ucy5cClwKVHdvIGRlcGxveW1lbnQgb3B0aW9uczpcCiogZm9yIHNpbmdsZSBwcmVkaWN0aW9ucywgZGVwbG95IHdpdGggU2FnZU1ha2VyIGhvc3Rpbmcgc2VydmljZXNcCiAgICAqIG11bHRpcGxlIGluc3RhbmNlcyBiZWhpbmQgYSBsb2FkLWJhbGFuY2VkIGVuZHBvaW50XAogICAgKiBhcHBsaWNhdGlvbnMgY2FsbCBhcGkgZW5kcG9pbnQgdG8gbWFrZSBwcmVkaWN0aW9uc1wKKiBmb3IgcHJlZGljdGlvbnMgZm9yIGFuIGVudGlyZSBkYXRhc2V0LCB1c2UgU2FnZU1ha2VyIGJhdGNoIHRyYW5zZm9ybVwKICAgICogcGVyZm9ybSBwcmVkaWN0aW9ucyBmb3IgZW50aXJlIGRhdGFzZXRcCiAgICAqIHN0b3JlIHJlc3VsdHMgaW4gUzNcCiAgICAqIHNodXRzIGRvd24sIHRlcm1pbmF0ZXMgY29tcHV0ZSBpbnN0YW5jZXNcCiAgICAqIHVzZWZ1bCBmb3IgcGVyZm9ybWluZyBiYXRjaCBwcmVkaWN0aW9ucyB3aGVuIHlvdSB0ZXN0IHRoZSBtb2RlbDogIHJ1biBlbnRpcmUgdmFsaWRhdGlvbiBzZXQgYWdhaW5zdCB0aGUgbW9kZWwgd2l0aG91dCB3cml0aW5nIGFueSBjb2RlIHRvIHByb2Nlc3MgYW5kIGNvbGxhdGUgdGhlIGluZGl2aWR1YWwgcmVzdWx0c1wKXApHb2FsIG9mIGRlcGxveW1lbnQ6ICBwcm92aWRlIGEgbWFuYWdlZCBlbnZpcm9ubWVudCB0byBob3N0IG1vZGVscywgcHJvdmlkZSBpbmZlcmVuY2Ugc2VjdXJlbHkgYW5kIHdpdGggbG93IGxhdGVuY3lcClwKXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKXGNmMyBEZXBsb3ltZW50IGlzIGNvbnRpbnVvdXNcY2YyIFwKXApccGFyZFx0eDU0MFx0eDEwODBcdHgxNjIwXHR4MjE2MFx0eDI3MDBcdHgzMjQwXHR4Mzc4MFx0eDQzMjBcc2wyODhcc2xtdWx0MVxzYjQwXHNhNDBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMApcY2YyIEFmdGVyIGRlcGxveW1lbnQsIG1vbml0b3IgcHJvZHVjdGlvbiBkYXRhIGFuZCByZXRyYWluIG1vZGVsIGlmIG5lY2Vzc2FyeS5cCk5ld2x5IGRlcGxveWVkIG1vZGVscyBuZWVkIHRvIHJlZmxlY3QgY3VycmVudCBwcm9kdWN0aW9uIGRhdGEuXApcClRvIGRlcGxveSwgc3BlY2lmeSBpbnN0YW5jZSB0eXBlLCBtaW5pbXVtIGFuZCBtYXhpbXVtIG51bWJlciBvZiBpbnN0YW5jZXMuXApcCkNyZWF0ZSBlbmRwb2ludDogdXNlIGNvbnNvbGUgb3IgU2FnZU1ha2VyIFNESy4gIE9yIGNyZWF0ZSBtdWx0aS1tb2RlbCBlbmRwb2ludCBzdXBwb3J0IHRvIHNhdmUgcmVzb3VyY2VzIHdoZW4geW91IGhhdmUgbXVsdGlwbGUgbW9kZWxzIHRvIGRlcGxveS5cClwKT2J0YWluaW5nIHByZWRpY3Rpb25zOiAgXAoqIHdoZW4gZGVwbG95aW5nIE1MIG1vZGVscyB0byBtYWtlIHByZWRpY3Rpb25zIG9uIG5ldyBkYXRhLCBhcHBseSB0aGUgc2FtZSBkYXRhIHByb2Nlc3Npbmcgc3RlcHMgdGhhdCB3ZXJlIHVzZWQgaW4gdHJhaW5pbmcgdG8gZWFjaCBpbmZlcmVuY2UgcmVxdWVzdC4gIG90aGVyd2lzZSwgY2FuIGdldCBpbmNvcnJlY3QgcHJlZGljdGlvbiByZXN1bHRzLlwKKiBieSB1c2luZyBpbmZlcmVuY2UgcGlwZWxpbmVzLCBjYW4gcmV1c2UgdGhlIGRhdGEgcHJvY2Vzc2luZyBzdGVwcyBmcm9tIG1vZGVsIHRyYWluaW5nIGR1cmluZyBpbmZlcmVuY2Ugd2l0aG91dCBtYWludGFpbmluZyB0d28gc2VwYXJhdGUgY29waWVzIG9mIHRoZSBzYW1lIGNvZGUuXAoqIGluZmVyZW5jZSBwaXBlbGluZXMgYXJlIG1hbmFnZWQuICB3aGVuIGRlcGxveSBwaXBlbGluZSBtb2RlbCwgdGhlIHNlcnZpY2UgaW5zdGFsbHMgYW5kIHJ1bnMgdGhlIHNhbWUgY29udGFpbmVycyBvbiBlYWNoIEVDMiBpbnN0YW5jZSBpbiB0aGUgZW5kcG9pbnQgb3IgZWFjaCBiYXRjaCB0cmFuc2Zvcm0gam9iXAoqIHRoZSBzZXF1ZW5jZSBvZiBmZWF0dXJlIHByb2Nlc3NpbmcgYW5kIGluZmVyZW5jZSBydW5zIHdpdGggbG93IGxhdGVuY3kgYmVjYXVzZSB0aGUgY29udGFpbmVycyBhcmUgbG9jYXRlZCBvbiB0aGUgc2FtZSBFQzIgaW5zdGFuY2VzXApcClwKXApcClwKfQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAGi33mm2AQAAAAAAAAAAAAA=</rtfd>
+<item ID="1776203629" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-14T14:53:48-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-04-14T14:53:56-07:00</attribute>
+<attribute name="Name" >Lab 3.5 - Amazon SageMaker - Deploying a model</attribute>
+<attribute name="Sentiment" >-0.200000003</attribute>
+<attribute name="Sentiments" >-0.4;0.2;-0.4</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >94.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >In this lab, you will deploy a trained model and perform a prediction against the model. You will then delete the endpoint and perform a batch transform on the test dataset.
+
+Note: The model is created for you in the notebook as part of the setup.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5nAgAAKwAAAAEAAABfAgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgSW4gdGhpcyBsYWIsIHlvdSB3aWxsIGRlcGxveSBhIHRyYWluZWQgbW9kZWwgYW5kIHBlcmZvcm0gYSBwcmVkaWN0aW9uIGFnYWluc3QgdGhlIG1vZGVsLiBZb3Ugd2lsbCB0aGVuIGRlbGV0ZSB0aGUgZW5kcG9pbnQgYW5kIHBlcmZvcm0gYSBiYXRjaCB0cmFuc2Zvcm0gb24gdGhlIHRlc3QgZGF0YXNldC5cClwKTm90ZTogVGhlIG1vZGVsIGlzIGNyZWF0ZWQgZm9yIHlvdSBpbiB0aGUgbm90ZWJvb2sgYXMgcGFydCBvZiB0aGUgc2V0dXAufQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAHS33mm2AQAAAAAAAAAAAAA=</rtfd>
+</item>
 </item>
 <item ID="1774965282" Creator="Robert Hamrick" proto="Markdown" >
 <attribute name="Created" >2026-03-31T06:54:41-07:00</attribute>
+<attribute name="DisplayedAttributes" >TextFont;HTMLPreviewCommand;HTMLExportTemplate</attribute>
+<attribute name="DominantLanguage" >en</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-03-31T06:54:41-07:00</attribute>
+<attribute name="Modified" >2026-04-18T18:30:11-07:00</attribute>
+<attribute name="NLNames" >Accuracy;Model;Take model</attribute>
+<attribute name="NLOrganizations" >ROC</attribute>
 <attribute name="Name" >3.7 Evaluating the accuracy of the model: calculating classification metrics; selecting classification thresholds</attribute>
+<attribute name="Sentiment" >-0.5540983699</attribute>
+<attribute name="Sentiments" >-1;-0.4;-0.6;-0.2;-0.2;-0.6;-0.6;0;-0.8;-0.6;-0.8;-1;0;0.4;0;-0.8;-0.8;-0.2;-0.6;-0.8;-0.8;-0.8;-0.4;-0.6;-0.8;-0.8;-0.8;-0.4;-1;-0.4;-1;-0.8;-0.6;-1;-0.6;-0.6;-0.4;-0.8;-0.4;-0.6;-0.8;-1;-1;0;0;-0.8;-0.6;-0.6;0.2;-1;-1;-1;0.2;-1;-0.6;-0.6;-0.4;-0.6;-0.4;0.8;-0.4</attribute>
 <attribute name="Width" >5</attribute>
 <attribute name="Xpos" >83.5</attribute>
 <attribute name="Ypos" >0</attribute>
+<text >Type of ML problem will influence the model you choose.
+* classification
+* regression
+
+Example: simple binary classification problem where an image recognition model labels data as ‘cat’ or ‘not cat’.
+* compare predicted values to actual values
+* put values in a confusion matrix
+    * true positive: predicted true, actual true
+    * false positive: predicted true, actual false
+    * true negative: predicted false, actual false
+    * false negative: predicted false, actual true
+* evaluate accuracy:  Is the business goal to identify as many cats as possible (and not concerned about false positives)?  Or is it to identify animals that are not cats?  (How many false negatives can you tolerate?)
+    * **sensitivity**: percentage of positive identifications
+        * TP/(TP+FN), where TP+FN is total number of cats
+    * **specificity** (also known as selectivity, true negative rate): percentage of negatives correctly identified 
+        * TN/TN+FP, where TN+FP is total number of ‘not cats’, i.e. actual negatives
+
+### Calculating classification metrics
+
+Model 1: confusion matrix
+
+| --- |
+| | actual cats | actual not cats |
+| predicted cats | TP: 107 | FP: 23 |
+| predicted not cats | FN: 69 | TN: 42 |
+
+Model 2: confusion matrix
+
+| --- |
+| | actual cats | actual not cats |
+| predicted cats | TP: 148 | FP: 53 |
+| predicted not cats | FN: 28 | TN: 12 |
+
+Sensitivity
+
+```
+= \frac{\textrm{TP}}{\textrm{TP + FN}}  \label{TP+FN is total number of positives}
+```
+
+Specificity
+
+```
+= \frac{TN}{TN + FP}  \label{TN+FP is total number of negatives}
+```
+
+Model 1 sensitivity:  percentage of cats identified as cats.
+
+```
+= \frac{107}{107 + 69} = 0.6079
+```
+
+Model 1 specificity:  percentage of not cats correctly identified as not cats.
+
+```
+= \frac{42}{42 + 23} = 0.6461
+```
+
+
+### Selecting classification thresholds
+
+Models return probabilities:  if [predicted] &gt;= threshold: is a cat; if [predicted] &lt; threshold: is not a cat.
+
+You can change the threshold to change the predictions.
+
+Visualize with a Receiver Operating Characteristics (ROC) graph.
+It summarizes all the confusion matrices that each threshold produced.
+* Calculate sensitivity (true positive rate) against specificity (false positive rate).  (Calculate false positive rate by subtracting specificity from 1.)
+* (1, 1) means that have correctly identified all cats and incorrectly identified all not cats. (This is bad.)
+* (c, c) the proportion of correctly identified samples is the same as the proportion of incorrectly identified samples
+* goal is usually high sensitivity, low specificity (low false positive): so better if line between threshold rates is toward the top left corner
+
+Can plot ROC curve for each model, but you do quick comparisons with “Area Under the Curve Receiver Operator Curve” (AUC-ROC) graphs.
+* when area under curve is higher, model is better at predicting cats as cats and not cats as not cats.
+
+Other metrics
+
+Accuracy (also, “Model’s score”): add correct predictions, divide by total number of predictions
+
+```
+= \frac{ \textrm{TP} + \textrm{TN}}{\textrm{TP} + \textrm{TN} + \textrm{FP} + \textrm{FN}}
+```
+
+Accuracy is not as effective when there are many true negatives in data set, since model may be better at predicting “not cats.”
+* for credit card company identifying fraud cases, need very high rates of predicting true positives, more than true negatives.
+
+Precision: proportion of positive results that were correctly classified (removes the negative predictions).  Good if cost of false positives is high.
+
+F1 score:  combines precision and sensitivity.
+
+```
+= 2 \frac{\textrm{precision} \cdot \textrm{sensitivity}}{\textrm{precision} + \textrm{sensitivity}}
+```
+
+Use when have a class imbalance but want to preserve the equality between precision and sensitivity.
+
+Mean squared error (MSE):  for regression problems.  Take model’s prediction and compare model’s prediction to actual outcome.
+* take difference between prediction and actual value
+* square the difference
+* sum all the squared differences for all observations
+
+```
+= \frac{1}{n} \sum_{i = 1}^{n} (y_i - \tilde{y}_i)^2
+```
+
+### ML tuning process
+
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC56EgAAKwAAAAEAAAByEgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgVHlwZSBvZiBNTCBwcm9ibGVtIHdpbGwgaW5mbHVlbmNlIHRoZSBtb2RlbCB5b3UgY2hvb3NlLlwKKiBjbGFzc2lmaWNhdGlvblwKKiByZWdyZXNzaW9uXApcCkV4YW1wbGU6IHNpbXBsZSBiaW5hcnkgY2xhc3NpZmljYXRpb24gcHJvYmxlbSB3aGVyZSBhbiBpbWFnZSByZWNvZ25pdGlvbiBtb2RlbCBsYWJlbHMgZGF0YSBhcyBcJzkxY2F0XCc5MiBvciBcJzkxbm90IGNhdFwnOTIuXAoqIGNvbXBhcmUgcHJlZGljdGVkIHZhbHVlcyB0byBhY3R1YWwgdmFsdWVzXAoqIHB1dCB2YWx1ZXMgaW4gYSBjb25mdXNpb24gbWF0cml4XAogICAgKiB0cnVlIHBvc2l0aXZlOiBwcmVkaWN0ZWQgdHJ1ZSwgYWN0dWFsIHRydWVcCiAgICAqIGZhbHNlIHBvc2l0aXZlOiBwcmVkaWN0ZWQgdHJ1ZSwgYWN0dWFsIGZhbHNlXAogICAgKiB0cnVlIG5lZ2F0aXZlOiBwcmVkaWN0ZWQgZmFsc2UsIGFjdHVhbCBmYWxzZVwKICAgICogZmFsc2UgbmVnYXRpdmU6IHByZWRpY3RlZCBmYWxzZSwgYWN0dWFsIHRydWVcCiogZXZhbHVhdGUgYWNjdXJhY3k6ICBJcyB0aGUgYnVzaW5lc3MgZ29hbCB0byBpZGVudGlmeSBhcyBtYW55IGNhdHMgYXMgcG9zc2libGUgKGFuZCBub3QgY29uY2VybmVkIGFib3V0IGZhbHNlIHBvc2l0aXZlcyk/ICBPciBpcyBpdCB0byBpZGVudGlmeSBhbmltYWxzIHRoYXQgYXJlIG5vdCBjYXRzPyAgKEhvdyBtYW55IGZhbHNlIG5lZ2F0aXZlcyBjYW4geW91IHRvbGVyYXRlPylcCiAgICAqICoqc2Vuc2l0aXZpdHkqKjogcGVyY2VudGFnZSBvZiBwb3NpdGl2ZSBpZGVudGlmaWNhdGlvbnNcCiAgICAgICAgKiBUUC8oVFArRk4pLCB3aGVyZSBUUCtGTiBpcyB0b3RhbCBudW1iZXIgb2YgY2F0c1wKICAgICogKipzcGVjaWZpY2l0eSoqIChhbHNvIGtub3duIGFzIHNlbGVjdGl2aXR5LCB0cnVlIG5lZ2F0aXZlIHJhdGUpOiBwZXJjZW50YWdlIG9mIG5lZ2F0aXZlcyBjb3JyZWN0bHkgaWRlbnRpZmllZCBcCiAgICAgICAgKiBUTi9UTitGUCwgd2hlcmUgVE4rRlAgaXMgdG90YWwgbnVtYmVyIG9mIFwnOTFub3QgY2F0c1wnOTIsIGkuZS4gYWN0dWFsIG5lZ2F0aXZlc1wKXAojIyMgQ2FsY3VsYXRpbmcgY2xhc3NpZmljYXRpb24gbWV0cmljc1wKXApNb2RlbCAxOiBjb25mdXNpb24gbWF0cml4XApcCnwgLS0tIHxcCnwgfCBhY3R1YWwgY2F0cyB8IGFjdHVhbCBub3QgY2F0cyB8XAp8IHByZWRpY3RlZCBjYXRzIHwgVFA6IDEwNyB8IEZQOiAyMyB8XAp8IHByZWRpY3RlZCBub3QgY2F0cyB8IEZOOiA2OSB8IFROOiA0MiB8XApcCk1vZGVsIDI6IGNvbmZ1c2lvbiBtYXRyaXhcClwKfCAtLS0gfFwKfCB8IGFjdHVhbCBjYXRzIHwgYWN0dWFsIG5vdCBjYXRzIHxcCnwgcHJlZGljdGVkIGNhdHMgfCBUUDogMTQ4IHwgRlA6IDUzIHxcCnwgcHJlZGljdGVkIG5vdCBjYXRzIHwgRk46IDI4IHwgVE46IDEyIHxcClwKU2Vuc2l0aXZpdHlcClwKYGBgXAo9IFxcZnJhY1x7XFx0ZXh0cm1ce1RQXH1cfVx7XFx0ZXh0cm1ce1RQICsgRk5cfVx9ICBcXGxhYmVsXHtUUCtGTiBpcyB0b3RhbCBudW1iZXIgb2YgcG9zaXRpdmVzXH1cCmBgYFwKXApTcGVjaWZpY2l0eVwKXApgYGBcCj0gXFxmcmFjXHtUTlx9XHtUTiArIEZQXH0gIFxcbGFiZWxce1ROK0ZQIGlzIHRvdGFsIG51bWJlciBvZiBuZWdhdGl2ZXNcfVwKYGBgXApcCk1vZGVsIDEgc2Vuc2l0aXZpdHk6ICBwZXJjZW50YWdlIG9mIGNhdHMgaWRlbnRpZmllZCBhcyBjYXRzLlwKXApgYGBcCj0gXFxmcmFjXHsxMDdcfVx7MTA3ICsgNjlcfSA9IDAuNjA3OVwKYGBgXApcCk1vZGVsIDEgc3BlY2lmaWNpdHk6ICBwZXJjZW50YWdlIG9mIG5vdCBjYXRzIGNvcnJlY3RseSBpZGVudGlmaWVkIGFzIG5vdCBjYXRzLlwKXApgYGBcCj0gXFxmcmFjXHs0Mlx9XHs0MiArIDIzXH0gPSAwLjY0NjFcCmBgYFwKXApcCiMjIyBTZWxlY3RpbmcgY2xhc3NpZmljYXRpb24gdGhyZXNob2xkc1wKXApNb2RlbHMgcmV0dXJuIHByb2JhYmlsaXRpZXM6ICBpZiBbcHJlZGljdGVkXSA+PSB0aHJlc2hvbGQ6IGlzIGEgY2F0OyBpZiBbcHJlZGljdGVkXSA8IHRocmVzaG9sZDogaXMgbm90IGEgY2F0LlwKXApZb3UgY2FuIGNoYW5nZSB0aGUgdGhyZXNob2xkIHRvIGNoYW5nZSB0aGUgcHJlZGljdGlvbnMuXApcClZpc3VhbGl6ZSB3aXRoIGEgUmVjZWl2ZXIgT3BlcmF0aW5nIENoYXJhY3RlcmlzdGljcyAoUk9DKSBncmFwaC5cCkl0IHN1bW1hcml6ZXMgYWxsIHRoZSBjb25mdXNpb24gbWF0cmljZXMgdGhhdCBlYWNoIHRocmVzaG9sZCBwcm9kdWNlZC5cCiogQ2FsY3VsYXRlIHNlbnNpdGl2aXR5ICh0cnVlIHBvc2l0aXZlIHJhdGUpIGFnYWluc3Qgc3BlY2lmaWNpdHkgKGZhbHNlIHBvc2l0aXZlIHJhdGUpLiAgKENhbGN1bGF0ZSBmYWxzZSBwb3NpdGl2ZSByYXRlIGJ5IHN1YnRyYWN0aW5nIHNwZWNpZmljaXR5IGZyb20gMS4pXAoqICgxLCAxKSBtZWFucyB0aGF0IGhhdmUgY29ycmVjdGx5IGlkZW50aWZpZWQgYWxsIGNhdHMgYW5kIGluY29ycmVjdGx5IGlkZW50aWZpZWQgYWxsIG5vdCBjYXRzLiAoVGhpcyBpcyBiYWQuKVwKKiAoYywgYykgdGhlIHByb3BvcnRpb24gb2YgY29ycmVjdGx5IGlkZW50aWZpZWQgc2FtcGxlcyBpcyB0aGUgc2FtZSBhcyB0aGUgcHJvcG9ydGlvbiBvZiBpbmNvcnJlY3RseSBpZGVudGlmaWVkIHNhbXBsZXNcCiogZ29hbCBpcyB1c3VhbGx5IGhpZ2ggc2Vuc2l0aXZpdHksIGxvdyBzcGVjaWZpY2l0eSAobG93IGZhbHNlIHBvc2l0aXZlKTogc28gYmV0dGVyIGlmIGxpbmUgYmV0d2VlbiB0aHJlc2hvbGQgcmF0ZXMgaXMgdG93YXJkIHRoZSB0b3AgbGVmdCBjb3JuZXJcClwKQ2FuIHBsb3QgUk9DIGN1cnZlIGZvciBlYWNoIG1vZGVsLCBidXQgeW91IGRvIHF1aWNrIGNvbXBhcmlzb25zIHdpdGggXCc5M0FyZWEgVW5kZXIgdGhlIEN1cnZlIFJlY2VpdmVyIE9wZXJhdG9yIEN1cnZlXCc5NCAoQVVDLVJPQykgZ3JhcGhzLlwKKiB3aGVuIGFyZWEgdW5kZXIgY3VydmUgaXMgaGlnaGVyLCBtb2RlbCBpcyBiZXR0ZXIgYXQgcHJlZGljdGluZyBjYXRzIGFzIGNhdHMgYW5kIG5vdCBjYXRzIGFzIG5vdCBjYXRzLlwKXApPdGhlciBtZXRyaWNzXApcCkFjY3VyYWN5IChhbHNvLCBcJzkzTW9kZWxcJzkycyBzY29yZVwnOTQpOiBhZGQgY29ycmVjdCBwcmVkaWN0aW9ucywgZGl2aWRlIGJ5IHRvdGFsIG51bWJlciBvZiBwcmVkaWN0aW9uc1wKXApgYGBcCj0gXFxmcmFjXHsgXFx0ZXh0cm1ce1RQXH0gKyBcXHRleHRybVx7VE5cfVx9XHtcXHRleHRybVx7VFBcfSArIFxcdGV4dHJtXHtUTlx9ICsgXFx0ZXh0cm1ce0ZQXH0gKyBcXHRleHRybVx7Rk5cfVx9XApgYGBcClwKQWNjdXJhY3kgaXMgbm90IGFzIGVmZmVjdGl2ZSB3aGVuIHRoZXJlIGFyZSBtYW55IHRydWUgbmVnYXRpdmVzIGluIGRhdGEgc2V0LCBzaW5jZSBtb2RlbCBtYXkgYmUgYmV0dGVyIGF0IHByZWRpY3RpbmcgXCc5M25vdCBjYXRzLlwnOTRcCiogZm9yIGNyZWRpdCBjYXJkIGNvbXBhbnkgaWRlbnRpZnlpbmcgZnJhdWQgY2FzZXMsIG5lZWQgdmVyeSBoaWdoIHJhdGVzIG9mIHByZWRpY3RpbmcgdHJ1ZSBwb3NpdGl2ZXMsIG1vcmUgdGhhbiB0cnVlIG5lZ2F0aXZlcy5cClwKUHJlY2lzaW9uOiBwcm9wb3J0aW9uIG9mIHBvc2l0aXZlIHJlc3VsdHMgdGhhdCB3ZXJlIGNvcnJlY3RseSBjbGFzc2lmaWVkIChyZW1vdmVzIHRoZSBuZWdhdGl2ZSBwcmVkaWN0aW9ucykuICBHb29kIGlmIGNvc3Qgb2YgZmFsc2UgcG9zaXRpdmVzIGlzIGhpZ2guXApcCkYxIHNjb3JlOiAgY29tYmluZXMgcHJlY2lzaW9uIGFuZCBzZW5zaXRpdml0eS5cClwKYGBgXAo9IDIgXFxmcmFjXHtcXHRleHRybVx7cHJlY2lzaW9uXH0gXFxjZG90IFxcdGV4dHJtXHtzZW5zaXRpdml0eVx9XH1ce1xcdGV4dHJtXHtwcmVjaXNpb25cfSArIFxcdGV4dHJtXHtzZW5zaXRpdml0eVx9XH1cCmBgYFwKXApVc2Ugd2hlbiBoYXZlIGEgY2xhc3MgaW1iYWxhbmNlIGJ1dCB3YW50IHRvIHByZXNlcnZlIHRoZSBlcXVhbGl0eSBiZXR3ZWVuIHByZWNpc2lvbiBhbmQgc2Vuc2l0aXZpdHkuXApcCk1lYW4gc3F1YXJlZCBlcnJvciAoTVNFKTogIGZvciByZWdyZXNzaW9uIHByb2JsZW1zLiAgVGFrZSBtb2RlbFwnOTJzIHByZWRpY3Rpb24gYW5kIGNvbXBhcmUgbW9kZWxcJzkycyBwcmVkaWN0aW9uIHRvIGFjdHVhbCBvdXRjb21lLlwKKiB0YWtlIGRpZmZlcmVuY2UgYmV0d2VlbiBwcmVkaWN0aW9uIGFuZCBhY3R1YWwgdmFsdWVcCiogc3F1YXJlIHRoZSBkaWZmZXJlbmNlXAoqIHN1bSBhbGwgdGhlIHNxdWFyZWQgZGlmZmVyZW5jZXMgZm9yIGFsbCBvYnNlcnZhdGlvbnNcClwKYGBgXAo9IFxcZnJhY1x7MVx9XHtuXH0gXFxzdW1fXHtpID0gMVx9Xlx7blx9ICh5X2kgLSBcXHRpbGRlXHt5XH1faSleMlwKYGBgXApcCiMjIyBNTCB0dW5pbmcgcHJvY2Vzc1wKXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAIzDkabYBAAAAAAAAAAAAAA==</rtfd>
+<item ID="1776555329" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-18T16:35:28-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-04-18T16:36:09-07:00</attribute>
+<attribute name="Name" >Lab 3.6 - Amazon SageMaker - Generating model performance metrics</attribute>
+<attribute name="Sentiments" >0.8;-0.2;0.2;0;0.6;-0.6;-0.8</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >94.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >In this lab, you will evaluate the model that you trained in previous labs and calculate metrics based on the results of the test data.
+
+Objectives
+After completing this lab, you will be able to:
+* Use the test data to generate predictions
+* Generate a confusion matrix from the results
+* Generate performance metrics for the model
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7BAgAAKwAAAAEAAAC5AgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgSW4gdGhpcyBsYWIsIHlvdSB3aWxsIGV2YWx1YXRlIHRoZSBtb2RlbCB0aGF0IHlvdSB0cmFpbmVkIGluIHByZXZpb3VzIGxhYnMgYW5kIGNhbGN1bGF0ZSBtZXRyaWNzIGJhc2VkIG9uIHRoZSByZXN1bHRzIG9mIHRoZSB0ZXN0IGRhdGEuXApcCk9iamVjdGl2ZXNcCkFmdGVyIGNvbXBsZXRpbmcgdGhpcyBsYWIsIHlvdSB3aWxsIGJlIGFibGUgdG86XAoqIFVzZSB0aGUgdGVzdCBkYXRhIHRvIGdlbmVyYXRlIHByZWRpY3Rpb25zXAoqIEdlbmVyYXRlIGEgY29uZnVzaW9uIG1hdHJpeCBmcm9tIHRoZSByZXN1bHRzXAoqIEdlbmVyYXRlIHBlcmZvcm1hbmNlIG1ldHJpY3MgZm9yIHRoZSBtb2RlbFwKfQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAGkV5Gm2AQAAAAAAAAAAAAA=</rtfd>
+</item>
 </item>
 <item ID="1774965289" Creator="Robert Hamrick" proto="Markdown" >
 <attribute name="Created" >2026-03-31T06:54:48-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
 <attribute name="Height" >3</attribute>
-<attribute name="Modified" >2026-03-31T06:54:48-07:00</attribute>
+<attribute name="Modified" >2026-04-19T13:38:35-07:00</attribute>
+<attribute name="NLNames" >Adam;Xavier</attribute>
+<attribute name="NLOrganizations" >AUC</attribute>
 <attribute name="Name" >3.8 Hyperparameter and model tuning</attribute>
+<attribute name="Sentiment" >-0.1411764775</attribute>
+<attribute name="Sentiments" >-0.6;-0.6;-0.6;0.8;-0.6;-0.4;-0.6;0.6;-0.2;-0.6;0;-0.4;-0.4;-0.6;0.4;-0.6;-0.2;0.6;-0.8;1;0.8;-0.8;1;-1;-0.2;-0.6;-0.6;-0.8;0;0.8;0.4;1;-0.6;-0.4</attribute>
 <attribute name="Width" >5</attribute>
 <attribute name="Xpos" >89</attribute>
 <attribute name="Ypos" >0</attribute>
+<text >Hyperparameters are the knobs that tune the ML algorithm to improve its performance.
+
+Types of hyperparameters:
+* model:  help define model
+    * example: neural network for a computer vision problem: additional attributes of the architecture need to be defined: filter size, pooling, stride, padding
+* optimizer:  relate to how the model learns patterns based on data.
+    * used for neural network model
+    * optimizers: gradient descent, stochastic gradient descent
+    * optimizers that include momentum:  Adam
+    * optimizers that initialize parameter weights with methods like Xavier initialization or He initialization
+* data:  related to attributes of the data itself
+    * includes attributes that define different data augmentation techniques like cropping or resizing for image-related problems
+    * often used used when you don’t have enough data or enough variation in your data
+
+Tuning hyperparameters can be labor intensive.
+* traditionally done manually by someone with domain experience:  select hyperparameters based on intuition and experience.  The train model and score it on validation data.  And repeat.
+* automated tuning:  find best version of model by running multiple training jobs on data set using algorithms and hyperparameter ranges you specify.  The chooses hyper parameters in a model that performs the best as measured by a metric that you choose.  Gaussian process regression predicts which hyper parameter values might be most effective at improving fit.  Bayesian optimization to balance exploring the hyperparameter space and exploiting specific hyperparameter values when appropriate.
+
+Example:  binary classification problem on fraud data set.
+* Goal is to maximize area under AUC curve metric of the algorithm by training a linear learning algorithm model.
+* You don’t know what values of learning rate, beta1, beta2, and epoxy should be used to train the best model.
+* To find best values of hyperparameters, specify ranges of values that SageMaker hyperparameter tuning will search.  Will find the combination of values that performs the best by the objective metric that you choose.
+* in example, return training job with highest AUC
+
+Hyperparameter tuning doesn’t necessarily improve the model.
+
+Best practices:
+* don’t adjust every hyperparameter
+* limit range of values to what’s most effective
+* run one training job at a time instead of multiple in parallel
+* in distributed training jobs, make sure the objective metric that you want is the one reported back
+* with SageMaker, converge log-scaled hyperparameters to linear-scaled when possible
+
+SageMaker Autopilot
+* create a job that specifies the test, training, and target.
+* Autopilot analyzes the data, selects appropriate features, and then trains and tunes the models
+* documents the metrics and find the best model based on the provided data
+* results include winning model and metrics, jupyter notebook you can use to investigate the results
+* doesn’t automate date preprocessing, but can save time on feature selection and model tuning
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC67DQAAKwAAAAEAAACzDQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7XHJlZDBcZ3JlZW4wXGJsdWUwO30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc3B0aHJlZVxjMFxjMFxjMDtcY3NwdGhyZWVcYzBcYzBcYzA7fQpccGFyZFx0eDU0MFx0eDEwODBcdHgxNjIwXHR4MjE2MFx0eDI3MDBcdHgzMjQwXHR4Mzc4MFx0eDQzMjBcc2wyODhcc2xtdWx0MVxzYjQwXHNhNDBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiBIeXBlcnBhcmFtZXRlcnMgYXJlIHRoZSBrbm9icyB0aGF0IHR1bmUgdGhlIE1MIGFsZ29yaXRobSB0byBpbXByb3ZlIGl0cyBwZXJmb3JtYW5jZS5cClwKVHlwZXMgb2YgaHlwZXJwYXJhbWV0ZXJzOlwKKiBtb2RlbDogIGhlbHAgZGVmaW5lIG1vZGVsXAogICAgKiBleGFtcGxlOiBuZXVyYWwgbmV0d29yayBmb3IgYSBjb21wdXRlciB2aXNpb24gcHJvYmxlbTogYWRkaXRpb25hbCBhdHRyaWJ1dGVzIG9mIHRoZSBhcmNoaXRlY3R1cmUgbmVlZCB0byBiZSBkZWZpbmVkOiBcY2YzIGZpbHRlciBzaXplLCBwb29saW5nLCBzdHJpZGUsIHBhZGRpbmdcCiogb3B0aW1pemVyOiAgcmVsYXRlIHRvIGhvdyB0aGUgbW9kZWwgbGVhcm5zIHBhdHRlcm5zIGJhc2VkIG9uIGRhdGEuXAogICAgKiB1c2VkIGZvciBuZXVyYWwgbmV0d29yayBtb2RlbFwKICAgICogb3B0aW1pemVyczogZ3JhZGllbnQgZGVzY2VudCwgc3RvY2hhc3RpYyBncmFkaWVudCBkZXNjZW50XAogICAgKiBvcHRpbWl6ZXJzIHRoYXQgaW5jbHVkZSBtb21lbnR1bTogIEFkYW1cCiAgICAqIG9wdGltaXplcnMgdGhhdCBpbml0aWFsaXplIHBhcmFtZXRlciB3ZWlnaHRzIHdpdGggbWV0aG9kcyBsaWtlIFhhdmllciBpbml0aWFsaXphdGlvbiBvciBIZSBpbml0aWFsaXphdGlvblwKKiBkYXRhOiAgcmVsYXRlZCB0byBhdHRyaWJ1dGVzIG9mIHRoZSBkYXRhIGl0c2VsZlwKICAgICogaW5jbHVkZXMgYXR0cmlidXRlcyB0aGF0IGRlZmluZSBkaWZmZXJlbnQgZGF0YSBhdWdtZW50YXRpb24gdGVjaG5pcXVlcyBsaWtlIGNyb3BwaW5nIG9yIHJlc2l6aW5nIGZvciBpbWFnZS1yZWxhdGVkIHByb2JsZW1zXAogICAgKiBvZnRlbiB1c2VkIHVzZWQgd2hlbiB5b3UgZG9uXCc5MnQgaGF2ZSBlbm91Z2ggZGF0YSBvciBlbm91Z2ggdmFyaWF0aW9uIGluIHlvdXIgZGF0YVwKXApUdW5pbmcgaHlwZXJwYXJhbWV0ZXJzIGNhbiBiZSBsYWJvciBpbnRlbnNpdmUuXAoqIHRyYWRpdGlvbmFsbHkgZG9uZSBtYW51YWxseSBieSBzb21lb25lIHdpdGggZG9tYWluIGV4cGVyaWVuY2U6ICBzZWxlY3QgaHlwZXJwYXJhbWV0ZXJzIGJhc2VkIG9uIGludHVpdGlvbiBhbmQgZXhwZXJpZW5jZS4gIFRoZSB0cmFpbiBtb2RlbCBhbmQgc2NvcmUgaXQgb24gdmFsaWRhdGlvbiBkYXRhLiAgQW5kIHJlcGVhdC5cCiogYXV0b21hdGVkIHR1bmluZzogIGZpbmQgYmVzdCB2ZXJzaW9uIG9mIG1vZGVsIGJ5IHJ1bm5pbmcgbXVsdGlwbGUgdHJhaW5pbmcgam9icyBvbiBkYXRhIHNldCB1c2luZyBhbGdvcml0aG1zIGFuZCBoeXBlcnBhcmFtZXRlciByYW5nZXMgeW91IHNwZWNpZnkuICBUaGUgY2hvb3NlcyBoeXBlciBwYXJhbWV0ZXJzIGluIGEgbW9kZWwgdGhhdCBwZXJmb3JtcyB0aGUgYmVzdCBhcyBtZWFzdXJlZCBieSBhIG1ldHJpYyB0aGF0IHlvdSBjaG9vc2UuICBHYXVzc2lhbiBwcm9jZXNzIHJlZ3Jlc3Npb24gcHJlZGljdHMgd2hpY2ggaHlwZXIgcGFyYW1ldGVyIHZhbHVlcyBtaWdodCBiZSBtb3N0IGVmZmVjdGl2ZSBhdCBpbXByb3ZpbmcgZml0LiAgQmF5ZXNpYW4gb3B0aW1pemF0aW9uIHRvIGJhbGFuY2UgZXhwbG9yaW5nIHRoZSBoeXBlcnBhcmFtZXRlciBzcGFjZSBhbmQgZXhwbG9pdGluZyBzcGVjaWZpYyBoeXBlcnBhcmFtZXRlciB2YWx1ZXMgd2hlbiBhcHByb3ByaWF0ZS5cClwKRXhhbXBsZTogIGJpbmFyeSBjbGFzc2lmaWNhdGlvbiBwcm9ibGVtIG9uIGZyYXVkIGRhdGEgc2V0LlwKKiBHb2FsIGlzIHRvIG1heGltaXplIGFyZWEgdW5kZXIgQVVDIGN1cnZlIG1ldHJpYyBvZiB0aGUgYWxnb3JpdGhtIGJ5IHRyYWluaW5nIGEgbGluZWFyIGxlYXJuaW5nIGFsZ29yaXRobSBtb2RlbC5cCiogWW91IGRvblwnOTJ0IGtub3cgd2hhdCB2YWx1ZXMgb2YgbGVhcm5pbmcgcmF0ZSwgYmV0YTEsIGJldGEyLCBhbmQgZXBveHkgc2hvdWxkIGJlIHVzZWQgdG8gdHJhaW4gdGhlIGJlc3QgbW9kZWwuXAoqIFRvIGZpbmQgYmVzdCB2YWx1ZXMgb2YgaHlwZXJwYXJhbWV0ZXJzLCBzcGVjaWZ5IHJhbmdlcyBvZiB2YWx1ZXMgdGhhdCBTYWdlTWFrZXIgaHlwZXJwYXJhbWV0ZXIgdHVuaW5nIHdpbGwgc2VhcmNoLiAgV2lsbCBmaW5kIHRoZSBjb21iaW5hdGlvbiBvZiB2YWx1ZXMgdGhhdCBwZXJmb3JtcyB0aGUgYmVzdCBieSB0aGUgb2JqZWN0aXZlIG1ldHJpYyB0aGF0IHlvdSBjaG9vc2UuXAoqIGluIGV4YW1wbGUsIHJldHVybiB0cmFpbmluZyBqb2Igd2l0aCBoaWdoZXN0IEFVQ1wKXApIeXBlcnBhcmFtZXRlciB0dW5pbmcgZG9lc25cJzkydCBuZWNlc3NhcmlseSBpbXByb3ZlIHRoZSBtb2RlbC5cClwKQmVzdCBwcmFjdGljZXM6XAoqIGRvblwnOTJ0IGFkanVzdCBldmVyeSBoeXBlcnBhcmFtZXRlclwKKiBsaW1pdCByYW5nZSBvZiB2YWx1ZXMgdG8gd2hhdFwnOTJzIG1vc3QgZWZmZWN0aXZlXAoqIHJ1biBvbmUgdHJhaW5pbmcgam9iIGF0IGEgdGltZSBpbnN0ZWFkIG9mIG11bHRpcGxlIGluIHBhcmFsbGVsXAoqIGluIGRpc3RyaWJ1dGVkIHRyYWluaW5nIGpvYnMsIG1ha2Ugc3VyZSB0aGUgb2JqZWN0aXZlIG1ldHJpYyB0aGF0IHlvdSB3YW50IGlzIHRoZSBvbmUgcmVwb3J0ZWQgYmFja1wKKiB3aXRoIFNhZ2VNYWtlciwgY29udmVyZ2UgbG9nLXNjYWxlZCBoeXBlcnBhcmFtZXRlcnMgdG8gbGluZWFyLXNjYWxlZCB3aGVuIHBvc3NpYmxlXApcClNhZ2VNYWtlciBBdXRvcGlsb3RcCiogY3JlYXRlIGEgam9iIHRoYXQgc3BlY2lmaWVzIHRoZSB0ZXN0LCB0cmFpbmluZywgYW5kIHRhcmdldC5cCiogQXV0b3BpbG90IGFuYWx5emVzIHRoZSBkYXRhLCBzZWxlY3RzIGFwcHJvcHJpYXRlIGZlYXR1cmVzLCBhbmQgdGhlbiB0cmFpbnMgYW5kIHR1bmVzIHRoZSBtb2RlbHNcCiogZG9jdW1lbnRzIHRoZSBtZXRyaWNzIGFuZCBmaW5kIHRoZSBiZXN0IG1vZGVsIGJhc2VkIG9uIHRoZSBwcm92aWRlZCBkYXRhXAoqIHJlc3VsdHMgaW5jbHVkZSB3aW5uaW5nIG1vZGVsIGFuZCBtZXRyaWNzLCBqdXB5dGVyIG5vdGVib29rIHlvdSBjYW4gdXNlIHRvIGludmVzdGlnYXRlIHRoZSByZXN1bHRzXAoqIGRvZXNuXCc5MnQgYXV0b21hdGUgZGF0ZSBwcmVwcm9jZXNzaW5nLCBidXQgY2FuIHNhdmUgdGltZSBvbiBmZWF0dXJlIHNlbGVjdGlvbiBhbmQgbW9kZWwgdHVuaW5nXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAASz3labYBAAAAAAAAAAAAAA==</rtfd>
+<item ID="1776631180" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-19T13:39:39-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-04-19T13:42:16-07:00</attribute>
+<attribute name="NLOrganizations" >Amazon;Amazon SageMaker</attribute>
+<attribute name="Name" >Lab 3.7 - Amazon SageMaker - Hyperparameter Tuning</attribute>
+<attribute name="Sentiment" >2.483526866e-09</attribute>
+<attribute name="Sentiments" >-0.6;-0.8;0;0.2;0.6;0.6</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >94.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >In this lab, you will create a hyperparameter tuning job to tune the model that you created previously. You will then compare the metrics of the two models.
+
+After completing this lab, you will be able to:
+* Use Amazon SageMaker to create a hyperparameter training job
+* Tune an XGBoost model by using Amazon SageMaker
+* Test the tuned model by using performance metrics
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7nAgAAKwAAAAEAAADfAgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgSW4gdGhpcyBsYWIsIHlvdSB3aWxsIGNyZWF0ZSBhIGh5cGVycGFyYW1ldGVyIHR1bmluZyBqb2IgdG8gdHVuZSB0aGUgbW9kZWwgdGhhdCB5b3UgY3JlYXRlZCBwcmV2aW91c2x5LiBZb3Ugd2lsbCB0aGVuIGNvbXBhcmUgdGhlIG1ldHJpY3Mgb2YgdGhlIHR3byBtb2RlbHMuXApcCkFmdGVyIGNvbXBsZXRpbmcgdGhpcyBsYWIsIHlvdSB3aWxsIGJlIGFibGUgdG86XAoqIFVzZSBBbWF6b24gU2FnZU1ha2VyIHRvIGNyZWF0ZSBhIGh5cGVycGFyYW1ldGVyIHRyYWluaW5nIGpvYlwKKiBUdW5lIGFuIFhHQm9vc3QgbW9kZWwgYnkgdXNpbmcgQW1hem9uIFNhZ2VNYWtlclwKKiBUZXN0IHRoZSB0dW5lZCBtb2RlbCBieSB1c2luZyBwZXJmb3JtYW5jZSBtZXRyaWNzXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAKD7labYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+</item>
+</item>
+<item ID="1776825407" Creator="Robert Hamrick" proto="Module" >
+<attribute name="Created" >2026-04-21T19:36:46-07:00</attribute>
+<attribute name="Height" >2.48</attribute>
+<attribute name="Modified" >2026-04-21T19:36:46-07:00</attribute>
+<attribute name="Name" >4. Introducing Forecasting</attribute>
+<attribute name="Width" >4</attribute>
+<attribute name="Xpos" >50.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="1776825435" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-21T19:37:14-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-04-21T19:47:31-07:00</attribute>
+<attribute name="Name" >4.1 Forecasting Preview</attribute>
+<attribute name="Sentiment" >-0.4166666729</attribute>
+<attribute name="Sentiments" >-0.8;-0.6;-0.4;-0.4;0.2;-0.4;-0.2;-0.2;-0.4;-1;0;-0.8</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >55</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Forecasting:  predicting future values that are based on historical data
+
+Patterns:
+* trend: patterns that increase, decrease, or are stagnant
+* seasonal:  pattern based on time of year, month, day, or other
+* cyclical:  other repeating patterns
+* irregular:  appear to be random
+
+Use cases:
+* marketing: sales, demand projections
+* inventory management
+* forecast energy consumption
+* weather forecast for agriculture
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4eAwAAKwAAAAEAAAAWAwAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgRm9yZWNhc3Rpbmc6ICBwcmVkaWN0aW5nIGZ1dHVyZSB2YWx1ZXMgdGhhdCBhcmUgYmFzZWQgb24gaGlzdG9yaWNhbCBkYXRhXApcClBhdHRlcm5zOlwKKiB0cmVuZDogcGF0dGVybnMgdGhhdCBpbmNyZWFzZSwgZGVjcmVhc2UsIG9yIGFyZSBzdGFnbmFudFwKKiBzZWFzb25hbDogIHBhdHRlcm4gYmFzZWQgb24gdGltZSBvZiB5ZWFyLCBtb250aCwgZGF5LCBvciBvdGhlclwKKiBjeWNsaWNhbDogIG90aGVyIHJlcGVhdGluZyBwYXR0ZXJuc1wKKiBpcnJlZ3VsYXI6ICBhcHBlYXIgdG8gYmUgcmFuZG9tXApcClVzZSBjYXNlczpcCiogbWFya2V0aW5nOiBzYWxlcywgZGVtYW5kIHByb2plY3Rpb25zXAoqIGludmVudG9yeSBtYW5hZ2VtZW50XAoqIGZvcmVjYXN0IGVuZXJneSBjb25zdW1wdGlvblwKKiB3ZWF0aGVyIGZvcmVjYXN0IGZvciBhZ3JpY3VsdHVyZVwKfQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAMM26Gm2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+<item ID="1776825451" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-21T19:37:30-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-04-22T20:16:07-07:00</attribute>
+<attribute name="Name" >4.2 Processing time series data</attribute>
+<attribute name="Sentiment" >-0.5428571524</attribute>
+<attribute name="Sentiments" >-0.8;-0.8;-0.6;-0.8;-0.6;-0.6;-0.4;-1;-0.6;-0.6;-1;-0.6;0.4;-0.4;-1;0;-1;-0.4;0.2;-0.8;0</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >60.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Time series data:  
+
+tends to be correlated:  dependency between data points
+
+dealing with regression problem.  regression assumes that the data points are independent.
+
+develop method for dependency
+
+add related data to augment forecasting model.  For example, to make a prediction about retail sales, could include information about product being sold such as item identification or sale price.  along with units sold per time period.
+
+third, metadata.  like brand name for product, genre for music to group results
+
+working with multiple data sources, different or incomplete time stamps
+
+might be able to infer missing data:  do times sequence?
+local time or UTC?
+
+Missing values in raw data.  for example, out of stock -&gt; 0 sales.  but if forecast generated based on 0 sales values, forecast will be incorrect.  (i.e. demand doesn’t equal sales on those days)
+
+Calculating missing data:
+* Forward Fill:  last known value == missing value
+* Moving Average:  avg(previous known values) == missing value
+* Backward Fill (lookahead):  next value == missing value.  Avoid this because it uses the future for the past.
+* Interpolation:  equation: linear spline polynomial
+* zero fill:  (often used in retail because missing sales data shouldn’t be calculated)
+
+Downsampling:  moving from a finer grained time to a less finely grained time.
+If have sales data with exact times but inventory data by day.  Downsampling:  sum sales data by day.
+
+Upsampling:  move from less finely grained time to a more finely grained time.  Extremely difficult.
+
+Outliers:  removing outlines is known as smoothing.  can create a better model.  but maybe model is expecting noisy data, could compromise model.
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4uCAAAKwAAAAEAAAAmCAAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgVGltZSBzZXJpZXMgZGF0YTogIFwKXAp0ZW5kcyB0byBiZSBjb3JyZWxhdGVkOiAgZGVwZW5kZW5jeSBiZXR3ZWVuIGRhdGEgcG9pbnRzXApcCmRlYWxpbmcgd2l0aCByZWdyZXNzaW9uIHByb2JsZW0uICByZWdyZXNzaW9uIGFzc3VtZXMgdGhhdCB0aGUgZGF0YSBwb2ludHMgYXJlIGluZGVwZW5kZW50LlwKXApkZXZlbG9wIG1ldGhvZCBmb3IgZGVwZW5kZW5jeVwKXAphZGQgcmVsYXRlZCBkYXRhIHRvIGF1Z21lbnQgZm9yZWNhc3RpbmcgbW9kZWwuICBGb3IgZXhhbXBsZSwgdG8gbWFrZSBhIHByZWRpY3Rpb24gYWJvdXQgcmV0YWlsIHNhbGVzLCBjb3VsZCBpbmNsdWRlIGluZm9ybWF0aW9uIGFib3V0IHByb2R1Y3QgYmVpbmcgc29sZCBzdWNoIGFzIGl0ZW0gaWRlbnRpZmljYXRpb24gb3Igc2FsZSBwcmljZS4gIGFsb25nIHdpdGggdW5pdHMgc29sZCBwZXIgdGltZSBwZXJpb2QuXApcCnRoaXJkLCBtZXRhZGF0YS4gIGxpa2UgYnJhbmQgbmFtZSBmb3IgcHJvZHVjdCwgZ2VucmUgZm9yIG11c2ljIHRvIGdyb3VwIHJlc3VsdHNcClwKd29ya2luZyB3aXRoIG11bHRpcGxlIGRhdGEgc291cmNlcywgZGlmZmVyZW50IG9yIGluY29tcGxldGUgdGltZSBzdGFtcHNcClwKbWlnaHQgYmUgYWJsZSB0byBpbmZlciBtaXNzaW5nIGRhdGE6ICBkbyB0aW1lcyBzZXF1ZW5jZT9cCmxvY2FsIHRpbWUgb3IgVVRDP1wKXApNaXNzaW5nIHZhbHVlcyBpbiByYXcgZGF0YS4gIGZvciBleGFtcGxlLCBvdXQgb2Ygc3RvY2sgLT4gMCBzYWxlcy4gIGJ1dCBpZiBmb3JlY2FzdCBnZW5lcmF0ZWQgYmFzZWQgb24gMCBzYWxlcyB2YWx1ZXMsIGZvcmVjYXN0IHdpbGwgYmUgaW5jb3JyZWN0LiAgKGkuZS4gZGVtYW5kIGRvZXNuXCc5MnQgZXF1YWwgc2FsZXMgb24gdGhvc2UgZGF5cylcClwKQ2FsY3VsYXRpbmcgbWlzc2luZyBkYXRhOlwKKiBGb3J3YXJkIEZpbGw6ICBsYXN0IGtub3duIHZhbHVlID09IG1pc3NpbmcgdmFsdWVcCiogTW92aW5nIEF2ZXJhZ2U6ICBhdmcocHJldmlvdXMga25vd24gdmFsdWVzKSA9PSBtaXNzaW5nIHZhbHVlXAoqIEJhY2t3YXJkIEZpbGwgKGxvb2thaGVhZCk6ICBuZXh0IHZhbHVlID09IG1pc3NpbmcgdmFsdWUuICBBdm9pZCB0aGlzIGJlY2F1c2UgaXQgdXNlcyB0aGUgZnV0dXJlIGZvciB0aGUgcGFzdC5cCiogSW50ZXJwb2xhdGlvbjogIGVxdWF0aW9uOiBsaW5lYXIgc3BsaW5lIHBvbHlub21pYWxcCiogemVybyBmaWxsOiAgKG9mdGVuIHVzZWQgaW4gcmV0YWlsIGJlY2F1c2UgbWlzc2luZyBzYWxlcyBkYXRhIHNob3VsZG5cJzkydCBiZSBjYWxjdWxhdGVkKVwKXApEb3duc2FtcGxpbmc6ICBtb3ZpbmcgZnJvbSBhIGZpbmVyIGdyYWluZWQgdGltZSB0byBhIGxlc3MgZmluZWx5IGdyYWluZWQgdGltZS5cCklmIGhhdmUgc2FsZXMgZGF0YSB3aXRoIGV4YWN0IHRpbWVzIGJ1dCBpbnZlbnRvcnkgZGF0YSBieSBkYXkuICBEb3duc2FtcGxpbmc6ICBzdW0gc2FsZXMgZGF0YSBieSBkYXkuXApcClVwc2FtcGxpbmc6ICBtb3ZlIGZyb20gbGVzcyBmaW5lbHkgZ3JhaW5lZCB0aW1lIHRvIGEgbW9yZSBmaW5lbHkgZ3JhaW5lZCB0aW1lLiAgRXh0cmVtZWx5IGRpZmZpY3VsdC5cClwKT3V0bGllcnM6ICByZW1vdmluZyBvdXRsaW5lcyBpcyBrbm93biBhcyBzbW9vdGhpbmcuICBjYW4gY3JlYXRlIGEgYmV0dGVyIG1vZGVsLiAgYnV0IG1heWJlIG1vZGVsIGlzIGV4cGVjdGluZyBub2lzeSBkYXRhLCBjb3VsZCBjb21wcm9taXNlIG1vZGVsLlwKfQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAPeO6Wm2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+<item ID="1776825464" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-21T19:37:43-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-04-22T20:16:09-07:00</attribute>
+<attribute name="NLOrganizations" >Amazon</attribute>
+<attribute name="Name" >4.2.1 Special considerations for time series data</attribute>
+<attribute name="Sentiment" >-0.08333333085</attribute>
+<attribute name="Sentiments" >-0.2;0.4;-1;-1;0.2;0;0.8;-0.4;-0.6;-0.4;0.6;0.6</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >66</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Seasonality:  repeating where frequency is stable.  sales higher at the end of a quarter and in the fourth quarter.
+
+Stability, Stationarity:  informs how much system’s past behavior informs future behavior.  A system with low stability won’t be successful at predicting the future.
+
+Trend for time series?  If adjust series for the trend, it can be difficult to compare it with another series that was also adjusted for the trend.  If trends dominate values in series, could lead to overestimates and correlation between two series.
+
+Autocorrelation:  a form of noise because separate observations aren’t independent of each other.  A time series with autocorrelation might overstate the accuracy of the model it has produced.  Some modules can help correct for autocorrelation.
+
+Choose an appropriate algorithm.  Determined by type of data set and features of data set.
+
+Amazon forecast supports:
+* Autoregressive Integrated Moving Average (ARIMA):  removes autocorrelations that can influence the pattern of observations
+* DeepAR+
+* Exponential Smoothing (ETS):  useful for datasets with seasonality
+* Non-Parametric Time Series (NPTS)
+* Prophet</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4CBgAAKwAAAAEAAAD6BQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgU2Vhc29uYWxpdHk6ICByZXBlYXRpbmcgd2hlcmUgZnJlcXVlbmN5IGlzIHN0YWJsZS4gIHNhbGVzIGhpZ2hlciBhdCB0aGUgZW5kIG9mIGEgcXVhcnRlciBhbmQgaW4gdGhlIGZvdXJ0aCBxdWFydGVyLlwKXApTdGFiaWxpdHksIFN0YXRpb25hcml0eTogIGluZm9ybXMgaG93IG11Y2ggc3lzdGVtXCc5MnMgcGFzdCBiZWhhdmlvciBpbmZvcm1zIGZ1dHVyZSBiZWhhdmlvci4gIEEgc3lzdGVtIHdpdGggbG93IHN0YWJpbGl0eSB3b25cJzkydCBiZSBzdWNjZXNzZnVsIGF0IHByZWRpY3RpbmcgdGhlIGZ1dHVyZS5cClwKVHJlbmQgZm9yIHRpbWUgc2VyaWVzPyAgSWYgYWRqdXN0IHNlcmllcyBmb3IgdGhlIHRyZW5kLCBpdCBjYW4gYmUgZGlmZmljdWx0IHRvIGNvbXBhcmUgaXQgd2l0aCBhbm90aGVyIHNlcmllcyB0aGF0IHdhcyBhbHNvIGFkanVzdGVkIGZvciB0aGUgdHJlbmQuICBJZiB0cmVuZHMgZG9taW5hdGUgdmFsdWVzIGluIHNlcmllcywgY291bGQgbGVhZCB0byBvdmVyZXN0aW1hdGVzIGFuZCBjb3JyZWxhdGlvbiBiZXR3ZWVuIHR3byBzZXJpZXMuXApcCkF1dG9jb3JyZWxhdGlvbjogIGEgZm9ybSBvZiBub2lzZSBiZWNhdXNlIHNlcGFyYXRlIG9ic2VydmF0aW9ucyBhcmVuXCc5MnQgaW5kZXBlbmRlbnQgb2YgZWFjaCBvdGhlci4gIEEgdGltZSBzZXJpZXMgd2l0aCBhdXRvY29ycmVsYXRpb24gbWlnaHQgb3ZlcnN0YXRlIHRoZSBhY2N1cmFjeSBvZiB0aGUgbW9kZWwgaXQgaGFzIHByb2R1Y2VkLiAgU29tZSBtb2R1bGVzIGNhbiBoZWxwIGNvcnJlY3QgZm9yIGF1dG9jb3JyZWxhdGlvbi5cClwKQ2hvb3NlIGFuIGFwcHJvcHJpYXRlIGFsZ29yaXRobS4gIERldGVybWluZWQgYnkgdHlwZSBvZiBkYXRhIHNldCBhbmQgZmVhdHVyZXMgb2YgZGF0YSBzZXQuXApcCkFtYXpvbiBmb3JlY2FzdCBzdXBwb3J0czpcCiogQXV0b3JlZ3Jlc3NpdmUgSW50ZWdyYXRlZCBNb3ZpbmcgQXZlcmFnZSAoQVJJTUEpOiAgcmVtb3ZlcyBhdXRvY29ycmVsYXRpb25zIHRoYXQgY2FuIGluZmx1ZW5jZSB0aGUgcGF0dGVybiBvZiBvYnNlcnZhdGlvbnNcCiogRGVlcEFSK1wKKiBFeHBvbmVudGlhbCBTbW9vdGhpbmcgKEVUUyk6ICB1c2VmdWwgZm9yIGRhdGFzZXRzIHdpdGggc2Vhc29uYWxpdHlcCiogTm9uLVBhcmFtZXRyaWMgVGltZSBTZXJpZXMgKE5QVFMpXAoqIFByb3BoZXR9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAA+Y7pabYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+<item ID="1776825482" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-21T19:38:01-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-04-22T21:14:34-07:00</attribute>
+<attribute name="NLOrganizations" >Amazon;Amazon Forecast</attribute>
+<attribute name="Name" >4.3 Using Amazon Forecast</attribute>
+<attribute name="Sentiment" >-0.4066666767</attribute>
+<attribute name="Sentiments" >0.2;0.4;-0.8;0.4;0.6;-0.8;0.2;-0.8;0.4;-0.6;-0.8;-0.4;-1;0;0.8;0;-0.4;0;-0.6;0;-0.4;-0.4;-0.6;0;-0.4;0.2;-0.8;-0.8;-0.2;-0.6;0.2;-0.6;-0.8;-0.6;0.8;-0.8;-0.6;-0.6;-0.6;-0.4;-0.6;-0.6;-0.6;-0.6;-0.6;-0.8;-0.6;-0.8;-0.8;-0.8;-0.8;-0.6;-1;-0.6;-0.6;-0.2;-0.6;-0.8;-0.4;-0.8</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >71.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Import as much data as you have, both historical data and related data.
+
+Do basic evaluation and feature engineering before you use the data to train a model.
+
+To train a predictor, you need to choose an algorithm.  Amazon Forecast can choose for you if you select “AutoML.”
+
+Select domain for your data.  If you’re not sure what is the best fit, can select a custom domain.  Domains require specific types of data.
+
+When you have a trained model, you can use the model to make a forecast using an input dataset group.
+
+After you’ve generated the forecast, you can query the forecast.  You can export it to a bucket in Amazon S3.  And you can encrypt the data in the forecast before exporting it.
+
+Overall process for working with Forecast:
+* import historical and related data
+* Forecast inspects the data, identifies key data, and selects an appropriate algorithm.
+* Forecast uses the algorithm to train and optimize a custom model and produce a predictor.
+* create forecasts by applying the predictor to your dataset
+* retrieve forecasts in the AWS management console or export as csv
+* use api and aws cli commands to create and retrieve forecasts
+
+Select a domain to improve the efficiency of the predictor.  Each domain has specific types of data to apply when you build the predictor.
+
+Supported domains:
+* retail
+* inventory planning
+* EC2 capacity
+* work force
+* web traffic
+* metrics
+* custom
+
+For example, retail domain expects data for item identifiers, a timestamp for the observation, the number of sales for that item, specified timestamp.
+
+For a retail forecast:
+* time series data: transactions sales data; timestamp, item, quantity
+* metadata: category, item color, item id to link back to time series data.  metadata typically doesn’t change.
+* related data: sales price, other promotion data; timestamp and item id to link back to data
+
+For a web traffic forecast:
+* time series data: web page id; page view per month; timestamp
+* related and metadata:  page category (navigation, content category); geographic identifier for web client.
+
+Forecasters
+* use an algorithm to train the model
+* use the model to make a forecast using input dataset group
+
+Forecast divides data into training and test data.  Time series data can’t be divided into random samples.  Can specify multiple back test windows to spit the data multiple times, train the model, and use metrics to determine which model gives the best results.
+
+You can change how Forecast splits the data by setting the back test window offset parameter when you create the predictor.  The default is 1.
+
+After you’ve trained the model, you need to measure its accuracy.
+Evaluation metrics:
+* weighted quantile loss (wQuantileLoss)
+* root mean square error (RMSE)
+
+weighted quantile loss (wQuantileLoss):
+* provides probabilistic predictions at three distinct quantiles: 10%, 50%, 90%.
+* shows how much uncertainty is associated with each forecast
+* P10 quantile predicts that 10% of the time, the true value will be less than the predicted value
+    * suppose that you’re a retailer forecasting product demand for winter gloves that sell well only during the fall or winter.  you don’t have sufficient storage space and the cost of invested capital is high.  you might use the P10 quantiles to order a relatively low number of winter gloves.  the P10 forecast overestimates the demand for winter gloves only 10% of the time.  so you’ll be sold out of winter gloves 90% of the time.
+* a P50 quantile predicts that 50% of the time the true value will be less than the predicted value.
+    * if you know that there is a moderate demand for gloves and you aren’t concerned about being overstocked, you might choose to use the P50 quantiles to order gloves.
+* a P90 quantile predicts that 90% of the time the true value will be less than the predicted value.
+    * if you determine that being understocked on gloves will result in lost revenue, you might chose the P90 quantile to order gloves
+* calculate weighted quantile loss:  how far off the forecast a certain quantile is from actual demand in either direction
+* lower wQuantileLoss metrics mean that forecasts are more reliable
+
+Root mean square error (RMSE):  the square of all errors
+also calculates how far off the forecasted values were from the actual test data
+* RMSE finds the difference between the actual target value in the dataset and the forecasted value for that time period
+* squares the differences
+* good for forecast validity when errors are mostly of the same size (not many outliers)
+* lower RMSE means model’s forecasts are more reliable
+
+Example: web retail using accuracy metrics to evaluate a forecast.  The retailer wants to predict the demand for sales of a particular brand of shoes.
+* predictor provides a forecasted demand of 1000 with P10, P50, and P90 values: &lt;880, &lt;1050, &lt;1200.
+* base decision on risk of not being able to fulfill orders or that they’ll have excess inventory</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5gFQAAKwAAAAEAAABYFQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7XHJlZDBcZ3JlZW4wXGJsdWUwO30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc3B0aHJlZVxjMFxjMFxjMDtcY3NwdGhyZWVcYzBcYzBcYzA7fQpccGFyZFx0eDU0MFx0eDEwODBcdHgxNjIwXHR4MjE2MFx0eDI3MDBcdHgzMjQwXHR4Mzc4MFx0eDQzMjBcc2wyODhcc2xtdWx0MVxzYjQwXHNhNDBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiBJbXBvcnQgYXMgbXVjaCBkYXRhIGFzIHlvdSBoYXZlLCBib3RoIGhpc3RvcmljYWwgZGF0YSBhbmQgcmVsYXRlZCBkYXRhLlwKXApEbyBiYXNpYyBldmFsdWF0aW9uIGFuZCBmZWF0dXJlIGVuZ2luZWVyaW5nIGJlZm9yZSB5b3UgdXNlIHRoZSBkYXRhIHRvIHRyYWluIGEgbW9kZWwuXApcClRvIHRyYWluIGEgcHJlZGljdG9yLCB5b3UgbmVlZCB0byBjaG9vc2UgYW4gYWxnb3JpdGhtLiAgQW1hem9uIEZvcmVjYXN0IGNhbiBjaG9vc2UgZm9yIHlvdSBpZiB5b3Ugc2VsZWN0IFwnOTNBdXRvTUwuXCc5NFwKXApTZWxlY3QgZG9tYWluIGZvciB5b3VyIGRhdGEuICBJZiB5b3VcJzkycmUgbm90IHN1cmUgd2hhdCBpcyB0aGUgYmVzdCBmaXQsIGNhbiBzZWxlY3QgYSBjdXN0b20gZG9tYWluLiAgRG9tYWlucyByZXF1aXJlIHNwZWNpZmljIHR5cGVzIG9mIGRhdGEuXApcCldoZW4geW91IGhhdmUgYSB0cmFpbmVkIG1vZGVsLCB5b3UgY2FuIHVzZSB0aGUgbW9kZWwgdG8gbWFrZSBhIGZvcmVjYXN0IHVzaW5nIGFuIGlucHV0IGRhdGFzZXQgZ3JvdXAuXApcCkFmdGVyIHlvdVwnOTJ2ZSBnZW5lcmF0ZWQgdGhlIGZvcmVjYXN0LCB5b3UgY2FuIHF1ZXJ5IHRoZSBmb3JlY2FzdC4gIFlvdSBjYW4gZXhwb3J0IGl0IHRvIGEgYnVja2V0IGluIEFtYXpvbiBTMy4gIEFuZCB5b3UgY2FuIGVuY3J5cHQgdGhlIGRhdGEgaW4gdGhlIGZvcmVjYXN0IGJlZm9yZSBleHBvcnRpbmcgaXQuXApcCk92ZXJhbGwgcHJvY2VzcyBmb3Igd29ya2luZyB3aXRoIEZvcmVjYXN0OlwKKiBpbXBvcnQgaGlzdG9yaWNhbCBhbmQgcmVsYXRlZCBkYXRhXAoqIEZvcmVjYXN0IGluc3BlY3RzIHRoZSBkYXRhLCBpZGVudGlmaWVzIGtleSBkYXRhLCBhbmQgc2VsZWN0cyBhbiBhcHByb3ByaWF0ZSBhbGdvcml0aG0uXAoqIEZvcmVjYXN0IHVzZXMgdGhlIGFsZ29yaXRobSB0byB0cmFpbiBhbmQgb3B0aW1pemUgYSBjdXN0b20gbW9kZWwgYW5kIHByb2R1Y2UgYSBwcmVkaWN0b3IuXAoqIGNyZWF0ZSBmb3JlY2FzdHMgYnkgYXBwbHlpbmcgdGhlIHByZWRpY3RvciB0byB5b3VyIGRhdGFzZXRcCiogcmV0cmlldmUgZm9yZWNhc3RzIGluIHRoZSBBV1MgbWFuYWdlbWVudCBjb25zb2xlIG9yIGV4cG9ydCBhcyBjc3ZcCiogdXNlIGFwaSBhbmQgYXdzIGNsaSBjb21tYW5kcyB0byBjcmVhdGUgYW5kIHJldHJpZXZlIGZvcmVjYXN0c1wKXApTZWxlY3QgYSBkb21haW4gdG8gaW1wcm92ZSB0aGUgZWZmaWNpZW5jeSBvZiB0aGUgcHJlZGljdG9yLiAgRWFjaCBkb21haW4gaGFzIHNwZWNpZmljIHR5cGVzIG9mIGRhdGEgdG8gYXBwbHkgd2hlbiB5b3UgYnVpbGQgdGhlIHByZWRpY3Rvci5cClwKU3VwcG9ydGVkIGRvbWFpbnM6XAoqIHJldGFpbFwKKiBpbnZlbnRvcnkgcGxhbm5pbmdcCiogRUMyIGNhcGFjaXR5XAoqIHdvcmsgZm9yY2VcCiogd2ViIHRyYWZmaWNcCiogbWV0cmljc1wKKiBjdXN0b21cClwKRm9yIGV4YW1wbGUsIHJldGFpbCBkb21haW4gZXhwZWN0cyBkYXRhIGZvciBpdGVtIGlkZW50aWZpZXJzLCBhIHRpbWVzdGFtcCBmb3IgdGhlIG9ic2VydmF0aW9uLCB0aGUgbnVtYmVyIG9mIHNhbGVzIGZvciB0aGF0IGl0ZW0sIHNwZWNpZmllZCB0aW1lc3RhbXAuXApcCkZvciBhIHJldGFpbCBmb3JlY2FzdDpcCiogdGltZSBzZXJpZXMgZGF0YTogdHJhbnNhY3Rpb25zIHNhbGVzIGRhdGE7IHRpbWVzdGFtcCwgaXRlbSwgcXVhbnRpdHlcCiogbWV0YWRhdGE6IGNhdGVnb3J5LCBpdGVtIGNvbG9yLCBpdGVtIGlkIHRvIGxpbmsgYmFjayB0byB0aW1lIHNlcmllcyBkYXRhLiAgbWV0YWRhdGEgdHlwaWNhbGx5IGRvZXNuXCc5MnQgY2hhbmdlLlwKKiByZWxhdGVkIGRhdGE6IHNhbGVzIHByaWNlLCBvdGhlciBwcm9tb3Rpb24gZGF0YTsgdGltZXN0YW1wIGFuZCBpdGVtIGlkIHRvIGxpbmsgYmFjayB0byBkYXRhXApcCkZvciBhIHdlYiB0cmFmZmljIGZvcmVjYXN0OlwKKiB0aW1lIHNlcmllcyBkYXRhOiB3ZWIgcGFnZSBpZDsgcGFnZSB2aWV3IHBlciBtb250aDsgdGltZXN0YW1wXAoqIHJlbGF0ZWQgYW5kIG1ldGFkYXRhOiAgcGFnZSBjYXRlZ29yeSAobmF2aWdhdGlvbiwgY29udGVudCBjYXRlZ29yeSk7IGdlb2dyYXBoaWMgaWRlbnRpZmllciBmb3Igd2ViIGNsaWVudC5cClwKRm9yZWNhc3RlcnNcCiogdXNlIGFuIGFsZ29yaXRobSB0byB0cmFpbiB0aGUgbW9kZWxcCiogdXNlIHRoZSBtb2RlbCB0byBtYWtlIGEgZm9yZWNhc3QgdXNpbmcgaW5wdXQgZGF0YXNldCBncm91cFwKXApGb3JlY2FzdCBkaXZpZGVzIGRhdGEgaW50byB0cmFpbmluZyBhbmQgdGVzdCBkYXRhLiAgVGltZSBzZXJpZXMgZGF0YSBjYW5cJzkydCBiZSBkaXZpZGVkIGludG8gcmFuZG9tIHNhbXBsZXMuICBDYW4gc3BlY2lmeSBtdWx0aXBsZSBiYWNrIHRlc3Qgd2luZG93cyB0byBzcGl0IHRoZSBkYXRhIG11bHRpcGxlIHRpbWVzLCB0cmFpbiB0aGUgbW9kZWwsIGFuZCB1c2UgbWV0cmljcyB0byBkZXRlcm1pbmUgd2hpY2ggbW9kZWwgZ2l2ZXMgdGhlIGJlc3QgcmVzdWx0cy5cClwKWW91IGNhbiBjaGFuZ2UgaG93IEZvcmVjYXN0IHNwbGl0cyB0aGUgZGF0YSBieSBzZXR0aW5nIHRoZSBiYWNrIHRlc3Qgd2luZG93IG9mZnNldCBwYXJhbWV0ZXIgd2hlbiB5b3UgY3JlYXRlIHRoZSBwcmVkaWN0b3IuICBUaGUgZGVmYXVsdCBpcyAxLlwKXApBZnRlciB5b3VcJzkydmUgdHJhaW5lZCB0aGUgbW9kZWwsIHlvdSBuZWVkIHRvIG1lYXN1cmUgaXRzIGFjY3VyYWN5LlwKRXZhbHVhdGlvbiBtZXRyaWNzOlwKKiBcY2YzIHdlaWdodGVkIHF1YW50aWxlIGxvc3MgKHdRdWFudGlsZUxvc3MpXAoqIHJvb3QgbWVhbiBzcXVhcmUgZXJyb3IgKFJNU0UpXGNmMiBcClwKd2VpZ2h0ZWQgcXVhbnRpbGUgbG9zcyAod1F1YW50aWxlTG9zcyk6XAoqIHByb3ZpZGVzIHByb2JhYmlsaXN0aWMgcHJlZGljdGlvbnMgYXQgdGhyZWUgZGlzdGluY3QgcXVhbnRpbGVzOiAxMCUsIDUwJSwgOTAlLlwKKiBzaG93cyBob3cgbXVjaCB1bmNlcnRhaW50eSBpcyBhc3NvY2lhdGVkIHdpdGggZWFjaCBmb3JlY2FzdFwKKiBQMTAgcXVhbnRpbGUgcHJlZGljdHMgdGhhdCAxMCUgb2YgdGhlIHRpbWUsIHRoZSB0cnVlIHZhbHVlIHdpbGwgYmUgbGVzcyB0aGFuIHRoZSBwcmVkaWN0ZWQgdmFsdWVcCiAgICAqIHN1cHBvc2UgdGhhdCB5b3VcJzkycmUgYSByZXRhaWxlciBmb3JlY2FzdGluZyBwcm9kdWN0IGRlbWFuZCBmb3Igd2ludGVyIGdsb3ZlcyB0aGF0IHNlbGwgd2VsbCBvbmx5IGR1cmluZyB0aGUgZmFsbCBvciB3aW50ZXIuICB5b3UgZG9uXCc5MnQgaGF2ZSBzdWZmaWNpZW50IHN0b3JhZ2Ugc3BhY2UgYW5kIHRoZSBjb3N0IG9mIGludmVzdGVkIGNhcGl0YWwgaXMgaGlnaC4gIHlvdSBtaWdodCB1c2UgdGhlIFAxMCBxdWFudGlsZXMgdG8gb3JkZXIgYSByZWxhdGl2ZWx5IGxvdyBudW1iZXIgb2Ygd2ludGVyIGdsb3Zlcy4gIHRoZSBQMTAgZm9yZWNhc3Qgb3ZlcmVzdGltYXRlcyB0aGUgZGVtYW5kIGZvciB3aW50ZXIgZ2xvdmVzIG9ubHkgMTAlIG9mIHRoZSB0aW1lLiAgc28geW91XCc5MmxsIGJlIHNvbGQgb3V0IG9mIHdpbnRlciBnbG92ZXMgOTAlIG9mIHRoZSB0aW1lLlwKKiBhIFA1MCBxdWFudGlsZSBwcmVkaWN0cyB0aGF0IDUwJSBvZiB0aGUgdGltZSB0aGUgdHJ1ZSB2YWx1ZSB3aWxsIGJlIGxlc3MgdGhhbiB0aGUgcHJlZGljdGVkIHZhbHVlLlwKICAgICogaWYgeW91IGtub3cgdGhhdCB0aGVyZSBpcyBhIG1vZGVyYXRlIGRlbWFuZCBmb3IgZ2xvdmVzIGFuZCB5b3UgYXJlblwnOTJ0IGNvbmNlcm5lZCBhYm91dCBiZWluZyBvdmVyc3RvY2tlZCwgeW91IG1pZ2h0IGNob29zZSB0byB1c2UgdGhlIFA1MCBxdWFudGlsZXMgdG8gb3JkZXIgZ2xvdmVzLlwKKiBhIFA5MCBxdWFudGlsZSBwcmVkaWN0cyB0aGF0IDkwJSBvZiB0aGUgdGltZSB0aGUgdHJ1ZSB2YWx1ZSB3aWxsIGJlIGxlc3MgdGhhbiB0aGUgcHJlZGljdGVkIHZhbHVlLlwKICAgICogaWYgeW91IGRldGVybWluZSB0aGF0IGJlaW5nIHVuZGVyc3RvY2tlZCBvbiBnbG92ZXMgd2lsbCByZXN1bHQgaW4gbG9zdCByZXZlbnVlLCB5b3UgbWlnaHQgY2hvc2UgdGhlIFA5MCBxdWFudGlsZSB0byBvcmRlciBnbG92ZXNcCiogY2FsY3VsYXRlIHdlaWdodGVkIHF1YW50aWxlIGxvc3M6ICBob3cgZmFyIG9mZiB0aGUgZm9yZWNhc3QgYSBjZXJ0YWluIHF1YW50aWxlIGlzIGZyb20gYWN0dWFsIGRlbWFuZCBpbiBlaXRoZXIgZGlyZWN0aW9uXAoqIGxvd2VyIFxjZjMgd1F1YW50aWxlTG9zc1xjZjIgIG1ldHJpY3MgbWVhbiB0aGF0IGZvcmVjYXN0cyBhcmUgbW9yZSByZWxpYWJsZVwKXApSb290IG1lYW4gc3F1YXJlIGVycm9yIChSTVNFKTogIHRoZSBzcXVhcmUgb2YgYWxsIGVycm9yc1wKYWxzbyBjYWxjdWxhdGVzIGhvdyBmYXIgb2ZmIHRoZSBmb3JlY2FzdGVkIHZhbHVlcyB3ZXJlIGZyb20gdGhlIGFjdHVhbCB0ZXN0IGRhdGFcCiogUk1TRSBmaW5kcyB0aGUgZGlmZmVyZW5jZSBiZXR3ZWVuIHRoZSBhY3R1YWwgdGFyZ2V0IHZhbHVlIGluIHRoZSBkYXRhc2V0IGFuZCB0aGUgZm9yZWNhc3RlZCB2YWx1ZSBmb3IgdGhhdCB0aW1lIHBlcmlvZFwKKiBzcXVhcmVzIHRoZSBkaWZmZXJlbmNlc1wKKiBnb29kIGZvciBmb3JlY2FzdCB2YWxpZGl0eSB3aGVuIGVycm9ycyBhcmUgbW9zdGx5IG9mIHRoZSBzYW1lIHNpemUgKG5vdCBtYW55IG91dGxpZXJzKVwKKiBsb3dlciBSTVNFIG1lYW5zIG1vZGVsXCc5MnMgZm9yZWNhc3RzIGFyZSBtb3JlIHJlbGlhYmxlXApcCkV4YW1wbGU6IHdlYiByZXRhaWwgdXNpbmcgYWNjdXJhY3kgbWV0cmljcyB0byBldmFsdWF0ZSBhIGZvcmVjYXN0LiAgVGhlIHJldGFpbGVyIHdhbnRzIHRvIHByZWRpY3QgdGhlIGRlbWFuZCBmb3Igc2FsZXMgb2YgYSBwYXJ0aWN1bGFyIGJyYW5kIG9mIHNob2VzLlwKKiBwcmVkaWN0b3IgcHJvdmlkZXMgYSBmb3JlY2FzdGVkIGRlbWFuZCBvZiAxMDAwIHdpdGggUDEwLCBQNTAsIGFuZCBQOTAgdmFsdWVzOiA8ODgwLCA8MTA1MCwgPDEyMDAuXAoqIGJhc2UgZGVjaXNpb24gb24gcmlzayBvZiBub3QgYmVpbmcgYWJsZSB0byBmdWxmaWxsIG9yZGVycyBvciB0aGF0IHRoZXlcJzkybGwgaGF2ZSBleGNlc3MgaW52ZW50b3J5fQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAKqc6Wm2AQAAAAAAAAAAAAA=</rtfd>
 </item>
 </item>
 </item>
@@ -1789,6 +2331,27 @@ Embedded methods combine filter and wrapper methods.
 <attribute name="Modified" >2026-04-05T05:42:30-07:00</attribute>
 <attribute name="Name" >Natural language processing (NLP)</attribute>
 <attribute name="Xpos" >63</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="1776561941" Creator="Robert Hamrick" >
+<attribute name="Created" >2026-04-18T18:25:40-07:00</attribute>
+<attribute name="Modified" >2026-04-18T18:25:40-07:00</attribute>
+<attribute name="Name" >Precision</attribute>
+<attribute name="Xpos" >81</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="1776561951" Creator="Robert Hamrick" >
+<attribute name="Created" >2026-04-18T18:25:50-07:00</attribute>
+<attribute name="Modified" >2026-04-18T18:25:50-07:00</attribute>
+<attribute name="Name" >Sensitivity</attribute>
+<attribute name="Xpos" >85.5</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="1776561921" Creator="Robert Hamrick" >
+<attribute name="Created" >2026-04-18T18:25:20-07:00</attribute>
+<attribute name="Modified" >2026-04-18T18:25:20-07:00</attribute>
+<attribute name="Name" >Specificity</attribute>
+<attribute name="Xpos" >76.5</attribute>
 <attribute name="Ypos" >0</attribute>
 </item>
 <item ID="1775476849" Creator="Robert Hamrick" >
@@ -2039,8 +2602,82 @@ pd.plotting.scatter_matrix(df,figsize=(12,12))
 <attribute name="Created" >2026-04-13T07:25:14-07:00</attribute>
 <attribute name="Modified" >2026-04-13T07:25:14-07:00</attribute>
 <attribute name="Name" >Tasks</attribute>
+<attribute name="OnAdd" >$Prototype=&quot;Task&quot;;
+</attribute>
+<attribute name="Sort" >Checked</attribute>
+<attribute name="SortAlso" >Name</attribute>
+<attribute name="SortBackwardAlso" >true</attribute>
 <attribute name="Xpos" >45</attribute>
 <attribute name="Ypos" >0</attribute>
+<item ID="1776187689" Creator="Robert Hamrick" proto="Task" >
+<attribute name="Created" >2026-04-14T10:28:08-07:00</attribute>
+<attribute name="DueDate" >2026-04-21T23:59:00-07:00</attribute>
+<attribute name="Height" >2.48</attribute>
+<attribute name="Modified" >2026-04-14T10:28:08-07:00</attribute>
+<attribute name="Name" >Lab 3.7</attribute>
+<attribute name="Width" >4</attribute>
+<attribute name="Xpos" >76.5</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="1776187683" Creator="Robert Hamrick" proto="Task" >
+<attribute name="Badge" >check</attribute>
+<attribute name="Checked" >true</attribute>
+<attribute name="Created" >2026-04-14T10:28:02-07:00</attribute>
+<attribute name="Height" >2.48</attribute>
+<attribute name="Modified" >2026-04-18T17:37:05-07:00</attribute>
+<attribute name="Name" >Lab 3.6</attribute>
+<attribute name="Width" >4</attribute>
+<attribute name="Xpos" >72</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="1776187665" Creator="Robert Hamrick" proto="Task" >
+<attribute name="Badge" >check</attribute>
+<attribute name="Checked" >true</attribute>
+<attribute name="Created" >2026-04-14T10:27:44-07:00</attribute>
+<attribute name="DueDate" >2026-04-21T23:59:00-07:00</attribute>
+<attribute name="Height" >2.48</attribute>
+<attribute name="Modified" >2026-04-14T16:18:30-07:00</attribute>
+<attribute name="Name" >Lab 3.5</attribute>
+<attribute name="Width" >4</attribute>
+<attribute name="Xpos" >67.5</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="1776187660" Creator="Robert Hamrick" proto="Task" >
+<attribute name="Badge" >check</attribute>
+<attribute name="Checked" >true</attribute>
+<attribute name="Created" >2026-04-14T10:27:39-07:00</attribute>
+<attribute name="DueDate" >2026-04-21T23:59:00-07:00</attribute>
+<attribute name="Height" >2.48</attribute>
+<attribute name="Modified" >2026-04-14T12:04:14-07:00</attribute>
+<attribute name="Name" >Lab 3.4</attribute>
+<attribute name="Width" >4</attribute>
+<attribute name="Xpos" >63</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="1776090503" Creator="Robert Hamrick" proto="Task" >
+<attribute name="Badge" >check</attribute>
+<attribute name="Checked" >true</attribute>
+<attribute name="Created" >2026-04-13T07:28:22-07:00</attribute>
+<attribute name="DueDate" >2026-04-14T23:59:00-07:00</attribute>
+<attribute name="Height" >2.48</attribute>
+<attribute name="Modified" >2026-04-14T10:25:54-07:00</attribute>
+<attribute name="Name" >Lab 3.3</attribute>
+<attribute name="Width" >4</attribute>
+<attribute name="Xpos" >58.5</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="1776090500" Creator="Robert Hamrick" proto="Task" >
+<attribute name="Badge" >check</attribute>
+<attribute name="Checked" >true</attribute>
+<attribute name="Created" >2026-04-13T07:28:19-07:00</attribute>
+<attribute name="DueDate" >2026-04-14T23:59:00-07:00</attribute>
+<attribute name="Height" >2.48</attribute>
+<attribute name="Modified" >2026-04-13T14:01:51-07:00</attribute>
+<attribute name="Name" >Lab 3.2</attribute>
+<attribute name="Width" >4</attribute>
+<attribute name="Xpos" >54</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
 <item ID="1776090320" Creator="Robert Hamrick" proto="Task" >
 <attribute name="Badge" >check</attribute>
 <attribute name="Checked" >true</attribute>
@@ -2058,28 +2695,6 @@ pd.plotting.scatter_matrix(df,figsize=(12,12))
 <text >Lab 3.1 is from section 3.2
 Lab 3.1 needs a screenshot turned in.</text>
 <rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC58AQAAKwAAAAEAAAB0AQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHgzNjBcdHg3MjBcdHgxMDgwXHR4MTQ0MFxzYjYwXHNhNjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiBMYWIgMy4xIGlzIGZyb20gc2VjdGlvbiAzLjJcCkxhYiAzLjEgbmVlZHMgYSBzY3JlZW5zaG90IHR1cm5lZCBpbi59AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAATj3dabYBAAAAAAAAAAAAAA==</rtfd>
-</item>
-<item ID="1776090500" Creator="Robert Hamrick" proto="Task" >
-<attribute name="Badge" >check</attribute>
-<attribute name="Checked" >true</attribute>
-<attribute name="Created" >2026-04-13T07:28:19-07:00</attribute>
-<attribute name="DueDate" >2026-04-14T23:59:00-07:00</attribute>
-<attribute name="Height" >2.48</attribute>
-<attribute name="Modified" >2026-04-13T14:01:51-07:00</attribute>
-<attribute name="Name" >Lab 3.2</attribute>
-<attribute name="Width" >4</attribute>
-<attribute name="Xpos" >54</attribute>
-<attribute name="Ypos" >0</attribute>
-</item>
-<item ID="1776090503" Creator="Robert Hamrick" proto="Task" >
-<attribute name="Created" >2026-04-13T07:28:22-07:00</attribute>
-<attribute name="DueDate" >2026-04-14T23:59:00-07:00</attribute>
-<attribute name="Height" >2.48</attribute>
-<attribute name="Modified" >2026-04-13T07:28:22-07:00</attribute>
-<attribute name="Name" >Lab 3.3</attribute>
-<attribute name="Width" >4</attribute>
-<attribute name="Xpos" >58.5</attribute>
-<attribute name="Ypos" >0</attribute>
 </item>
 </item>
 <item ID="1776090384" Creator="Robert Hamrick" >
@@ -2115,6 +2730,22 @@ Reach out if you have questions.  Amazon sometimes will make changes like this 
 Prof. Amato
 </text>
 <rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4QCgAAKwAAAAEAAAAICgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO1xmMVxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlLUJvbGQ7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMzBcZ3JlZW40MFxibHVlNDk7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc3NyZ2JcYzE1Mjk0XGMyMDc4NFxjMjUwOTg7XGNzc3JnYlxjMTAwMDAwXGMxMDAwMDBcYzEwMDAwMDt9CntcKlxsaXN0dGFibGV7XGxpc3RcbGlzdHRlbXBsYXRlaWQxXGxpc3RoeWJyaWR7XGxpc3RsZXZlbFxsZXZlbG5mYzIzXGxldmVsbmZjbjIzXGxldmVsamMwXGxldmVsamNuMFxsZXZlbGZvbGxvdzBcbGV2ZWxzdGFydGF0MFxsZXZlbHNwYWNlMzYwXGxldmVsaW5kZW50MHtcKlxsZXZlbG1hcmtlciBce2Rpc2NcfX17XGxldmVsdGV4dFxsZXZlbHRlbXBsYXRlaWQxXCcwMVx1YzBcdTgyMjYgO317XGxldmVsbnVtYmVyczt9XGZpLTM2MFxsaTcyMFxsaW43MjAgfXtcbGlzdG5hbWUgO31cbGlzdGlkMX19CntcKlxsaXN0b3ZlcnJpZGV0YWJsZXtcbGlzdG92ZXJyaWRlXGxpc3RpZDFcbGlzdG92ZXJyaWRlY291bnQwXGxzMX19ClxkZWZ0YWI3MjAKXHBhcmRccGFyZGVmdGFiNzIwXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyOCBcY2YyIFxjYjMgXGV4cG5kMFxleHBuZHR3MFxrZXJuaW5nMApcb3V0bDBcc3Ryb2tld2lkdGgwIFxzdHJva2VjMiBQb3N0ZWQgQXByIDEwIDY6MzBwbQpcZjFcYlxmczU3IFxjZjIgXGNiMyBcc3Ryb2tlYzIgXApBV1MgTGFiczogU3VibWlzc2lvbiBDaGFuZ2UgKElnbm9yZSBcJzkzU3VibWl0XCc5NCBCdXR0b24pXGNiMSBcClxwYXJkXHBhcmRlZnRhYjcyMFxzYTI0MFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGIwXGZzMzIgXGNmMiBcY2IzIEhpIGV2ZXJ5b25lLFxjYjEgXApcY2IzIEEgY2hhbmdlIG9mIHBsYW4gZm9yIGhvdyB0byBzdWJtaXQgeW91ciB3b3JrIGZvciB0aGUgbGFicyBpbiB0aGlzIGNsYXNzLiBcJ2EwVGhlICdTdWJtaXQnIGJ1dHRvbiB0aGVyZSB3aWxsIG5vdCBkbyBhbnl0aGluZywgc28gaGVyZSBpcyB0aGUgbmV3IHByb2Nlc3MuXGNiMSBcClxjYjMgRnJvbSBoZXJlIG9uOlxjYjEgXApccGFyZFx0eDIyMFx0eDcyMFxwYXJkZWZ0YWI3MjBcbGk3MjBcZmktNzIwXHBhcnRpZ2h0ZW5mYWN0b3IwClxsczFcaWx2bDBcY2YyIFxjYjMgXGtlcm5pbmcxXGV4cG5kMFxleHBuZHR3MCBcb3V0bDBcc3Ryb2tld2lkdGgwIHtcbGlzdHRleHQJXHVjMFx1ODIyNiAJfVxleHBuZDBcZXhwbmR0dzBca2VybmluZzAKXG91dGwwXHN0cm9rZXdpZHRoMCBcc3Ryb2tlYzIgRm9yIHNvbWUgbGFicywgdXBsb2FkIGEgc2NyZWVuc2hvdCBvZiBrZXkgc3RlcHMgb3Igb3V0cHV0cyBpbiBDYW52YXMuIFwnYTBJJ2xsIHNheSBleGFjdGx5IHdoYXQgdG8gaW5jbHVkZS5cY2IxIFwKXGxzMVxpbHZsMFxjYjMgXGtlcm5pbmcxXGV4cG5kMFxleHBuZHR3MCBcb3V0bDBcc3Ryb2tld2lkdGgwIHtcbGlzdHRleHQJXHVjMFx1ODIyNiAJfVxleHBuZDBcZXhwbmR0dzBca2VybmluZzAKXG91dGwwXHN0cm9rZXdpZHRoMCBcc3Ryb2tlYzIgT3RoZXIgbGFicyB3aWxsIG5vdCBuZWVkIGFueSBzY3JlZW5zaG90cywgYW5kIEkgY2FuIHZlcmlmeSB5b3VyIHdvcmsgb24gdGhlIGJhY2tlbmQuIFwnYTBJJ2xsIGJlIGNsZWFyIGFib3V0IHdoaWNoIG9uZXMuXGNiMSBcClxsczFcaWx2bDAKXGYxXGIgXGNiMyBca2VybmluZzFcZXhwbmQwXGV4cG5kdHcwIFxvdXRsMFxzdHJva2V3aWR0aDAge1xsaXN0dGV4dAlcdWMwXHU4MjI2IAl9XGV4cG5kMFxleHBuZHR3MFxrZXJuaW5nMApcb3V0bDBcc3Ryb2tld2lkdGgwIFxzdHJva2VjMiBUaGlzIHdlZWssIG9ubHkgTGFiIDMuMVwnYTAKXGYwXGIwIG5lZWRzIGEgc2NyZWVuc2hvdCB0dXJuZWQgaW4uIFwnYTBJIGNhbiB2ZXJpZnkgMy4yIGFuZCAzLjMgYmFzZWQgb24gd2hhdCBpcyBjYXB0dXJlZCBieSB0aGUgc3lzdGVtLlxjYjEgXApcbHMxXGlsdmwwClxmMVxiIFxjYjMgXGtlcm5pbmcxXGV4cG5kMFxleHBuZHR3MCBcb3V0bDBcc3Ryb2tld2lkdGgwIHtcbGlzdHRleHQJXHVjMFx1ODIyNiAJfVxleHBuZDBcZXhwbmR0dzBca2VybmluZzAKXG91dGwwXHN0cm9rZXdpZHRoMCBcc3Ryb2tlYzIgSWYgeW91IGFscmVhZHkgZmluaXNoZWQgTGFiIDMuMQpcZjBcYjAgXCdhMGFuZCBkaWRuJ3QgdGFrZSBhIHNjcmVlbnNob3QsIGRvbid0IHJlZG8gaXQuIFwnYTBJIHdpbGwgZ3JhZGUgaXQgYmFzZWQgb24gd2hhdCBJIGNhbiBzZWUuXGNiMSBcClxwYXJkXHBhcmRlZnRhYjcyMFxzYTI0MFxwYXJ0aWdodGVuZmFjdG9yMApcY2YyIFxjYjMgUmVhY2ggb3V0IGlmIHlvdSBoYXZlIHF1ZXN0aW9ucy4gXCdhMEFtYXpvbiBzb21ldGltZXMgd2lsbCBtYWtlIGNoYW5nZXMgbGlrZSB0aGlzIG1pZC1zdHJlYW0sIHNvIHdlXCc5MnJlIGFkanVzdGluZyBhcyB3ZSBnby5cY2IxIFwKXGNiMyBQcm9mLiBBbWF0b1xjYjEgXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAANv7cabYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+<item ID="1776308605" Creator="Robert Hamrick" >
+<attribute name="Created" >2026-04-15T20:03:24-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Modified" >2026-04-15T20:03:40-07:00</attribute>
+<attribute name="Name" >Week 3 Updates</attribute>
+<attribute name="Sentiment" >-0.3199999988</attribute>
+<attribute name="Sentiments" >-0.2;0.6;-0.8;-1;-0.2</attribute>
+<attribute name="Xpos" >67.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Hi everyone!  This week we will be looking at the second part of deploying a predictive model in AWS.  The labs involve creating the model, training it with the data we prepared last week, and measuring its output against ground truth.  We will be looking at common metrics used to calculate &quot;how effective&quot; a model is at its predictions (this is the topic of this week&apos;s discussion post).
+Some of the notebooks in this section can take a while to run (up to 15 minutes).   You can see the status of the notebook by checking the lower left corner.  It will say &apos;Busy&apos; or &apos;Idle&apos;.  If you see it showing &apos;Busy&apos; status, that means not all of the cells have finished running so you will not yet see the output.
+AWS had kind of a bad week. There were some intermittent errors and login problems, which is why this module is showing up today instead of yesterday.  Since this sort of thing seems to happen more often than either of us would like, I am removing late penalties for labs for the rest of the semester. You can now turn in any lab up to 7 days late with no penalty.
+Onward to the next module, and hopefully fewer surprises.
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7vBgAAKwAAAAEAAADnBgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDMwXGdyZWVuNDBcYmx1ZTQ5O1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMTBcZ3JlZW44MlxibHVlMTM1Owp9CntcKlxleHBhbmRlZGNvbG9ydGJsOztcY3NzcmdiXGMxNTI5NFxjMjA3ODRcYzI1MDk4O1xjc3NyZ2JcYzEwMDAwMFxjMTAwMDAwXGMxMDAwMDA7XGNzc3JnYlxjMFxjNDAwMDBcYzYwMDAwOwp9ClxkZWZ0YWI3MjAKXHBhcmRccGFyZGVmdGFiNzIwXHNhMjQwXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMzMiBcY2YyIFxjYjMgXGV4cG5kMFxleHBuZHR3MFxrZXJuaW5nMApcb3V0bDBcc3Ryb2tld2lkdGgwIFxzdHJva2VjMiBIaSBldmVyeW9uZSEgXCdhMFRoaXMgd2VlayB3ZSB3aWxsIGJlIGxvb2tpbmcgYXQgdGhlIHNlY29uZCBwYXJ0IG9mIGRlcGxveWluZyBhIHByZWRpY3RpdmUgbW9kZWwgaW4gQVdTLiBcJ2EwVGhlIGxhYnMgaW52b2x2ZSBjcmVhdGluZyB0aGUgbW9kZWwsIHRyYWluaW5nIGl0IHdpdGggdGhlIGRhdGEgd2UgcHJlcGFyZWQgbGFzdCB3ZWVrLCBhbmQgbWVhc3VyaW5nIGl0cyBvdXRwdXQgYWdhaW5zdCBncm91bmQgdHJ1dGguIFwnYTBXZSB3aWxsIGJlIGxvb2tpbmcgYXQgY29tbW9uIG1ldHJpY3MgdXNlZCB0byBjYWxjdWxhdGUgImhvdyBlZmZlY3RpdmUiIGEgbW9kZWwgaXMgYXQgaXRzIHByZWRpY3Rpb25zICh0aGlzIGlzIHRoZSB0b3BpYyBvZiB0aGlzIHdlZWsnc1wnYTB7XGZpZWxke1wqXGZsZGluc3R7SFlQRVJMSU5LICJodHRwczovL2R2Yy5pbnN0cnVjdHVyZS5jb20vY291cnNlcy8xMTc5MjUvZGlzY3Vzc2lvbl90b3BpY3MvMjIzMzc4MyJ9fXtcZmxkcnNsdCBcY2Y0IFx1bCBcdWxjNCBcc3Ryb2tlYzQgZGlzY3Vzc2lvbn19XCdhMHBvc3QpLlwKU29tZSBvZiB0aGUgbm90ZWJvb2tzIGluIHRoaXMgc2VjdGlvbiBjYW4gdGFrZSBhIHdoaWxlIHRvIHJ1biAodXAgdG8gMTUgbWludXRlcykuXCdhMCBcJ2EwWW91IGNhbiBzZWUgdGhlIHN0YXR1cyBvZiB0aGUgbm90ZWJvb2sgYnkgY2hlY2tpbmcgdGhlIGxvd2VyIGxlZnQgY29ybmVyLiBcJ2EwSXQgd2lsbCBzYXkgJ0J1c3knIG9yICdJZGxlJy4gXCdhMElmIHlvdSBzZWUgaXQgc2hvd2luZyAnQnVzeScgc3RhdHVzLCB0aGF0IG1lYW5zIG5vdCBhbGwgb2YgdGhlIGNlbGxzIGhhdmUgZmluaXNoZWQgcnVubmluZyBzbyB5b3Ugd2lsbCBub3QgeWV0IHNlZSB0aGUgb3V0cHV0LlwKQVdTIGhhZCBraW5kIG9mIGEgYmFkIHdlZWsuIFRoZXJlIHdlcmUgc29tZSBpbnRlcm1pdHRlbnQgZXJyb3JzIGFuZCBsb2dpbiBwcm9ibGVtcywgd2hpY2ggaXMgd2h5IHRoaXMgbW9kdWxlIGlzIHNob3dpbmcgdXAgdG9kYXkgaW5zdGVhZCBvZiB5ZXN0ZXJkYXkuXCdhMCBTaW5jZSB0aGlzIHNvcnQgb2YgdGhpbmcgc2VlbXMgdG8gaGFwcGVuIG1vcmUgb2Z0ZW4gdGhhbiBlaXRoZXIgb2YgdXMgd291bGQgbGlrZSwgSSBhbSByZW1vdmluZyBsYXRlIHBlbmFsdGllcyBmb3IgbGFicyBmb3IgdGhlIHJlc3Qgb2YgdGhlIHNlbWVzdGVyLiBZb3UgY2FuIG5vdyB0dXJuIGluIGFueSBsYWIgdXAgdG8gNyBkYXlzIGxhdGUgd2l0aCBubyBwZW5hbHR5LlwKT253YXJkIHRvIHRoZSBuZXh0IG1vZHVsZSwgYW5kIGhvcGVmdWxseSBmZXdlciBzdXJwcmlzZXMuXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAjFHgabYBAAAAAAAAAAAAAA==</rtfd>
 </item>
 <item ID="1776090437" Creator="Robert Hamrick" >
 <attribute name="Created" >2026-04-13T07:27:16-07:00</attribute>
@@ -3613,6 +4244,21 @@ When adding notes, place them in an appropriate existing catalog. If no catalog 
 <link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776113328" destcreator="Robert Hamrick" color="normal"  />
 <link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776113575" destcreator="Robert Hamrick" color="normal"  />
 <link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776114121" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776191114" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776191130" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1776090557" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776187660" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1776090557" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776187665" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1776090557" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776187683" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1776090557" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776187689" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776203629" destcreator="Robert Hamrick" color="normal"  />
+<link name="*untitled" sourceid="1776308605" sourcecreator="Robert Hamrick" sstart="372" slen="10" style="0" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="0" destcreator="" color="normal" URL="https://dvc.instructure.com/courses/117925/discussion_topics/2233783" destDoc="" sourceDoc="C52D021E-4986-475F-B329-811E8AF165EB"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776555329" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776631180" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963743" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776825407" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776825435" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776825451" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776825464" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776825482" destcreator="Robert Hamrick" color="normal"  />
 </links>
 <macros >
 </macros>
@@ -3734,8 +4380,8 @@ When adding notes, place them in an appropriate existing catalog. If no catalog 
 <FindWindowY > 100</FindWindowY>
 <RenameWindowX > -1</RenameWindowX>
 <RenameWindowY > -1</RenameWindowY>
-<InspectorX > 804</InspectorX>
-<InspectorY > 120</InspectorY>
+<InspectorX > 511</InspectorX>
+<InspectorY > 38</InspectorY>
 <EnterKeyAction > 0</EnterKeyAction>
 <UpdateViewShown > </UpdateViewShown>
 <TimelineScale > 1000</TimelineScale>
@@ -3785,13 +4431,14 @@ When adding notes, place them in an appropriate existing catalog. If no catalog 
 <window bounds="Rect[ 0 89 1117 949]" ruler="0" toolbar="0" >
 <tabs >
 <tab selected="0" name="" subtitle="" viewType="0" usingRoadmap="0" hideBreadcrumbs="0" hideLinkWidgets="0" linkStubs="1" animateLinks="1" scale="32" ID="1776113026" scrollX="199" scrollY="223" mapscrollX="199" mapscrollY="223" selection="" expanded="" textTab="0" splitRatio="0.5" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1776113025" crosslinks="1" spread="0.5" treepaths="" crosslinkpaths="" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" oldColumnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName="" tableParent="1776113025" tableFontSize="12" force="" gaudiSize="0" gaudiFontSize="16" roundness="10" grout="10" cameraPosition="5 2.5 -5" cameraDirection="0 0 0" focalLength="0"  />
-<tab selected="1" name="" subtitle="" viewType="1" usingRoadmap="0" hideBreadcrumbs="0" hideLinkWidgets="0" linkStubs="1" animateLinks="1" scale="32" ID="1776113026" scrollX="231.5" scrollY="107.5" mapscrollX="231.5" mapscrollY="1013.91" selection="1774965071 " expanded="1774963742 1774963907 1774965188 1775391409 1776090315 1776090384 1774963406 1774963410 1774963427 " textTab="0" splitRatio="0.583706" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1776113025" crosslinks="1" spread="0.5" treepaths="" crosslinkpaths="" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" oldColumnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName="" tableParent="1776113025" tableFontSize="12" force="" gaudiSize="0" gaudiFontSize="16" roundness="10" grout="10" cameraPosition="5 2.5 -5" cameraDirection="0 0 0" focalLength="0"  />
+<tab selected="1" name="" subtitle="" viewType="1" usingRoadmap="0" hideBreadcrumbs="0" hideLinkWidgets="0" linkStubs="1" animateLinks="1" scale="32" ID="1776113026" scrollX="231.5" scrollY="942.102" mapscrollX="231.5" mapscrollY="1013.91" selection="1776825451 " expanded="1774963742 1774963907 1774965188 1774965228 1774965249 1774965257 1774965272 1774965282 1774965289 1776825407 1775391409 1776090315 1776090384 1774963406 1774963410 1774963427 1774963448 " textTab="0" splitRatio="0.583706" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1776113025" crosslinks="1" spread="0.5" treepaths="" crosslinkpaths="" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" oldColumnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName="" tableParent="1776113025" tableFontSize="12" force="" gaudiSize="0" gaudiFontSize="16" roundness="10" grout="10" cameraPosition="5 2.5 -5" cameraDirection="0 0 0" focalLength="0"  />
 </tabs>
 </window>
 </windows>
 <utilityWindows >
 </utilityWindows>
 <searches >
+<search>interpolation</search>
 <search>ann</search>
 </searches>
 <filters >
