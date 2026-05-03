@@ -1,5 +1,57 @@
 # Discussions
 
+## Discussion #5: Recognizing images
+
+### Prompt
+
+This week we are seeing how computer vision (CV) works on the Amazon platform, and identifying use cases for applying it to real world images and video.
+
+Imagine you are consulting for a small Bay Area company that wants to use computer vision to improve their operations.  Choose one of these scenarios, or use your own:
+
+* A museum that wants to better understand their visitor patterns without invasive tracking systems in each room
+* The city of Pleasant Hill looking to get information on dog park usage
+* A restaurant that wants to improve customer service and crowd flow at peak times
+
+Answer these questions in your post:
+
+* What problem would Rekognition help solve, and how would it be used?
+* What kind of images or video would be needed, and how would they be collected?
+* What is one challenge (ethical, practical, or technical) that would need to be considered in the implementation?
+
+
+### Response
+
+Scenario: The city of Pleasant Hill is looking to get information on dog park usage.
+
+*What problem would Rekognition help solve?*
+
+Dog owners can be bad about cleaning up their dogs’ poop and the city needs to know when and where it should encourage dog owners to be better citizens.  A disgusting dog park is both a sanitary problem and a waste of tax money.  A dirty park will be underused and the city needs to pay someone to clean it up.
+
+*How would Rekognition be used?*
+
+See Rekognition’s role in the following pipeline:
+
+1. Cameras capture periodic still frames of dog park ground.
+2. An application stores the images in S3.
+3. Pushing new images to S3 triggers a Lambda function that
+    * runs Rekognition Custom Labels inference on each new image
+    * writes the detection results (camera id, timestamp, bounding boxe, confidence score) to a database like DynamoDB
+4. An application
+    * queries that database to identify bounding boxes that have persisted beyond the configured interval
+    * generates a report for the city.
+
+*What kind of images or video would be needed, and how would they be collected?*
+
+Cameras would need to take pictures of the ground of the dog park at a resolution sufficient to recognize small objects and differentiate dog waste from other objects like sticks, dirt, puddles, and dog toys.
+
+Taking pictures at an interval of 1/hour should be sufficient to assess object persistence -- that is, to answer the question, “did that dog waste get cleaned up?”
+
+
+*What is one challenge (ethical, practical, or technical) that would need to be considered in the implementation?*
+
+One big technical challenge would be to train a custom model to recognize dog waste.  Dog waste is visually irregular and camera height and angle will change how it looks in a picture.  I expect that training will require a high number of training images.
+
+
 ## Discussion 4: Time-series data
 
 ### Prompt

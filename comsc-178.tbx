@@ -2264,6 +2264,519 @@ Example: web retail using accuracy metrics to evaluate a forecast.  The retailer
 <rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5gFQAAKwAAAAEAAABYFQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7XHJlZDBcZ3JlZW4wXGJsdWUwO30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc3B0aHJlZVxjMFxjMFxjMDtcY3NwdGhyZWVcYzBcYzBcYzA7fQpccGFyZFx0eDU0MFx0eDEwODBcdHgxNjIwXHR4MjE2MFx0eDI3MDBcdHgzMjQwXHR4Mzc4MFx0eDQzMjBcc2wyODhcc2xtdWx0MVxzYjQwXHNhNDBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiBJbXBvcnQgYXMgbXVjaCBkYXRhIGFzIHlvdSBoYXZlLCBib3RoIGhpc3RvcmljYWwgZGF0YSBhbmQgcmVsYXRlZCBkYXRhLlwKXApEbyBiYXNpYyBldmFsdWF0aW9uIGFuZCBmZWF0dXJlIGVuZ2luZWVyaW5nIGJlZm9yZSB5b3UgdXNlIHRoZSBkYXRhIHRvIHRyYWluIGEgbW9kZWwuXApcClRvIHRyYWluIGEgcHJlZGljdG9yLCB5b3UgbmVlZCB0byBjaG9vc2UgYW4gYWxnb3JpdGhtLiAgQW1hem9uIEZvcmVjYXN0IGNhbiBjaG9vc2UgZm9yIHlvdSBpZiB5b3Ugc2VsZWN0IFwnOTNBdXRvTUwuXCc5NFwKXApTZWxlY3QgZG9tYWluIGZvciB5b3VyIGRhdGEuICBJZiB5b3VcJzkycmUgbm90IHN1cmUgd2hhdCBpcyB0aGUgYmVzdCBmaXQsIGNhbiBzZWxlY3QgYSBjdXN0b20gZG9tYWluLiAgRG9tYWlucyByZXF1aXJlIHNwZWNpZmljIHR5cGVzIG9mIGRhdGEuXApcCldoZW4geW91IGhhdmUgYSB0cmFpbmVkIG1vZGVsLCB5b3UgY2FuIHVzZSB0aGUgbW9kZWwgdG8gbWFrZSBhIGZvcmVjYXN0IHVzaW5nIGFuIGlucHV0IGRhdGFzZXQgZ3JvdXAuXApcCkFmdGVyIHlvdVwnOTJ2ZSBnZW5lcmF0ZWQgdGhlIGZvcmVjYXN0LCB5b3UgY2FuIHF1ZXJ5IHRoZSBmb3JlY2FzdC4gIFlvdSBjYW4gZXhwb3J0IGl0IHRvIGEgYnVja2V0IGluIEFtYXpvbiBTMy4gIEFuZCB5b3UgY2FuIGVuY3J5cHQgdGhlIGRhdGEgaW4gdGhlIGZvcmVjYXN0IGJlZm9yZSBleHBvcnRpbmcgaXQuXApcCk92ZXJhbGwgcHJvY2VzcyBmb3Igd29ya2luZyB3aXRoIEZvcmVjYXN0OlwKKiBpbXBvcnQgaGlzdG9yaWNhbCBhbmQgcmVsYXRlZCBkYXRhXAoqIEZvcmVjYXN0IGluc3BlY3RzIHRoZSBkYXRhLCBpZGVudGlmaWVzIGtleSBkYXRhLCBhbmQgc2VsZWN0cyBhbiBhcHByb3ByaWF0ZSBhbGdvcml0aG0uXAoqIEZvcmVjYXN0IHVzZXMgdGhlIGFsZ29yaXRobSB0byB0cmFpbiBhbmQgb3B0aW1pemUgYSBjdXN0b20gbW9kZWwgYW5kIHByb2R1Y2UgYSBwcmVkaWN0b3IuXAoqIGNyZWF0ZSBmb3JlY2FzdHMgYnkgYXBwbHlpbmcgdGhlIHByZWRpY3RvciB0byB5b3VyIGRhdGFzZXRcCiogcmV0cmlldmUgZm9yZWNhc3RzIGluIHRoZSBBV1MgbWFuYWdlbWVudCBjb25zb2xlIG9yIGV4cG9ydCBhcyBjc3ZcCiogdXNlIGFwaSBhbmQgYXdzIGNsaSBjb21tYW5kcyB0byBjcmVhdGUgYW5kIHJldHJpZXZlIGZvcmVjYXN0c1wKXApTZWxlY3QgYSBkb21haW4gdG8gaW1wcm92ZSB0aGUgZWZmaWNpZW5jeSBvZiB0aGUgcHJlZGljdG9yLiAgRWFjaCBkb21haW4gaGFzIHNwZWNpZmljIHR5cGVzIG9mIGRhdGEgdG8gYXBwbHkgd2hlbiB5b3UgYnVpbGQgdGhlIHByZWRpY3Rvci5cClwKU3VwcG9ydGVkIGRvbWFpbnM6XAoqIHJldGFpbFwKKiBpbnZlbnRvcnkgcGxhbm5pbmdcCiogRUMyIGNhcGFjaXR5XAoqIHdvcmsgZm9yY2VcCiogd2ViIHRyYWZmaWNcCiogbWV0cmljc1wKKiBjdXN0b21cClwKRm9yIGV4YW1wbGUsIHJldGFpbCBkb21haW4gZXhwZWN0cyBkYXRhIGZvciBpdGVtIGlkZW50aWZpZXJzLCBhIHRpbWVzdGFtcCBmb3IgdGhlIG9ic2VydmF0aW9uLCB0aGUgbnVtYmVyIG9mIHNhbGVzIGZvciB0aGF0IGl0ZW0sIHNwZWNpZmllZCB0aW1lc3RhbXAuXApcCkZvciBhIHJldGFpbCBmb3JlY2FzdDpcCiogdGltZSBzZXJpZXMgZGF0YTogdHJhbnNhY3Rpb25zIHNhbGVzIGRhdGE7IHRpbWVzdGFtcCwgaXRlbSwgcXVhbnRpdHlcCiogbWV0YWRhdGE6IGNhdGVnb3J5LCBpdGVtIGNvbG9yLCBpdGVtIGlkIHRvIGxpbmsgYmFjayB0byB0aW1lIHNlcmllcyBkYXRhLiAgbWV0YWRhdGEgdHlwaWNhbGx5IGRvZXNuXCc5MnQgY2hhbmdlLlwKKiByZWxhdGVkIGRhdGE6IHNhbGVzIHByaWNlLCBvdGhlciBwcm9tb3Rpb24gZGF0YTsgdGltZXN0YW1wIGFuZCBpdGVtIGlkIHRvIGxpbmsgYmFjayB0byBkYXRhXApcCkZvciBhIHdlYiB0cmFmZmljIGZvcmVjYXN0OlwKKiB0aW1lIHNlcmllcyBkYXRhOiB3ZWIgcGFnZSBpZDsgcGFnZSB2aWV3IHBlciBtb250aDsgdGltZXN0YW1wXAoqIHJlbGF0ZWQgYW5kIG1ldGFkYXRhOiAgcGFnZSBjYXRlZ29yeSAobmF2aWdhdGlvbiwgY29udGVudCBjYXRlZ29yeSk7IGdlb2dyYXBoaWMgaWRlbnRpZmllciBmb3Igd2ViIGNsaWVudC5cClwKRm9yZWNhc3RlcnNcCiogdXNlIGFuIGFsZ29yaXRobSB0byB0cmFpbiB0aGUgbW9kZWxcCiogdXNlIHRoZSBtb2RlbCB0byBtYWtlIGEgZm9yZWNhc3QgdXNpbmcgaW5wdXQgZGF0YXNldCBncm91cFwKXApGb3JlY2FzdCBkaXZpZGVzIGRhdGEgaW50byB0cmFpbmluZyBhbmQgdGVzdCBkYXRhLiAgVGltZSBzZXJpZXMgZGF0YSBjYW5cJzkydCBiZSBkaXZpZGVkIGludG8gcmFuZG9tIHNhbXBsZXMuICBDYW4gc3BlY2lmeSBtdWx0aXBsZSBiYWNrIHRlc3Qgd2luZG93cyB0byBzcGl0IHRoZSBkYXRhIG11bHRpcGxlIHRpbWVzLCB0cmFpbiB0aGUgbW9kZWwsIGFuZCB1c2UgbWV0cmljcyB0byBkZXRlcm1pbmUgd2hpY2ggbW9kZWwgZ2l2ZXMgdGhlIGJlc3QgcmVzdWx0cy5cClwKWW91IGNhbiBjaGFuZ2UgaG93IEZvcmVjYXN0IHNwbGl0cyB0aGUgZGF0YSBieSBzZXR0aW5nIHRoZSBiYWNrIHRlc3Qgd2luZG93IG9mZnNldCBwYXJhbWV0ZXIgd2hlbiB5b3UgY3JlYXRlIHRoZSBwcmVkaWN0b3IuICBUaGUgZGVmYXVsdCBpcyAxLlwKXApBZnRlciB5b3VcJzkydmUgdHJhaW5lZCB0aGUgbW9kZWwsIHlvdSBuZWVkIHRvIG1lYXN1cmUgaXRzIGFjY3VyYWN5LlwKRXZhbHVhdGlvbiBtZXRyaWNzOlwKKiBcY2YzIHdlaWdodGVkIHF1YW50aWxlIGxvc3MgKHdRdWFudGlsZUxvc3MpXAoqIHJvb3QgbWVhbiBzcXVhcmUgZXJyb3IgKFJNU0UpXGNmMiBcClwKd2VpZ2h0ZWQgcXVhbnRpbGUgbG9zcyAod1F1YW50aWxlTG9zcyk6XAoqIHByb3ZpZGVzIHByb2JhYmlsaXN0aWMgcHJlZGljdGlvbnMgYXQgdGhyZWUgZGlzdGluY3QgcXVhbnRpbGVzOiAxMCUsIDUwJSwgOTAlLlwKKiBzaG93cyBob3cgbXVjaCB1bmNlcnRhaW50eSBpcyBhc3NvY2lhdGVkIHdpdGggZWFjaCBmb3JlY2FzdFwKKiBQMTAgcXVhbnRpbGUgcHJlZGljdHMgdGhhdCAxMCUgb2YgdGhlIHRpbWUsIHRoZSB0cnVlIHZhbHVlIHdpbGwgYmUgbGVzcyB0aGFuIHRoZSBwcmVkaWN0ZWQgdmFsdWVcCiAgICAqIHN1cHBvc2UgdGhhdCB5b3VcJzkycmUgYSByZXRhaWxlciBmb3JlY2FzdGluZyBwcm9kdWN0IGRlbWFuZCBmb3Igd2ludGVyIGdsb3ZlcyB0aGF0IHNlbGwgd2VsbCBvbmx5IGR1cmluZyB0aGUgZmFsbCBvciB3aW50ZXIuICB5b3UgZG9uXCc5MnQgaGF2ZSBzdWZmaWNpZW50IHN0b3JhZ2Ugc3BhY2UgYW5kIHRoZSBjb3N0IG9mIGludmVzdGVkIGNhcGl0YWwgaXMgaGlnaC4gIHlvdSBtaWdodCB1c2UgdGhlIFAxMCBxdWFudGlsZXMgdG8gb3JkZXIgYSByZWxhdGl2ZWx5IGxvdyBudW1iZXIgb2Ygd2ludGVyIGdsb3Zlcy4gIHRoZSBQMTAgZm9yZWNhc3Qgb3ZlcmVzdGltYXRlcyB0aGUgZGVtYW5kIGZvciB3aW50ZXIgZ2xvdmVzIG9ubHkgMTAlIG9mIHRoZSB0aW1lLiAgc28geW91XCc5MmxsIGJlIHNvbGQgb3V0IG9mIHdpbnRlciBnbG92ZXMgOTAlIG9mIHRoZSB0aW1lLlwKKiBhIFA1MCBxdWFudGlsZSBwcmVkaWN0cyB0aGF0IDUwJSBvZiB0aGUgdGltZSB0aGUgdHJ1ZSB2YWx1ZSB3aWxsIGJlIGxlc3MgdGhhbiB0aGUgcHJlZGljdGVkIHZhbHVlLlwKICAgICogaWYgeW91IGtub3cgdGhhdCB0aGVyZSBpcyBhIG1vZGVyYXRlIGRlbWFuZCBmb3IgZ2xvdmVzIGFuZCB5b3UgYXJlblwnOTJ0IGNvbmNlcm5lZCBhYm91dCBiZWluZyBvdmVyc3RvY2tlZCwgeW91IG1pZ2h0IGNob29zZSB0byB1c2UgdGhlIFA1MCBxdWFudGlsZXMgdG8gb3JkZXIgZ2xvdmVzLlwKKiBhIFA5MCBxdWFudGlsZSBwcmVkaWN0cyB0aGF0IDkwJSBvZiB0aGUgdGltZSB0aGUgdHJ1ZSB2YWx1ZSB3aWxsIGJlIGxlc3MgdGhhbiB0aGUgcHJlZGljdGVkIHZhbHVlLlwKICAgICogaWYgeW91IGRldGVybWluZSB0aGF0IGJlaW5nIHVuZGVyc3RvY2tlZCBvbiBnbG92ZXMgd2lsbCByZXN1bHQgaW4gbG9zdCByZXZlbnVlLCB5b3UgbWlnaHQgY2hvc2UgdGhlIFA5MCBxdWFudGlsZSB0byBvcmRlciBnbG92ZXNcCiogY2FsY3VsYXRlIHdlaWdodGVkIHF1YW50aWxlIGxvc3M6ICBob3cgZmFyIG9mZiB0aGUgZm9yZWNhc3QgYSBjZXJ0YWluIHF1YW50aWxlIGlzIGZyb20gYWN0dWFsIGRlbWFuZCBpbiBlaXRoZXIgZGlyZWN0aW9uXAoqIGxvd2VyIFxjZjMgd1F1YW50aWxlTG9zc1xjZjIgIG1ldHJpY3MgbWVhbiB0aGF0IGZvcmVjYXN0cyBhcmUgbW9yZSByZWxpYWJsZVwKXApSb290IG1lYW4gc3F1YXJlIGVycm9yIChSTVNFKTogIHRoZSBzcXVhcmUgb2YgYWxsIGVycm9yc1wKYWxzbyBjYWxjdWxhdGVzIGhvdyBmYXIgb2ZmIHRoZSBmb3JlY2FzdGVkIHZhbHVlcyB3ZXJlIGZyb20gdGhlIGFjdHVhbCB0ZXN0IGRhdGFcCiogUk1TRSBmaW5kcyB0aGUgZGlmZmVyZW5jZSBiZXR3ZWVuIHRoZSBhY3R1YWwgdGFyZ2V0IHZhbHVlIGluIHRoZSBkYXRhc2V0IGFuZCB0aGUgZm9yZWNhc3RlZCB2YWx1ZSBmb3IgdGhhdCB0aW1lIHBlcmlvZFwKKiBzcXVhcmVzIHRoZSBkaWZmZXJlbmNlc1wKKiBnb29kIGZvciBmb3JlY2FzdCB2YWxpZGl0eSB3aGVuIGVycm9ycyBhcmUgbW9zdGx5IG9mIHRoZSBzYW1lIHNpemUgKG5vdCBtYW55IG91dGxpZXJzKVwKKiBsb3dlciBSTVNFIG1lYW5zIG1vZGVsXCc5MnMgZm9yZWNhc3RzIGFyZSBtb3JlIHJlbGlhYmxlXApcCkV4YW1wbGU6IHdlYiByZXRhaWwgdXNpbmcgYWNjdXJhY3kgbWV0cmljcyB0byBldmFsdWF0ZSBhIGZvcmVjYXN0LiAgVGhlIHJldGFpbGVyIHdhbnRzIHRvIHByZWRpY3QgdGhlIGRlbWFuZCBmb3Igc2FsZXMgb2YgYSBwYXJ0aWN1bGFyIGJyYW5kIG9mIHNob2VzLlwKKiBwcmVkaWN0b3IgcHJvdmlkZXMgYSBmb3JlY2FzdGVkIGRlbWFuZCBvZiAxMDAwIHdpdGggUDEwLCBQNTAsIGFuZCBQOTAgdmFsdWVzOiA8ODgwLCA8MTA1MCwgPDEyMDAuXAoqIGJhc2UgZGVjaXNpb24gb24gcmlzayBvZiBub3QgYmVpbmcgYWJsZSB0byBmdWxmaWxsIG9yZGVycyBvciB0aGF0IHRoZXlcJzkybGwgaGF2ZSBleGNlc3MgaW52ZW50b3J5fQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAKqc6Wm2AQAAAAAAAAAAAAA=</rtfd>
 </item>
 </item>
+<item ID="1777132117" Creator="Robert Hamrick" proto="Module" >
+<attribute name="Created" >2026-04-25T08:48:36-07:00</attribute>
+<attribute name="Height" >2.48</attribute>
+<attribute name="Modified" >2026-04-25T08:48:36-07:00</attribute>
+<attribute name="Name" >5. Introducing Computer Vision (CV)</attribute>
+<attribute name="Width" >4</attribute>
+<attribute name="Xpos" >55</attribute>
+<attribute name="Ypos" >0</attribute>
+<item ID="1777132157" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-25T08:49:16-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-05-02T10:14:41-07:00</attribute>
+<attribute name="Name" >5.1 Introduction to computer vision</attribute>
+<attribute name="Sentiment" >-0.3777777871</attribute>
+<attribute name="Sentiments" >-0.6;-0.4;-0.4;0.2;-0.2;-0.2;0.4;-0.8;-0.2;-0.6;-0.6;-0.6;-0.4;-0.4;-0.8;-0.6;-0.8;-0.4;-0.6;0.4;0.4;0;-0.8;-0.4;-0.6;-0.6;-0.6;-0.8;-0.2;0;-0.6;-0.8;-0.4;-0.8;0.6;-0.4</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >59.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Computer vision is the automated extraction of information from digital images.
+
+Computer vision often built with deep learning models.
+It automates the extraction, analysis, classification, and understanding of useful information from a single images or sequence of images.
+
+Uses:
+* public safety, home security
+* authentication and enhanced computer-human interaction
+* content management and analysis
+* autonomous driving, lane detection, collision avoidance
+* medical imaging
+* manufacturing process control, robotics
+
+
+### Images:
+
+* object classification
+* object detection
+* object segmentation
+
+Image problems:
+* content recognition:  identifying things in images
+* object classification
+    * what model do you use to provide the classification?
+    * models must be trained: training provides the algorithm with data for it to learn from
+* object detection:  provides image categories and where objects are located in the image
+    * bounding box (top, left, width, height):  set of coordinates for a box surrounding the image
+    * object’s confidence number:  probability that object belongs to a specific class
+* object segmentation (aka semantic segmentation):  like object detection with more details to get fine boundaries for each detected object
+    * fine-grained inference for predicting each pixel in the image
+    * e.g. for autonomous vehicles and advanced computer-human interactions
+
+
+### Video
+
+* instance tracking, movement of people or objects (aka instances)
+* action recognition
+* motion estimation
+
+Video problems:
+* detect people who enter and leave frames
+* deal with moving cameras
+* analyze shopper behavior in retail store by studying the path that each person follows; with facial recognition, study average age ranges, gender distribution, expressed emotions without identifying them
+* analyze images to identify actions from the motion in the video, like delivering a package or dancing
+* image of a baseball player:  capture batter’s accuracy, pitcher’s pitching style, type of pitch, inning, batter’s performance vs specific pitching
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7CCQAAKwAAAAEAAAC6CQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgQ29tcHV0ZXIgdmlzaW9uIGlzIHRoZSBhdXRvbWF0ZWQgZXh0cmFjdGlvbiBvZiBpbmZvcm1hdGlvbiBmcm9tIGRpZ2l0YWwgaW1hZ2VzLlwKXApDb21wdXRlciB2aXNpb24gb2Z0ZW4gYnVpbHQgd2l0aCBkZWVwIGxlYXJuaW5nIG1vZGVscy5cCkl0IGF1dG9tYXRlcyB0aGUgZXh0cmFjdGlvbiwgYW5hbHlzaXMsIGNsYXNzaWZpY2F0aW9uLCBhbmQgdW5kZXJzdGFuZGluZyBvZiB1c2VmdWwgaW5mb3JtYXRpb24gZnJvbSBhIHNpbmdsZSBpbWFnZXMgb3Igc2VxdWVuY2Ugb2YgaW1hZ2VzLlwKXApVc2VzOlwKKiBwdWJsaWMgc2FmZXR5LCBob21lIHNlY3VyaXR5XAoqIGF1dGhlbnRpY2F0aW9uIGFuZCBlbmhhbmNlZCBjb21wdXRlci1odW1hbiBpbnRlcmFjdGlvblwKKiBjb250ZW50IG1hbmFnZW1lbnQgYW5kIGFuYWx5c2lzXAoqIGF1dG9ub21vdXMgZHJpdmluZywgbGFuZSBkZXRlY3Rpb24sIGNvbGxpc2lvbiBhdm9pZGFuY2VcCiogbWVkaWNhbCBpbWFnaW5nXAoqIG1hbnVmYWN0dXJpbmcgcHJvY2VzcyBjb250cm9sLCByb2JvdGljc1wKXApcCiMjIyBJbWFnZXM6XApcCiogb2JqZWN0IGNsYXNzaWZpY2F0aW9uXAoqIG9iamVjdCBkZXRlY3Rpb25cCiogb2JqZWN0IHNlZ21lbnRhdGlvblwKXApJbWFnZSBwcm9ibGVtczpcCiogY29udGVudCByZWNvZ25pdGlvbjogIGlkZW50aWZ5aW5nIHRoaW5ncyBpbiBpbWFnZXNcCiogb2JqZWN0IGNsYXNzaWZpY2F0aW9uXAogICAgKiB3aGF0IG1vZGVsIGRvIHlvdSB1c2UgdG8gcHJvdmlkZSB0aGUgY2xhc3NpZmljYXRpb24/XAogICAgKiBtb2RlbHMgbXVzdCBiZSB0cmFpbmVkOiB0cmFpbmluZyBwcm92aWRlcyB0aGUgYWxnb3JpdGhtIHdpdGggZGF0YSBmb3IgaXQgdG8gbGVhcm4gZnJvbVwKKiBvYmplY3QgZGV0ZWN0aW9uOiAgcHJvdmlkZXMgaW1hZ2UgY2F0ZWdvcmllcyBhbmQgd2hlcmUgb2JqZWN0cyBhcmUgbG9jYXRlZCBpbiB0aGUgaW1hZ2VcCiAgICAqIGJvdW5kaW5nIGJveCAodG9wLCBsZWZ0LCB3aWR0aCwgaGVpZ2h0KTogIHNldCBvZiBjb29yZGluYXRlcyBmb3IgYSBib3ggc3Vycm91bmRpbmcgdGhlIGltYWdlXAogICAgKiBvYmplY3RcJzkycyBjb25maWRlbmNlIG51bWJlcjogIHByb2JhYmlsaXR5IHRoYXQgb2JqZWN0IGJlbG9uZ3MgdG8gYSBzcGVjaWZpYyBjbGFzc1wKKiBvYmplY3Qgc2VnbWVudGF0aW9uIChha2Egc2VtYW50aWMgc2VnbWVudGF0aW9uKTogIGxpa2Ugb2JqZWN0IGRldGVjdGlvbiB3aXRoIG1vcmUgZGV0YWlscyB0byBnZXQgZmluZSBib3VuZGFyaWVzIGZvciBlYWNoIGRldGVjdGVkIG9iamVjdFwKICAgICogZmluZS1ncmFpbmVkIGluZmVyZW5jZSBmb3IgcHJlZGljdGluZyBlYWNoIHBpeGVsIGluIHRoZSBpbWFnZVwKICAgICogZS5nLiBmb3IgYXV0b25vbW91cyB2ZWhpY2xlcyBhbmQgYWR2YW5jZWQgY29tcHV0ZXItaHVtYW4gaW50ZXJhY3Rpb25zXApcClwKIyMjIFZpZGVvXApcCiogaW5zdGFuY2UgdHJhY2tpbmcsIG1vdmVtZW50IG9mIHBlb3BsZSBvciBvYmplY3RzIChha2EgaW5zdGFuY2VzKVwKKiBhY3Rpb24gcmVjb2duaXRpb25cCiogbW90aW9uIGVzdGltYXRpb25cClwKVmlkZW8gcHJvYmxlbXM6XAoqIGRldGVjdCBwZW9wbGUgd2hvIGVudGVyIGFuZCBsZWF2ZSBmcmFtZXNcCiogZGVhbCB3aXRoIG1vdmluZyBjYW1lcmFzXAoqIGFuYWx5emUgc2hvcHBlciBiZWhhdmlvciBpbiByZXRhaWwgc3RvcmUgYnkgc3R1ZHlpbmcgdGhlIHBhdGggdGhhdCBlYWNoIHBlcnNvbiBmb2xsb3dzOyB3aXRoIGZhY2lhbCByZWNvZ25pdGlvbiwgc3R1ZHkgYXZlcmFnZSBhZ2UgcmFuZ2VzLCBnZW5kZXIgZGlzdHJpYnV0aW9uLCBleHByZXNzZWQgZW1vdGlvbnMgd2l0aG91dCBpZGVudGlmeWluZyB0aGVtXAoqIGFuYWx5emUgaW1hZ2VzIHRvIGlkZW50aWZ5IGFjdGlvbnMgZnJvbSB0aGUgbW90aW9uIGluIHRoZSB2aWRlbywgbGlrZSBkZWxpdmVyaW5nIGEgcGFja2FnZSBvciBkYW5jaW5nXAoqIGltYWdlIG9mIGEgYmFzZWJhbGwgcGxheWVyOiAgY2FwdHVyZSBiYXR0ZXJcJzkycyBhY2N1cmFjeSwgcGl0Y2hlclwnOTJzIHBpdGNoaW5nIHN0eWxlLCB0eXBlIG9mIHBpdGNoLCBpbm5pbmcsIGJhdHRlclwnOTJzIHBlcmZvcm1hbmNlIHZzIHNwZWNpZmljIHBpdGNoaW5nXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAATH2abYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+<item ID="1777132167" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-25T08:49:26-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-05-02T10:44:26-07:00</attribute>
+<attribute name="NLNames" >Lambda</attribute>
+<attribute name="NLOrganizations" >API;Amazon Kinesis;Amazon QuickSight;Amazon Rekognition;IAM;Rekognition SDK;SDK</attribute>
+<attribute name="NLPlaces" >Kinesis</attribute>
+<attribute name="Name" >5.2 Image and video analysis</attribute>
+<attribute name="Sentiment" >-0.3529411887</attribute>
+<attribute name="Sentiments" >-0.4;-0.6;-0.2;0.4;-0.4;-0.6;-0.6;-0.4;0.8;-0.8;-0.6;-0.6;0.8;-0.6;-0.6;0.4;-0.4;-0.6;-0.6;-0.6;-0.6;-0.6;0.2;-0.6;-0.6;-0.6;-0.8;-0.6;-0.6;-0.6;-0.6;-0.6;-0.6;-1;-0.6;0;-0.6;0;0.2;-0.6;-0.4;-0.6;0.6;-0.8;-0.2;0.2;-0.4;-0.6;-0.2;-0.4;0.8</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >65</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Amazon Rekognition: managed service for image and video analysis, based on deep learning
+
+Uses:
+* create searchable images and video libraries
+* face-based user verification system, compare live images with reference image
+* interpret emotional expressions
+* interpret demographic information
+* detect inappropriate content
+* recognize and extract text content from images
+
+Security:  check if image recognition features fall under an regulatory restrictions defined in your field or country.
+
+Rekognition:
+* hosts ML models (benefit from set of models that improve)
+* API, SDK (javascript, php, python, .net, ruby, java, go, nodes, c++), aws cli commands
+* scales out to meet demand
+* focus on building applications that use the API
+* optionally, train service to understand unique business needs
+* integrates with other aws services, e.g. S3, IAM, 
+
+Use case 1:
+* user takes a picture
+* upload to S3
+* bucket passes S3 path of new object to Lambda
+* Lambda function uses Rekognition SDK to call service
+* Rekognition analyzes the image, detects properties, creates labels, passes back to Lambda as a JSON object
+* Lambda stores labels nd confidence score in Elasticsearch (ES)
+* application users can identify aspects of a property using objects that were detected
+
+Use case 2: check for inappropriate content
+* user uploads images to S3
+* S3 bucket calls Lambda function when object is written
+* Lambda calls Rekognition with SDK
+* Rekognition analyzes image for inappropriate content and sends response back to Lambda
+* appropriate content approved, inappropriate content sent for manual inspection and notification sent to user
+
+Use case 3:  analyze video feed for sentimental analysis
+1. in-store camera captures video, sends to cloud-based application like Amazon Kinesis.
+2. application uses SDK to send to Rekognition. Rekognition extracts visual sentiment and other attributes like age 
+3. discovered attributes sent to Kinesis
+4. Lambda function extracts data from stream
+5. Lambda function writes data to S3
+6. load data in Redshift on regular basis
+7. generate reports with Amazon QuickSight
+
+API:
+* detect labels
+* detect faces
+* recognize celebrities
+* detect unsafe images
+
+To perform a prediction:
+* provide an image object in S3 or upload byte stream of an image (png or jpg)
+* Reknogition processes images, performs prediction, returns a JSON object with results
+
+When performing a prediction:
+* returns multiple labels with confidence level (how likely label was found in image)
+* labels can have hierarchicies (Pedestrian &lt; Person)
+* results include bounding box for each instance in image: width, height, left, top; and confidence score
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4MDAAAKwAAAAEAAAAEDAAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgQW1hem9uIFJla29nbml0aW9uOiBtYW5hZ2VkIHNlcnZpY2UgZm9yIGltYWdlIGFuZCB2aWRlbyBhbmFseXNpcywgYmFzZWQgb24gZGVlcCBsZWFybmluZ1wKXApVc2VzOlwKKiBjcmVhdGUgc2VhcmNoYWJsZSBpbWFnZXMgYW5kIHZpZGVvIGxpYnJhcmllc1wKKiBmYWNlLWJhc2VkIHVzZXIgdmVyaWZpY2F0aW9uIHN5c3RlbSwgY29tcGFyZSBsaXZlIGltYWdlcyB3aXRoIHJlZmVyZW5jZSBpbWFnZVwKKiBpbnRlcnByZXQgZW1vdGlvbmFsIGV4cHJlc3Npb25zXAoqIGludGVycHJldCBkZW1vZ3JhcGhpYyBpbmZvcm1hdGlvblwKKiBkZXRlY3QgaW5hcHByb3ByaWF0ZSBjb250ZW50XAoqIHJlY29nbml6ZSBhbmQgZXh0cmFjdCB0ZXh0IGNvbnRlbnQgZnJvbSBpbWFnZXNcClwKU2VjdXJpdHk6ICBjaGVjayBpZiBpbWFnZSByZWNvZ25pdGlvbiBmZWF0dXJlcyBmYWxsIHVuZGVyIGFuIHJlZ3VsYXRvcnkgcmVzdHJpY3Rpb25zIGRlZmluZWQgaW4geW91ciBmaWVsZCBvciBjb3VudHJ5LlwKXApSZWtvZ25pdGlvbjpcCiogaG9zdHMgTUwgbW9kZWxzIChiZW5lZml0IGZyb20gc2V0IG9mIG1vZGVscyB0aGF0IGltcHJvdmUpXAoqIEFQSSwgU0RLIChqYXZhc2NyaXB0LCBwaHAsIHB5dGhvbiwgLm5ldCwgcnVieSwgamF2YSwgZ28sIG5vZGVzLCBjKyspLCBhd3MgY2xpIGNvbW1hbmRzXAoqIHNjYWxlcyBvdXQgdG8gbWVldCBkZW1hbmRcCiogZm9jdXMgb24gYnVpbGRpbmcgYXBwbGljYXRpb25zIHRoYXQgdXNlIHRoZSBBUElcCiogb3B0aW9uYWxseSwgdHJhaW4gc2VydmljZSB0byB1bmRlcnN0YW5kIHVuaXF1ZSBidXNpbmVzcyBuZWVkc1wKKiBpbnRlZ3JhdGVzIHdpdGggb3RoZXIgYXdzIHNlcnZpY2VzLCBlLmcuIFMzLCBJQU0sIFwKXApVc2UgY2FzZSAxOlwKKiB1c2VyIHRha2VzIGEgcGljdHVyZVwKKiB1cGxvYWQgdG8gUzNcCiogYnVja2V0IHBhc3NlcyBTMyBwYXRoIG9mIG5ldyBvYmplY3QgdG8gTGFtYmRhXAoqIExhbWJkYSBmdW5jdGlvbiB1c2VzIFJla29nbml0aW9uIFNESyB0byBjYWxsIHNlcnZpY2VcCiogUmVrb2duaXRpb24gYW5hbHl6ZXMgdGhlIGltYWdlLCBkZXRlY3RzIHByb3BlcnRpZXMsIGNyZWF0ZXMgbGFiZWxzLCBwYXNzZXMgYmFjayB0byBMYW1iZGEgYXMgYSBKU09OIG9iamVjdFwKKiBMYW1iZGEgc3RvcmVzIGxhYmVscyBuZCBjb25maWRlbmNlIHNjb3JlIGluIEVsYXN0aWNzZWFyY2ggKEVTKVwKKiBhcHBsaWNhdGlvbiB1c2VycyBjYW4gaWRlbnRpZnkgYXNwZWN0cyBvZiBhIHByb3BlcnR5IHVzaW5nIG9iamVjdHMgdGhhdCB3ZXJlIGRldGVjdGVkXApcClVzZSBjYXNlIDI6IGNoZWNrIGZvciBpbmFwcHJvcHJpYXRlIGNvbnRlbnRcCiogdXNlciB1cGxvYWRzIGltYWdlcyB0byBTM1wKKiBTMyBidWNrZXQgY2FsbHMgTGFtYmRhIGZ1bmN0aW9uIHdoZW4gb2JqZWN0IGlzIHdyaXR0ZW5cCiogTGFtYmRhIGNhbGxzIFJla29nbml0aW9uIHdpdGggU0RLXAoqIFJla29nbml0aW9uIGFuYWx5emVzIGltYWdlIGZvciBpbmFwcHJvcHJpYXRlIGNvbnRlbnQgYW5kIHNlbmRzIHJlc3BvbnNlIGJhY2sgdG8gTGFtYmRhXAoqIGFwcHJvcHJpYXRlIGNvbnRlbnQgYXBwcm92ZWQsIGluYXBwcm9wcmlhdGUgY29udGVudCBzZW50IGZvciBtYW51YWwgaW5zcGVjdGlvbiBhbmQgbm90aWZpY2F0aW9uIHNlbnQgdG8gdXNlclwKXApVc2UgY2FzZSAzOiAgYW5hbHl6ZSB2aWRlbyBmZWVkIGZvciBzZW50aW1lbnRhbCBhbmFseXNpc1wKMS4gaW4tc3RvcmUgY2FtZXJhIGNhcHR1cmVzIHZpZGVvLCBzZW5kcyB0byBjbG91ZC1iYXNlZCBhcHBsaWNhdGlvbiBsaWtlIEFtYXpvbiBLaW5lc2lzLlwKMi4gYXBwbGljYXRpb24gdXNlcyBTREsgdG8gc2VuZCB0byBSZWtvZ25pdGlvbi4gUmVrb2duaXRpb24gZXh0cmFjdHMgdmlzdWFsIHNlbnRpbWVudCBhbmQgb3RoZXIgYXR0cmlidXRlcyBsaWtlIGFnZSBcCjMuIGRpc2NvdmVyZWQgYXR0cmlidXRlcyBzZW50IHRvIEtpbmVzaXNcCjQuIExhbWJkYSBmdW5jdGlvbiBleHRyYWN0cyBkYXRhIGZyb20gc3RyZWFtXAo1LiBMYW1iZGEgZnVuY3Rpb24gd3JpdGVzIGRhdGEgdG8gUzNcCjYuIGxvYWQgZGF0YSBpbiBSZWRzaGlmdCBvbiByZWd1bGFyIGJhc2lzXAo3LiBnZW5lcmF0ZSByZXBvcnRzIHdpdGggQW1hem9uIFF1aWNrU2lnaHRcClwKQVBJOlwKKiBkZXRlY3QgbGFiZWxzXAoqIGRldGVjdCBmYWNlc1wKKiByZWNvZ25pemUgY2VsZWJyaXRpZXNcCiogZGV0ZWN0IHVuc2FmZSBpbWFnZXNcClwKVG8gcGVyZm9ybSBhIHByZWRpY3Rpb246XAoqIHByb3ZpZGUgYW4gaW1hZ2Ugb2JqZWN0IGluIFMzIG9yIHVwbG9hZCBieXRlIHN0cmVhbSBvZiBhbiBpbWFnZSAocG5nIG9yIGpwZylcCiogUmVrbm9naXRpb24gcHJvY2Vzc2VzIGltYWdlcywgcGVyZm9ybXMgcHJlZGljdGlvbiwgcmV0dXJucyBhIEpTT04gb2JqZWN0IHdpdGggcmVzdWx0c1wKXApXaGVuIHBlcmZvcm1pbmcgYSBwcmVkaWN0aW9uOlwKKiByZXR1cm5zIG11bHRpcGxlIGxhYmVscyB3aXRoIGNvbmZpZGVuY2UgbGV2ZWwgKGhvdyBsaWtlbHkgbGFiZWwgd2FzIGZvdW5kIGluIGltYWdlKVwKKiBsYWJlbHMgY2FuIGhhdmUgaGllcmFyY2hpY2llcyAoUGVkZXN0cmlhbiA8IFBlcnNvbilcCiogcmVzdWx0cyBpbmNsdWRlIGJvdW5kaW5nIGJveCBmb3IgZWFjaCBpbnN0YW5jZSBpbiBpbWFnZTogd2lkdGgsIGhlaWdodCwgbGVmdCwgdG9wOyBhbmQgY29uZmlkZW5jZSBzY29yZVwKfQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAPo39mm2AQAAAAAAAAAAAAA=</rtfd>
+<item ID="1777135531" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-25T09:45:30-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-05-02T11:24:48-07:00</attribute>
+<attribute name="NLOrganizations" >SNS;SQS</attribute>
+<attribute name="Name" >5.2.1 Facial recognition</attribute>
+<attribute name="Sentiment" >-0.3381818259</attribute>
+<attribute name="Sentiments" >-0.6;-0.2;-0.4;-0.2;0;-0.4;-0.4;0;-0.6;-0.2;-0.4;-0.4;-0.4;-0.8;-0.4;-0.6;0;-0.6;0.2;0.2;0.8;-0.8;-0.6;0;-0.2;0;-0.4;0.2;-0.2;-0.6;-0.4;-0.6;-0.8;0;-0.4;-0.8;-0.8;-0.8;-0.2;0.2;0;-0.8;-0.2;-0.4;0.4;-0.8;-0.8;-0.8;-0.6;-0.4;0.4;0;-0.8;-0.6;-0.6</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >92.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Facial detection uses a model tuned to perform predictions specifically for faces and facial features.
+
+Standard features of images detection:
+* bounding box for face, confidence value
+* attributes: has beard, appears male or female
+* emotions: smiling or frowning
+* facial landmarks: eyes, mouth
+* quality: brightness, sharpness of face
+* pose: rotation of face inside image
+* confidence score for each detected feature
+
+Comparisons require a source and target image: compare source with target.
+Results include
+* all faces found
+* information about matching and non-matching faces
+* confidence scores include how likely each prediction is
+
+Search for known faces
+* train model with collection of faces to use
+* detect people in images
+* in Rekognition, create a collection and add images to collection
+* will perform facial recognition on collected images
+* will return typical information like bounding box and confidence score
+* to associate face with an image, specify ExternalImageId (file name or another id that you create)
+* after create collection, use ‘search faces by image’ operation to search collection
+* return data contains an array of all faces that matched
+* the information includes bounding boxes, confidence scores, and external image id.  can use external image id to link back to the source image
+
+Summary of Guidelines:
+* facial detection
+    * bounding box, attributes, emotions, landmarks, quality, pose
+    * confidence score
+* detection is based on image data
+    * gender based on image, not identity
+    * emotions are inferred from physical appearance
+* use appropriate confidence score for your use case
+
+
+Working with stored videos
+* upload to S3 bucket
+* start detection:  each type of detection has its own start operation
+* publishes to a topic in Simple Notification Service (SNS).  SNS routes messages to subscribers.  
+* For durability, route messages to a queue monitor topic for completion in Simple queue Service (SQS)
+* application monitors SQS queue:  each start operation has corresponding get operation for retrieving the results.
+* get detection results.  call function to get array of labels for any detection in the video.  same labels as image detection.  also, timestamp of where label was detected in milliseconds from start of video
+
+Can also use Rekognition video to recognize faces in streaming video.
+* uses Kinesis video streams to receive and process a video stream
+* Rekognition Video outputs analysis results to Kinesis data stream
+* client reads results
+* Rekognition video provides a stream processor, CreateStreamProcessor, to start and manage analysis of streamed video
+
+Applications must implement these resources to use Rekognition Video.
+* kinesis video stream to send streaming video to Rekognition Video
+* Rekognition video stream processor to manage video analysis
+* Kinesis data stream consumer to read analysis results that Rekogntion Video sends to data stream
+
+To find a face in a video
+* create a collection (as for still images)
+* Rekognition video places a JSON frame record for each analyzed frame into Kinesis output stream
+* Rekogition doesn’t analyze every frame from Kinesis video stream
+* a frame record that’s sent from a Kinesis data stream contains information about  which video stream fragment the frame is in, where the frame is in the fragment, and faces that were recognized in the frame.
+* includes status information for the stream processor
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5VDwAAKwAAAAEAAABNDwAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7XHJlZDBcZ3JlZW4wXGJsdWUwO30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc3B0aHJlZVxjMFxjMFxjMDtcY3NwdGhyZWVcYzBcYzBcYzA7fQpccGFyZFx0eDU0MFx0eDEwODBcdHgxNjIwXHR4MjE2MFx0eDI3MDBcdHgzMjQwXHR4Mzc4MFx0eDQzMjBcc2wyODhcc2xtdWx0MVxzYjQwXHNhNDBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiBGYWNpYWwgZGV0ZWN0aW9uIHVzZXMgYSBtb2RlbCB0dW5lZCB0byBwZXJmb3JtIHByZWRpY3Rpb25zIHNwZWNpZmljYWxseSBmb3IgZmFjZXMgYW5kIGZhY2lhbCBmZWF0dXJlcy5cClwKU3RhbmRhcmQgZmVhdHVyZXMgb2YgaW1hZ2VzIGRldGVjdGlvbjpcCiogYm91bmRpbmcgYm94IGZvciBmYWNlLCBjb25maWRlbmNlIHZhbHVlXAoqIGF0dHJpYnV0ZXM6IGhhcyBiZWFyZCwgYXBwZWFycyBtYWxlIG9yIGZlbWFsZVwKKiBlbW90aW9uczogc21pbGluZyBvciBmcm93bmluZ1wKKiBmYWNpYWwgbGFuZG1hcmtzOiBleWVzLCBtb3V0aFwKKiBxdWFsaXR5OiBicmlnaHRuZXNzLCBzaGFycG5lc3Mgb2YgZmFjZVwKKiBwb3NlOiByb3RhdGlvbiBvZiBmYWNlIGluc2lkZSBpbWFnZVwKKiBjb25maWRlbmNlIHNjb3JlIGZvciBlYWNoIGRldGVjdGVkIGZlYXR1cmVcClwKQ29tcGFyaXNvbnMgcmVxdWlyZSBhIHNvdXJjZSBhbmQgdGFyZ2V0IGltYWdlOiBjb21wYXJlIHNvdXJjZSB3aXRoIHRhcmdldC5cClJlc3VsdHMgaW5jbHVkZVwKKiBhbGwgZmFjZXMgZm91bmRcCiogaW5mb3JtYXRpb24gYWJvdXQgbWF0Y2hpbmcgYW5kIG5vbi1tYXRjaGluZyBmYWNlc1wKKiBjb25maWRlbmNlIHNjb3JlcyBpbmNsdWRlIGhvdyBsaWtlbHkgZWFjaCBwcmVkaWN0aW9uIGlzXApcClNlYXJjaCBmb3Iga25vd24gZmFjZXNcCiogdHJhaW4gbW9kZWwgd2l0aCBjb2xsZWN0aW9uIG9mIGZhY2VzIHRvIHVzZVwKKiBkZXRlY3QgcGVvcGxlIGluIGltYWdlc1wKKiBpbiBSZWtvZ25pdGlvbiwgY3JlYXRlIGEgY29sbGVjdGlvbiBhbmQgYWRkIGltYWdlcyB0byBjb2xsZWN0aW9uXAoqIHdpbGwgcGVyZm9ybSBmYWNpYWwgcmVjb2duaXRpb24gb24gY29sbGVjdGVkIGltYWdlc1wKKiB3aWxsIHJldHVybiB0eXBpY2FsIGluZm9ybWF0aW9uIGxpa2UgYm91bmRpbmcgYm94IGFuZCBjb25maWRlbmNlIHNjb3JlXAoqIHRvIGFzc29jaWF0ZSBmYWNlIHdpdGggYW4gaW1hZ2UsIHNwZWNpZnkgRXh0ZXJuYWxJbWFnZUlkIChmaWxlIG5hbWUgb3IgYW5vdGhlciBpZCB0aGF0IHlvdSBjcmVhdGUpXAoqIGFmdGVyIGNyZWF0ZSBjb2xsZWN0aW9uLCB1c2UgXCc5MXNlYXJjaCBmYWNlcyBieSBpbWFnZVwnOTIgb3BlcmF0aW9uIHRvIHNlYXJjaCBjb2xsZWN0aW9uXAoqIHJldHVybiBkYXRhIGNvbnRhaW5zIGFuIGFycmF5IG9mIGFsbCBmYWNlcyB0aGF0IG1hdGNoZWRcCiogdGhlIGluZm9ybWF0aW9uIGluY2x1ZGVzIGJvdW5kaW5nIGJveGVzLCBjb25maWRlbmNlIHNjb3JlcywgYW5kIGV4dGVybmFsIGltYWdlIGlkLiAgY2FuIHVzZSBleHRlcm5hbCBpbWFnZSBpZCB0byBsaW5rIGJhY2sgdG8gdGhlIHNvdXJjZSBpbWFnZVwKXApTdW1tYXJ5IG9mIEd1aWRlbGluZXM6XAoqIGZhY2lhbCBkZXRlY3Rpb25cCiAgICAqIGJvdW5kaW5nIGJveCwgYXR0cmlidXRlcywgZW1vdGlvbnMsIGxhbmRtYXJrcywgcXVhbGl0eSwgcG9zZVwKICAgICogY29uZmlkZW5jZSBzY29yZVwKKiBkZXRlY3Rpb24gaXMgYmFzZWQgb24gaW1hZ2UgZGF0YVwKICAgICogZ2VuZGVyIGJhc2VkIG9uIGltYWdlLCBub3QgaWRlbnRpdHlcCiAgICAqIGVtb3Rpb25zIGFyZSBpbmZlcnJlZCBmcm9tIHBoeXNpY2FsIGFwcGVhcmFuY2VcCiogdXNlIGFwcHJvcHJpYXRlIGNvbmZpZGVuY2Ugc2NvcmUgZm9yIHlvdXIgdXNlIGNhc2VcClwKXApXb3JraW5nIHdpdGggc3RvcmVkIHZpZGVvc1wKKiB1cGxvYWQgdG8gUzMgYnVja2V0XAoqIHN0YXJ0IGRldGVjdGlvbjogIGVhY2ggdHlwZSBvZiBkZXRlY3Rpb24gaGFzIGl0cyBvd24gc3RhcnQgb3BlcmF0aW9uXAoqIHB1Ymxpc2hlcyB0byBhIHRvcGljIGluIFNpbXBsZSBOb3RpZmljYXRpb24gU2VydmljZSAoU05TKS4gIFNOUyByb3V0ZXMgbWVzc2FnZXMgdG8gc3Vic2NyaWJlcnMuICBcCiogRm9yIGR1cmFiaWxpdHksIHJvdXRlIG1lc3NhZ2VzIHRvIGEgcXVldWUgbW9uaXRvciB0b3BpYyBmb3IgY29tcGxldGlvbiBpbiBTaW1wbGUgcXVldWUgU2VydmljZSAoU1FTKVwKKiBhcHBsaWNhdGlvbiBtb25pdG9ycyBTUVMgcXVldWU6ICBlYWNoIHN0YXJ0IG9wZXJhdGlvbiBoYXMgY29ycmVzcG9uZGluZyBnZXQgb3BlcmF0aW9uIGZvciByZXRyaWV2aW5nIHRoZSByZXN1bHRzLlwKKiBnZXQgZGV0ZWN0aW9uIHJlc3VsdHMuICBjYWxsIGZ1bmN0aW9uIHRvIGdldCBhcnJheSBvZiBsYWJlbHMgZm9yIGFueSBkZXRlY3Rpb24gaW4gdGhlIHZpZGVvLiAgc2FtZSBsYWJlbHMgYXMgaW1hZ2UgZGV0ZWN0aW9uLiAgYWxzbywgdGltZXN0YW1wIG9mIHdoZXJlIGxhYmVsIHdhcyBkZXRlY3RlZCBpbiBtaWxsaXNlY29uZHMgZnJvbSBzdGFydCBvZiB2aWRlb1wKXApDYW4gYWxzbyB1c2UgUmVrb2duaXRpb24gdmlkZW8gdG8gcmVjb2duaXplIGZhY2VzIGluIHN0cmVhbWluZyB2aWRlby5cCiogdXNlcyBLaW5lc2lzIHZpZGVvIHN0cmVhbXMgdG8gcmVjZWl2ZSBhbmQgcHJvY2VzcyBhIHZpZGVvIHN0cmVhbVwKKiBSZWtvZ25pdGlvbiBWaWRlbyBvdXRwdXRzIFxjZjMgYW5hbHlzaXMgcmVzdWx0c1xjZjIgIHRvIEtpbmVzaXMgZGF0YSBzdHJlYW1cCiogY2xpZW50IHJlYWRzIHJlc3VsdHNcCiogUmVrb2duaXRpb24gdmlkZW8gcHJvdmlkZXMgYSBzdHJlYW0gcHJvY2Vzc29yLCBDcmVhdGVTdHJlYW1Qcm9jZXNzb3IsIHRvIHN0YXJ0IGFuZCBtYW5hZ2UgYW5hbHlzaXMgb2Ygc3RyZWFtZWQgdmlkZW9cClwKQXBwbGljYXRpb25zIG11c3QgaW1wbGVtZW50IHRoZXNlIHJlc291cmNlcyB0byB1c2UgUmVrb2duaXRpb24gVmlkZW8uXAoqIGtpbmVzaXMgdmlkZW8gc3RyZWFtIHRvIHNlbmQgc3RyZWFtaW5nIHZpZGVvIHRvIFJla29nbml0aW9uIFZpZGVvXAoqIFJla29nbml0aW9uIHZpZGVvIHN0cmVhbSBwcm9jZXNzb3IgdG8gbWFuYWdlIHZpZGVvIGFuYWx5c2lzXAoqIEtpbmVzaXMgZGF0YSBzdHJlYW0gY29uc3VtZXIgdG8gcmVhZCBhbmFseXNpcyByZXN1bHRzIHRoYXQgUmVrb2dudGlvbiBWaWRlbyBzZW5kcyB0byBkYXRhIHN0cmVhbVwKXApUbyBmaW5kIGEgZmFjZSBpbiBhIHZpZGVvXAoqIGNyZWF0ZSBhIGNvbGxlY3Rpb24gKGFzIGZvciBzdGlsbCBpbWFnZXMpXAoqIFJla29nbml0aW9uIHZpZGVvIHBsYWNlcyBhIEpTT04gZnJhbWUgcmVjb3JkIGZvciBlYWNoIGFuYWx5emVkIGZyYW1lIGludG8gS2luZXNpcyBvdXRwdXQgc3RyZWFtXAoqIFJla29naXRpb24gZG9lc25cJzkydCBhbmFseXplIGV2ZXJ5IGZyYW1lIGZyb20gS2luZXNpcyB2aWRlbyBzdHJlYW1cCiogYSBmcmFtZSByZWNvcmQgdGhhdFwnOTJzIHNlbnQgZnJvbSBhIEtpbmVzaXMgZGF0YSBzdHJlYW0gY29udGFpbnMgaW5mb3JtYXRpb24gYWJvdXQgIHdoaWNoIHZpZGVvIHN0cmVhbSBmcmFnbWVudCB0aGUgZnJhbWUgaXMgaW4sIHdoZXJlIHRoZSBmcmFtZSBpcyBpbiB0aGUgZnJhZ21lbnQsIGFuZCBmYWNlcyB0aGF0IHdlcmUgcmVjb2duaXplZCBpbiB0aGUgZnJhbWUuXAoqIGluY2x1ZGVzIHN0YXR1cyBpbmZvcm1hdGlvbiBmb3IgdGhlIHN0cmVhbSBwcm9jZXNzb3JcCn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAABwQfZptgEAAAAAAAAAAAAA</rtfd>
+</item>
+</item>
+<item ID="1777132177" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-25T08:49:36-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-05-02T15:44:40-07:00</attribute>
+<attribute name="Name" >5.3 Preparing custom datasets for computer vision</attribute>
+<attribute name="Sentiment" >-0.1130434825</attribute>
+<attribute name="Sentiments" >-0.6;-0.8;-0.6;-0.8;0.8;-0.6;-0.4;-0.4;0;0.6;-0.6;-0.6;-0.6;0.8;-0.2;0.8;-0.4;-0.4;0.8;0.6;-0.2;-0.2;0.4</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >70.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Pre-built models will only find images they were trained to find.
+You may need to train models with your images.
+
+Training requires a large input data set, which isn’t practical for most organizations.  Many ML problems can be solved by training existing models.  Or use a managed service like ‘Rekognition Custom Labels’.
+
+Like other ML processes, to train a model to recognize scenes and objects in a specific domain, you need a training dataset and a test dataset that contain labeled images.
+
+Rekognition Custom Labels
+* simplified data labeling
+* automated ML
+* simplified model evaluation, inference, and feedback
+
+If you have images that need labels, you can use Rekognition Custom Labels to simplify labelling tasks.  It provides a UI for labeling images, a feature to draw bounding boxes.  Help find objects and scenes unique to your business needs.  Classify images or detect objects within an image.
+
+Example:  identify specific machine parts in images such as turbo chargers or torque converters.
+* collect pictures of each kind of machine part and use them to train model.
+
+Custom Labels also includes automated ML capabilities that handle the ML process for you.  You provide training images; and the service can automatically load and inspect the data, select the correct ML algorithms, train a model, provide model performance metrics.
+
+When you finish training your model, you can evaluate your custom model’s performance on your test set.  Each image in the test set has a side by side comparison of model’s prediction vs label it assigned.  There are detailed performance metrics for you to review.
+
+Start using model immediately.  Or iterate and retrain new versions with more images to refine the model.
+
+After you start using your model, you can track your predictions, correct any mistakes, and use the feedback data to retrain new model versions and improve performance.
+
+How do you label images?
+1. Collect images
+2. Create training dataset
+3. Create test dataset
+4. Train the model
+5. Evaluate
+6. Use model
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6OCQAAKwAAAAEAAACGCQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgUHJlLWJ1aWx0IG1vZGVscyB3aWxsIG9ubHkgZmluZCBpbWFnZXMgdGhleSB3ZXJlIHRyYWluZWQgdG8gZmluZC5cCllvdSBtYXkgbmVlZCB0byB0cmFpbiBtb2RlbHMgd2l0aCB5b3VyIGltYWdlcy5cClwKVHJhaW5pbmcgcmVxdWlyZXMgYSBsYXJnZSBpbnB1dCBkYXRhIHNldCwgd2hpY2ggaXNuXCc5MnQgcHJhY3RpY2FsIGZvciBtb3N0IG9yZ2FuaXphdGlvbnMuICBNYW55IE1MIHByb2JsZW1zIGNhbiBiZSBzb2x2ZWQgYnkgdHJhaW5pbmcgZXhpc3RpbmcgbW9kZWxzLiAgT3IgdXNlIGEgbWFuYWdlZCBzZXJ2aWNlIGxpa2UgXCc5MVJla29nbml0aW9uIEN1c3RvbSBMYWJlbHNcJzkyLlwKXApMaWtlIG90aGVyIE1MIHByb2Nlc3NlcywgdG8gdHJhaW4gYSBtb2RlbCB0byByZWNvZ25pemUgc2NlbmVzIGFuZCBvYmplY3RzIGluIGEgc3BlY2lmaWMgZG9tYWluLCB5b3UgbmVlZCBhIHRyYWluaW5nIGRhdGFzZXQgYW5kIGEgdGVzdCBkYXRhc2V0IHRoYXQgY29udGFpbiBsYWJlbGVkIGltYWdlcy5cClwKUmVrb2duaXRpb24gQ3VzdG9tIExhYmVsc1wKKiBzaW1wbGlmaWVkIGRhdGEgbGFiZWxpbmdcCiogYXV0b21hdGVkIE1MXAoqIHNpbXBsaWZpZWQgbW9kZWwgZXZhbHVhdGlvbiwgaW5mZXJlbmNlLCBhbmQgZmVlZGJhY2tcClwKSWYgeW91IGhhdmUgaW1hZ2VzIHRoYXQgbmVlZCBsYWJlbHMsIHlvdSBjYW4gdXNlIFJla29nbml0aW9uIEN1c3RvbSBMYWJlbHMgdG8gc2ltcGxpZnkgbGFiZWxsaW5nIHRhc2tzLiAgSXQgcHJvdmlkZXMgYSBVSSBmb3IgbGFiZWxpbmcgaW1hZ2VzLCBhIGZlYXR1cmUgdG8gZHJhdyBib3VuZGluZyBib3hlcy4gIEhlbHAgZmluZCBvYmplY3RzIGFuZCBzY2VuZXMgdW5pcXVlIHRvIHlvdXIgYnVzaW5lc3MgbmVlZHMuICBDbGFzc2lmeSBpbWFnZXMgb3IgZGV0ZWN0IG9iamVjdHMgd2l0aGluIGFuIGltYWdlLlwKXApFeGFtcGxlOiAgaWRlbnRpZnkgc3BlY2lmaWMgbWFjaGluZSBwYXJ0cyBpbiBpbWFnZXMgc3VjaCBhcyB0dXJibyBjaGFyZ2VycyBvciB0b3JxdWUgY29udmVydGVycy5cCiogY29sbGVjdCBwaWN0dXJlcyBvZiBlYWNoIGtpbmQgb2YgbWFjaGluZSBwYXJ0IGFuZCB1c2UgdGhlbSB0byB0cmFpbiBtb2RlbC5cClwKQ3VzdG9tIExhYmVscyBhbHNvIGluY2x1ZGVzIGF1dG9tYXRlZCBNTCBjYXBhYmlsaXRpZXMgdGhhdCBoYW5kbGUgdGhlIE1MIHByb2Nlc3MgZm9yIHlvdS4gIFlvdSBwcm92aWRlIHRyYWluaW5nIGltYWdlczsgYW5kIHRoZSBzZXJ2aWNlIGNhbiBhdXRvbWF0aWNhbGx5IGxvYWQgYW5kIGluc3BlY3QgdGhlIGRhdGEsIHNlbGVjdCB0aGUgY29ycmVjdCBNTCBhbGdvcml0aG1zLCB0cmFpbiBhIG1vZGVsLCBwcm92aWRlIG1vZGVsIHBlcmZvcm1hbmNlIG1ldHJpY3MuXApcCldoZW4geW91IGZpbmlzaCB0cmFpbmluZyB5b3VyIG1vZGVsLCB5b3UgY2FuIGV2YWx1YXRlIHlvdXIgY3VzdG9tIG1vZGVsXCc5MnMgcGVyZm9ybWFuY2Ugb24geW91ciB0ZXN0IHNldC4gIEVhY2ggaW1hZ2UgaW4gdGhlIHRlc3Qgc2V0IGhhcyBhIHNpZGUgYnkgc2lkZSBjb21wYXJpc29uIG9mIG1vZGVsXCc5MnMgcHJlZGljdGlvbiB2cyBsYWJlbCBpdCBhc3NpZ25lZC4gIFRoZXJlIGFyZSBkZXRhaWxlZCBwZXJmb3JtYW5jZSBtZXRyaWNzIGZvciB5b3UgdG8gcmV2aWV3LlwKXApTdGFydCB1c2luZyBtb2RlbCBpbW1lZGlhdGVseS4gIE9yIGl0ZXJhdGUgYW5kIHJldHJhaW4gbmV3IHZlcnNpb25zIHdpdGggbW9yZSBpbWFnZXMgdG8gcmVmaW5lIHRoZSBtb2RlbC5cClwKQWZ0ZXIgeW91IHN0YXJ0IHVzaW5nIHlvdXIgbW9kZWwsIHlvdSBjYW4gdHJhY2sgeW91ciBwcmVkaWN0aW9ucywgY29ycmVjdCBhbnkgbWlzdGFrZXMsIGFuZCB1c2UgdGhlIGZlZWRiYWNrIGRhdGEgdG8gcmV0cmFpbiBuZXcgbW9kZWwgdmVyc2lvbnMgYW5kIGltcHJvdmUgcGVyZm9ybWFuY2UuXApcCkhvdyBkbyB5b3UgbGFiZWwgaW1hZ2VzP1wKMS4gQ29sbGVjdCBpbWFnZXNcCjIuIENyZWF0ZSB0cmFpbmluZyBkYXRhc2V0XAozLiBDcmVhdGUgdGVzdCBkYXRhc2V0XAo0LiBUcmFpbiB0aGUgbW9kZWxcCjUuIEV2YWx1YXRlXAo2LiBVc2UgbW9kZWxcCn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAABYfvZptgEAAAAAAAAAAAAA</rtfd>
+<item ID="1777761884" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-05-02T15:44:43-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-05-02T15:44:51-07:00</attribute>
+<attribute name="Name" >Step 1: Collect the images</attribute>
+<attribute name="Sentiment" >-0.2200000077</attribute>
+<attribute name="Sentiments" >0.4;-0.4;-0.6;-0.6;-0.8;-0.4;-0.4;0.8;-0.6;0.4</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >103.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Step 1: collect images
+* requires time and expertise: months for large teams to hand-label 1000s or 10000s images so model has enough data to make accurate decisions
+* Custom Labels builds on the existing capabilities of models already trained on 10Ms of images across many categories.
+* Can upload a small set (few 100) of training images that are specific to your use case.  Can use AWS Console to upload.
+* If images are already labelled, Custom Labels can begin training your model.
+* If not, label images in labelling interface or use SageMaker Ground Truth to label them for you (see below).
+* Custom Labels works best when you use different models for different domains.
+    * For example:  if you need to detect machine parts and plant health.
+* also when you select images for training that are similar to images used for inference with various lighting conditions, backgrounds, and resolutions.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7+BAAAKwAAAAEAAAD2BAAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgU3RlcCAxOiBjb2xsZWN0IGltYWdlc1wKKiByZXF1aXJlcyB0aW1lIGFuZCBleHBlcnRpc2U6IG1vbnRocyBmb3IgbGFyZ2UgdGVhbXMgdG8gaGFuZC1sYWJlbCAxMDAwcyBvciAxMDAwMHMgaW1hZ2VzIHNvIG1vZGVsIGhhcyBlbm91Z2ggZGF0YSB0byBtYWtlIGFjY3VyYXRlIGRlY2lzaW9uc1wKKiBDdXN0b20gTGFiZWxzIGJ1aWxkcyBvbiB0aGUgZXhpc3RpbmcgY2FwYWJpbGl0aWVzIG9mIG1vZGVscyBhbHJlYWR5IHRyYWluZWQgb24gMTBNcyBvZiBpbWFnZXMgYWNyb3NzIG1hbnkgY2F0ZWdvcmllcy5cCiogQ2FuIHVwbG9hZCBhIHNtYWxsIHNldCAoZmV3IDEwMCkgb2YgdHJhaW5pbmcgaW1hZ2VzIHRoYXQgYXJlIHNwZWNpZmljIHRvIHlvdXIgdXNlIGNhc2UuICBDYW4gdXNlIEFXUyBDb25zb2xlIHRvIHVwbG9hZC5cCiogSWYgaW1hZ2VzIGFyZSBhbHJlYWR5IGxhYmVsbGVkLCBDdXN0b20gTGFiZWxzIGNhbiBiZWdpbiB0cmFpbmluZyB5b3VyIG1vZGVsLlwKKiBJZiBub3QsIGxhYmVsIGltYWdlcyBpbiBsYWJlbGxpbmcgaW50ZXJmYWNlIG9yIHVzZSBTYWdlTWFrZXIgR3JvdW5kIFRydXRoIHRvIGxhYmVsIHRoZW0gZm9yIHlvdSAoc2VlIGJlbG93KS5cCiogQ3VzdG9tIExhYmVscyB3b3JrcyBiZXN0IHdoZW4geW91IHVzZSBkaWZmZXJlbnQgbW9kZWxzIGZvciBkaWZmZXJlbnQgZG9tYWlucy5cCiAgICAqIEZvciBleGFtcGxlOiAgaWYgeW91IG5lZWQgdG8gZGV0ZWN0IG1hY2hpbmUgcGFydHMgYW5kIHBsYW50IGhlYWx0aC5cCiogYWxzbyB3aGVuIHlvdSBzZWxlY3QgaW1hZ2VzIGZvciB0cmFpbmluZyB0aGF0IGFyZSBzaW1pbGFyIHRvIGltYWdlcyB1c2VkIGZvciBpbmZlcmVuY2Ugd2l0aCB2YXJpb3VzIGxpZ2h0aW5nIGNvbmRpdGlvbnMsIGJhY2tncm91bmRzLCBhbmQgcmVzb2x1dGlvbnMufQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAGN+9mm2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+<item ID="1777132202" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-25T08:50:01-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-05-02T13:53:31-07:00</attribute>
+<attribute name="NLNames" >GT</attribute>
+<attribute name="NLOrganizations" >Amazon Mechanical Turk;Amazon S3</attribute>
+<attribute name="NLPlaces" >Hawaii</attribute>
+<attribute name="Name" >Step 2: Create the training dataset</attribute>
+<attribute name="Sentiment" >-0.2486486532</attribute>
+<attribute name="Sentiments" >-0.6;-0.4;0.6;0.2;-0.6;-0.8;-0.6;-0.8;0.2;-0.2;0;0.8;0;-0.6;0.4;-0.6;-0.4;0;0.2;0.6;0;-0.4;-0.8;-0.8;-0.6;0;-0.8;-0.2;-1;-1;-0.8;-0.4;0.2;0.4;-0.8;0;0.4</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >76</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Step 2:  Create a training dataset
+
+Datasets contain information that’s needed to train and test a Rekognition Custom Labels model: images, labels, bounding boxes.
+
+Use images from Amazon S3 or upload to S3.
+
+To train a model,
+* dataset should have at least two labels with at least 10 images per label.
+* Each image must be labeled to identify an object, scene, or concept
+* use Custom Labels console or SageMaker Ground Truth to label images
+
+Labels apply to an image as a whole are known as “image level labels”: useful for identifying scenes or concepts.  e.g. “beach” label that applies to entire image of beach scene in Hawaii.
+
+Labels for specific area of image:  useful for objects.  information about where object is located is “localization information,” expressed as a bounding box.  label identifies type of device.
+
+Output of the labelling process is a “manifest file.”
+* The manifest file for an image-level label contains the label (`class-name`) and metadata about how image was labelled.
+* For object detection, the manifest contains information about each labelled image.  The bounding box identifies where object is in the image along with the label the bounding box belongs to.
+
+SageMaker Ground Truth:  build training datasets for your machine learning models.
+* create a dataset that needs labelling
+* provide detailed instructions on what needs to be labelled
+* submit job
+* decide who processes data to create a labelled dataset
+    * workers from Amazon Mechanical Turk service
+    * a vendor company
+    * or internal workforce with ML
+* use labelled dataset output to train own models or use with Rekognition Custom Labels
+* GT can use Active Learning, a ML technique that identifies data that should be labelled by workers.  GT calls this “automated data labelling.”
+    * reduce time and cost compared to using human workers
+
+Use ML to label images to use for ML?
+* When GT starts an automated data labelling job, it selects a random sample of input data (“objects”) and sends it to human workers (WHAT?!).  When the label data is returned, GT uses this data as the validation data.
+* GT runs a batch transform job using the validated model for inference on the validation data.
+* Batch inference produces a confidence score and quality metric for each object in the validation data.
+* Automated labelling determines if confidence score for each object meets required threshold. (threshold “step 4”) 
+    * If confidence score meets the threshold, the expected quality of automatic labelling exceeds the requested level of accuracy.
+    * The object is then considered to be automatically labelled.
+* [6] produces a dataset of unlabeled data with confidence scores
+* GT selects data points with low confidence scores from this dataset and sends them to human workers for additional labelling.  
+* GT then uses the existing human-labelled data and the additional human-labelled data to train a new model.
+* repeat until dataset is fully labelled or until another stopping condition is met.
+    * e.g. automatic labelling can stop when you meet your budget for human annotation
+
+Recommend use automated data labelling on large datasets.  The minimum allowed is 1250 objects, but suggested minimum is 5000 objects.
+
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5zDgAAKwAAAAEAAABrDgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgU3RlcCAyOiAgQ3JlYXRlIGEgdHJhaW5pbmcgZGF0YXNldFwKXApEYXRhc2V0cyBjb250YWluIGluZm9ybWF0aW9uIHRoYXRcJzkycyBuZWVkZWQgdG8gdHJhaW4gYW5kIHRlc3QgYSBSZWtvZ25pdGlvbiBDdXN0b20gTGFiZWxzIG1vZGVsOiBpbWFnZXMsIGxhYmVscywgYm91bmRpbmcgYm94ZXMuXApcClVzZSBpbWFnZXMgZnJvbSBBbWF6b24gUzMgb3IgdXBsb2FkIHRvIFMzLlwKXApUbyB0cmFpbiBhIG1vZGVsLFwKKiBkYXRhc2V0IHNob3VsZCBoYXZlIGF0IGxlYXN0IHR3byBsYWJlbHMgd2l0aCBhdCBsZWFzdCAxMCBpbWFnZXMgcGVyIGxhYmVsLlwKKiBFYWNoIGltYWdlIG11c3QgYmUgbGFiZWxlZCB0byBpZGVudGlmeSBhbiBvYmplY3QsIHNjZW5lLCBvciBjb25jZXB0XAoqIHVzZSBDdXN0b20gTGFiZWxzIGNvbnNvbGUgb3IgU2FnZU1ha2VyIEdyb3VuZCBUcnV0aCB0byBsYWJlbCBpbWFnZXNcClwKTGFiZWxzIGFwcGx5IHRvIGFuIGltYWdlIGFzIGEgd2hvbGUgYXJlIGtub3duIGFzIFwnOTNpbWFnZSBsZXZlbCBsYWJlbHNcJzk0OiB1c2VmdWwgZm9yIGlkZW50aWZ5aW5nIHNjZW5lcyBvciBjb25jZXB0cy4gIGUuZy4gXCc5M2JlYWNoXCc5NCBsYWJlbCB0aGF0IGFwcGxpZXMgdG8gZW50aXJlIGltYWdlIG9mIGJlYWNoIHNjZW5lIGluIEhhd2FpaS5cClwKTGFiZWxzIGZvciBzcGVjaWZpYyBhcmVhIG9mIGltYWdlOiAgdXNlZnVsIGZvciBvYmplY3RzLiAgaW5mb3JtYXRpb24gYWJvdXQgd2hlcmUgb2JqZWN0IGlzIGxvY2F0ZWQgaXMgXCc5M2xvY2FsaXphdGlvbiBpbmZvcm1hdGlvbixcJzk0IGV4cHJlc3NlZCBhcyBhIGJvdW5kaW5nIGJveC4gIGxhYmVsIGlkZW50aWZpZXMgdHlwZSBvZiBkZXZpY2UuXApcCk91dHB1dCBvZiB0aGUgbGFiZWxsaW5nIHByb2Nlc3MgaXMgYSBcJzkzbWFuaWZlc3QgZmlsZS5cJzk0XAoqIFRoZSBtYW5pZmVzdCBmaWxlIGZvciBhbiBpbWFnZS1sZXZlbCBsYWJlbCBjb250YWlucyB0aGUgbGFiZWwgKGBjbGFzcy1uYW1lYCkgYW5kIG1ldGFkYXRhIGFib3V0IGhvdyBpbWFnZSB3YXMgbGFiZWxsZWQuXAoqIEZvciBvYmplY3QgZGV0ZWN0aW9uLCB0aGUgbWFuaWZlc3QgY29udGFpbnMgaW5mb3JtYXRpb24gYWJvdXQgZWFjaCBsYWJlbGxlZCBpbWFnZS4gIFRoZSBib3VuZGluZyBib3ggaWRlbnRpZmllcyB3aGVyZSBvYmplY3QgaXMgaW4gdGhlIGltYWdlIGFsb25nIHdpdGggdGhlIGxhYmVsIHRoZSBib3VuZGluZyBib3ggYmVsb25ncyB0by5cClwKU2FnZU1ha2VyIEdyb3VuZCBUcnV0aDogIGJ1aWxkIHRyYWluaW5nIGRhdGFzZXRzIGZvciB5b3VyIG1hY2hpbmUgbGVhcm5pbmcgbW9kZWxzLlwKKiBjcmVhdGUgYSBkYXRhc2V0IHRoYXQgbmVlZHMgbGFiZWxsaW5nXAoqIHByb3ZpZGUgZGV0YWlsZWQgaW5zdHJ1Y3Rpb25zIG9uIHdoYXQgbmVlZHMgdG8gYmUgbGFiZWxsZWRcCiogc3VibWl0IGpvYlwKKiBkZWNpZGUgd2hvIHByb2Nlc3NlcyBkYXRhIHRvIGNyZWF0ZSBhIGxhYmVsbGVkIGRhdGFzZXRcCiAgICAqIHdvcmtlcnMgZnJvbSBBbWF6b24gTWVjaGFuaWNhbCBUdXJrIHNlcnZpY2VcCiAgICAqIGEgdmVuZG9yIGNvbXBhbnlcCiAgICAqIG9yIGludGVybmFsIHdvcmtmb3JjZSB3aXRoIE1MXAoqIHVzZSBsYWJlbGxlZCBkYXRhc2V0IG91dHB1dCB0byB0cmFpbiBvd24gbW9kZWxzIG9yIHVzZSB3aXRoIFJla29nbml0aW9uIEN1c3RvbSBMYWJlbHNcCiogR1QgY2FuIHVzZSBBY3RpdmUgTGVhcm5pbmcsIGEgTUwgdGVjaG5pcXVlIHRoYXQgaWRlbnRpZmllcyBkYXRhIHRoYXQgc2hvdWxkIGJlIGxhYmVsbGVkIGJ5IHdvcmtlcnMuICBHVCBjYWxscyB0aGlzIFwnOTNhdXRvbWF0ZWQgZGF0YSBsYWJlbGxpbmcuXCc5NFwKICAgICogcmVkdWNlIHRpbWUgYW5kIGNvc3QgY29tcGFyZWQgdG8gdXNpbmcgaHVtYW4gd29ya2Vyc1wKXApVc2UgTUwgdG8gbGFiZWwgaW1hZ2VzIHRvIHVzZSBmb3IgTUw/XAoqIFdoZW4gR1Qgc3RhcnRzIGFuIGF1dG9tYXRlZCBkYXRhIGxhYmVsbGluZyBqb2IsIGl0IHNlbGVjdHMgYSByYW5kb20gc2FtcGxlIG9mIGlucHV0IGRhdGEgKFwnOTNvYmplY3RzXCc5NCkgYW5kIHNlbmRzIGl0IHRvIGh1bWFuIHdvcmtlcnMgKFdIQVQ/ISkuICBXaGVuIHRoZSBsYWJlbCBkYXRhIGlzIHJldHVybmVkLCBHVCB1c2VzIHRoaXMgZGF0YSBhcyB0aGUgdmFsaWRhdGlvbiBkYXRhLlwKKiBHVCBydW5zIGEgYmF0Y2ggdHJhbnNmb3JtIGpvYiB1c2luZyB0aGUgdmFsaWRhdGVkIG1vZGVsIGZvciBpbmZlcmVuY2Ugb24gdGhlIHZhbGlkYXRpb24gZGF0YS5cCiogQmF0Y2ggaW5mZXJlbmNlIHByb2R1Y2VzIGEgY29uZmlkZW5jZSBzY29yZSBhbmQgcXVhbGl0eSBtZXRyaWMgZm9yIGVhY2ggb2JqZWN0IGluIHRoZSB2YWxpZGF0aW9uIGRhdGEuXAoqIEF1dG9tYXRlZCBsYWJlbGxpbmcgZGV0ZXJtaW5lcyBpZiBjb25maWRlbmNlIHNjb3JlIGZvciBlYWNoIG9iamVjdCBtZWV0cyByZXF1aXJlZCB0aHJlc2hvbGQuICh0aHJlc2hvbGQgXCc5M3N0ZXAgNFwnOTQpIFwKICAgICogSWYgY29uZmlkZW5jZSBzY29yZSBtZWV0cyB0aGUgdGhyZXNob2xkLCB0aGUgZXhwZWN0ZWQgcXVhbGl0eSBvZiBhdXRvbWF0aWMgbGFiZWxsaW5nIGV4Y2VlZHMgdGhlIHJlcXVlc3RlZCBsZXZlbCBvZiBhY2N1cmFjeS5cCiAgICAqIFRoZSBvYmplY3QgaXMgdGhlbiBjb25zaWRlcmVkIHRvIGJlIGF1dG9tYXRpY2FsbHkgbGFiZWxsZWQuXAoqIFs2XSBwcm9kdWNlcyBhIGRhdGFzZXQgb2YgdW5sYWJlbGVkIGRhdGEgd2l0aCBjb25maWRlbmNlIHNjb3Jlc1wKKiBHVCBzZWxlY3RzIGRhdGEgcG9pbnRzIHdpdGggbG93IGNvbmZpZGVuY2Ugc2NvcmVzIGZyb20gdGhpcyBkYXRhc2V0IGFuZCBzZW5kcyB0aGVtIHRvIGh1bWFuIHdvcmtlcnMgZm9yIGFkZGl0aW9uYWwgbGFiZWxsaW5nLiAgXAoqIEdUIHRoZW4gdXNlcyB0aGUgZXhpc3RpbmcgaHVtYW4tbGFiZWxsZWQgZGF0YSBhbmQgdGhlIGFkZGl0aW9uYWwgaHVtYW4tbGFiZWxsZWQgZGF0YSB0byB0cmFpbiBhIG5ldyBtb2RlbC5cCiogcmVwZWF0IHVudGlsIGRhdGFzZXQgaXMgZnVsbHkgbGFiZWxsZWQgb3IgdW50aWwgYW5vdGhlciBzdG9wcGluZyBjb25kaXRpb24gaXMgbWV0LlwKICAgICogZS5nLiBhdXRvbWF0aWMgbGFiZWxsaW5nIGNhbiBzdG9wIHdoZW4geW91IG1lZXQgeW91ciBidWRnZXQgZm9yIGh1bWFuIGFubm90YXRpb25cClwKUmVjb21tZW5kIHVzZSBhdXRvbWF0ZWQgZGF0YSBsYWJlbGxpbmcgb24gbGFyZ2UgZGF0YXNldHMuICBUaGUgbWluaW11bSBhbGxvd2VkIGlzIDEyNTAgb2JqZWN0cywgYnV0IHN1Z2dlc3RlZCBtaW5pbXVtIGlzIDUwMDAgb2JqZWN0cy5cClwKfQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAEtk9mm2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+<item ID="1777761798" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-05-02T15:43:16-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-05-02T15:48:37-07:00</attribute>
+<attribute name="Name" >Step 3: Create the test dataset</attribute>
+<attribute name="Sentiment" >0.1800000027</attribute>
+<attribute name="Sentiments" >0.6;-0.2;-0.4;0.8;0.6;-0.2;-0.2;0.4;1;-0.6</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >98</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Step 3:  Create test dataset
+
+1. Collect images
+2. Create training dataset
+3. Create test dataset
+4. Train the model
+5. Evaluate
+6. Use model
+
+Before training model, identify a test dataset to validate and evaluate the model’s performance by performing an inference on the images in the test dataset.
+
+Then compare the results with the labelling information that’s in the training dataset.
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC4GAwAAKwAAAAEAAAD+AgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgU3RlcCAzOiAgQ3JlYXRlIHRlc3QgZGF0YXNldFwKXAoxLiBDb2xsZWN0IGltYWdlc1wKMi4gQ3JlYXRlIHRyYWluaW5nIGRhdGFzZXRcCjMuIENyZWF0ZSB0ZXN0IGRhdGFzZXRcCjQuIFRyYWluIHRoZSBtb2RlbFwKNS4gRXZhbHVhdGVcCjYuIFVzZSBtb2RlbFwKXApCZWZvcmUgdHJhaW5pbmcgbW9kZWwsIGlkZW50aWZ5IGEgdGVzdCBkYXRhc2V0IHRvIHZhbGlkYXRlIGFuZCBldmFsdWF0ZSB0aGUgbW9kZWxcJzkycyBwZXJmb3JtYW5jZSBieSBwZXJmb3JtaW5nIGFuIGluZmVyZW5jZSBvbiB0aGUgaW1hZ2VzIGluIHRoZSB0ZXN0IGRhdGFzZXQuXApcClRoZW4gY29tcGFyZSB0aGUgcmVzdWx0cyB3aXRoIHRoZSBsYWJlbGxpbmcgaW5mb3JtYXRpb24gdGhhdFwnOTJzIGluIHRoZSB0cmFpbmluZyBkYXRhc2V0LlwKfQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAEV/9mm2AQAAAAAAAAAAAAA=</rtfd>
+</item>
+<item ID="1777761988" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-05-02T15:46:27-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-05-02T15:48:41-07:00</attribute>
+<attribute name="Name" >Step 4: Train the model</attribute>
+<attribute name="Sentiment" >-0.4428571537</attribute>
+<attribute name="Sentiments" >-0.6;0.4;-0.4;0.4;-0.8;-0.6;-0.6;-0.8;-0.4;-0.6;0.2;-1;-0.8;-0.6</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >109</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Create your own dataset or use Custom Labels to split your training dataset into two datasets by using an 80/20 split.
+
+CL can automatically train the model for you.
+* the service loads and inspects the data, selects the correct ML algorithms, trains a model, and provides model performance metrics
+* charged for the time the model takes to train
+* A dataset that contains more images than labels will take longer to train.
+
+When training is complete, evaluate the performance of the model.  During testing, CL predicts if a test image contains a custom label with confidence score.
+
+Because it’s a classification problem, the results can be mapped to a confusion matrix.  Same for bounding boxes.
+
+CL provides metrics
+* summary and evaluation metrics for each label
+* precision methods for each label
+* average precision metric for entire test dataset (Precision is proportion of positive results that were correctly classified.)
+* average recall metrics for each label and for entire test dataset (Recall is fraction of test set labels that were correctly classified.  How many cats were correctly classified?)
+* average model performance score for each label and for entire dataset.  (F1 score combines precision and recall to give you just one number that quantifies the overall performance of a particular ML algorithm.  Might use F1 when you have a class imbalance but also want to preserve the quality between precision and sensitivity.  A higher value means better model performance for both recall and precision.)
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC51BwAAKwAAAAEAAABtBwAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgQ3JlYXRlIHlvdXIgb3duIGRhdGFzZXQgb3IgdXNlIEN1c3RvbSBMYWJlbHMgdG8gc3BsaXQgeW91ciB0cmFpbmluZyBkYXRhc2V0IGludG8gdHdvIGRhdGFzZXRzIGJ5IHVzaW5nIGFuIDgwLzIwIHNwbGl0LlwKXApDTCBjYW4gYXV0b21hdGljYWxseSB0cmFpbiB0aGUgbW9kZWwgZm9yIHlvdS5cCiogdGhlIHNlcnZpY2UgbG9hZHMgYW5kIGluc3BlY3RzIHRoZSBkYXRhLCBzZWxlY3RzIHRoZSBjb3JyZWN0IE1MIGFsZ29yaXRobXMsIHRyYWlucyBhIG1vZGVsLCBhbmQgcHJvdmlkZXMgbW9kZWwgcGVyZm9ybWFuY2UgbWV0cmljc1wKKiBjaGFyZ2VkIGZvciB0aGUgdGltZSB0aGUgbW9kZWwgdGFrZXMgdG8gdHJhaW5cCiogQSBkYXRhc2V0IHRoYXQgY29udGFpbnMgbW9yZSBpbWFnZXMgdGhhbiBsYWJlbHMgd2lsbCB0YWtlIGxvbmdlciB0byB0cmFpbi5cClwKV2hlbiB0cmFpbmluZyBpcyBjb21wbGV0ZSwgZXZhbHVhdGUgdGhlIHBlcmZvcm1hbmNlIG9mIHRoZSBtb2RlbC4gIER1cmluZyB0ZXN0aW5nLCBDTCBwcmVkaWN0cyBpZiBhIHRlc3QgaW1hZ2UgY29udGFpbnMgYSBjdXN0b20gbGFiZWwgd2l0aCBjb25maWRlbmNlIHNjb3JlLlwKXApCZWNhdXNlIGl0XCc5MnMgYSBjbGFzc2lmaWNhdGlvbiBwcm9ibGVtLCB0aGUgcmVzdWx0cyBjYW4gYmUgbWFwcGVkIHRvIGEgY29uZnVzaW9uIG1hdHJpeC4gIFNhbWUgZm9yIGJvdW5kaW5nIGJveGVzLlwKXApDTCBwcm92aWRlcyBtZXRyaWNzXAoqIHN1bW1hcnkgYW5kIGV2YWx1YXRpb24gbWV0cmljcyBmb3IgZWFjaCBsYWJlbFwKKiBwcmVjaXNpb24gbWV0aG9kcyBmb3IgZWFjaCBsYWJlbFwKKiBhdmVyYWdlIHByZWNpc2lvbiBtZXRyaWMgZm9yIGVudGlyZSB0ZXN0IGRhdGFzZXQgKFByZWNpc2lvbiBpcyBwcm9wb3J0aW9uIG9mIHBvc2l0aXZlIHJlc3VsdHMgdGhhdCB3ZXJlIGNvcnJlY3RseSBjbGFzc2lmaWVkLilcCiogYXZlcmFnZSByZWNhbGwgbWV0cmljcyBmb3IgZWFjaCBsYWJlbCBhbmQgZm9yIGVudGlyZSB0ZXN0IGRhdGFzZXQgKFJlY2FsbCBpcyBmcmFjdGlvbiBvZiB0ZXN0IHNldCBsYWJlbHMgdGhhdCB3ZXJlIGNvcnJlY3RseSBjbGFzc2lmaWVkLiAgSG93IG1hbnkgY2F0cyB3ZXJlIGNvcnJlY3RseSBjbGFzc2lmaWVkPylcCiogYXZlcmFnZSBtb2RlbCBwZXJmb3JtYW5jZSBzY29yZSBmb3IgZWFjaCBsYWJlbCBhbmQgZm9yIGVudGlyZSBkYXRhc2V0LiAgKEYxIHNjb3JlIGNvbWJpbmVzIHByZWNpc2lvbiBhbmQgcmVjYWxsIHRvIGdpdmUgeW91IGp1c3Qgb25lIG51bWJlciB0aGF0IHF1YW50aWZpZXMgdGhlIG92ZXJhbGwgcGVyZm9ybWFuY2Ugb2YgYSBwYXJ0aWN1bGFyIE1MIGFsZ29yaXRobS4gIE1pZ2h0IHVzZSBGMSB3aGVuIHlvdSBoYXZlIGEgY2xhc3MgaW1iYWxhbmNlIGJ1dCBhbHNvIHdhbnQgdG8gcHJlc2VydmUgdGhlIHF1YWxpdHkgYmV0d2VlbiBwcmVjaXNpb24gYW5kIHNlbnNpdGl2aXR5LiAgQSBoaWdoZXIgdmFsdWUgbWVhbnMgYmV0dGVyIG1vZGVsIHBlcmZvcm1hbmNlIGZvciBib3RoIHJlY2FsbCBhbmQgcHJlY2lzaW9uLilcCn0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAABJf/ZptgEAAAAAAAAAAAAA</rtfd>
+</item>
+<item ID="1777132225" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-04-25T08:50:24-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-05-02T15:40:54-07:00</attribute>
+<attribute name="Name" >Step 5: Evaluate and improve your model</attribute>
+<attribute name="Sentiment" >-0.4000000093</attribute>
+<attribute name="Sentiments" >-0.6;-0.8;-0.8;-0.2;-0.8;-0.2;-0.8;-0.8;0.2;0.6;-0.6;-0.8;-0.6;0.8;0.2;-0.2;-0.6;-0.2;0.8;-0.6;-0.4;-1;-0.8;-0.6;-0.6;-0.6;-0.8</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >87</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Step 5: Evaluate – Improve
+
+* Data: improve model performance with larger quantities of better quality data
+
+* Reducing false positives (better precision)
+    * Adjust the confidence threshold to improve precision
+    * Add additional classes as labels for training
+* Reducing false negatives (better recall)
+    * Lower the confidence threshold to improve recall
+    * Use better data or more precise classes (labels) for training
+
+
+Improve data quality.
+* Use training images that clearly show the object or scene.
+* Don’t include many things that you’re not interested in.
+* For bounding boxes around objects, use training images that show the object as fully visible and not hidden by other objects.
+* Make sure training and test datasets match the type of images that you’ll eventually run inference on.
+* For objects where you have just a few training examples like logos, provide bounding boxes around the logo in your test images.
+
+
+Reducing false positives (better precision)
+* Try increasing the confidence threshold to get fewer false positives.
+* Increasing the confidence threshold eventually results in diminishing gains because of the tradeoff between precision and recall for a given model.
+* Check whether to add additional classes as labels for training.  Example if dogs are recognized falsely as cats, add “dog” as a label to training dataset along with images of dogs that were false positives.  You’re helping the model learn to predict dog and not cat.
+* If model is confused between two custom labels (e.g. where cat is predicted as dog and vice-versa)
+    * first check for mislabeled images in your training and test sets
+    * add more images that might be confused will help retrained model learn to discriminate better
+
+Reducing false negatives (better recall)
+* Try lowering the confidence threshold to get fewer false negatives.
+* Use better examples to model the objects and the images they appear in.
+* Split model into two classes that are easier to learn.
+    * example: instead of good vs bad cookies, use good, burnt, broken cookies to differentiate the concepts
+
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7aCQAAKwAAAAEAAADSCQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgU3RlcCA1OiBFdmFsdWF0ZSBcJzk2IEltcHJvdmVcClwKKiBEYXRhOiBpbXByb3ZlIG1vZGVsIHBlcmZvcm1hbmNlIHdpdGggbGFyZ2VyIHF1YW50aXRpZXMgb2YgYmV0dGVyIHF1YWxpdHkgZGF0YVwKXAoqIFJlZHVjaW5nIGZhbHNlIHBvc2l0aXZlcyAoYmV0dGVyIHByZWNpc2lvbilcCiAgICAqIEFkanVzdCB0aGUgY29uZmlkZW5jZSB0aHJlc2hvbGQgdG8gaW1wcm92ZSBwcmVjaXNpb25cCiAgICAqIEFkZCBhZGRpdGlvbmFsIGNsYXNzZXMgYXMgbGFiZWxzIGZvciB0cmFpbmluZ1wKKiBSZWR1Y2luZyBmYWxzZSBuZWdhdGl2ZXMgKGJldHRlciByZWNhbGwpXAogICAgKiBMb3dlciB0aGUgY29uZmlkZW5jZSB0aHJlc2hvbGQgdG8gaW1wcm92ZSByZWNhbGxcCiAgICAqIFVzZSBiZXR0ZXIgZGF0YSBvciBtb3JlIHByZWNpc2UgY2xhc3NlcyAobGFiZWxzKSBmb3IgdHJhaW5pbmdcClwKXApJbXByb3ZlIGRhdGEgcXVhbGl0eS5cCiogVXNlIHRyYWluaW5nIGltYWdlcyB0aGF0IGNsZWFybHkgc2hvdyB0aGUgb2JqZWN0IG9yIHNjZW5lLlwKKiBEb25cJzkydCBpbmNsdWRlIG1hbnkgdGhpbmdzIHRoYXQgeW91XCc5MnJlIG5vdCBpbnRlcmVzdGVkIGluLlwKKiBGb3IgYm91bmRpbmcgYm94ZXMgYXJvdW5kIG9iamVjdHMsIHVzZSB0cmFpbmluZyBpbWFnZXMgdGhhdCBzaG93IHRoZSBvYmplY3QgYXMgZnVsbHkgdmlzaWJsZSBhbmQgbm90IGhpZGRlbiBieSBvdGhlciBvYmplY3RzLlwKKiBNYWtlIHN1cmUgdHJhaW5pbmcgYW5kIHRlc3QgZGF0YXNldHMgbWF0Y2ggdGhlIHR5cGUgb2YgaW1hZ2VzIHRoYXQgeW91XCc5MmxsIGV2ZW50dWFsbHkgcnVuIGluZmVyZW5jZSBvbi5cCiogRm9yIG9iamVjdHMgd2hlcmUgeW91IGhhdmUganVzdCBhIGZldyB0cmFpbmluZyBleGFtcGxlcyBsaWtlIGxvZ29zLCBwcm92aWRlIGJvdW5kaW5nIGJveGVzIGFyb3VuZCB0aGUgbG9nbyBpbiB5b3VyIHRlc3QgaW1hZ2VzLlwKXApcClJlZHVjaW5nIGZhbHNlIHBvc2l0aXZlcyAoYmV0dGVyIHByZWNpc2lvbilcCiogVHJ5IGluY3JlYXNpbmcgdGhlIGNvbmZpZGVuY2UgdGhyZXNob2xkIHRvIGdldCBmZXdlciBmYWxzZSBwb3NpdGl2ZXMuXAoqIEluY3JlYXNpbmcgdGhlIGNvbmZpZGVuY2UgdGhyZXNob2xkIGV2ZW50dWFsbHkgcmVzdWx0cyBpbiBkaW1pbmlzaGluZyBnYWlucyBiZWNhdXNlIG9mIHRoZSB0cmFkZW9mZiBiZXR3ZWVuIHByZWNpc2lvbiBhbmQgcmVjYWxsIGZvciBhIGdpdmVuIG1vZGVsLlwKKiBDaGVjayB3aGV0aGVyIHRvIGFkZCBhZGRpdGlvbmFsIGNsYXNzZXMgYXMgbGFiZWxzIGZvciB0cmFpbmluZy4gIEV4YW1wbGUgaWYgZG9ncyBhcmUgcmVjb2duaXplZCBmYWxzZWx5IGFzIGNhdHMsIGFkZCBcJzkzZG9nXCc5NCBhcyBhIGxhYmVsIHRvIHRyYWluaW5nIGRhdGFzZXQgYWxvbmcgd2l0aCBpbWFnZXMgb2YgZG9ncyB0aGF0IHdlcmUgZmFsc2UgcG9zaXRpdmVzLiAgWW91XCc5MnJlIGhlbHBpbmcgdGhlIG1vZGVsIGxlYXJuIHRvIHByZWRpY3QgZG9nIGFuZCBub3QgY2F0LlwKKiBJZiBtb2RlbCBpcyBjb25mdXNlZCBiZXR3ZWVuIHR3byBjdXN0b20gbGFiZWxzIChlLmcuIHdoZXJlIGNhdCBpcyBwcmVkaWN0ZWQgYXMgZG9nIGFuZCB2aWNlLXZlcnNhKVwKICAgICogZmlyc3QgY2hlY2sgZm9yIG1pc2xhYmVsZWQgaW1hZ2VzIGluIHlvdXIgdHJhaW5pbmcgYW5kIHRlc3Qgc2V0c1wKICAgICogYWRkIG1vcmUgaW1hZ2VzIHRoYXQgbWlnaHQgYmUgY29uZnVzZWQgd2lsbCBoZWxwIHJldHJhaW5lZCBtb2RlbCBsZWFybiB0byBkaXNjcmltaW5hdGUgYmV0dGVyXApcClJlZHVjaW5nIGZhbHNlIG5lZ2F0aXZlcyAoYmV0dGVyIHJlY2FsbClcCiogVHJ5IGxvd2VyaW5nIHRoZSBjb25maWRlbmNlIHRocmVzaG9sZCB0byBnZXQgZmV3ZXIgZmFsc2UgbmVnYXRpdmVzLlwKKiBVc2UgYmV0dGVyIGV4YW1wbGVzIHRvIG1vZGVsIHRoZSBvYmplY3RzIGFuZCB0aGUgaW1hZ2VzIHRoZXkgYXBwZWFyIGluLlwKKiBTcGxpdCBtb2RlbCBpbnRvIHR3byBjbGFzc2VzIHRoYXQgYXJlIGVhc2llciB0byBsZWFybi5cCiAgICAqIGV4YW1wbGU6IGluc3RlYWQgb2YgZ29vZCB2cyBiYWQgY29va2llcywgdXNlIGdvb2QsIGJ1cm50LCBicm9rZW4gY29va2llcyB0byBkaWZmZXJlbnRpYXRlIHRoZSBjb25jZXB0c1wKXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAdn32abYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+<item ID="1777761657" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-05-02T15:40:56-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-05-02T15:41:55-07:00</attribute>
+<attribute name="NLOrganizations" >API;Amazon Resource Name;SDK</attribute>
+<attribute name="Name" >Step 6: Use the model</attribute>
+<attribute name="Sentiment" >-0.2285714352</attribute>
+<attribute name="Sentiments" >-0.6;-0.4;-0.6;-0.4;0.2;-0.8;0.8;0.8;-0.8;-0.6;-0.8;-0.8;0.8;0</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >92.5</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Make model available for use by starting it from the console or by using code.
+
+After the model is running, you can perform an inference with the aws cli or SDK.
+
+When you call the API
+* Specify the Amazon Resource Name (ARN) of the Rekognition Custom Labels model that you want to use.
+* Specify the image you want the model to make a prediction with (as byte array in base64 or as an S3 object)
+* Custom labels are returned as an array of custom label objects.  Each custom label represents a single object, scene, or concept.  Includes:  label, bounding box, confidence score
+* To filter the return labels, specify a value for min confidence that’s greater than the model’s calculated threshold.
+    * During training, a model calculates a threshold value that determines if a prediction for a label is true.  By default, the detect-custom-labels operation doesn’t return labels with a confidence value that’s less than the model’s calculated threshold value.
+    * Get model’s calculated threshold from Recognition’s CL console.
+    * To get all labels regardless of confidence, specify a min confidence value of zero.
+* Consider retraining the model if confidence values are too low.
+* Restrict custom labels that are returned from the detect-custom-labels operation by specifying the max results input parameter.
+* Returned results are sorted from highest confidence to lowest.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7EBgAAKwAAAAEAAAC8BgAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHgzNjBcdHg3MjBcdHgxMDgwXHR4MTQ0MFxzYjYwXHNhNjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiBNYWtlIG1vZGVsIGF2YWlsYWJsZSBmb3IgdXNlIGJ5IHN0YXJ0aW5nIGl0IGZyb20gdGhlIGNvbnNvbGUgb3IgYnkgdXNpbmcgY29kZS5cClwKQWZ0ZXIgdGhlIG1vZGVsIGlzIHJ1bm5pbmcsIHlvdSBjYW4gcGVyZm9ybSBhbiBpbmZlcmVuY2Ugd2l0aCB0aGUgYXdzIGNsaSBvciBTREsuXApcCldoZW4geW91IGNhbGwgdGhlIEFQSVwKKiBTcGVjaWZ5IHRoZSBBbWF6b24gUmVzb3VyY2UgTmFtZSAoQVJOKSBvZiB0aGUgUmVrb2duaXRpb24gQ3VzdG9tIExhYmVscyBtb2RlbCB0aGF0IHlvdSB3YW50IHRvIHVzZS5cCiogU3BlY2lmeSB0aGUgaW1hZ2UgeW91IHdhbnQgdGhlIG1vZGVsIHRvIG1ha2UgYSBwcmVkaWN0aW9uIHdpdGggKGFzIGJ5dGUgYXJyYXkgaW4gYmFzZTY0IG9yIGFzIGFuIFMzIG9iamVjdClcCiogQ3VzdG9tIGxhYmVscyBhcmUgcmV0dXJuZWQgYXMgYW4gYXJyYXkgb2YgY3VzdG9tIGxhYmVsIG9iamVjdHMuICBFYWNoIGN1c3RvbSBsYWJlbCByZXByZXNlbnRzIGEgc2luZ2xlIG9iamVjdCwgc2NlbmUsIG9yIGNvbmNlcHQuICBJbmNsdWRlczogIGxhYmVsLCBib3VuZGluZyBib3gsIGNvbmZpZGVuY2Ugc2NvcmVcCiogVG8gZmlsdGVyIHRoZSByZXR1cm4gbGFiZWxzLCBzcGVjaWZ5IGEgdmFsdWUgZm9yIG1pbiBjb25maWRlbmNlIHRoYXRcJzkycyBncmVhdGVyIHRoYW4gdGhlIG1vZGVsXCc5MnMgY2FsY3VsYXRlZCB0aHJlc2hvbGQuXAogICAgKiBEdXJpbmcgdHJhaW5pbmcsIGEgbW9kZWwgY2FsY3VsYXRlcyBhIHRocmVzaG9sZCB2YWx1ZSB0aGF0IGRldGVybWluZXMgaWYgYSBwcmVkaWN0aW9uIGZvciBhIGxhYmVsIGlzIHRydWUuICBCeSBkZWZhdWx0LCB0aGUgZGV0ZWN0LWN1c3RvbS1sYWJlbHMgb3BlcmF0aW9uIGRvZXNuXCc5MnQgcmV0dXJuIGxhYmVscyB3aXRoIGEgY29uZmlkZW5jZSB2YWx1ZSB0aGF0XCc5MnMgbGVzcyB0aGFuIHRoZSBtb2RlbFwnOTJzIGNhbGN1bGF0ZWQgdGhyZXNob2xkIHZhbHVlLlwKICAgICogR2V0IG1vZGVsXCc5MnMgY2FsY3VsYXRlZCB0aHJlc2hvbGQgZnJvbSBSZWNvZ25pdGlvblwnOTJzIENMIGNvbnNvbGUuXAogICAgKiBUbyBnZXQgYWxsIGxhYmVscyByZWdhcmRsZXNzIG9mIGNvbmZpZGVuY2UsIHNwZWNpZnkgYSBtaW4gY29uZmlkZW5jZSB2YWx1ZSBvZiB6ZXJvLlwKKiBDb25zaWRlciByZXRyYWluaW5nIHRoZSBtb2RlbCBpZiBjb25maWRlbmNlIHZhbHVlcyBhcmUgdG9vIGxvdy5cCiogUmVzdHJpY3QgY3VzdG9tIGxhYmVscyB0aGF0IGFyZSByZXR1cm5lZCBmcm9tIHRoZSBkZXRlY3QtY3VzdG9tLWxhYmVscyBvcGVyYXRpb24gYnkgc3BlY2lmeWluZyB0aGUgbWF4IHJlc3VsdHMgaW5wdXQgcGFyYW1ldGVyLlwKKiBSZXR1cm5lZCByZXN1bHRzIGFyZSBzb3J0ZWQgZnJvbSBoaWdoZXN0IGNvbmZpZGVuY2UgdG8gbG93ZXN0Ln0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAACzffZptgEAAAAAAAAAAAAA</rtfd>
+</item>
+</item>
+<item ID="1777769734" Creator="Robert Hamrick" proto="Markdown" >
+<attribute name="Created" >2026-05-02T17:55:33-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Height" >3</attribute>
+<attribute name="Modified" >2026-05-02T17:57:06-07:00</attribute>
+<attribute name="NLOrganizations" >Amazon Rekognition;Amazon SageMaker</attribute>
+<attribute name="Name" >Lab 5.1 Facial Recognition</attribute>
+<attribute name="Sentiment" >-0.400000006</attribute>
+<attribute name="Sentiments" >0;-0.4;-0.4;0;-1;-0.4;-0.8;-0.2;-0.6;-0.4;-0.2</attribute>
+<attribute name="Width" >5</attribute>
+<attribute name="Xpos" >76</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >Facial recognition is a common use case for machine learning (ML). There are various packages for Jupyter Notebook that you can use for facial recognition. In this lab, you start by using Amazon SageMaker to create a Jupyter notebook instance. You will then learn how to use Amazon Rekognition to perform a facial detection of a known face. 
+
+The general steps you will follow are:
+* Create a collection
+* Upload an image of a face that will be used for detection to the SageMaker Jupyter notebook
+* Add the image to the collection
+* View the bounding to be created for the image
+* List the faces in the collection
+* Use the collection to find a face
+* View the bounding box of the face
+* Delete the collection
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5ABAAAKwAAAAEAAAA4BAAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBpQVdyaXRlclF1YXR0cm9TLVJlZ3VsYXI7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHg1NDBcdHgxMDgwXHR4MTYyMFx0eDIxNjBcdHgyNzAwXHR4MzI0MFx0eDM3ODBcdHg0MzIwXHNsMjg4XHNsbXVsdDFcc2I0MFxzYTQwXHBhcmRpcm5hdHVyYWxccGFydGlnaHRlbmZhY3RvcjAKClxmMFxmczMyIFxjZjIgRmFjaWFsIHJlY29nbml0aW9uIGlzIGEgY29tbW9uIHVzZSBjYXNlIGZvciBtYWNoaW5lIGxlYXJuaW5nIChNTCkuIFRoZXJlIGFyZSB2YXJpb3VzIHBhY2thZ2VzIGZvciBKdXB5dGVyIE5vdGVib29rIHRoYXQgeW91IGNhbiB1c2UgZm9yIGZhY2lhbCByZWNvZ25pdGlvbi4gSW4gdGhpcyBsYWIsIHlvdSBzdGFydCBieSB1c2luZyBBbWF6b24gU2FnZU1ha2VyIHRvIGNyZWF0ZSBhIEp1cHl0ZXIgbm90ZWJvb2sgaW5zdGFuY2UuIFlvdSB3aWxsIHRoZW4gbGVhcm4gaG93IHRvIHVzZSBBbWF6b24gUmVrb2duaXRpb24gdG8gcGVyZm9ybSBhIGZhY2lhbCBkZXRlY3Rpb24gb2YgYSBrbm93biBmYWNlLiBcClwKVGhlIGdlbmVyYWwgc3RlcHMgeW91IHdpbGwgZm9sbG93IGFyZTpcCiogQ3JlYXRlIGEgY29sbGVjdGlvblwKKiBVcGxvYWQgYW4gaW1hZ2Ugb2YgYSBmYWNlIHRoYXQgd2lsbCBiZSB1c2VkIGZvciBkZXRlY3Rpb24gdG8gdGhlIFNhZ2VNYWtlciBKdXB5dGVyIG5vdGVib29rXAoqIEFkZCB0aGUgaW1hZ2UgdG8gdGhlIGNvbGxlY3Rpb25cCiogVmlldyB0aGUgYm91bmRpbmcgdG8gYmUgY3JlYXRlZCBmb3IgdGhlIGltYWdlXAoqIExpc3QgdGhlIGZhY2VzIGluIHRoZSBjb2xsZWN0aW9uXAoqIFVzZSB0aGUgY29sbGVjdGlvbiB0byBmaW5kIGEgZmFjZVwKKiBWaWV3IHRoZSBib3VuZGluZyBib3ggb2YgdGhlIGZhY2VcCiogRGVsZXRlIHRoZSBjb2xsZWN0aW9uXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAYp32abYBAAAAAAAAAAAAAA==</rtfd>
+</item>
+</item>
 </item>
 <item ID="1775391409" Creator="Robert Hamrick" >
 <attribute name="Created" >2026-04-05T05:16:48-07:00</attribute>
@@ -2272,6 +2785,13 @@ Example: web retail using accuracy metrics to evaluate a forecast.  The retailer
 <attribute name="Sort" >Name</attribute>
 <attribute name="Xpos" >36</attribute>
 <attribute name="Ypos" >0</attribute>
+<item ID="1777760947" Creator="Robert Hamrick" >
+<attribute name="Created" >2026-05-02T15:29:06-07:00</attribute>
+<attribute name="Modified" >2026-05-02T15:29:06-07:00</attribute>
+<attribute name="Name" >Amazon Resource Name (ARN)</attribute>
+<attribute name="Xpos" >90</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
 <item ID="1775391550" Creator="Robert Hamrick" >
 <attribute name="Created" >2026-04-05T05:19:09-07:00</attribute>
 <attribute name="DominantLanguage" >fr</attribute>
@@ -2339,6 +2859,18 @@ Example: web retail using accuracy metrics to evaluate a forecast.  The retailer
 <attribute name="Name" >Precision</attribute>
 <attribute name="Xpos" >81</attribute>
 <attribute name="Ypos" >0</attribute>
+</item>
+<item ID="1777820796" Creator="Robert Hamrick" >
+<attribute name="Created" >2026-05-03T08:06:35-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Modified" >2026-05-03T08:06:41-07:00</attribute>
+<attribute name="Name" >Seasonality</attribute>
+<attribute name="Sentiment" >0.6000000015</attribute>
+<attribute name="Sentiments" >0.2;1</attribute>
+<attribute name="Xpos" >45</attribute>
+<attribute name="Ypos" >2.98</attribute>
+<text >In time series data, seasonality refers to the trends that occur at specific regular intervals less than a year, such as weekly, monthly, or quarterly.</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7RAQAAKwAAAAEAAADJAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHgzNjBcdHg3MjBcdHgxMDgwXHR4MTQ0MFxzYjYwXHNhNjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiBJbiB0aW1lIHNlcmllcyBkYXRhLCBzZWFzb25hbGl0eSByZWZlcnMgdG8gdGhlIHRyZW5kcyB0aGF0IG9jY3VyIGF0IHNwZWNpZmljIHJlZ3VsYXIgaW50ZXJ2YWxzIGxlc3MgdGhhbiBhIHllYXIsIHN1Y2ggYXMgd2Vla2x5LCBtb250aGx5LCBvciBxdWFydGVybHkufQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAAAIFk92m2AQAAAAAAAAAAAAA=</rtfd>
 </item>
 <item ID="1776561951" Creator="Robert Hamrick" >
 <attribute name="Created" >2026-04-18T18:25:50-07:00</attribute>
@@ -2409,6 +2941,19 @@ Example: web retail using accuracy metrics to evaluate a forecast.  The retailer
 “Glues” together different datasets and emit a single endpoint that can be queried.</text>
 <rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC6vAQAAKwAAAAEAAACnAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHgzNjBcdHg3MjBcdHgxMDgwXHR4MTQ0MFxzYjYwXHNhNjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiBGdWxseSBtYW5hZ2VkIEVUTCBzZXJ2aWNlLlwKXCc5M0dsdWVzXCc5NCB0b2dldGhlciBkaWZmZXJlbnQgZGF0YXNldHMgYW5kIGVtaXQgYSBzaW5nbGUgZW5kcG9pbnQgdGhhdCBjYW4gYmUgcXVlcmllZC59AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAqiLdabYBAAAAAAAAAAAAAA==</rtfd>
 </item>
+<item ID="1777743183" Creator="Robert Hamrick" >
+<attribute name="Created" >2026-05-02T10:33:02-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Modified" >2026-05-02T10:33:22-07:00</attribute>
+<attribute name="Name" >Kinesis</attribute>
+<attribute name="Sentiment" >-0.6000000238</attribute>
+<attribute name="Sentiments" >-0.6;-0.6</attribute>
+<attribute name="Xpos" >99</attribute>
+<attribute name="Ypos" >0</attribute>
+<text >video streams
+</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5JAQAAKwAAAAEAAABBAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHgzNjBcdHg3MjBcdHgxMDgwXHR4MTQ0MFxzYjYwXHNhNjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiB2aWRlbyBzdHJlYW1zXAp9AQAAACMAAAABAAAABwAAAFRYVC5ydGYQAAAAYjX2abYBAAAAAAAAAAAAAA==</rtfd>
+</item>
 <item ID="1775476527" Creator="Robert Hamrick" >
 <attribute name="Created" >2026-04-06T04:55:26-07:00</attribute>
 <attribute name="DominantLanguage" >en</attribute>
@@ -2437,10 +2982,15 @@ Example: web retail using accuracy metrics to evaluate a forecast.  The retailer
 </item>
 <item ID="1775476449" Creator="Robert Hamrick" >
 <attribute name="Created" >2026-04-06T04:54:08-07:00</attribute>
-<attribute name="Modified" >2026-04-06T04:54:08-07:00</attribute>
+<attribute name="DominantLanguage" >en</attribute>
+<attribute name="Modified" >2026-05-02T10:18:09-07:00</attribute>
 <attribute name="Name" >Rekognition</attribute>
+<attribute name="Sentiment" >0.200000003</attribute>
+<attribute name="Sentiments" >0.2;0.2</attribute>
 <attribute name="Xpos" >49.5</attribute>
 <attribute name="Ypos" >0</attribute>
+<text >managed service for image and video analysis</text>
+<rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC5mAQAAKwAAAAEAAABeAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHgzNjBcdHg3MjBcdHgxMDgwXHR4MTQ0MFxzYjYwXHNhNjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiBtYW5hZ2VkIHNlcnZpY2UgZm9yIGltYWdlIGFuZCB2aWRlbyBhbmFseXNpc30BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAADRMfZptgEAAAAAAAAAAAAA</rtfd>
 </item>
 <item ID="1775476410" Creator="Robert Hamrick" >
 <attribute name="Created" >2026-04-06T04:53:29-07:00</attribute>
@@ -2453,6 +3003,13 @@ Example: web retail using accuracy metrics to evaluate a forecast.  The retailer
 <attribute name="Ypos" >0</attribute>
 <text >a fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning (ML) models quickly.</text>
 <rtfd >cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRmAQAAAC7VAQAAKwAAAAEAAADNAQAAe1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODY5Clxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtMHtcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBNZXJjdXJ5U1NtLUJvb2s7fQp7XGNvbG9ydGJsO1xyZWQyNTVcZ3JlZW4yNTVcYmx1ZTI1NTtccmVkMFxncmVlbjBcYmx1ZTA7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzcHRocmVlXGMwXGMwXGMwO30KXHBhcmRcdHgzNjBcdHg3MjBcdHgxMDgwXHR4MTQ0MFxzYjYwXHNhNjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMzIgXGNmMiBhIGZ1bGx5IG1hbmFnZWQgc2VydmljZSB0aGF0IHByb3ZpZGVzIGV2ZXJ5IGRldmVsb3BlciBhbmQgZGF0YSBzY2llbnRpc3Qgd2l0aCB0aGUgYWJpbGl0eSB0byBidWlsZCwgdHJhaW4sIGFuZCBkZXBsb3kgbWFjaGluZSBsZWFybmluZyAoTUwpIG1vZGVscyBxdWlja2x5Ln0BAAAAIwAAAAEAAAAHAAAAVFhULnJ0ZhAAAABUKN1ptgEAAAAAAAAAAAAA</rtfd>
+</item>
+<item ID="1777754041" Creator="Robert Hamrick" >
+<attribute name="Created" >2026-05-02T13:34:00-07:00</attribute>
+<attribute name="Modified" >2026-05-02T13:34:00-07:00</attribute>
+<attribute name="Name" >SageMaker Ground Truth</attribute>
+<attribute name="Xpos" >49.5</attribute>
+<attribute name="Ypos" >2.98</attribute>
 </item>
 <item ID="1775476456" Creator="Robert Hamrick" >
 <attribute name="Created" >2026-04-06T04:54:15-07:00</attribute>
@@ -2609,11 +3166,42 @@ pd.plotting.scatter_matrix(df,figsize=(12,12))
 <attribute name="SortBackwardAlso" >true</attribute>
 <attribute name="Xpos" >45</attribute>
 <attribute name="Ypos" >0</attribute>
+<item ID="1777131864" Creator="Robert Hamrick" proto="Task" >
+<attribute name="Created" >2026-04-25T08:44:23-07:00</attribute>
+<attribute name="Height" >2.48</attribute>
+<attribute name="Modified" >2026-04-25T08:44:23-07:00</attribute>
+<attribute name="Name" >Simulation - Creating a forecast with Amazon SageMaker Canvas</attribute>
+<attribute name="Width" >4</attribute>
+<attribute name="Xpos" >81</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="1777131921" Creator="Robert Hamrick" proto="Task" >
+<attribute name="Created" >2026-04-25T08:45:20-07:00</attribute>
+<attribute name="Height" >2.48</attribute>
+<attribute name="Modified" >2026-04-25T08:45:20-07:00</attribute>
+<attribute name="Name" >Lab 6 - Amazon Lex - Create a chatbot</attribute>
+<attribute name="Width" >4</attribute>
+<attribute name="Xpos" >90</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
+<item ID="1777131889" Creator="Robert Hamrick" proto="Task" >
+<attribute name="Badge" >check</attribute>
+<attribute name="Checked" >true</attribute>
+<attribute name="Created" >2026-04-25T08:44:48-07:00</attribute>
+<attribute name="Height" >2.48</attribute>
+<attribute name="Modified" >2026-05-03T09:52:23-07:00</attribute>
+<attribute name="Name" >Lab 5 - Guided Lab: Facial Recognition</attribute>
+<attribute name="Width" >4</attribute>
+<attribute name="Xpos" >85.5</attribute>
+<attribute name="Ypos" >0</attribute>
+</item>
 <item ID="1776187689" Creator="Robert Hamrick" proto="Task" >
+<attribute name="Badge" >check</attribute>
+<attribute name="Checked" >true</attribute>
 <attribute name="Created" >2026-04-14T10:28:08-07:00</attribute>
 <attribute name="DueDate" >2026-04-21T23:59:00-07:00</attribute>
 <attribute name="Height" >2.48</attribute>
-<attribute name="Modified" >2026-04-14T10:28:08-07:00</attribute>
+<attribute name="Modified" >2026-04-25T08:44:21-07:00</attribute>
 <attribute name="Name" >Lab 3.7</attribute>
 <attribute name="Width" >4</attribute>
 <attribute name="Xpos" >76.5</attribute>
@@ -4259,6 +4847,21 @@ When adding notes, place them in an appropriate existing catalog. If no catalog 
 <link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776825451" destcreator="Robert Hamrick" color="normal"  />
 <link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776825464" destcreator="Robert Hamrick" color="normal"  />
 <link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1776825482" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1776090557" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1777131864" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1776090557" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1777131889" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1776090557" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1777131921" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963743" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1777132117" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1777132157" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1777132167" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1777132177" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1777132202" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1777132225" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1777135531" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1777761657" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1777761798" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1777761884" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1777761988" destcreator="Robert Hamrick" color="normal"  />
+<link name="prototype" sourceid="1774963407" sourcecreator="Robert Hamrick" sstart="-1" slen="0" style="512" arrowtype="-1" labelx="0" labely="0" linkWidth="1" destid="1777769734" destcreator="Robert Hamrick" color="normal"  />
 </links>
 <macros >
 </macros>
@@ -4428,16 +5031,24 @@ When adding notes, place them in an appropriate existing catalog. If no catalog 
 <LastNewsItem > Get Mail.html</LastNewsItem>
 </preferences>
 <windows >
-<window bounds="Rect[ 0 89 1117 949]" ruler="0" toolbar="0" >
+<window bounds="Rect[ -0 -0 1493 949]" ruler="0" toolbar="0" >
 <tabs >
 <tab selected="0" name="" subtitle="" viewType="0" usingRoadmap="0" hideBreadcrumbs="0" hideLinkWidgets="0" linkStubs="1" animateLinks="1" scale="32" ID="1776113026" scrollX="199" scrollY="223" mapscrollX="199" mapscrollY="223" selection="" expanded="" textTab="0" splitRatio="0.5" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1776113025" crosslinks="1" spread="0.5" treepaths="" crosslinkpaths="" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" oldColumnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName="" tableParent="1776113025" tableFontSize="12" force="" gaudiSize="0" gaudiFontSize="16" roundness="10" grout="10" cameraPosition="5 2.5 -5" cameraDirection="0 0 0" focalLength="0"  />
-<tab selected="1" name="" subtitle="" viewType="1" usingRoadmap="0" hideBreadcrumbs="0" hideLinkWidgets="0" linkStubs="1" animateLinks="1" scale="32" ID="1776113026" scrollX="231.5" scrollY="942.102" mapscrollX="231.5" mapscrollY="1013.91" selection="1776825451 " expanded="1774963742 1774963907 1774965188 1774965228 1774965249 1774965257 1774965272 1774965282 1774965289 1776825407 1775391409 1776090315 1776090384 1774963406 1774963410 1774963427 1774963448 " textTab="0" splitRatio="0.583706" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1776113025" crosslinks="1" spread="0.5" treepaths="" crosslinkpaths="" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" oldColumnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName="" tableParent="1776113025" tableFontSize="12" force="" gaudiSize="0" gaudiFontSize="16" roundness="10" grout="10" cameraPosition="5 2.5 -5" cameraDirection="0 0 0" focalLength="0"  />
+<tab selected="1" name="" subtitle="" viewType="1" usingRoadmap="0" hideBreadcrumbs="0" hideLinkWidgets="0" linkStubs="1" animateLinks="1" scale="32" ID="1776113026" scrollX="231.5" scrollY="2051.51" mapscrollX="231.5" mapscrollY="1013.91" selection="1777131921 " expanded="1774963742 1774963907 1774965188 1774965228 1774965249 1774965257 1774965272 1774965282 1774965289 1776825407 1777132117 1777132167 1777132177 1775391409 1775476400 1776090315 1776090384 1774963406 1774963410 1774963427 1774963448 " textTab="0" splitRatio="0.687079" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1776113025" crosslinks="1" spread="0.5" treepaths="" crosslinkpaths="" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" oldColumnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="16" showFilter="0" filterString="" filterName="" tableParent="1776113025" tableFontSize="12" force="" gaudiSize="0" gaudiFontSize="16" roundness="10" grout="10" cameraPosition="5 2.5 -5" cameraDirection="0 0 0" focalLength="0"  />
 </tabs>
 </window>
 </windows>
 <utilityWindows >
 </utilityWindows>
 <searches >
+<search>canvas</search>
+<search>column</search>
+<search>column impact</search>
+<search>ownsampling</search>
+<search>manifest</search>
+<search>1250</search>
+<search>algorithms</search>
+<search>train model for you</search>
 <search>interpolation</search>
 <search>ann</search>
 </searches>
